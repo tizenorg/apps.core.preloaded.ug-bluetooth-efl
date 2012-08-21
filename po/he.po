@@ -1,0 +1,414 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "מבטל פעולה..."
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "הפעולה נכשלה"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "החיפוש הופסק"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "לאפשר ל-%s למחוק את הקבצים שלך?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "לאפשר ל-%s לקבל את הקובץ שלך?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "לאפשר ל-%s למקם קובץ?"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "מופעל תמיד"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "איש קשר כבר קיים"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "אוזנייה"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "שם הטלפון שלי"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "חיווי הטלפון שלי"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "התקנים מותאמים"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "מדפסת"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "גודל נייר"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "התקבל"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "שירותי Bluetooth"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "סוג"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "לא ניתן למחוק קובץ או ספרייה"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "לא ניתן לשמור קובץ"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "מעדכן..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "התקני Bluetooth"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "הזן PIN"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "התקן חדש"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "הדפסה"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "חבר סטריאו"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "מחשב"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "הדפסה"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "אפשרויות החיפוש"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "לאפשר ל-%s להתחבר?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "לאפשר ל-‏%s‏ ליצור את התיקייה %s?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "שגיאת Bluetooth. לנסות שוב?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "פסק זמן ל-Bluetooth. לנסות שוב?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "אשר שהסיסמה היא %s כדי לבצע התאמה עם %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "לא ניתן להתחבר.\nלנסות שוב?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "ההורדה נכשלה"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "שם ריק"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "מחובר ל-FTP"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "מנותק מ-FTP"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN שגוי. נסה שוב"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "התקבלו %d קבצים"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "שליחה בוטלה"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "לא ניתן לשלוח"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "ליצור חיבור טורי עם %s?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "הקובץ התקבל"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "לא ניתן לקבל רשימת שירות"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "התחבר"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "נתק"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth מופעל"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth כבוי כעת.\nלהפעיל?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "מפעיל Bluetooth..."
+
+msgid "IDS_BT_POP_DEACTIVATED"
+msgstr "מכבה Bluetooth"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "מחפש..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "מחובר"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "אין התקנים"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "שם התקן"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "מחפש... %d התקנים נמצאו"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "מקבל רשימת שירותים..."
+
+msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
+msgstr "התחבר להתקן Bluetooth"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "לקבל את %s מ-%s?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "נבחר"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "בחר התקן"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s כבר קיים. להחליף?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "לא ניתן להפעיל Bluetooth כשמצב טיסה מופעל"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "הקובץ אינו קיים"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "מחובר לטלפון ולשמע מדיה"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
+msgstr "מחובר לשמע הטלפון"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
+msgstr "מחובר לשמע מדיה"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "מחובר להתקן HID"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "סורק..."
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "מפעיל Bluetooth..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "מכבה Bluetooth..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "משמש לביצוע שיחות נכנסות ויוצאות באמצעות אוזניות Bluetooth"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "דיבורית"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "משמש לביצוע שיחות נכנסות ויוצאות באמצעות ערכות Bluetooth לרכב"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "אוזניית סטריאו"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "משמש לביצוע שיחות ולהאזנה למוסיקה באמצעות אוזניות סטריאו של Bluetooth"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "העברת קובץ"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "משמש להעברת קבצים אל התקני Bluetooth ומהם"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "דחיפת אובייקט"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "משמש להחלפת נתונים אישיים (כרטיסי שמות, אנשי קשר מספר הטלפונים וכו') עם התקני Bluetooth"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "הדפסה בסיסית"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "משמש להדפסת תמונות, הודעות טקסט, נתונים אישיים כגון כרטיסי שמות ופגישות וכו' באמצעות מדפסות מרוחקות התומכות ב-Bluetooth"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "רשת חיוג"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "משמש למתן גישה לאינטרנט עבור התקני Bluetooth באמצעות המודם של הטלפון"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "יציאה טורית"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "התקן HID"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (מקלדת, עכבר וכולי)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "מקבל..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "משתף..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "סרוק"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "הוא משמש להתחברות להתקני Bluetooth אחרים דרך יציאה טורית וירטואלית"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "איכות הדפסה"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "להתאים מפתחות סיסמה ב-%s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "חיבור האוזניה נכשל. ההתקן האחר סרב לחיבור"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "החיבור נכשל"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "גלוי"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 דקות"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "בטל התאמה"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "אפשרויות חיבור"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "שמע שיחה"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "שמע מדיה"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth זמין"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "להתנתק?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "התקנים זמינים"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 דקות"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "שעה אחת"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "מתנתק..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s נותרו"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "הקש לחיבור"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "הקש לניתוק"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "פעולה זו תסיים את החיבור עם"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "התקן קלט"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "מדיניות האבטחה מגבילה את השימוש בחיבור Bluetooth"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "מדיניות האבטחה מגבילה את השימוש בחיבור Bluetooth לתכונות ללא התערבות המשתמש בלבד"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "פרטים"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "אפשרויות החיפוש"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "כל ההתקנים"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "להחליף אובייקט עם %s?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "הזן %1$s ב-%2$s כדי לבצע התאמה, ולאחר מכן הקש Return או Enter"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "לא נמצא התקן Bluetooth"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "מותאם"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "מחפש שירותים..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "בקשת התאמה של Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "הקלד PIN להתאמה עם %s (נסה את 0000 או 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "אשר שהסיסמה היא %2$s כדי לבצע התאמה עם %1$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "הצג סיסמה"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "כבוי"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d דקות"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "התקני Bluetooth"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "מתחבר..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "עצור"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "חזרה"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "רגיל"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "בטל התאמה"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "זיכרון מלא"
+

@@ -1,0 +1,414 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Kytketään pois päältä..."
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Toiminto epäonnistui"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Haku pysäytetty"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Saako %s poistaa tiedostosi?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Saako %s hakea tiedostosi?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Saako %s lisätä tiedoston?"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Aina käytössä"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Yhteystieto on jo olemassa"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Kuulokemikrofoni"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Oman puhelimen nimi"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Oman puhelimen näkyvyys"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Pariksi liitetyt laitteet"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Tulostin"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Paperikoko"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Vastaanotettu"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Bluetooth-palvelut"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Tyyppi"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Tiedostoa tai hakemistoa ei voi poistaa"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Tiedostoa ei voi tallentaa"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Päivitetään..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Bluetooth-laitteet"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Anna PIN-koodi"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Uusi laite"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Tulostetaan"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Yhdistä stereo"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "Tietokone"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Tulosta"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Hakuvaihtoehdot"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Saako %s muodostaa yhteyden?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Voiko %s luoda kansion %s?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-virhe. Yritetäänkö uudelleen?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetoothin aikakatkaisu. Yritetäänkö uudelleen?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Vahvistussalasana on %s, jota tarvitaan pariliitokseen laitteen %s kanssa"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Yhdistäminen epäonnistui.\nYritetäänkö uudelleen?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Lataus epäonnistui"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Tyhjä nimi"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP-yhteys muodostettu"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP-yhteys katkaistu"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Virheellinen PIN-koodi. Yritä uudelleen"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d tiedostoa vastaanotettu"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Lähetys peruutettu"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Lähetys epäonnistui"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Sarjayhteys kohteeseen %s?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Tiedosto vastaanotettu"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Palveluluetteloa ei voi hakea"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Yhdistä"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Katkaise yhteys"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth aktivoitu"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth on kytketty\npois päältä.\nKytketäänkö päälle?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetoothia kytketään päälle..."
+
+msgid "IDS_BT_POP_DEACTIVATED"
+msgstr "Bluetooth pois käytöstä"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Etsitään..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Yhdistetty"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Ei laitteita"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Laitteen nimi"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Haetaan... löydetty %d laitetta"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Palveluluetteloa noudetaan..."
+
+msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
+msgstr "Yhdistä Bluetooth-laitteeseen"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Vastaanotetaanko %s laitteesta %s?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Valittu"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Valitse laite"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s on jo olemassa. Korvataanko?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Bluetoothia ei voi aktivoida, kun lentotila on käytössä"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Tiedostoa ei ole"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Yhdistetty puhelimen ja  median ääneen"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
+msgstr "Liitetty puhelimen ääneen"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
+msgstr "Yhdistetty mediaääneen"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Yhdistetty HID-laitteeseen"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Etsitään..."
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetooth käynnistetään..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Bluetooth poistetaan käytöstä..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Käytetään saapuvien ja lähtevien puheluiden vastaanottoon Bluetooth-kuulokemikrofoneilla"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Handsfree"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Käytetään puheluiden vastaanottoon ja soittamiseen Bluetooth-autosarjoilla"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereokuulokemikrofoni"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Käytetään musiikin kuunteluun Bluetooth A/V-kuulokemikrofonin avulla"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Tiedostonsiirto"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Käytetään tiedostojen siirtoon Bluetooth-laitteiden välillä"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Objektin lähettäminen"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Käytetään henkilökohtaisten tietojen (käyntikorttien, puhelinmuistion yhteystietojen jne.) vaihtamiseen Bluetooth-laitteiden kanssa"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Basic Printing -profiili"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Bluetooth-etätulostimella voi tulostaa kuvia, tekstiviestejä ja henkilökohtaisia tietoja (esim. käyntikortti, kalenterimerkintä, jne.)."
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Puhelinverkkoyhteys"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Käytetään Bluetooth-laitteiden Internet-yhteyden muodostamiseen puhelinmodeemin kautta"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Sarjaportti"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID-laite"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (näppäimistö, hiiri jne.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Vastaanotetaan..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Jaetaan..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Hae"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Tätä käytetään laitteen liittämiseen muihin Bluetooth-laitteisiin virtuaalisen sarjaportin kautta"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Tulostuslaatu"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Vastaavatko salasanat kohteessa %s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Kuulokemikrofonin yhdistäminen epäonnistui. Toinen laite eväsi yhteyden"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Yhdistäminen epäonnistui"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Näkyvä"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minuuttia"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Erota"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Yhteysasetukset"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Soita äänipuhelu"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Median ääni"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth käytettävissä"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Katkaistaanko yhteys?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Käytettävissä olevat laitteet"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minuuttia"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 tunti"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Yhteyttä katkaistaan..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s jäljellä"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Yhdistä napauttamalla"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Katkaise yhteys napauttamalla"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Yhteys katkaistaan laitteeseen"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Syöttölaite"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Suojauskäytäntö estää Bluetooth-yhteyden käytön"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Suojauskäytäntö estää Bluetooth-yhteyden käytön vain handsfree-toimintojen kanssa"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Yksityiskohdat"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Hakuvaihtoehdot"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Kaikki laitteet"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Vaihdetaanko objekti kohteen %s kanssa?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Muodosta pariliitos antamalla %1$s laitteessa %2$s ja napauta Return- tai Enter-painiketta"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Bluetooth-laitetta ei löytynyt"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Yhdistetty"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Palveluita haetaan..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth-liitospyyntö"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Muodosta pariliitos laitteen %s kanssa antamalla PIN-koodi (esim. 0000 tai 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Laitteen %1$s kanssa pariliitokseen tarvittava vahvistussalasana on %2$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Näytä salasana"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Pois"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minuuttia"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Bluetooth-laitteet"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Yhdistetään..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Lopeta"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Takaisin"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normaali"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Erota"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Muisti on täynnä"
+

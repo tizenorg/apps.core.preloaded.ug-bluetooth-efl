@@ -1,0 +1,414 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "解除​中..."
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "操作に失敗しました。"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "検索停止"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "%s​に​よる​ファイル​の​削除​を​許可​しますか？"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "%s​によるファイル​の​取得​を​許可​しますか？"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "%s​が​ファイル​を​入れても​よろしい​ですか？"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "常にON"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "連絡先は​既に存在します"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "ヘッドセット"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "デバイス​名称​変更"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "公開​設定"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "これ​以上​の​接続​は​不可能​です"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "登録済みデバイス"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "プリンター"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "プリント​サイズ"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "受信完了"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Bluetooth​サービス​説明"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "ファイル​タイプ"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "ファイル​または​ディレクトリー​を​削除​でき​ません"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "ファイルを保存できません。"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "更新中..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Bluetoothデバイス"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "PIN​を​入力"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "新しい​デバイス"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "印刷中"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "ステレオ​を​接続"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "印刷"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "検索​オプション"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s​の​接続​を​許可​しますか？"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "%sに対して、フォルダ%sを作成するのを許可しますか？"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth​エラー​です。​再度​実行​しますか？"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetooth timeout.やり直し​ますか？"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "%sとペアリングするためのパスキー%sを確認します。"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "接続​できません。​\nもう一度​やり直し​ますか？"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "ダウンロード​できません​でした"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "名前​を​入力​して​下さい"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP​が​接続​され​ました"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP​が​切断​され​ました"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PINが​間違って​います。やり直し​ますか？"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d​件​の​ファイル​を​受信​しました"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "送信をキャンセルしました。"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "送信​できません。"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "%s​と​シリアル​接続​しますか？"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "ファイルを受信しました。"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "サービス​リスト​を​取得​できません"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "接続"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "切断"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth​起動"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetoothは​現在OFFに​なっています。​\nONに​しますか？"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetooth​を​起動中..."
+
+msgid "IDS_BT_POP_DEACTIVATED"
+msgstr "Bluetooth​が​無効​に​され​ました"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "検索中..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "接続"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "デバイス​が​あり​ません。"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "デバイス​名称"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "検索中​...%d​デバイス​が見つかり​ました"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "サービス​リスト​を​取得​中..."
+
+msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
+msgstr "Bluetoothデバイスに接続"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s​を​%s​から​受信​しますか？"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "1件"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "デバイス​​選択​"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s​は​既に​存在​します。​上書き​しますか？"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "機内モードが​ONの場合は​Bluetoothを​有効に​できません"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "ファイルが​存在しません。"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "電話とメディアオーディオに接続しました。"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
+msgstr "本体オーディオに接続しました。"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
+msgstr "メディアオーディオに接続しました。"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "HIDデバイスに接続されています。"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "スキャン​中..."
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "BluetoothをONにしています..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "BluetoothをOFFにしています..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Bluetooth​ヘッドセット​で​の通話​の​発着信​に​使用​"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "ハンズフリー"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Bluetooth​車載​キット​での通話​の​発着信​に​使用​"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "ステレオ​ヘッド​セット"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Bluetooth​ステレオ​ヘッドセット​で​通話したり、​音楽​を​聞いたり​する​のに​使い​ます"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "ファイル​転送"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Bluetoothデバイスとの​ファイル​を​転送に​使用​"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "オブジェクト​プッシュ"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Bluetoothデバイスで個人​データ​（ネームカード、​電話帳​アドレス、​等）​を​交換する​のに​使います"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "基本​印刷"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "画像、​SMS、​ネーム​カード​や​ア​ポイント​等​個人​データ​を​リモート​Bluetooth​プリンター​で​印刷​する​のに​使い​ます。"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "ダイヤル​アップ​ネット​ワーキング"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "本体​モデム​からBluetoothデバイスに​インターネット​接続する​のに​使います"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "シリアル​ポート"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID​デバイス"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "入力装置​（キーボード、​マウス​など）"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "受信中..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "共有化中..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "スキャン"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "これは、仮想シリアルポート経由で他のBluetoothデバイスに接続するときに使用します"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "印刷​品質"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "%s​の​パスキー​に​適合​しますか？"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "ヘッドセットとの接続に失敗しました。他のデバイスが接続を拒否しました。"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "接続に失敗しました。"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "デバイスの公開"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2分​"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "ペアリングを解除"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "接続​オプション"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "ヘッドセットで通話"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "ヘッドセットで音楽を再生"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetoothが利用可能です。"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "切断しますか？"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "接続可能なデバイス"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5分"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1​時間"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "切断中..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "残量​は​%s​です"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "タップ​して​接続"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "接続を切断​して​ください。"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "この操作で、以下との接続を終了します。"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "入力デバイス"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Bluetooth接続機能の使用は、セキュリティポリシーによって制限されています。"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "セキュリティポリシーによってBlutooth接続はハンズフリーに制限します。"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "詳細"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "検索​オプション"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "全て​の​デバイス"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "オブジェクト​を​%s​と​交換​しますか？"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ペアリングするには%2$sに%1$sを入力してから[Return]または[Enter]をタップしてください。"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Bluetooth​デバイス​が​見つかり​ません"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "ペアリング​済み"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "サービス​を​検索​中..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetoothペアリングの要求"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%sとペアリングするためのPIN（0000または1234）を入力してください。"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$sとペアリングするパスキーが%2$sであることを確認してください。"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "パスワード​を​表示"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "OFF"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d分"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Bluetoothデバイス"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "接続中..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "停止"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "戻る"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "標準"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "拒否"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "メモリがいっぱいです。"
+

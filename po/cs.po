@@ -1,0 +1,414 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Deaktivace..."
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Otevření se nezdařilo"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Hledání bylo zastaveno"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Povolit %s odstranit váš soubor?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Povolit %s získat váš soubor?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Povolit %s vložit soubor?"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Vždy zapnuto"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Kontakt již existuje"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Náhlavní souprava"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Jméno telefonu"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Viditelnost telefonu"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Spárovaná zařízení"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Tiskárna"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Velikost papíru"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Přijato"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Služba Bluetooth"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Typ"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Nelze odstranit soubor nebo adresář"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Soubor nelze uložit"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Aktualizace..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Zařízení Bluetooth"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Zadat PIN"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Nové zařízení"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Tisk"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Připojit stereo"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "Počítač"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Tisk"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Možnosti hledání"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Povolit připojení %s?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Povolit %s vytvořit složku %s?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Chyba Bluetooth. Opakovat?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Časový limit Bluetooth. Opakovat?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Potvrzení kódu je %s pro spárování s %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Nelze se připojit.\nOpakovat?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Stažení se nezdařilo"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Prázdný název"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP připojeno"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP odpojeno"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Nesprávný PIN kód. Zkuste zadat kód znovu"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "Přijaté soubory: %d"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Odesílání zrušeno"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Nelze odeslat"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Sériově připojit k %s?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Soub.přijat"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Nelze načíst seznam služeb"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Připojit"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Odpojit"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth aktivováno"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth je aktuálně\nvypnuté.\nZapnout?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Aktivace Bluetooth"
+
+msgid "IDS_BT_POP_DEACTIVATED"
+msgstr "Bluetooth \ndeaktivováno"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Hledání..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Připojeno"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Žádná zařízení"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Jméno zařízení"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Vyhledávání... Bylo nalezeno %d zařízení"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Získávání seznamu služeb..."
+
+msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
+msgstr "Připojit k zařízení Bluetooth"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Chcete přijmout %s od %s?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Vybráno"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Zvolte umístění"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s již existuje. Přepsat?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Když je zapnut režim Letadlo, nelze aktivovat Bluetooth"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Soubor neexistuje"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Připojeno ke zvuku telefonu a média"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
+msgstr "Připojeno ke zvuku telefonu"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
+msgstr "Připojeno ke zvuku média"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Připojeno k zařízení HID"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Hledám..."
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Zapínání Bluetooth..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Vypínání Bluetooth..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Vzdálená náhlavní souprava bluetooth umožňuje vytáčet a přijímat hovory"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Handsfree"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Vzdálená autosouprava bluetooth umožňuje vytáčet a přijímat hovory"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo headset"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Pomocí vzdáleného multifunkčního headsetu Bluetooth můžete poslouchat hudbu"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Přenos souboru"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Vzdálené zařízení bluetooth umožňuje přenos souborů z jednoho zařízení do druhého"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Poskytnutí objektu"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Vzdálené zařízení bluetooth umožňuje přenos osobních dat (např. vCard, vCalendar atd. ) na jiná zařízení."
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Základní tisk"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Pomocí vzdálené tiskárny Bluetooth můžete tisknout obrázky, textové zprávy a osobní údaje (např. vizitku nebo položku v kalendáři)"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Vytáčené připojení"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Vzdálené zařízení bluetooth může být používáno pro přístup na internet přes telefonní modem"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Sériový port"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "Zařízení HID"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (klávesnice, myš, atd.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Příjem..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Sdílení..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Hledat"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Používá se pro připojení k jiným zařízením Bluetooth prostřednictvím virtuálního sériového portu"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Kvalita tisku"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Shodují se kódy na %s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Sluchátka se nepodařilo připojit. Druhé zařízení odmítlo připojení"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Připojení se nezdařilo"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Viditelný"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minuty"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Ukončit párování"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Nastavení spojení"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Zvuk hovoru"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Zvuk média"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth je k dispozici"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Odpojit?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Dostupná zařízení"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minut"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 hodina"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Odpojování..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "Zbývá %s"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Klepnutím připojte"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Klepnutím odpojte"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Tím bude ukončeno připojení k"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Vstupní zařízení"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Zásady zabezpečení omezují použití připojení Bluetooth"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Zásady zabezpečení omezují použití připojení Bluetooth pouze na funkce handsfree"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Podrobnosti"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Možnosti hledání"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Všechna zařízení"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Přenos objektu s %s?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Zadejte %1$s v %2$s pro spárování a klepněte na klávesu Return nebo Enter"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Zařízení Bluetooth nenalezeno"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Spárováno"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Hledání služeb..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Požadavek na párování zařízení Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Zadejte PIN kód pro párování s %s (Zkuste 0000 nebo 1234.)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Potvrzení kódu je %2$s pro spárování s %1$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Zobrazit heslo"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Vyp"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "Počet minut: %d"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Zařízení Bluetooth"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Připojování..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stop"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Zpět"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normální"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Zrušit párování"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Paměť je plná"
+

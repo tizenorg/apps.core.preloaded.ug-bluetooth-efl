@@ -1,0 +1,414 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Menonkatifkan..."
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Operasi gagal"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Pencarian dihentikan"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Bolehkan %s menghapus file Anda?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Bolehkan %s mengambil file Anda?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Bolehkan %s menempatkan file?"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Selalu aktif"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Kontak sudah ada"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Headset"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Nama telepon saya"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Visibilitas telepon saya"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Perangkat terpasang"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printer"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Ukuran kertas"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Diterima"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Layanan Bluetooth"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Tipe"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Tidak bisa menghapus file atau direktori"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Tidak bisa menyimpan file"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Mengupdate..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Perangkat Bluetooth"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Masukkan PIN"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Perangkat baru"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Mencetak"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Hubungkan stereo"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Cetak"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Pilihan pencarian"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Bolehkan %s menyambung?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Bolehkan %s untuk membuat folder %s?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth terganggu. Coba lagi?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetooth habis waktu. Coba lagi?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Konfirmasi kunci sandi adalah %s untuk dipasangkan dengan %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Tidak bisa mengubungkan.\nCoba lagi?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Pendownloadan gagal"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Nama kosong"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP terhubung"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP diputus"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN salah. Coba lagi?"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d file diterima"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Mengirim dibatalkan"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Tidak bisa mengirim"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Koneksi serial dengan %s?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "File diterima"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Tidak bisa mendapat daftar layanan"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Hubung"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Putus"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth diaktifkan"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth skrg ini \ntidak aktif.\nAktifkan?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Mengaktifkan Bluetooth..."
+
+msgid "IDS_BT_POP_DEACTIVATED"
+msgstr "Bluetooth dinonaktifkan"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Mencari…"
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Terhubung"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Tidak ada perangkat"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Nama perangkat"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Mencari... %d perangkat ditemukan"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Mengambil daftar layanan..."
+
+msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
+msgstr "Hubung ke perangkat Bluetooth"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Terima %s dari %s?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Terpilih"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Pilih perangkat"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s telah ada. Timpa?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Tidak bisa mengaktifkan Bluetooth saat Flight mode aktif"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "File ini tdk ada"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Terhubung ke telepon dan audio media"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
+msgstr "Terhubung ke audio telepon"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
+msgstr "Terhubung ke audio media"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Tersambung ke perangkat HID"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Memindai..."
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Mengaktifkan Bluetooth..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Menonaktifkan Bluetooth..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Digunakan utk membuat panggilan masuk dan panggilan keluar lewat Bluetooth headset"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Handsfree"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Digunakan utk membuat panggilan masuk dan panggilan keluar Bluetooth car kit"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Headset stereo"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Dipakai untuk melakukan panggilan dan mendengarkan lagu melalui headset stereo Bluetooth"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Pemindahan file"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Digunakan utk memindahkan file ke dan dari perangkat Bluetooth"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Push obyek"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Digunakan utk menukar data pribadi (kartu nama, kontak buku telepon, dll.) dgn perangkat Bluetooth."
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Pencetakan dasar"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Dipakai untuk mencetak gambar, pesan teks, data pribadi, misalnya kartu nama dan perjanjian, dll. melalui printer Bluetooth jauh"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Sambungan jaringan dial-up"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Digunakan utk menyediakan akses Internet utk perangkat Bluetooth lewat modem phone."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Serial port"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "Perangkat HID"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (papan tombol, tetikus, dll.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Menerima…"
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Membagi..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Pindai"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Ini digunakan untuk koneksi ke perangkat Bluetooth lainnya lewat port serial virtual"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Kualitas cetak"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Cocokkan passkey pada %s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Gagal menyambung headset. Perangkat lain menolak koneksi"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Koneksi gagal"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Terlihat"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 menit"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Pisahkan"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Opsi koneksi"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Audio panggilan"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Audio media"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Tersedia Bluetooth"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Putus?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Perangkat yang tersedia"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 Menit"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 jam"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Memutuskan..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s tersisa"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Ketuk utk menghubungkan"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Ketuk untuk memutuskan"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Ini akan mengakhiri koneksi Anda dengan"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Perangkat masukan"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Kebijakan pengaman membatasi penggunaan koneksi Bluetooth"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Kebijakan keamanan membatasi penggunaan koneksi Bluetooth ke fitur handsfree saja"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Rincian"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Pilihan pencarian"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Semua perangkat"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Tukar objek dengan %s?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Masukkan %1$s pada %2$s untuk memasangkan, lalu ketuk Kembali atau Masukkan"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Tidak ditemukan perangkat Bluetooth"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Terpasang"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Mencari layanan..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Permintaan pemasangan Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Masukkan PIN untuk dipasangkan dengan %s (Coba 0000 atau 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Kunci sandi konfirmasi adalah %2$s untuk berpasangan dengan %1$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Tampilkan kata sandi"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Tdk aktif"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d menit"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Perangkat Bluetooth"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Menyambungkan"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Berhenti"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Kembali"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Pisahkan"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Memori penuh"
+

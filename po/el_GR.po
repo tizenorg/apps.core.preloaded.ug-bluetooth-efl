@@ -1,0 +1,414 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Απενεργοποίηση.."
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Λειτουργία απέτυχε"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Διακοπή αναζήτησης"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Να επιτραπεί η διαγραφή του αρχείου σας από %s;"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Να επιτραπεί η λήψη του αρχείου σας από %s;"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Να επιτραπεί η εισαγωγή αρχείου από %s;"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Πάντα ενεργοποίηση"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Η επαφή υπάρχει ήδη"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Σετ ακουστικών"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Το όνομα του τηλεφώνου μου"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Η ορατότητα του τηλεφώνου μου"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "Δεν είναι δυνατές άλλες συνδέσεις"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Αντιστοιχισμένες συσκευές"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Εκτυπωτής"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Μέγεθος χαρτιού"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Ελήφθη"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Υπηρεσίες Bluetooth"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Είδος"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Δεν είναι δυνατή η διαγραφή αρχείου ή καταλόγου"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Η αποθήκευση αρχείου απέτυχε"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Ενημέρωση..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Συσκευές Bluetooth"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Εισαγωγή PIN"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Νέα συσκευή"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Εκτύπωση"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Σύνδεση στερεοφωνικού ήχου"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Εκτύπωση"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Επιλογές αναζήτησης"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Επιτρέπεται σύνδεση του %s;"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Αποδοχή %s δημιουργίας φακέλου %s;"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Σφάλμα Bluetooth. Επανάληψη;"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Λήξη χρόνου Bluetooth. Επανάληψη;"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Επιβ/ώστε ότι ο κωδικός πρόσβ. για τη δημιουργία ζεύγους με το %s είναι %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Αποτυχία σύνδεσης.\nΕπανάληψη;"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Αποτυχία λήψης"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Κενό όνομα"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "Σύνδεση FTP"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "Αποσύνδεση FTP"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Λάθος PIN. Δοκιμάστε πάλι"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "Έγινε λήψη %d αρχείων"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Η αποστολή ακυρώθηκε"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Δεν είναι δυνατή η αποστολή"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Σειριακή σύνδεση με %s;"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Αρχείο ελήφθει"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Δεν ήταν δυνατή η λήψη λίστας υπηρεσιών"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Σύνδεση"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Αποσύνδεση"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Το Bluetooth ενεργοποιήθηκε"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Το Bluetooth είναι προσωρινα\nαπενεργοποιημένο.\nΕνεργοποίηση;"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Ενεργοποίηση Bluetooth…"
+
+msgid "IDS_BT_POP_DEACTIVATED"
+msgstr "Bluetooth απενεργοποιημένο"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Αναζήτηση..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Συνδέθηκε"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Καμία συσκευή"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Όνομα συσκευής"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Αναζήτηση... Βρέθηκαν %d συσκευές"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Λήψη λίστας υπηρεσιών..."
+
+msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
+msgstr "Σύνδεση σε συσκευή Bluetooth"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Λήψη %s από %s;"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Επιλεγμένο"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Επιλογή συσκευής"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "Το %s υπάρχει ήδη. Αντικατάσταση;"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Δεν είναι δυνατή η ενεργοποίηση του Bluetooth, όταν η λειτουργία πτήσης είναι ενεργή"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Το αρχείο δεν υπάρχει"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Συνδέθηκε σε ήχο τηλεφώνου και πολυμέσων"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
+msgstr "Συνδέθηκε με ήχο τηλεφώνου"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
+msgstr "Συνδέθηκε με τον ήχο πολυμέσων"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Συνδέθηκε σε συσκευή HID"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Σάρωση..."
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Ενεργοποίηση Bluetooth..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Απενεργοποίηση Bluetooth..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Χρησιμεύει για την πραγματοποίηση εισερχόμενων και εξερχόμενων κλήσεων μέσω του σετ ακουστικών Bluetooth"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Ακουστικά"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Το απομακρυσμένο κιτ αυτοκινήτου bluetooth επιτρέπει τις εξερχόμενες/εισερχόμενες κλήσεις."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Στερεοφωνικό σετ ακουστικών"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Χρησιμοποιείται για την πραγματοποίηση κλήσεων και για ακρόαση μουσικής μέσω στερεοφωνικών ακουστικών Bluetooth"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Μεταφορά αρχείου"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Η απομακρυσμένη συσκευή bluetooth επιτρέπει στους χρήστες τη μεταφορά αρχείων από τη συσκευή τους σε άλλες."
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Προώθηση αντικειμένου"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Χρησιμεύει για την ανταλλαγή προσωπικών δεδομένων (καρτών ονομάτων, επαφών ευρετηρίου, κλπ) με συσκευές Bluetooth"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Βασικό προφίλ εκτύπωσης"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Χρησιμεύει για την εκτύπωση εικόνων, μηνυμάτων κειμένου, προσωπικών δεδομένων όπως κάρτες ονομάτων και συναντήσεις, κλπ, μέσω απομακρυσμένων εκτυπωτών Bluetooth"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Δίκτυο μέσω τηλεφώνου"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Χρησιμεύει για τη σύνδεση των συσκευών Bluetooth στο Internet μέσω του μόντεμ."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Σειριακή θύρα"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "Συσκευή HID"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (πληκτρολόγιο, ποντίκι κτλ)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Λήψη..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Κοινή χρήση..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Σάρωση"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Αυτό χρησιμοποιείται για τη σύνδεση άλλων συσκευών Bluetooth μέσω εικονικής σειριακής θύρας"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Ποιότητα εκτύπωσης"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Αντιστοίχιση κλειδιών πρόσβασης στο %s;"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Η σύνδεση του ακουστικού απέτυχε. Η συσκευή απέρριψε τη σύνδεση"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Αποτυχία σύνδεσης. Επανάληψη;"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Ορατό"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 λεπτά"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Κατάργηση ζεύγους"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Επιλογές Σύνδεσης"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Ήχος κλήσης"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Ήχος πολυμέσων"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Το Bluetooth είναι διαθέσιμο"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Αποσύνδεση;"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Διαθέσιμες συσκευές"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 λεπτά"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 ώρα"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Αποσύνδεση..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "Απομένει %s"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Πατήστε για σύνδεση"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Πατήστε για αποσύνδεση"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Αυτή η επιλογή θα τερματίσει τη σύνδεσή σας με"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Συσκευή εισόδου"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Η πολιτική ασφαλείας περιορίζει τη σύνδεση Bluetooth"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Η πολιτική ασφαλείας περιορίζει τη σύνδεση Bluetooth μόνο σε δυνατότητες hands-free"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Λεπτομέρειες"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Επιλογές αναζήτησης"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Όλες οι συσκευές"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Ανταλλαγή αντικειμένου με %s;"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Εισαγάγετε τον κωδικό %1$s στη συσκευή %2$s για αντιστοίχιση και πατήστε “Επιστροφή” ή “Εισαγωγή”"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Δεν βρέθηκε συσκευή Bluetooth"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Δημιουργία ζεύγους"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Αναζήτηση υπηρεσιών..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Αίτημα δημιουργίας ζεύγους Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Πληκτρολογήστε το PIN για τη δημιουργία ζεύγους με %s. (Δοκιμάστε 0000 ή 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Επιβεβαιώστε ότι ο κωδικός πρόσβασης για τη δημιουργία ζεύγους με το %1$s είναι %2$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Εμφάνιση κωδικού πρόσβασης"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Ανενεργό"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d λεπτά"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Συσκευές Bluetooth"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Σύνδεση..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Διακοπή"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Πίσω"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Κανονική"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Κατάργ.ζεύγους"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Μνήμη ημερολογίου πλήρης"
+
