@@ -2045,25 +2045,28 @@ Elm_Object_Item *_bt_main_add_paired_device(bt_ug_data *ugd, bt_dev_t *dev)
 {
 	FN_START;
 
-	Elm_Object_Item *git = NULL;
-	Elm_Object_Item *base_item = NULL;
+	Elm_Object_Item *git;
 
 	retvm_if(ugd == NULL, NULL, "Invalid argument: ugd is NULL\n");
 	retvm_if(dev == NULL, NULL, "Invalid argument: dev is NULL\n");
 
-	if (ugd->visible_item)
-		base_item = ugd->visible_item;
-	else
-		base_item = ugd->status_item;
-
 	/* Paired device Title */
 	if (ugd->paired_title == NULL) {
-		git = elm_genlist_item_insert_after(ugd->main_genlist,
-					ugd->paired_title_itc,
-					(void *)ugd, NULL,
-					base_item,
-					ELM_GENLIST_ITEM_NONE,
-					NULL, NULL);
+		if (ugd->searched_title == NULL) {
+			git = elm_genlist_item_append(ugd->main_genlist,
+						ugd->paired_title_itc,
+						(void *)ugd, NULL,
+						ELM_GENLIST_ITEM_NONE,
+						NULL, NULL);
+
+		} else {
+			git = elm_genlist_item_insert_before(ugd->main_genlist,
+						ugd->paired_title_itc,
+						(void *)ugd, NULL,
+						ugd->searched_title,
+						ELM_GENLIST_ITEM_NONE,
+						NULL, NULL);
+		}
 
 		elm_genlist_item_select_mode_set(git, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 		ugd->paired_title = git;
@@ -2881,8 +2884,10 @@ void __bt_main_parse_service(bt_ug_data *ugd, service_h service)
 
 		file_path = g_filename_from_uri(file_url, NULL, NULL);
 
-		if (file_path == NULL)
-			goto done;
+		if (file_path == NULL) {
+			BT_DBG("Not include URI info");
+			file_path = strdup(file_url);
+		}
 
 		/* In now, we support only 1 file by AppControl */
 		if (service_add_extra_data(service, "filecount", "1") < 0)
