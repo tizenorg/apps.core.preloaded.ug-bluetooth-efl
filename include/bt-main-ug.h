@@ -140,7 +140,6 @@ typedef struct {
 	bool search_req;
 	bool aul_launching_req;
 	bool aul_pairing_req;
-	bool syspoup_req;
 	unsigned int op_status;
 	unsigned int ug_status;
 	unsigned int search_type;

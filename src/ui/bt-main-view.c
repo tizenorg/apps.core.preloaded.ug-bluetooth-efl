@@ -1166,18 +1166,8 @@ static void __bt_main_paired_item_sel_cb(void *data, Evas_Object *obj,
 
 	if (ugd->op_status == BT_SEARCHING) {
 		ret = bt_adapter_stop_device_discovery();
-		if(ret == BT_ERROR_NONE) {
-			ugd->op_status = BT_ACTIVATED;
-
-			if (ugd->status_item)
-				elm_genlist_item_update(ugd->status_item);
-
-			if (ugd->paired_title)
-				elm_genlist_item_update(ugd->paired_title);
-
-			if (ugd->searched_title)
-				elm_genlist_item_update(ugd->searched_title);
-		}
+		if(ret != BT_ERROR_NONE)
+			BT_DBG("Fail to stop discovery");
 		return;
 	}
 
@@ -1304,7 +1294,6 @@ static void __bt_main_paired_item_sel_cb(void *data, Evas_Object *obj,
 			_bt_main_launch_syspopup(ugd, BT_SYSPOPUP_REQUEST_NAME,
 					BT_STR_UNABLE_TO_SEND,
 					BT_SYSPOPUP_ONE_BUTTON_TYPE);
-			ugd->syspoup_req = TRUE;
 		}
 
 		free(value);
@@ -1335,8 +1324,8 @@ static void __bt_main_searched_item_sel_cb(void *data, Evas_Object *obj,
 	retm_if(data == NULL, "Invalid argument: bt_ug_data is NULL\n");
 
 	ugd = (bt_ug_data *)data;
-	if (ugd->op_status == BT_PAIRING || ugd->syspoup_req == TRUE)
-		return;
+
+	ret_if(ugd->op_status == BT_PAIRING);
 
 	item = (Elm_Object_Item *)event_info;
 
@@ -1383,10 +1372,8 @@ static void __bt_main_searched_item_sel_cb(void *data, Evas_Object *obj,
 
 	if (ugd->op_status == BT_SEARCHING) {
 		ret = bt_adapter_stop_device_discovery();
-		if(ret == BT_ERROR_NONE)
-			ugd->op_status = BT_ACTIVATED;
-		else
-			return;
+		if(ret != BT_ERROR_NONE)
+			BT_DBG("Fail to stop discovery");
 	} else {
 		if (_bt_util_is_battery_low() == TRUE) {
 			/* Battery is critical low */
@@ -2100,7 +2087,7 @@ Elm_Object_Item *_bt_main_add_searched_device(bt_ug_data *ugd, bt_dev_t *dev)
 {
 	FN_START;
 
-	Elm_Object_Item *git;
+	Elm_Object_Item *git = NULL;
 
 	retvm_if(ugd == NULL, NULL, "Invalid argument: ugd is NULL\n");
 	retvm_if(dev == NULL, NULL, "Invalid argument: dev is NULL\n");
@@ -2109,11 +2096,11 @@ Elm_Object_Item *_bt_main_add_searched_device(bt_ug_data *ugd, bt_dev_t *dev)
 		_bt_main_add_searched_title(ugd);
 
 	/* Searched device Item */
-	if (ugd->searched_device == NULL)
+	if (ugd->searched_device == NULL) {
 		git = elm_genlist_item_insert_after(ugd->main_genlist, ugd->searched_itc,
 					dev, NULL, ugd->searched_title, ELM_GENLIST_ITEM_NONE,
 					__bt_main_searched_item_sel_cb, ugd);
-	else {
+	} else {
 		bt_dev_t *item_dev = NULL;
 		Elm_Object_Item *item = NULL;
 		Elm_Object_Item *next = NULL;
@@ -2121,13 +2108,15 @@ Elm_Object_Item *_bt_main_add_searched_device(bt_ug_data *ugd, bt_dev_t *dev)
 		item = elm_genlist_item_next_get(ugd->searched_title);
 
 		/* check the RSSI value of searched device list add arrange its order */
-		while (item != NULL) {
+		while (item != NULL
+			 || item != ugd->searched_padding) {
 			item_dev = _bt_main_get_dev_info(ugd->searched_device, item);
 			retv_if(item_dev == NULL, NULL);
 
 			if (item_dev->rssi > dev->rssi) {
 				next = elm_genlist_item_next_get(item);
-				if (next == NULL) {
+				if (next == NULL
+				    || next == ugd->searched_padding) {
 					git = elm_genlist_item_insert_after(ugd->main_genlist,
 							ugd->searched_itc,
 							dev, NULL, item, ELM_GENLIST_ITEM_NONE,
@@ -2247,7 +2236,12 @@ int _bt_main_draw_list_view(bt_ug_data *ugd)
 				if (!ret) {
 					ugd->op_status = BT_SEARCHING;
 					elm_toolbar_item_icon_set(ugd->scan_item,
-								BT_ICON_CONTROLBAR_STOP);
+							BT_ICON_CONTROLBAR_STOP);
+
+					elm_genlist_item_update(ugd->status_item);
+
+					if (ugd->searched_title == NULL)
+						_bt_main_add_searched_title(ugd);
 				} else
 					BT_DBG("Operation failed : Error Cause[%d]", ret);
 			}

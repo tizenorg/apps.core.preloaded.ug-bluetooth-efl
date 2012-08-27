@@ -240,7 +240,6 @@ static void *__on_create(ui_gadget_h ug, enum ug_mode mode, service_h service,
 
 	bt_ug_data *ugd = NULL;
 	Evas_Object *bg = NULL;
-	int state;
 
 	if (!ug || !priv)
 		return NULL;
@@ -345,7 +344,6 @@ static void __on_destroy(ui_gadget_h ug, service_h service, void *priv)
 	FN_START;
 
 	bt_ug_data *ugd = NULL;
-	int state;
 
 	if (!ug || !priv)
 		return;

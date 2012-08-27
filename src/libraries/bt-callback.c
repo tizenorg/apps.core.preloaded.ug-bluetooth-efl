@@ -418,7 +418,6 @@ void _bt_cb_bonding_created(int result, bt_device_info_s *dev_info,
 			_bt_main_launch_syspopup(ugd, BT_SYSPOPUP_REQUEST_NAME,
 					BT_STR_BLUETOOTH_ERROR_TRY_AGAIN_Q,
 					BT_SYSPOPUP_TWO_BUTTON_TYPE);
-			ugd->syspoup_req = TRUE;
 		}
 	} else {
 		bt_dev_t *new_dev = NULL;

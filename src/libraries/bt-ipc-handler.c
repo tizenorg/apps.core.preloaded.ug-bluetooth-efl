@@ -85,8 +85,6 @@ static void __bt_ipc_receive_popup_event(void *data, DBusMessage * msg)
 
 	ugd = (bt_ug_data *)data;
 
-	retm_if(ugd->syspoup_req == FALSE, "This response is not mine\n");
-
 	member = (char *)dbus_message_get_member(msg);
 	retm_if(member == NULL, "dbus signal member get failed\n");
 
@@ -106,8 +104,6 @@ static void __bt_ipc_receive_popup_event(void *data, DBusMessage * msg)
 	}
 
 	_bt_ipc_unregister_popup_event_signal(ugd->EDBusHandle, data);
-
-	ugd->syspoup_req = FALSE;
 }
 
 /**********************************************************************
