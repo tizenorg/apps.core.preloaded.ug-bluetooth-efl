@@ -37,7 +37,6 @@ static void __bt_cb_auto_discovery(void *data)
 
 	int ret;
 	bt_ug_data *ugd = NULL;
-	Elm_Object_Item *git = NULL;
 
 	ret_if(data == NULL);
 

@@ -1853,7 +1853,6 @@ void _bt_main_scan_device(bt_ug_data *ugd)
 {
 	FN_START;
 	int ret;
-	Elm_Object_Item *git;
 
 	ret_if(ugd == NULL);
 
