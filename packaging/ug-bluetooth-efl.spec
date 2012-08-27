@@ -5,7 +5,7 @@
 
 Name:       ug-bluetooth-efl
 Summary:    UI gadget about the bluetooth
-Version: 0.2.108
+Version: 0.2.109
 Release:    1
 Group:      TO_BE/FILLED_IN
 License:    TO BE FILLED IN

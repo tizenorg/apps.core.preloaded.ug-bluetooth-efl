@@ -48,6 +48,8 @@ static void __bt_cb_auto_discovery(void *data)
 	/* If there is no paired devices, device searching starts. */
 	if (ugd->search_req == TRUE ||
 	     eina_list_count(ugd->paired_device) == 0) {
+		_bt_main_remove_all_searched_devices(ugd);
+
 		ret = bt_adapter_start_device_discovery();
 		if (!ret) {
 			ugd->op_status = BT_SEARCHING;
@@ -207,6 +209,8 @@ static void __bt_cb_search_completed(int result, void *data)
 
 	if (ugd->searched_device == NULL ||
 	     eina_list_count(ugd->searched_device) == 0) {
+		/* Don't add the no device item, if no device item already exist */
+		ret_if(ugd->no_device_item != NULL);
 		ugd->no_device_item = _bt_main_add_no_device_found(ugd);
 	}
 
@@ -291,9 +295,6 @@ static void __bt_cb_new_device_found(bt_adapter_device_discovery_info_s *info,
 
 	ugd = (bt_ug_data *)data;
 
-	/* This UG is not in the searching state. */
-	ret_if(ugd->op_status != BT_SEARCHING);
-
 	/* Check the service_class */
 	if (__bt_cb_match_discovery_type(
 				info->bt_class.major_device_class,
@@ -364,6 +365,15 @@ void _bt_cb_discovery_state_changed(int result,
 			void *user_data)
 {
 	FN_START;
+
+	bt_ug_data *ugd = NULL;
+
+	ret_if(user_data == NULL);
+
+	ugd = (bt_ug_data *)user_data;
+
+	/* This UG is not in the searching state. */
+	ret_if(ugd->op_status != BT_SEARCHING);
 
 	if (discovery_state == BT_ADAPTER_DEVICE_DISCOVERY_FOUND)
 		__bt_cb_new_device_found(discovery_info, user_data);
@@ -470,6 +480,11 @@ void _bt_cb_bonding_destroyed(int result, char *remote_address,
 			memcpy(new_item, item, sizeof(bt_dev_t));
 
 			_bt_main_remove_paired_device(ugd, item);
+
+			if (ugd->no_device_item) {
+				elm_object_item_del(ugd->no_device_item);
+				ugd->no_device_item = NULL;
+			}
 
 			if (_bt_main_add_searched_device(ugd, new_item) != NULL) {
 				ugd->searched_device = eina_list_append(
