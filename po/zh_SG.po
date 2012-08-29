@@ -1,414 +1,414 @@
 msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Wird deaktiviert..."
+msgstr "取消中…"
 
 msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Vorgang fehlgeschlagen"
+msgstr "操作失败"
 
 msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Suche angehalten"
+msgstr "已停止搜索"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "%s erlauben, Ihre Datei zu löschen?"
+msgstr "允许%s删除您的文件?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "%s erlauben, Ihre Datei abzurufen?"
+msgstr "允许%s得到您的文件?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "%s erlauben, eine Datei hinzuzufügen?"
+msgstr "允许%s放入文件?"
 
 msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Immer ein"
+msgstr "总是打开"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kontakt bereits vorhanden"
+msgstr "联系人已存在"
 
 msgid "IDS_BT_BODY_HEADSET"
-msgstr "Headset"
+msgstr "耳机"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
-msgstr "Name des eigenen Telefons"
+msgstr "个人手机名称"
 
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
-msgstr "Sichtbarkeit des Geräts"
+msgstr "个人手机可见性"
 
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
-msgstr "Keine weiteren Verbindungen möglich"
+msgstr "无法建立更多连接"
 
 msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Gekoppelte Geräte"
+msgstr "已配对的设备"
 
 msgid "IDS_BT_BODY_PRINTER"
-msgstr "Drucker"
+msgstr "打印机"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Papiergröße"
+msgstr "纸张大小"
 
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Empfangen"
+msgstr "已接收"
 
 msgid "IDS_BT_BODY_SERVICES"
-msgstr "Bluetooth-Dienste"
+msgstr "蓝牙服务"
 
 msgid "IDS_BT_BODY_TYPE"
-msgstr "Typ"
+msgstr "类型"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Datei oder Verzeichnis kann nicht gelöscht werden"
+msgstr "无法删除文件或目录"
 
 msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Datei kann nicht gespeichert werden"
+msgstr "文件储存错误"
 
 msgid "IDS_BT_BODY_UPDATING_ING"
-msgstr "Aktualisierung..."
+msgstr "更新中…"
 
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
-msgstr "Bluetooth-Geräte"
+msgstr "蓝牙设备"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
-msgstr "PIN eingeben"
+msgstr "输入PIN码"
 
 msgid "IDS_BT_HEADER_NEW_DEVICE"
-msgstr "Neues Gerät"
+msgstr "新设备"
 
 msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Druckvorgang läuft..."
+msgstr "打印中"
 
 msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Stereo verbinden"
+msgstr "连接立体声耳机"
 
 msgid "IDS_BT_OPT_PC"
-msgstr "PC"
+msgstr "电脑"
 
 msgid "IDS_BT_OPT_PRINT"
-msgstr "Drucken"
+msgstr "打印"
 
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
-msgstr "Suchoptionen"
+msgstr "搜索选项"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
-msgstr "%s erlauben, Verbindung herzustellen?"
+msgstr "允许%s连接吗?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
-msgstr "%s gestatten, Ordner %s zu erstellen?"
+msgstr "允许 %s 新建文件夹 %s ？"
 
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
-msgstr "Bluetooth-Fehler. Erneut versuchen?"
+msgstr "蓝牙出错。 重试？"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
-msgstr "Bluetooth-Zeitüberschreitung. Erneut versuchen?"
+msgstr "蓝牙超时。 重试？"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Bestätigen, dass Passkey %s ist und mit %s gekoppelt wird"
+msgstr "以%s匹配的确认万能密钥是%s"
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
-msgstr "Verbindung fehlgeschlagen.\nErneut versuchen?"
+msgstr "无法连接.\n重试吗?"
 
 msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Herunterladen fehlgeschlagen"
+msgstr "下载失败"
 
 msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Namen eingeben"
+msgstr "空白名称"
 
 msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "Verbindung zu FTP hergestellt"
+msgstr "已连接 FTP"
 
 msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "Verbindung zu FTP getrennt"
+msgstr "已断开 FTP"
 
 msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Falsche PIN. Bitte versuchen Sie es erneut"
+msgstr "PIN不正确。重试"
 
 msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d Dateien empfangen"
+msgstr "已接收%d个文件"
 
 msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Sendevorgang abgebrochen"
+msgstr "发送取消"
 
 msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Senden nicht möglich"
+msgstr "无法发送"
 
 msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Serielle Verbindung mit %s aufbauen?"
+msgstr "与%s串行连接?"
 
 msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Datei empfangen"
+msgstr "已接收文件"
 
 msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Dienstliste kann nicht abgerufen werden"
+msgstr "无法获取服务列表"
 
 msgid "IDS_BT_SK_CONNECT"
-msgstr "Verbinden"
+msgstr "连接"
 
 msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Trennen"
+msgstr "断开"
 
 msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth aktiviert"
+msgstr "蓝牙已启动"
 
 msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth ist momentan\nausgeschaltet.\nEinschalten?"
+msgstr "蓝牙目前已关闭。\n启动？"
 
 msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetooth wird aktiviert..."
+msgstr "蓝牙启动中..."
 
 msgid "IDS_BT_POP_DEACTIVATED"
-msgstr "Bluetooth deaktiviert"
+msgstr "蓝牙已取消"
 
 msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Suche läuft..."
+msgstr "搜寻中…"
 
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Verbunden"
+msgstr "已连接"
 
 msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Keine Geräte"
+msgstr "没有设备"
 
 msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Gerätename"
+msgstr "设备名称"
 
 msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Suche... %d Geräte gefunden"
+msgstr "搜索中... 找到 %d 个设备"
 
 msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Dienstliste wird abgerufen..."
+msgstr "正在获取服务列表…"
 
 msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
-msgstr "Mit Bluetooth-Gerät verbinden"
+msgstr "连接蓝牙设备"
 
 msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "%s von %s empfangen?"
+msgstr "从 %s 接收 %s?"
 
 msgid "IDS_BT_POP_SELECTED"
-msgstr "Ausgewählt"
+msgstr "已选定"
 
 msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Gerät auswählen"
+msgstr "选择设备"
 
 msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s ist bereits vorhanden. Überschreiben?"
+msgstr "%s已存在。覆盖？"
 
 msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Bluetooth kann nicht aktiviert werden, wenn der Offline-Modus eingeschaltet ist."
+msgstr "飞行模式启动，无法打开蓝牙"
 
 msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Datei nicht vorhanden"
+msgstr "文件不存在"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Mit Telefon und Medienaudio verbunden"
+msgstr "已连接至手机和媒体音频"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
-msgstr "Verbindung mit Telefonaudio"
+msgstr "已连接到手机音频"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
-msgstr "Verbunden mit Medienaudio"
+msgstr "已连接到媒体音频"
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Mit HID-Gerät verbunden"
+msgstr "已连接到HID设备"
 
 msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Scannen..."
+msgstr "扫描中…"
 
 msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Bluetooth wird eingeschaltet..."
+msgstr "正在打开蓝牙…"
 
 msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetooth wird ausgeschaltet..."
+msgstr "正在关闭蓝牙……"
 
 msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Das Remote-Bluetooth-Headset ermöglicht ein-/ausgehende Anrufe."
+msgstr "无法通过蓝牙耳机拨打及接听电话"
 
 msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Freisprechen"
+msgstr "免提装置"
 
 msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Die Remote-Bluetooth-Freisprechvorrichtung ermöglicht ein-/ausgehende Anrufe."
+msgstr "无法通过蓝牙车载套件拨打及接听电话"
 
 msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo-Headset"
+msgstr "立体声耳机"
 
 msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Das Bluetooth-Stereo-Headset erlaubt Ihnen Musik zu hören"
+msgstr "通过蓝牙立体声耳机拨打电话和收听音乐"
 
 msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Dateiübertragung"
+msgstr "文件传送"
 
 msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Das Remote-Bluetooth-Gerät ermöglicht die Übertragung von Dateien zwischen Ihrem Gerät und einem anderen Bluetooth-Gerät."
+msgstr "从蓝牙设备来回传输文件"
 
 msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Objekt übertragen"
+msgstr "蓝牙对象推送"
 
 msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Wird verwendet, um persönliche Daten (Visitenkarten, Telefonbucheinträge, ect.) mit Bluetooth-Geräten auszutauschen"
+msgstr "与蓝牙设备交换个人数据（名片、电话簿联系人等）"
 
 msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Standarddruck"
+msgstr "基本打印"
 
 msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Der Remote-Bluetooth-Drucker erlaubt Ihnen Bilder, Text, Nachrichten und Persönliche Daten zu drucken (z.B. Vistenkarten und Kalendereinträge)"
+msgstr "通过远程蓝牙打印机打印图片、文本讯息以及名片和约会等个人数据"
 
 msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Einwählverbindung"
+msgstr "拨号网络"
 
 msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Das Remote-Bluetooth-Gerät ermöglicht Internetzugriff über ein Telefonmodem."
+msgstr "通过手机调制解调器从互联网接入蓝牙设备"
 
 msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Serieller Anschluss"
+msgstr "序列端口"
 
 msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID-Gerät"
+msgstr "HID设备"
 
 msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (Tastatur, Maus usw.)"
+msgstr "HID（键盘、鼠标等）"
 
 msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Empfangen..."
+msgstr "接收中…"
 
 msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Freigabe..."
+msgstr "正在共享..."
 
 msgid "IDS_BT_SK_SCAN"
-msgstr "Suchen"
+msgstr "扫描"
 
 msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Dies wird zur Verbindung mit anderen Bluetooth-Geräten über einen virtuellen seriellen Anschluss verwendet."
+msgstr "这用于通过虚拟串行端口连接至其他蓝牙设备"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Druckqualität"
+msgstr "打印素质"
 
 msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Passkeys auf %s vergleichen?"
+msgstr "在 %s上匹配密码?"
 
 msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Fehler bei der Verbindung mit dem Headset. Das andere Gerät hat die Verbindung abgelehnt."
+msgstr "连接耳机失败。其他设备拒绝的连接"
 
 msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Verbindung fehlgeschlagen"
+msgstr "连接失败"
 
 msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Sichtbar"
+msgstr "显示"
 
 msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 Minuten"
+msgstr "2分钟"
 
 msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Entkoppeln"
+msgstr "取消配对"
 
 msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Verbindungsoptionen"
+msgstr "连接选项"
 
 msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Anruffunktion"
+msgstr "呼叫音频"
 
 msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Medienwiedergabe"
+msgstr "媒体音频"
 
 msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth verfügbar."
+msgstr "蓝牙可用"
 
 msgid "IDS_BT_POP_DISCONNECT"
-msgstr "Trennen?"
+msgstr "断开？"
 
 msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Verfügbare Geräte"
+msgstr "可用设备"
 
 msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 Minuten"
+msgstr "5分钟"
 
 msgid "IDS_BT_BODY_1_HOUR"
-msgstr "1 Stunde"
+msgstr "1小时"
 
 msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Verbindung wird getrennt..."
+msgstr "正在中断连接…"
 
 msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s verbleibend"
+msgstr "剩余%s"
 
 msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Zum Verbinden tippen"
+msgstr "点击并连接"
 
 msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Verbindung trennen"
+msgstr "点击并断开"
 
 msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Damit wird die Verbindung beendet"
+msgstr "这将结束您与设备的连接"
 
 msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Eingabegerät"
+msgstr "输入设备"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Sicherheitsrichtlinie schränkt die Verwendung der Bluetooth-Verbindung ein."
+msgstr "安全政策限制使用蓝牙连接"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Sicherheitsrichtlinie schränkt die Verwendung der Bluetooth-Verbindung auf Freisprechfunktionen ein."
+msgstr "安全政策限制仅能使用蓝牙连接的免提功能"
 
 msgid "IDS_BT_BODY_DETAILS"
-msgstr "Details"
+msgstr "详细内容"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
-msgstr "Suchoptionen"
+msgstr "搜索选项"
 
 msgid "IDS_BT_BODY_ALL_DEVICES"
-msgstr "Alle Geräte"
+msgstr "全部设备"
 
 msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Objekt mit %s austauschen?"
+msgstr "与%s交换对象?"
 
 msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Zum Koppeln %1$s auf %2$s eingeben, anschließend auf “Enter” oder “Return” tippen."
+msgstr "在%2$s上输入%1$s以配对，然后点击返回或输入"
 
 msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Kein Bluetooth-Gerät gefunden"
+msgstr "未发现蓝牙设备"
 
 msgid "IDS_BT_BODY_PAIRED"
-msgstr "Gekoppelt"
+msgstr "已配对"
 
 msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Dienste werden gesucht..."
+msgstr "正在搜索服务..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth-Kopplungsanforderung"
+msgstr "蓝牙配对请求"
 
 msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "PIN eingeben, um mit %s zu koppeln (Versuchen Sie 0000 oder 1234)"
+msgstr "输入PIN码与%s配对(尝试0000或1234)"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Bestätigen, dass Passkey %2$s ist und mit %1$s gekoppelt wird"
+msgstr "确认密码为 %2$s 以与 %1$s 配对"
 
 msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Passwort anzeigen"
+msgstr "显示密码"
 
 msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgstr "蓝牙"
 
 msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
+msgstr "蓝牙"
 
 msgid "IDS_BT_BODY_OFF"
-msgstr "Aus"
+msgstr "关"
 
 msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d Minuten"
+msgstr "%d分钟"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
-msgstr "Bluetooth-Geräte"
+msgstr "蓝牙设备"
 
 msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Verbindung wird hergestellt..."
+msgstr "连接中…"
 
 msgid "IDS_BT_SK_STOP"
-msgstr "Stopp"
+msgstr "停止"
 
 msgid "IDS_BT_SK_BACK"
-msgstr "Zurück"
+msgstr "返回"
 
 msgid "IDS_BT_BODY_NORMAL"
-msgstr "Normal"
+msgstr "正常"
 
 msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Entkoppeln"
+msgstr "取消配对"
 
 msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Speicher voll"
+msgstr "内存已满"
 

@@ -1,383 +1,383 @@
 msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Wird deaktiviert..."
+msgstr "Desativando…"
 
 msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Vorgang fehlgeschlagen"
+msgstr "Operação falhou"
 
 msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Suche angehalten"
+msgstr "Pesquisa interrompida"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "%s erlauben, Ihre Datei zu löschen?"
+msgstr "Permitir que %s apague o arquivo?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "%s erlauben, Ihre Datei abzurufen?"
+msgstr "Permitir que %s obtenha o seu arquivo?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "%s erlauben, eine Datei hinzuzufügen?"
+msgstr "Permitir que %s insira um arquivo?"
 
 msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Immer ein"
+msgstr "Sempre ligado"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kontakt bereits vorhanden"
+msgstr "Contato já existe"
 
 msgid "IDS_BT_BODY_HEADSET"
-msgstr "Headset"
+msgstr "Fone de ouvido"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
-msgstr "Name des eigenen Telefons"
+msgstr "Nome do telefone"
 
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
-msgstr "Sichtbarkeit des Geräts"
+msgstr "Visibilidade"
 
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
-msgstr "Keine weiteren Verbindungen möglich"
+msgstr "Impossível aceitar mais conexões"
 
 msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Gekoppelte Geräte"
+msgstr "Dispositivos pareados"
 
 msgid "IDS_BT_BODY_PRINTER"
-msgstr "Drucker"
+msgstr "Impressora"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Papiergröße"
+msgstr "Tamanho do papel"
 
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Empfangen"
+msgstr "Recebida"
 
 msgid "IDS_BT_BODY_SERVICES"
-msgstr "Bluetooth-Dienste"
+msgstr "Serviços"
 
 msgid "IDS_BT_BODY_TYPE"
-msgstr "Typ"
+msgstr "Tipo"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Datei oder Verzeichnis kann nicht gelöscht werden"
+msgstr "Impossível apagar arquivo ou diretório"
 
 msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Datei kann nicht gespeichert werden"
+msgstr "Impossível salvar arquivo"
 
 msgid "IDS_BT_BODY_UPDATING_ING"
-msgstr "Aktualisierung..."
+msgstr "Atualizando…"
 
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
-msgstr "Bluetooth-Geräte"
+msgstr "Dispositivos Bluetooth"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
-msgstr "PIN eingeben"
+msgstr "Insira o PIN"
 
 msgid "IDS_BT_HEADER_NEW_DEVICE"
-msgstr "Neues Gerät"
+msgstr "Novo dispositivo"
 
 msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Druckvorgang läuft..."
+msgstr "Imprimindo"
 
 msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Stereo verbinden"
+msgstr "conectar stereo"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "PC"
 
 msgid "IDS_BT_OPT_PRINT"
-msgstr "Drucken"
+msgstr "Imprimir"
 
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
-msgstr "Suchoptionen"
+msgstr "Procurar opções"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
-msgstr "%s erlauben, Verbindung herzustellen?"
+msgstr "Permitir a conexão de %s?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
-msgstr "%s gestatten, Ordner %s zu erstellen?"
+msgstr "Permitir a %s a criação da pasta %s?"
 
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
-msgstr "Bluetooth-Fehler. Erneut versuchen?"
+msgstr "Erro do Bluetooth. Tentar novamente"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
-msgstr "Bluetooth-Zeitüberschreitung. Erneut versuchen?"
+msgstr "Tempo excedido do Bluetooth. Tentar novamente?"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Bestätigen, dass Passkey %s ist und mit %s gekoppelt wird"
+msgstr "Confirme se a chave de acesso é %2$s para parear com %1$s"
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
-msgstr "Verbindung fehlgeschlagen.\nErneut versuchen?"
+msgstr "Não foi possível conectar.\nTentar novamente?"
 
 msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Herunterladen fehlgeschlagen"
+msgstr "Erro ao baixar"
 
 msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Namen eingeben"
+msgstr "Nome vazio"
 
 msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "Verbindung zu FTP hergestellt"
+msgstr "FTP conectado"
 
 msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "Verbindung zu FTP getrennt"
+msgstr "FTP desconectado"
 
 msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Falsche PIN. Bitte versuchen Sie es erneut"
+msgstr "PIN incorreto. Tentar novamente?"
 
 msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d Dateien empfangen"
+msgstr "%d arquivos recebidos"
 
 msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Sendevorgang abgebrochen"
+msgstr "Envio cancelado"
 
 msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Senden nicht möglich"
+msgstr "Impossível enviar"
 
 msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Serielle Verbindung mit %s aufbauen?"
+msgstr "Estabelecer conexão serial com %s?"
 
 msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Datei empfangen"
+msgstr "Arquivo recebido"
 
 msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Dienstliste kann nicht abgerufen werden"
+msgstr "Impossível obter lista de serviços"
 
 msgid "IDS_BT_SK_CONNECT"
-msgstr "Verbinden"
+msgstr "Conectar"
 
 msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Trennen"
+msgstr "Desativar"
 
 msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth aktiviert"
+msgstr "Bluetooth ativado"
 
 msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth ist momentan\nausgeschaltet.\nEinschalten?"
+msgstr "O Bluetooth está\ndesativado.\nAtivar?"
 
 msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetooth wird aktiviert..."
+msgstr "Ativando Bluetooth..."
 
 msgid "IDS_BT_POP_DEACTIVATED"
-msgstr "Bluetooth deaktiviert"
+msgstr "Bluetooth desativado"
 
 msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Suche läuft..."
+msgstr "Procurando..."
 
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Verbunden"
+msgstr "Conectado"
 
 msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Keine Geräte"
+msgstr "Nenhum dispositivo"
 
 msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Gerätename"
+msgstr "Nome do dispositivo"
 
 msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Suche... %d Geräte gefunden"
+msgstr "Pesquisando %d dispositivo(s) encontrado(s)"
 
 msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Dienstliste wird abgerufen..."
+msgstr "Obtendo lista de serviços..."
 
 msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
-msgstr "Mit Bluetooth-Gerät verbinden"
+msgstr "Conectar a dispositivo Bluetooth"
 
 msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "%s von %s empfangen?"
+msgstr "Receber %s de %s?"
 
 msgid "IDS_BT_POP_SELECTED"
-msgstr "Ausgewählt"
+msgstr "Selecionado"
 
 msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Gerät auswählen"
+msgstr "Selecione dispositivo"
 
 msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s ist bereits vorhanden. Überschreiben?"
+msgstr "%s já existe. Substituir?"
 
 msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Bluetooth kann nicht aktiviert werden, wenn der Offline-Modus eingeschaltet ist."
+msgstr "Impossível ativar Bluetooth com o modo Offline ativado"
 
 msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Datei nicht vorhanden"
+msgstr "Arquivo inexistente"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Mit Telefon und Medienaudio verbunden"
+msgstr "Conectado ao telefone e áudio multimídia"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
-msgstr "Verbindung mit Telefonaudio"
+msgstr "Conectado ao áudio do telefone"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
-msgstr "Verbunden mit Medienaudio"
+msgstr "Conectado ao áudio multimídia"
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Mit HID-Gerät verbunden"
+msgstr "Conectado a dispositivo HID"
 
 msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Scannen..."
+msgstr "Procurando..."
 
 msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Bluetooth wird eingeschaltet..."
+msgstr "Ativando Bluetooth..."
 
 msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetooth wird ausgeschaltet..."
+msgstr "Desativando Bluetooth..."
 
 msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Das Remote-Bluetooth-Headset ermöglicht ein-/ausgehende Anrufe."
+msgstr "O fone de ouvido Bluetooth remoto permite receber e efetuar chamadas."
 
 msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Freisprechen"
+msgstr "Mãos livres"
 
 msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Die Remote-Bluetooth-Freisprechvorrichtung ermöglicht ein-/ausgehende Anrufe."
+msgstr "O kit automotivo Bluetooth remoto permite receber e efetuar chamadas."
 
 msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo-Headset"
+msgstr "Fone de ouvido estéreo"
 
 msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Das Bluetooth-Stereo-Headset erlaubt Ihnen Musik zu hören"
+msgstr "Utilizado para efetuar chamadas e ouvir música via fone de ouvido Bluetooth estéreo"
 
 msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Dateiübertragung"
+msgstr "Transferência de arquivo"
 
 msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Das Remote-Bluetooth-Gerät ermöglicht die Übertragung von Dateien zwischen Ihrem Gerät und einem anderen Bluetooth-Gerät."
+msgstr "Utilizado para transferir arquivos entre dispositivos Bluetooth"
 
 msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Objekt übertragen"
+msgstr "Transferência de objeto"
 
 msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Wird verwendet, um persönliche Daten (Visitenkarten, Telefonbucheinträge, ect.) mit Bluetooth-Geräten auszutauschen"
+msgstr "Utilizado para trocar dados pessoais (cartões de visita, contatos da Agenda, etc.) com dispositivos Bluetooth"
 
 msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Standarddruck"
+msgstr "Impressão básica"
 
 msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Der Remote-Bluetooth-Drucker erlaubt Ihnen Bilder, Text, Nachrichten und Persönliche Daten zu drucken (z.B. Vistenkarten und Kalendereinträge)"
+msgstr "A impressora Bluetooth remota permite imprimir imagens, mensagens de texto e dados pessoais (por ex., cartões de visita, itens da agenda)"
 
 msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Einwählverbindung"
+msgstr "Rede dial-up"
 
 msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Das Remote-Bluetooth-Gerät ermöglicht Internetzugriff über ein Telefonmodem."
+msgstr "Utilizado para permitir o acesso de dispositivos Bluetooth à Internet, através do modem do telefone"
 
 msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Serieller Anschluss"
+msgstr "Porta serial"
 
 msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID-Gerät"
+msgstr "Dispositivo HID"
 
 msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (Tastatur, Maus usw.)"
+msgstr "HID (teclado, mouse, etc.)"
 
 msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Empfangen..."
+msgstr "Recebendo..."
 
 msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Freigabe..."
+msgstr "Compartilhando..."
 
 msgid "IDS_BT_SK_SCAN"
-msgstr "Suchen"
+msgstr "Procurar"
 
 msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Dies wird zur Verbindung mit anderen Bluetooth-Geräten über einen virtuellen seriellen Anschluss verwendet."
+msgstr "Isso é usado para conectar outros dispositivos Bluetooth através de uma porta serial virtual"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Druckqualität"
+msgstr "Qualidade de impressão"
 
 msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Passkeys auf %s vergleichen?"
+msgstr "Corresponder as senhas de acesso em %s?"
 
 msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Fehler bei der Verbindung mit dem Headset. Das andere Gerät hat die Verbindung abgelehnt."
+msgstr "Falha ao conectar o fone. Outro dispositivo recusou a conexão"
 
 msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Verbindung fehlgeschlagen"
+msgstr "Falha de conexão"
 
 msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Sichtbar"
+msgstr "Visível"
 
 msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 Minuten"
+msgstr "2 minutos"
 
 msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Entkoppeln"
+msgstr "Desparear"
 
 msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Verbindungsoptionen"
+msgstr "Opções de conexão"
 
 msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Anruffunktion"
+msgstr "Áudio de chamada"
 
 msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Medienwiedergabe"
+msgstr "Áudio de multimídia"
 
 msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth verfügbar."
+msgstr "Bluetooth disponível"
 
 msgid "IDS_BT_POP_DISCONNECT"
-msgstr "Trennen?"
+msgstr "Desconectar?"
 
 msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Verfügbare Geräte"
+msgstr "Dispositivos disponíveis"
 
 msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 Minuten"
+msgstr "5 minutos"
 
 msgid "IDS_BT_BODY_1_HOUR"
-msgstr "1 Stunde"
+msgstr "1 hora"
 
 msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Verbindung wird getrennt..."
+msgstr "Desconectando..."
 
 msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s verbleibend"
+msgstr "Restam %s"
 
 msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Zum Verbinden tippen"
+msgstr "Tocar para conectar"
 
 msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Verbindung trennen"
+msgstr "Tocar para desconectar"
 
 msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Damit wird die Verbindung beendet"
+msgstr "Isto encerrará a conexão com"
 
 msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Eingabegerät"
+msgstr "Dispositivo de inserção"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Sicherheitsrichtlinie schränkt die Verwendung der Bluetooth-Verbindung ein."
+msgstr "A política de segurança restringe a utilização da conexão Bluetooth"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Sicherheitsrichtlinie schränkt die Verwendung der Bluetooth-Verbindung auf Freisprechfunktionen ein."
+msgstr "A política de segurança restringe a utilização da conexão Bluetooth unicamente à função mãos-livres"
 
 msgid "IDS_BT_BODY_DETAILS"
-msgstr "Details"
+msgstr "Detalhes"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
-msgstr "Suchoptionen"
+msgstr "Procurar opções"
 
 msgid "IDS_BT_BODY_ALL_DEVICES"
-msgstr "Alle Geräte"
+msgstr "Todos os dispositivos"
 
 msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Objekt mit %s austauschen?"
+msgstr "Trocar objeto com %s?"
 
 msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Zum Koppeln %1$s auf %2$s eingeben, anschließend auf “Enter” oder “Return” tippen."
+msgstr "Insira %1$s em %2$s para emparelhar, em seguida toque em Voltar ou Enter"
 
 msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Kein Bluetooth-Gerät gefunden"
+msgstr "Nenhum dispositivo bluetooth encontrado"
 
 msgid "IDS_BT_BODY_PAIRED"
-msgstr "Gekoppelt"
+msgstr "Pareado"
 
 msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Dienste werden gesucht..."
+msgstr "Procurando serviços..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth-Kopplungsanforderung"
+msgstr "Pedido de pareamento Bluetooth"
 
 msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "PIN eingeben, um mit %s zu koppeln (Versuchen Sie 0000 oder 1234)"
+msgstr "Insira o PIN para parear com %s (tente 0000 ou 1234)"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Bestätigen, dass Passkey %2$s ist und mit %1$s gekoppelt wird"
+msgstr "Confirme se a chave de acesso é %2$s para parear com %1$s"
 
 msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Passwort anzeigen"
+msgstr "Exibir senha"
 
 msgid "IDS_BT_HEADER_BLUETOOTH"
 msgstr "Bluetooth"
@@ -386,29 +386,29 @@ msgid "IDS_BT_BODY_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_BT_BODY_OFF"
-msgstr "Aus"
+msgstr "Desativado"
 
 msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d Minuten"
+msgstr "%d minutos"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
-msgstr "Bluetooth-Geräte"
+msgstr "Dispositivos Bluetooth"
 
 msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Verbindung wird hergestellt..."
+msgstr "Conectando..."
 
 msgid "IDS_BT_SK_STOP"
-msgstr "Stopp"
+msgstr "Parar"
 
 msgid "IDS_BT_SK_BACK"
-msgstr "Zurück"
+msgstr "Voltar"
 
 msgid "IDS_BT_BODY_NORMAL"
 msgstr "Normal"
 
 msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Entkoppeln"
+msgstr "Desparear"
 
 msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Speicher voll"
+msgstr "Memória cheia"
 

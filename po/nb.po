@@ -1,383 +1,383 @@
 msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Wird deaktiviert..."
+msgstr "Deaktiverer..."
 
 msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Vorgang fehlgeschlagen"
+msgstr "Operasjonen mislyktes"
 
 msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Suche angehalten"
+msgstr "Søk stoppet"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "%s erlauben, Ihre Datei zu löschen?"
+msgstr "Tillat att filen slettes av %s?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "%s erlauben, Ihre Datei abzurufen?"
+msgstr "Tillat at filen hentes av %s?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "%s erlauben, eine Datei hinzuzufügen?"
+msgstr "Tillat att filen legges til av %s?"
 
 msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Immer ein"
+msgstr "Alltid på"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kontakt bereits vorhanden"
+msgstr "Kontakten finnes allerede"
 
 msgid "IDS_BT_BODY_HEADSET"
-msgstr "Headset"
+msgstr "Headsett"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
-msgstr "Name des eigenen Telefons"
+msgstr "Min telefons navn"
 
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
-msgstr "Sichtbarkeit des Geräts"
+msgstr "Min telefons synlighet"
 
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
-msgstr "Keine weiteren Verbindungen möglich"
+msgstr "No more connections possible"
 
 msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Gekoppelte Geräte"
+msgstr "Parede enheter"
 
 msgid "IDS_BT_BODY_PRINTER"
-msgstr "Drucker"
+msgstr "Printer"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Papiergröße"
+msgstr "Papirstørrelse"
 
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Empfangen"
+msgstr "Mottatt"
 
 msgid "IDS_BT_BODY_SERVICES"
-msgstr "Bluetooth-Dienste"
+msgstr "Bluetooth-tjenester"
 
 msgid "IDS_BT_BODY_TYPE"
-msgstr "Typ"
+msgstr "Type"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Datei oder Verzeichnis kann nicht gelöscht werden"
+msgstr "Kan ikke slette fil eller katalog"
 
 msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Datei kann nicht gespeichert werden"
+msgstr "Kan ikke lagre fil"
 
 msgid "IDS_BT_BODY_UPDATING_ING"
-msgstr "Aktualisierung..."
+msgstr "Oppdaterer..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
-msgstr "Bluetooth-Geräte"
+msgstr "Bluetooth-enheter"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
-msgstr "PIN eingeben"
+msgstr "Angi PIN"
 
 msgid "IDS_BT_HEADER_NEW_DEVICE"
-msgstr "Neues Gerät"
+msgstr "Ny enhet"
 
 msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Druckvorgang läuft..."
+msgstr "Skriver ut"
 
 msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Stereo verbinden"
+msgstr "Koble til stereo"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "PC"
 
 msgid "IDS_BT_OPT_PRINT"
-msgstr "Drucken"
+msgstr "Skriv ut"
 
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
-msgstr "Suchoptionen"
+msgstr "Søkealternativer"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
-msgstr "%s erlauben, Verbindung herzustellen?"
+msgstr "Tillater du at %s kobler til?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
-msgstr "%s gestatten, Ordner %s zu erstellen?"
+msgstr "Tillate %s å opprette mappen %s?"
 
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
-msgstr "Bluetooth-Fehler. Erneut versuchen?"
+msgstr "Bluetooth-feil. Prøve igjen?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
-msgstr "Bluetooth-Zeitüberschreitung. Erneut versuchen?"
+msgstr "Bluetooth-tidsavbrudd. Prøve igjen?"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Bestätigen, dass Passkey %s ist und mit %s gekoppelt wird"
+msgstr "Bekreftelsestilgangskode er %s for å pare med %s"
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
-msgstr "Verbindung fehlgeschlagen.\nErneut versuchen?"
+msgstr "Kan ikke koble til.\nPrøve igjen?"
 
 msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Herunterladen fehlgeschlagen"
+msgstr "Nedlasting mislyktes"
 
 msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Namen eingeben"
+msgstr "Angi navn"
 
 msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "Verbindung zu FTP hergestellt"
+msgstr "FTP tilkoblet"
 
 msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "Verbindung zu FTP getrennt"
+msgstr "FTP frakoblet"
 
 msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Falsche PIN. Bitte versuchen Sie es erneut"
+msgstr "Feil PIN-kode. Forsøk igjen"
 
 msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d Dateien empfangen"
+msgstr "%d filer mottatt"
 
 msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Sendevorgang abgebrochen"
+msgstr "Sending avbrutt"
 
 msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Senden nicht möglich"
+msgstr "Kan ikke sende"
 
 msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Serielle Verbindung mit %s aufbauen?"
+msgstr "Serietilkobling med %s"
 
 msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Datei empfangen"
+msgstr "Fil mottatt"
 
 msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Dienstliste kann nicht abgerufen werden"
+msgstr "Kan ikke hente tjenesteliste"
 
 msgid "IDS_BT_SK_CONNECT"
-msgstr "Verbinden"
+msgstr "Koble til"
 
 msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Trennen"
+msgstr "Koble fra"
 
 msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth aktiviert"
+msgstr "Bluetooth aktivert"
 
 msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth ist momentan\nausgeschaltet.\nEinschalten?"
+msgstr "Bluetooth er i øyeblikket\nslått av.\nSlå på?"
 
 msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetooth wird aktiviert..."
+msgstr "Aktiverer Bluetooth..."
 
 msgid "IDS_BT_POP_DEACTIVATED"
-msgstr "Bluetooth deaktiviert"
+msgstr "Bluetooth deaktivert"
 
 msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Suche läuft..."
+msgstr "Søker..."
 
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Verbunden"
+msgstr "Tilkoblet"
 
 msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Keine Geräte"
+msgstr "Ingen enheter"
 
 msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Gerätename"
+msgstr "Enhetsnavn"
 
 msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Suche... %d Geräte gefunden"
+msgstr "Søker... %d enheter funnet"
 
 msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Dienstliste wird abgerufen..."
+msgstr "Henter tjenesteliste..."
 
 msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
-msgstr "Mit Bluetooth-Gerät verbinden"
+msgstr "Koble til Bluetooth-enhet"
 
 msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "%s von %s empfangen?"
+msgstr "Motta %s fra %s?"
 
 msgid "IDS_BT_POP_SELECTED"
-msgstr "Ausgewählt"
+msgstr "Valgt"
 
 msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Gerät auswählen"
+msgstr "Velg enhet"
 
 msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s ist bereits vorhanden. Überschreiben?"
+msgstr "%s finnes allerede. Vil du overskrive?"
 
 msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Bluetooth kann nicht aktiviert werden, wenn der Offline-Modus eingeschaltet ist."
+msgstr "Kan ikke aktivere Bluetooth når offlinemodus er på"
 
 msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Datei nicht vorhanden"
+msgstr "Filen finnes ikke"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Mit Telefon und Medienaudio verbunden"
+msgstr "Koblet til telefon og medielyd"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
-msgstr "Verbindung mit Telefonaudio"
+msgstr "Koblet til telefonlyd"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
-msgstr "Verbunden mit Medienaudio"
+msgstr "Koblet til medielyd"
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Mit HID-Gerät verbunden"
+msgstr "Tilkoblet til HID-enhet"
 
 msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Scannen..."
+msgstr "Søker..."
 
 msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Bluetooth wird eingeschaltet..."
+msgstr "Slår på Bluetooth..."
 
 msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetooth wird ausgeschaltet..."
+msgstr "Slår av Bluetooth..."
 
 msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Das Remote-Bluetooth-Headset ermöglicht ein-/ausgehende Anrufe."
+msgstr "Brukes til å foreta innkommende og utgående anrop via Bluetooth-headset"
 
 msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Freisprechen"
+msgstr "Håndfri"
 
 msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Die Remote-Bluetooth-Freisprechvorrichtung ermöglicht ein-/ausgehende Anrufe."
+msgstr "Brukes til å foreta innkommende og utgående anrop via Bluetooth-bilsett"
 
 msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo-Headset"
+msgstr "Stereo-hodetelefoner"
 
 msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Das Bluetooth-Stereo-Headset erlaubt Ihnen Musik zu hören"
+msgstr "Brukes til å foreta anrop og lytte til musikk via Bluetooth stereo-headset"
 
 msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Dateiübertragung"
+msgstr "Filoverføring"
 
 msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Das Remote-Bluetooth-Gerät ermöglicht die Übertragung von Dateien zwischen Ihrem Gerät und einem anderen Bluetooth-Gerät."
+msgstr "Brukes til å overføre filer til og fra Bluetooth-enheter"
 
 msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Objekt übertragen"
+msgstr "Objekt-push"
 
 msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Wird verwendet, um persönliche Daten (Visitenkarten, Telefonbucheinträge, ect.) mit Bluetooth-Geräten auszutauschen"
+msgstr "Brukes til å utveksle personlige data (visittkort, telefonbokkontakter osv.) med Bluetooth-enheter"
 
 msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Standarddruck"
+msgstr "Standardutskrift"
 
 msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Der Remote-Bluetooth-Drucker erlaubt Ihnen Bilder, Text, Nachrichten und Persönliche Daten zu drucken (z.B. Vistenkarten und Kalendereinträge)"
+msgstr "Brukes til å skrive ut bilder, tekstmeldinger og personlige data (visittkort, avtaler osv.) via eksterne Bluetooth-skrivere"
 
 msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Einwählverbindung"
+msgstr "Modemtilkobling"
 
 msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Das Remote-Bluetooth-Gerät ermöglicht Internetzugriff über ein Telefonmodem."
+msgstr "Brukes til å aktivere Internett-tilgang for Bluetooth-enheter via telefonens modem"
 
 msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Serieller Anschluss"
+msgstr "Serieport"
 
 msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID-Gerät"
+msgstr "HID-enhet"
 
 msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (Tastatur, Maus usw.)"
+msgstr "HID (tastatur, mus osv.)"
 
 msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Empfangen..."
+msgstr "Mottar..."
 
 msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Freigabe..."
+msgstr "Deler..."
 
 msgid "IDS_BT_SK_SCAN"
-msgstr "Suchen"
+msgstr "Søk"
 
 msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Dies wird zur Verbindung mit anderen Bluetooth-Geräten über einen virtuellen seriellen Anschluss verwendet."
+msgstr "Denne brukes til å koble til andre Bluetooth-enheter via en virtuell serieport"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Druckqualität"
+msgstr "Utskriftskvalitet"
 
 msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Passkeys auf %s vergleichen?"
+msgstr "Matche tilgangskoder på %s?"
 
 msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Fehler bei der Verbindung mit dem Headset. Das andere Gerät hat die Verbindung abgelehnt."
+msgstr "Kunne ikke koble til headset. Den andre enheten nektet tilkobling"
 
 msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Verbindung fehlgeschlagen"
+msgstr "Kunne ikke koble til"
 
 msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Sichtbar"
+msgstr "Synlig"
 
 msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 Minuten"
+msgstr "2 minutter"
 
 msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Entkoppeln"
+msgstr "Avslutt sammenkobling"
 
 msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Verbindungsoptionen"
+msgstr "Tilkoblingsinnstillinger"
 
 msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Anruffunktion"
+msgstr "Anropslyd"
 
 msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Medienwiedergabe"
+msgstr "Medielyd"
 
 msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth verfügbar."
+msgstr "Bluetooth tilgjengelig"
 
 msgid "IDS_BT_POP_DISCONNECT"
-msgstr "Trennen?"
+msgstr "Koble fra?"
 
 msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Verfügbare Geräte"
+msgstr "Tilgjengelige enheter"
 
 msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 Minuten"
+msgstr "5 minutter"
 
 msgid "IDS_BT_BODY_1_HOUR"
-msgstr "1 Stunde"
+msgstr "1 time"
 
 msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Verbindung wird getrennt..."
+msgstr "Kobler fra..."
 
 msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s verbleibend"
+msgstr "%s gjenstår"
 
 msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Zum Verbinden tippen"
+msgstr "Trykk for å koble til"
 
 msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Verbindung trennen"
+msgstr "Trykk for å koble fra"
 
 msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Damit wird die Verbindung beendet"
+msgstr "Dette avslutter din tilkobling med"
 
 msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Eingabegerät"
+msgstr "Inndataenhet"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Sicherheitsrichtlinie schränkt die Verwendung der Bluetooth-Verbindung ein."
+msgstr "Sikkerhetspolicy begrenser bruk av Bluetooth-tilkobling"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Sicherheitsrichtlinie schränkt die Verwendung der Bluetooth-Verbindung auf Freisprechfunktionen ein."
+msgstr "Sikkerhetspolicy begrenser bruk av Bluetooth-tilkobling til kun håndfrifunksjoner"
 
 msgid "IDS_BT_BODY_DETAILS"
-msgstr "Details"
+msgstr "Detaljer"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
-msgstr "Suchoptionen"
+msgstr "Søkealternativer"
 
 msgid "IDS_BT_BODY_ALL_DEVICES"
-msgstr "Alle Geräte"
+msgstr "Alle enheter"
 
 msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Objekt mit %s austauschen?"
+msgstr "Utveksle objekt med %s?"
 
 msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Zum Koppeln %1$s auf %2$s eingeben, anschließend auf “Enter” oder “Return” tippen."
+msgstr "Angi %1$s på %2$s for å sammenkoble, etterfulgt av Tilbake- eller Enter"
 
 msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Kein Bluetooth-Gerät gefunden"
+msgstr "Fant ingen Bluetooth-enheter"
 
 msgid "IDS_BT_BODY_PAIRED"
-msgstr "Gekoppelt"
+msgstr "Paret"
 
 msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Dienste werden gesucht..."
+msgstr "Sikkerhetstjenester..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth-Kopplungsanforderung"
+msgstr "Bluetooth-sammenkoblingsforespørsel"
 
 msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "PIN eingeben, um mit %s zu koppeln (Versuchen Sie 0000 oder 1234)"
+msgstr "Skriv inn PIN-kode for å pare med %s (Prøv 0000 eller 1234)"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Bestätigen, dass Passkey %2$s ist und mit %1$s gekoppelt wird"
+msgstr "Bekreft at koden er %2$s for å pare med %1$s"
 
 msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Passwort anzeigen"
+msgstr "Vis passord"
 
 msgid "IDS_BT_HEADER_BLUETOOTH"
 msgstr "Bluetooth"
@@ -386,29 +386,29 @@ msgid "IDS_BT_BODY_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_BT_BODY_OFF"
-msgstr "Aus"
+msgstr "Av"
 
 msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d Minuten"
+msgstr "%d minutter"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
-msgstr "Bluetooth-Geräte"
+msgstr "Bluetooth-enheter"
 
 msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Verbindung wird hergestellt..."
+msgstr "Kobler til..."
 
 msgid "IDS_BT_SK_STOP"
 msgstr "Stopp"
 
 msgid "IDS_BT_SK_BACK"
-msgstr "Zurück"
+msgstr "Tilbake"
 
 msgid "IDS_BT_BODY_NORMAL"
 msgstr "Normal"
 
 msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Entkoppeln"
+msgstr "Avsl sammenkobl"
 
 msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Speicher voll"
+msgstr "Minnet er fullt"
 

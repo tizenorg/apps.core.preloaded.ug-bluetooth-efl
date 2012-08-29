@@ -1,383 +1,383 @@
 msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Menonkatifkan..."
+msgstr "Desaktibatzen..."
 
 msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Operasi gagal"
+msgstr "Eragiketak huts egin du"
 
 msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Pencarian dihentikan"
+msgstr "Bilaketa gelditu egin da"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Bolehkan %s menghapus file Anda?"
+msgstr "%s zure artxiboa ezabatzeko baimendu?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Bolehkan %s mengambil file Anda?"
+msgstr "%s-ek zure fitxategia eskuratzea baimendu?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Bolehkan %s menempatkan file?"
+msgstr "%s-ri fitxategi bat sartzea baimendu?"
 
 msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Selalu aktif"
+msgstr "Beti aktibatuta"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kontak sudah ada"
+msgstr "Kontaktua dagoeneko bada"
 
 msgid "IDS_BT_BODY_HEADSET"
-msgstr "Headset"
+msgstr "Entzungailua"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
-msgstr "Nama telepon saya"
+msgstr "Nire telefonoaren izena"
 
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
-msgstr "Visibilitas telepon saya"
+msgstr "Nire telefonoaren ikusgaitasuna"
 
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
 msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Perangkat terpasang"
+msgstr "Sinkronizatutako gailuak"
 
 msgid "IDS_BT_BODY_PRINTER"
-msgstr "Printer"
+msgstr "Inprimagailua"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Ukuran kertas"
+msgstr "Paper tamaina"
 
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Diterima"
+msgstr "Jasota"
 
 msgid "IDS_BT_BODY_SERVICES"
-msgstr "Layanan Bluetooth"
+msgstr "Bluetooth zerbitzuak"
 
 msgid "IDS_BT_BODY_TYPE"
-msgstr "Tipe"
+msgstr "Mota"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Tidak bisa menghapus file atau direktori"
+msgstr "Ezin da fitxategia edo direktorioa ezabatu"
 
 msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Tidak bisa menyimpan file"
+msgstr "Ezin da fitxategia gorde"
 
 msgid "IDS_BT_BODY_UPDATING_ING"
-msgstr "Mengupdate..."
+msgstr "Eguneratzen..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
-msgstr "Perangkat Bluetooth"
+msgstr "Bluetooth gailuak"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
-msgstr "Masukkan PIN"
+msgstr "PINa idatzi"
 
 msgid "IDS_BT_HEADER_NEW_DEVICE"
-msgstr "Perangkat baru"
+msgstr "Gailu berria"
 
 msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Mencetak"
+msgstr "Inprimaketa"
 
 msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Hubungkan stereo"
+msgstr "Konektatu estereora"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "PC"
 
 msgid "IDS_BT_OPT_PRINT"
-msgstr "Cetak"
+msgstr "Inprimatu"
 
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
-msgstr "Pilihan pencarian"
+msgstr "Bilaketa aukerak"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
-msgstr "Bolehkan %s menyambung?"
+msgstr "%s-ren konexioa baimendu?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
-msgstr "Bolehkan %s untuk membuat folder %s?"
+msgstr "%s-(e)ri %s karpeta sortzen utzi?"
 
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
-msgstr "Bluetooth terganggu. Coba lagi?"
+msgstr "Bluetooth-en errorea. Saiatu berriz?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
-msgstr "Bluetooth habis waktu. Coba lagi?"
+msgstr "Bluetooth denboraz kanpo. Saiatu berriz?"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Konfirmasi kunci sandi adalah %s untuk dipasangkan dengan %s"
+msgstr "Baieztatu pasahitza %s dela %s-(e)kin parekatzeko"
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
-msgstr "Tidak bisa mengubungkan.\nCoba lagi?"
+msgstr "Ezin da konektatu.\nBerriro saiatu?"
 
 msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Pendownloadan gagal"
+msgstr "Errorea deskargatzerakoan"
 
 msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Nama kosong"
+msgstr "Izena hutsik"
 
 msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP terhubung"
+msgstr "FTP konektatuta"
 
 msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP diputus"
+msgstr "FTP deskonektatuta"
 
 msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "PIN salah. Coba lagi?"
+msgstr "PIN okerra. Berriro saiatu"
 
 msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d file diterima"
+msgstr "%d fitxategi jasota"
 
 msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Mengirim dibatalkan"
+msgstr "Bidalketa baliogabetuta"
 
 msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Tidak bisa mengirim"
+msgstr "Ezin da bidali"
 
 msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Koneksi serial dengan %s?"
+msgstr "Serie konexioa %s-rekin?"
 
 msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "File diterima"
+msgstr "Fitxategia jaso da"
 
 msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Tidak bisa mendapat daftar layanan"
+msgstr "Ezin da zerbitzu zerrenda eskuratu"
 
 msgid "IDS_BT_SK_CONNECT"
-msgstr "Hubung"
+msgstr "Konektatu"
 
 msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Putus"
+msgstr "Deskonektatu"
 
 msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth diaktifkan"
+msgstr "Bluetooth aktibatuta"
 
 msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth skrg ini \ntidak aktif.\nAktifkan?"
+msgstr "Bluetooth unean desaktibatuta dago.\nPiztu?"
 
 msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Mengaktifkan Bluetooth..."
+msgstr "Bluetooth aktibatzen..."
 
 msgid "IDS_BT_POP_DEACTIVATED"
-msgstr "Bluetooth dinonaktifkan"
+msgstr "Bluetooth desaktibatuta"
 
 msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Mencari…"
+msgstr "Bilatzen"
 
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Terhubung"
+msgstr "Konektatuta"
 
 msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Tidak ada perangkat"
+msgstr "Gailurik ez"
 
 msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Nama perangkat"
+msgstr "Gailuaren izena"
 
 msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Mencari... %d perangkat ditemukan"
+msgstr "Bilatzen... %d gailu aurkitu dira"
 
 msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Mengambil daftar layanan..."
+msgstr "Zerbitzu zerrenda lortzen..."
 
 msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
-msgstr "Hubung ke perangkat Bluetooth"
+msgstr "Kontektatu Bluetooth gailura"
 
 msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Terima %s dari %s?"
+msgstr "Jaso %s  %s-(e)tik?"
 
 msgid "IDS_BT_POP_SELECTED"
-msgstr "Terpilih"
+msgstr "Aukeratutakoa(k)"
 
 msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Pilih perangkat"
+msgstr "Gailua aukeratu"
 
 msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s telah ada. Timpa?"
+msgstr "%s badago. Gainidatzi?"
 
 msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Tidak bisa mengaktifkan Bluetooth saat Flight mode aktif"
+msgstr "Ezin da Bluetooth aktibatu Hegaldi modua piztuta dagoenean"
 
 msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "File ini tdk ada"
+msgstr "Fitxategia ez da existitzen"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Terhubung ke telepon dan audio media"
+msgstr "Telefono eta multimedia audiora konektatua"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
-msgstr "Terhubung ke audio telepon"
+msgstr "Telefonoaren audiora konektatuta"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
-msgstr "Terhubung ke audio media"
+msgstr "Multimedia audiora konektatuta"
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Tersambung ke perangkat HID"
+msgstr "HID gailura konektatuta"
 
 msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Memindai..."
+msgstr "Eskaneatzen..."
 
 msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Mengaktifkan Bluetooth..."
+msgstr "Bluetootha pizten..."
 
 msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Menonaktifkan Bluetooth..."
+msgstr "Bluetootha itzaltzen..."
 
 msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Digunakan utk membuat panggilan masuk dan panggilan keluar lewat Bluetooth headset"
+msgstr "Bluetooth entzungailuen bidez deiak egin eta jasotzeko erabiltzen da"
 
 msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Handsfree"
+msgstr "Esku-librekoa"
 
 msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Digunakan utk membuat panggilan masuk dan panggilan keluar Bluetooth car kit"
+msgstr "Bluetooth autorako kiten bidez deiak egin eta jasotzeko erabiltzen da"
 
 msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Headset stereo"
+msgstr "Entzungailu estereoa"
 
 msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Dipakai untuk melakukan panggilan dan mendengarkan lagu melalui headset stereo Bluetooth"
+msgstr "Bluetooth entzungailu estereoen bidez deiak egin eta musika entzuteko erabiltzen da"
 
 msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Pemindahan file"
+msgstr "Fitxategi transferentzia"
 
 msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Digunakan utk memindahkan file ke dan dari perangkat Bluetooth"
+msgstr "Bluetooth gailuen artean transferentziak egiteko erabiltzen da"
 
 msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Push obyek"
+msgstr "Difusio objektua"
 
 msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Digunakan utk menukar data pribadi (kartu nama, kontak buku telepon, dll.) dgn perangkat Bluetooth."
+msgstr "Bluetooth gailuen artean datu pertsonalak (bisita txartelak, helbide liburuko kontaktuak, etab.) trukatzeko erabiltzen da"
 
 msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Pencetakan dasar"
+msgstr "Oinarrizko inprimaketa"
 
 msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Dipakai untuk mencetak gambar, pesan teks, data pribadi, misalnya kartu nama dan perjanjian, dll. melalui printer Bluetooth jauh"
+msgstr "Irudiak, testu mezuak, datu pertsonalak (bisita txartelak, hitzorduak, etab.) urruneko Bluetooth inprimagailuen bidez inprimatzeko erabiltzen da"
 
 msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Sambungan jaringan dial-up"
+msgstr "Markaketa sarea"
 
 msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Digunakan utk menyediakan akses Internet utk perangkat Bluetooth lewat modem phone."
+msgstr "Bluetooth gailuei telefonoaren modemaren bidez internetera sarrera emateko erabiltzen da"
 
 msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Serial port"
+msgstr "Serie ataka"
 
 msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "Perangkat HID"
+msgstr "HID gailua"
 
 msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (papan tombol, tetikus, dll.)"
+msgstr "HID (teklatua, sagua, etab.)"
 
 msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Menerima…"
+msgstr "Jasotzen"
 
 msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Membagi..."
+msgstr "Partekatzen..."
 
 msgid "IDS_BT_SK_SCAN"
-msgstr "Pindai"
+msgstr "Arakatu"
 
 msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Ini digunakan untuk koneksi ke perangkat Bluetooth lainnya lewat port serial virtual"
+msgstr "Hau bestelako Bluetooth gailuak serieko ataka birtual baten bidez konektatzeko erabiltzen da"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Kualitas cetak"
+msgstr "Inprimaketa kalitatea"
 
 msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Cocokkan passkey pada %s?"
+msgstr "Pasahitzak %s-n parekatu?"
 
 msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Gagal menyambung headset. Perangkat lain menolak koneksi"
+msgstr "Ezin izan dira aurikularrak konektatu. Beste gailu batek konexioa ukatu du"
 
 msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Koneksi gagal"
+msgstr "Konektatzerakoan errorea"
 
 msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Terlihat"
+msgstr "Ikusgai"
 
 msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 menit"
+msgstr "2 minutu"
 
 msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Pisahkan"
+msgstr "Desparekatu"
 
 msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Opsi koneksi"
+msgstr "Konexio aukerak"
 
 msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Audio panggilan"
+msgstr "Deitu audiora"
 
 msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Audio media"
+msgstr "Multimedia audioa"
 
 msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Tersedia Bluetooth"
+msgstr "Bluetooth erabilgarri"
 
 msgid "IDS_BT_POP_DISCONNECT"
-msgstr "Putus?"
+msgstr "Deskonektatu?"
 
 msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Perangkat yang tersedia"
+msgstr "Eskura dauden gailuak"
 
 msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 Menit"
+msgstr "5 minutu"
 
 msgid "IDS_BT_BODY_1_HOUR"
-msgstr "1 jam"
+msgstr "Ordu 1"
 
 msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Memutuskan..."
+msgstr "Deskonektatzen"
 
 msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s tersisa"
+msgstr "%s faltan"
 
 msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Ketuk utk menghubungkan"
+msgstr "Ukitu konektatzeko"
 
 msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Ketuk untuk memutuskan"
+msgstr "Ukitu deskonektatzeko"
 
 msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Ini akan mengakhiri koneksi Anda dengan"
+msgstr "Honek konexioa amaituko du honekin:"
 
 msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Perangkat masukan"
+msgstr "Sarrera gailua"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Kebijakan pengaman membatasi penggunaan koneksi Bluetooth"
+msgstr "Segurtasun politikak Bluetooth konexioaren erabilera mugatzen du"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Kebijakan keamanan membatasi penggunaan koneksi Bluetooth ke fitur handsfree saja"
+msgstr "Segurtasun politikak Bluetooth konexioaren erabilera esku-libreko ezaugarrietara soilik mugatzen du"
 
 msgid "IDS_BT_BODY_DETAILS"
-msgstr "Rincian"
+msgstr "Xehetasunak"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
-msgstr "Pilihan pencarian"
+msgstr "Bilaketa aukerak"
 
 msgid "IDS_BT_BODY_ALL_DEVICES"
-msgstr "Semua perangkat"
+msgstr "Gailu guztiak"
 
 msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Tukar objek dengan %s?"
+msgstr "Objektua %s-(e)kin trukatu?"
 
 msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Masukkan %1$s pada %2$s untuk memasangkan, lalu ketuk Kembali atau Masukkan"
+msgstr "Adierazi %1$s %2$s-(e)n parekatzeko, eta ondoren ukitu Itzuli edo Intro"
 
 msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Tidak ditemukan perangkat Bluetooth"
+msgstr "Ez da Bluetooth gailurik aurkitu"
 
 msgid "IDS_BT_BODY_PAIRED"
-msgstr "Terpasang"
+msgstr "Parekatuta"
 
 msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Mencari layanan..."
+msgstr "Zerbitzuak bilatzen..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Permintaan pemasangan Bluetooth"
+msgstr "Bluetooth parekatze eskaera"
 
 msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Masukkan PIN untuk dipasangkan dengan %s (Coba 0000 atau 1234)"
+msgstr "Idatzi PINa %s-erekin parekatzeko (saiatu 0000 edo 1234 erabilita)"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Kunci sandi konfirmasi adalah %2$s untuk berpasangan dengan %1$s"
+msgstr "Baieztatu pasahitza %2$s dela %1$s-(r)ekin parekatzeko"
 
 msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Tampilkan kata sandi"
+msgstr "Erakutsi pasahitza"
 
 msgid "IDS_BT_HEADER_BLUETOOTH"
 msgstr "Bluetooth"
@@ -386,29 +386,29 @@ msgid "IDS_BT_BODY_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_BT_BODY_OFF"
-msgstr "Tdk aktif"
+msgstr "Desaktibatuta"
 
 msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d menit"
+msgstr "%d minutu"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
-msgstr "Perangkat Bluetooth"
+msgstr "Bluetooth gailuak"
 
 msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Menyambungkan"
+msgstr "Konektatzen"
 
 msgid "IDS_BT_SK_STOP"
-msgstr "Berhenti"
+msgstr "Gelditu"
 
 msgid "IDS_BT_SK_BACK"
-msgstr "Kembali"
+msgstr "Atzera"
 
 msgid "IDS_BT_BODY_NORMAL"
-msgstr "Normal"
+msgstr "Arrunta"
 
 msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Pisahkan"
+msgstr "Desparekatu"
 
 msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Memori penuh"
+msgstr "Memoria beteta"
 

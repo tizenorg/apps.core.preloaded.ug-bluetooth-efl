@@ -1,383 +1,383 @@
 msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Wird deaktiviert..."
+msgstr "Ag díghníomhachtú..."
 
 msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Vorgang fehlgeschlagen"
+msgstr "Theip ar oibríocht"
 
 msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Suche angehalten"
+msgstr "Cuardach stadta"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "%s erlauben, Ihre Datei zu löschen?"
+msgstr "Ceadaigh do %s do chomhad a scriosadh?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "%s erlauben, Ihre Datei abzurufen?"
+msgstr "Ceadaigh %s do chomhad a fháil?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "%s erlauben, eine Datei hinzuzufügen?"
+msgstr "Ceadaigh do %s comhad a chur isteach?"
 
 msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Immer ein"
+msgstr "Ar siúl i gcónaí"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kontakt bereits vorhanden"
+msgstr "Tá an teagmhálaí ann cheana"
 
 msgid "IDS_BT_BODY_HEADSET"
-msgstr "Headset"
+msgstr "Gléas cinn"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
-msgstr "Name des eigenen Telefons"
+msgstr "Ainm m'fhóin"
 
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
-msgstr "Sichtbarkeit des Geräts"
+msgstr "Infheictheacht m'fhóin"
 
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
-msgstr "Keine weiteren Verbindungen möglich"
+msgstr "No more connections possible"
 
 msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Gekoppelte Geräte"
+msgstr "Gléasanna péireáilte"
 
 msgid "IDS_BT_BODY_PRINTER"
-msgstr "Drucker"
+msgstr "Printéir"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Papiergröße"
+msgstr "Méid an pháipéir"
 
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Empfangen"
+msgstr "Faighte"
 
 msgid "IDS_BT_BODY_SERVICES"
-msgstr "Bluetooth-Dienste"
+msgstr "Seirbhísí Bluetooth"
 
 msgid "IDS_BT_BODY_TYPE"
-msgstr "Typ"
+msgstr "Cineál"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Datei oder Verzeichnis kann nicht gelöscht werden"
+msgstr "Ní féidir comhad nó eolaí a scriosadh"
 
 msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Datei kann nicht gespeichert werden"
+msgstr "Ní féidir an comhad a shábháil"
 
 msgid "IDS_BT_BODY_UPDATING_ING"
-msgstr "Aktualisierung..."
+msgstr "Ag nuashonrú..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
-msgstr "Bluetooth-Geräte"
+msgstr "Gléasanna Bluetooth"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
-msgstr "PIN eingeben"
+msgstr "Iontráil PIN"
 
 msgid "IDS_BT_HEADER_NEW_DEVICE"
-msgstr "Neues Gerät"
+msgstr "Gléas nua"
 
 msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Druckvorgang läuft..."
+msgstr "Ag priontáil"
 
 msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Stereo verbinden"
+msgstr "Ceangail steirió"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "PC"
 
 msgid "IDS_BT_OPT_PRINT"
-msgstr "Drucken"
+msgstr "Priontáil"
 
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
-msgstr "Suchoptionen"
+msgstr "Roghanna cuardaigh"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
-msgstr "%s erlauben, Verbindung herzustellen?"
+msgstr "Ceadaigh do %s ceangail?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
-msgstr "%s gestatten, Ordner %s zu erstellen?"
+msgstr "Ceadaigh do %s fillteán %s a chruthú?"
 
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
-msgstr "Bluetooth-Fehler. Erneut versuchen?"
+msgstr "Earráid Bluetooth. Triail arís?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
-msgstr "Bluetooth-Zeitüberschreitung. Erneut versuchen?"
+msgstr "Am istigh do Bluetooth. Triail eile?"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Bestätigen, dass Passkey %s ist und mit %s gekoppelt wird"
+msgstr "Deimhnigh paseochair %s le péireáil le %s"
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
-msgstr "Verbindung fehlgeschlagen.\nErneut versuchen?"
+msgstr "Ní féidir nascadh.\nTriail arís?"
 
 msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Herunterladen fehlgeschlagen"
+msgstr "Theip ar íoslódáil"
 
 msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Namen eingeben"
+msgstr "Ainm folamh"
 
 msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "Verbindung zu FTP hergestellt"
+msgstr "FTP nasctha"
 
 msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "Verbindung zu FTP getrennt"
+msgstr "FTP dínasctha"
 
 msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Falsche PIN. Bitte versuchen Sie es erneut"
+msgstr "PIN mícheart. Triail arís"
 
 msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d Dateien empfangen"
+msgstr "Fuarthas %d comhad"
 
 msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Sendevorgang abgebrochen"
+msgstr "Seoladh curtha ar ceal"
 
 msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Senden nicht möglich"
+msgstr "Ní féidir seoladh"
 
 msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Serielle Verbindung mit %s aufbauen?"
+msgstr "Nasc srathach le %s?"
 
 msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Datei empfangen"
+msgstr "Comhad faighte"
 
 msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Dienstliste kann nicht abgerufen werden"
+msgstr "Ní féidir liosta seirbhíse a fháil"
 
 msgid "IDS_BT_SK_CONNECT"
-msgstr "Verbinden"
+msgstr "Nasc"
 
 msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Trennen"
+msgstr "Dínasc"
 
 msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth aktiviert"
+msgstr "Bluetooth curtha i ngníomh"
 
 msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth ist momentan\nausgeschaltet.\nEinschalten?"
+msgstr "Tá Bluetooth casta as faoi láthair.\nCas air?"
 
 msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetooth wird aktiviert..."
+msgstr "Bluetooth á chur i ngníomh..."
 
 msgid "IDS_BT_POP_DEACTIVATED"
-msgstr "Bluetooth deaktiviert"
+msgstr "Bluetooth díghníomhachtaithe"
 
 msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Suche läuft..."
+msgstr "Ag cuardach..."
 
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Verbunden"
+msgstr "Nasctha"
 
 msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Keine Geräte"
+msgstr "Níl gléasanna ann"
 
 msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Gerätename"
+msgstr "Ainm an ghléis"
 
 msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Suche... %d Geräte gefunden"
+msgstr "Ag cuardach... %d gléas aimsithe"
 
 msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Dienstliste wird abgerufen..."
+msgstr "Liosta seirbhísí á fháil..."
 
 msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
-msgstr "Mit Bluetooth-Gerät verbinden"
+msgstr "Nasc le gléas Bluetooth"
 
 msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "%s von %s empfangen?"
+msgstr "Faigh %s ó %s?"
 
 msgid "IDS_BT_POP_SELECTED"
-msgstr "Ausgewählt"
+msgstr "Roghnaithe"
 
 msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Gerät auswählen"
+msgstr "Roghnaigh gléas"
 
 msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s ist bereits vorhanden. Überschreiben?"
+msgstr "Tá %s ann cheana. Forscríobh?"
 
 msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Bluetooth kann nicht aktiviert werden, wenn der Offline-Modus eingeschaltet ist."
+msgstr "Ní féidir Bluetooth a chur i ngníomh agus mód Eitilte ar siúl"
 
 msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Datei nicht vorhanden"
+msgstr "Níl an comhad ann"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Mit Telefon und Medienaudio verbunden"
+msgstr "Nasctha le fuaim fóin agus meán"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
-msgstr "Verbindung mit Telefonaudio"
+msgstr "Nasctha le fuaim fóin"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
-msgstr "Verbunden mit Medienaudio"
+msgstr "Nasctha le fuaim meán"
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Mit HID-Gerät verbunden"
+msgstr "Nasctha le gléas HID"
 
 msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Scannen..."
+msgstr "Ag scanadh..."
 
 msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Bluetooth wird eingeschaltet..."
+msgstr "Bluetooth á chasadh air..."
 
 msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetooth wird ausgeschaltet..."
+msgstr "Bluetooth á chasadh as..."
 
 msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Das Remote-Bluetooth-Headset ermöglicht ein-/ausgehende Anrufe."
+msgstr "Úsáidtear é chun glaonna isteach agus amach a dhéanamh trí ghléasanna cinn Bluetooth"
 
 msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Freisprechen"
+msgstr "Lámhshaor"
 
 msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Die Remote-Bluetooth-Freisprechvorrichtung ermöglicht ein-/ausgehende Anrufe."
+msgstr "Úsáidtear é chun glaonna isteach agus amach a dhéanamh trí chit cairr Bluetooth"
 
 msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo-Headset"
+msgstr "Gléas cinn steirió"
 
 msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Das Bluetooth-Stereo-Headset erlaubt Ihnen Musik zu hören"
+msgstr "Úsáidtear é chun glaonna a chur agus éisteacht le ceol trí ghléasanna cinn steirió Bluetooth"
 
 msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Dateiübertragung"
+msgstr "Aistriú comhaid"
 
 msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Das Remote-Bluetooth-Gerät ermöglicht die Übertragung von Dateien zwischen Ihrem Gerät und einem anderen Bluetooth-Gerät."
+msgstr "Úsáidtear é chun comhaid a aistriú go ghléasanna Bluetooth agus uathu"
 
 msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Objekt übertragen"
+msgstr "Brúoibiacht"
 
 msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Wird verwendet, um persönliche Daten (Visitenkarten, Telefonbucheinträge, ect.) mit Bluetooth-Geräten auszutauschen"
+msgstr "Úsáidtear é chun sonraí pearsanta a mhalartú (ainmchárta, teagmhálaithe Leabhar Fóin, srl.) le gléasanna Bluetooth"
 
 msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Standarddruck"
+msgstr "Priontáil bhunúsach"
 
 msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Der Remote-Bluetooth-Drucker erlaubt Ihnen Bilder, Text, Nachrichten und Persönliche Daten zu drucken (z.B. Vistenkarten und Kalendereinträge)"
+msgstr "Úsáidtear é chun íomhánna, teachtaireachtaí téacs, sonraí pearsanta mar ainmchártaí agus coinní, srl. a phriontáil le cianphrintéirí Bluetooth"
 
 msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Einwählverbindung"
+msgstr "Líonrú diailithe"
 
 msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Das Remote-Bluetooth-Gerät ermöglicht Internetzugriff über ein Telefonmodem."
+msgstr "Úsáidtear é chun rochtain Idirlín a sholáthar ar ghléasanna Bluetooth trí mhóideim an fhóin"
 
 msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Serieller Anschluss"
+msgstr "Port srathach"
 
 msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID-Gerät"
+msgstr "Gléas HID"
 
 msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (Tastatur, Maus usw.)"
+msgstr "Gléas Ionchuir Daonna (eochairchlár, luch srl.)"
 
 msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Empfangen..."
+msgstr "Ag fáil..."
 
 msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Freigabe..."
+msgstr "Ag comhroinnt..."
 
 msgid "IDS_BT_SK_SCAN"
-msgstr "Suchen"
+msgstr "Scan"
 
 msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Dies wird zur Verbindung mit anderen Bluetooth-Geräten über einen virtuellen seriellen Anschluss verwendet."
+msgstr "Úsáidtear é seo le nascadh le gléasanna eile Bluetooth le port srathrach fíorúil"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Druckqualität"
+msgstr "Cáilíocht phriontála"
 
 msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Passkeys auf %s vergleichen?"
+msgstr "Meaitseáil paseochracha ar %s?"
 
 msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Fehler bei der Verbindung mit dem Headset. Das andere Gerät hat die Verbindung abgelehnt."
+msgstr "Theip ar an ngléas cinn a cheangal. Dhiúltaigh an gléas eile don nasc"
 
 msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Verbindung fehlgeschlagen"
+msgstr "Theip ar nascadh"
 
 msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Sichtbar"
+msgstr "Infheicthe"
 
 msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 Minuten"
+msgstr "2 nóiméad"
 
 msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Entkoppeln"
+msgstr "Díphéireáil"
 
 msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Verbindungsoptionen"
+msgstr "Roghanna nasctha"
 
 msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Anruffunktion"
+msgstr "Fuaim glao"
 
 msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Medienwiedergabe"
+msgstr "Fuaim meán"
 
 msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth verfügbar."
+msgstr "Tá Bluetooth ar fáil"
 
 msgid "IDS_BT_POP_DISCONNECT"
-msgstr "Trennen?"
+msgstr "Dínasc?"
 
 msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Verfügbare Geräte"
+msgstr "Gléasanna atá ar fáil"
 
 msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 Minuten"
+msgstr "5 nóiméad"
 
 msgid "IDS_BT_BODY_1_HOUR"
-msgstr "1 Stunde"
+msgstr "1 uair an chloig"
 
 msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Verbindung wird getrennt..."
+msgstr "Ag dínascadh..."
 
 msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s verbleibend"
+msgstr "%s fágtha"
 
 msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Zum Verbinden tippen"
+msgstr "Tapáil chun nascadh"
 
 msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Verbindung trennen"
+msgstr "Tapáil le dínascadh"
 
 msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Damit wird die Verbindung beendet"
+msgstr "Scoirfidh seo do nasc le"
 
 msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Eingabegerät"
+msgstr "Gléas ionchuir"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Sicherheitsrichtlinie schränkt die Verwendung der Bluetooth-Verbindung ein."
+msgstr "Cuireann an beartas slándála srian ar úsáid nasc Bluetooth"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Sicherheitsrichtlinie schränkt die Verwendung der Bluetooth-Verbindung auf Freisprechfunktionen ein."
+msgstr "Cuireann an beartas slándála srian ar nasc Bluetooth a úsáid ach do ghnéithe lámhshaora amháin"
 
 msgid "IDS_BT_BODY_DETAILS"
-msgstr "Details"
+msgstr "Sonraí"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
-msgstr "Suchoptionen"
+msgstr "Roghanna cuardaigh"
 
 msgid "IDS_BT_BODY_ALL_DEVICES"
-msgstr "Alle Geräte"
+msgstr "Gach gléas"
 
 msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Objekt mit %s austauschen?"
+msgstr "Malartaigh oibiacht le %s?"
 
 msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Zum Koppeln %1$s auf %2$s eingeben, anschließend auf “Enter” oder “Return” tippen."
+msgstr "Iontráil %1$s ar %2$s le péireáil, ansin tapáil Fill nó Iontráil"
 
 msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Kein Bluetooth-Gerät gefunden"
+msgstr "Níor aimsíodh gléas Bluetooth"
 
 msgid "IDS_BT_BODY_PAIRED"
-msgstr "Gekoppelt"
+msgstr "Péireáilte"
 
 msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Dienste werden gesucht..."
+msgstr "Seirbhísí á gcuardach..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth-Kopplungsanforderung"
+msgstr "Iarratas péireála Bluetooth"
 
 msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "PIN eingeben, um mit %s zu koppeln (Versuchen Sie 0000 oder 1234)"
+msgstr "Iontráil PIN le péireáil le %s (Triail 0000 nó 1234)"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Bestätigen, dass Passkey %2$s ist und mit %1$s gekoppelt wird"
+msgstr "Deimhnigh gurb í %2$s an phaseochair le péireáil le %1$s"
 
 msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Passwort anzeigen"
+msgstr "Taispeáin pasfhocal"
 
 msgid "IDS_BT_HEADER_BLUETOOTH"
 msgstr "Bluetooth"
@@ -386,29 +386,29 @@ msgid "IDS_BT_BODY_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_BT_BODY_OFF"
-msgstr "Aus"
+msgstr "As"
 
 msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d Minuten"
+msgstr "%d nóiméad"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
-msgstr "Bluetooth-Geräte"
+msgstr "Gléasanna Bluetooth"
 
 msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Verbindung wird hergestellt..."
+msgstr "Ag nascadh..."
 
 msgid "IDS_BT_SK_STOP"
-msgstr "Stopp"
+msgstr "Stop"
 
 msgid "IDS_BT_SK_BACK"
-msgstr "Zurück"
+msgstr "Siar"
 
 msgid "IDS_BT_BODY_NORMAL"
-msgstr "Normal"
+msgstr "Normálta"
 
 msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Entkoppeln"
+msgstr "Díphéireáil"
 
 msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Speicher voll"
+msgstr "Cuimhne lán"
 

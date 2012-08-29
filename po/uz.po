@@ -1,383 +1,383 @@
 msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Menyahaktifkan…"
+msgstr "O‘chirilmoqda..."
 
 msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Operasi gagal"
+msgstr "Operatsiya bajarilmadi"
 
 msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Pencarian dihentikan"
+msgstr "Qidiruv to‘xtatildi"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Benarkan %s untuk memadam fail anda?"
+msgstr "%sga faylingizni o'chirish uchun ruxsat berilsinmi?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Benarkan %s untuk mendapatkan fail anda?"
+msgstr "%sga faylingizni olish uchun ruxsat berilsinmi?"
 
 msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Benarkan %s untuk meletak masuk fail?"
+msgstr "%sga fayl qo‘yish uchun ruxsat berilsinmi?"
 
 msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Sentiasa hidup"
+msgstr "Har doim yoqilgan holda"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kenalan telah wujud"
+msgstr "Kontakt avvaldan mavjud"
 
 msgid "IDS_BT_BODY_HEADSET"
-msgstr "Set kepala"
+msgstr "Quloqlik"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
-msgstr "Nama telefon saya"
+msgstr "Mening telefonim nomi"
 
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
-msgstr "Penglihatan telefon saya"
+msgstr "Mening telefonim ko‘rinish imkoniyati"
 
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
-msgstr "No more connections possible"
+msgstr "Boshqa ulanishlarga ruxsat berilmaydi"
 
 msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Peranti yang berpasangan"
+msgstr "Bog‘langan qurilmalar"
 
 msgid "IDS_BT_BODY_PRINTER"
-msgstr "Pencetak"
+msgstr "Printer"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Saiz kertas"
+msgstr "Qog‘oz o‘lchami"
 
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Diterima"
+msgstr "Qabul qilindi"
 
 msgid "IDS_BT_BODY_SERVICES"
-msgstr "Perkhidmatan Bluetooth"
+msgstr "Bluetooth xizmatlari"
 
 msgid "IDS_BT_BODY_TYPE"
-msgstr "Jenis"
+msgstr "Tur"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Tidak boleh memadam fail atau direktori"
+msgstr "Fayl yoki katalogni o'chirib bo‘lmaydi"
 
 msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Tidak boleh menyimpan fail"
+msgstr "Faylni saqlab bo‘lmaydi"
 
 msgid "IDS_BT_BODY_UPDATING_ING"
-msgstr "Mengemaskini…"
+msgstr "Yangilanmoqda..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
-msgstr "Peranti Bluetooth"
+msgstr "Bluetooth qurilmalari"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
-msgstr "Masukkan PIN"
+msgstr "PIN-kod kiriting"
 
 msgid "IDS_BT_HEADER_NEW_DEVICE"
-msgstr "Peranti baru"
+msgstr "Yangi qurilma"
 
 msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Mencetak"
+msgstr "Chop etilmoqda"
 
 msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Sambung stereo"
+msgstr "Bluetooth stereo quloqliklarni ulang"
 
 msgid "IDS_BT_OPT_PC"
-msgstr "PC"
+msgstr "SHK"
 
 msgid "IDS_BT_OPT_PRINT"
-msgstr "Cetak"
+msgstr "Chop etish"
 
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
-msgstr "Pilihan carian"
+msgstr "Qidirish variantlari"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
-msgstr "Benarkan %s menyambung?"
+msgstr "%sga ulanish ruxsati berilsinmi?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
-msgstr "Benarkan %s untuk mencipta pelipat %s?"
+msgstr "%sga %s jildini yaratish uchun ruxsat berilsinmi?"
 
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
-msgstr "Ralat Bluetooth. Cuba lagi?"
+msgstr "Bluetooth xatosi. Qayta urinib ko‘rmoqchimisiz?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
-msgstr "Bluetooth tamat masa. Cuba lagi?"
+msgstr "Bluetooth taymauti. Qayta urinib ko‘rmoqchimisiz?"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Sahkan kunci laluan adalah %s untuk dipasangkan dengan %s"
+msgstr "%s - bu tasdiqlash kirish kaliti, %s bilan bog‘lanish uchun"
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
-msgstr "Tdk dpt menyambung.\nCuba lagi?"
+msgstr "Ulanib bo‘lmaydi.\nQayta urinib ko‘rmoqchimisiz?"
 
 msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Muat turun gagal"
+msgstr "Yuklab olish bajarilmadi"
 
 msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Nama kosong"
+msgstr "Nom bo‘sh"
 
 msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP disambung"
+msgstr "FTP ulandi"
 
 msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP tidak disambung"
+msgstr "FTP uzildi"
 
 msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "PIN salah. Cuba lagi?"
+msgstr "Noto‘g‘ri PIN. Qayta urinib ko‘rmoqchimisiz?"
 
 msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d fail diterima"
+msgstr "%d fayl qabul qilindi"
 
 msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Penghantaran dibatalkan"
+msgstr "Yuborish bekor qilindi"
 
 msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Tidak boleh menghantar"
+msgstr "Yuborib bo‘lmaydi"
 
 msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Sambung bersiri dengan %s?"
+msgstr "%s bilan tadrijiy ulanilsinmi?"
 
 msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Fail diterima"
+msgstr "Fayl qabul qilindi"
 
 msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Tidak dapat mendapatkan senarai perkhidmatan"
+msgstr "Xizmatlar ro‘yxatini olib bo‘lmaydi"
 
 msgid "IDS_BT_SK_CONNECT"
-msgstr "Sambung"
+msgstr "Ulanish"
 
 msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Ptus.smbgn"
+msgstr "Uzish"
 
 msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth diaktifkan"
+msgstr "Bluetooth faollashtirildi"
 
 msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth adalah dimatikan.\nHidupkan?"
+msgstr "Hozirda Bluetooth o‘chirilgan.\nYoqilsinmi?"
 
 msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Mengaktifkan Bluetooth..."
+msgstr "Bluetooth faollashtirilmoqda..."
 
 msgid "IDS_BT_POP_DEACTIVATED"
-msgstr "Bluetooth dinyahaktifkan"
+msgstr "Bluetooth o‘chirildi"
 
 msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Mencari…"
+msgstr "Qidirilmoqda..."
 
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Disambungkan"
+msgstr "Ulangan"
 
 msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Tiada peranti"
+msgstr "Qurilmalar yo‘q"
 
 msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Nama peranti"
+msgstr "Qurilma nomi"
 
 msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Mencari... %d peranti dperkaraui"
+msgstr "Qidirilmoqda... %d qurilmalar topildi"
 
 msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Mendptkan senarai perkhidmatan..."
+msgstr "Xizmatlar ro‘yxati olinmoqda..."
 
 msgid "IDS_BT_BODY_CONNECT_TO_BLUETOOTH_DEVICE"
-msgstr "Sambung ke peranti Bluetooth"
+msgstr "Bluetooth qurilmasiga ulanish"
 
 msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Terima %s daripada %s?"
+msgstr "%s %sdan qabul qilinsinmi?"
 
 msgid "IDS_BT_POP_SELECTED"
-msgstr "Pilih"
+msgstr "Tanlangan"
 
 msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Pilih peranti"
+msgstr "Qurilma tanlang"
 
 msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s sudah wujud. Tulis ganti?"
+msgstr "%s avvaldan mavjud. Qayta yozilsinmi?"
 
 msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Tidak boleh mengaktifkan Bluetooth apabila mod Penerbangan dihidupkan"
+msgstr "Uchush rejimi yoqilgan vaqtda Bluetoothni faollashtirib bo‘lmaydi"
 
 msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Fail tidak wujud"
+msgstr "Fayl mavjud emas"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Disambungkan ke telefon dan audio media"
+msgstr "Telefon va media audioga ulangan"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AUDIO"
-msgstr "Disambungkan ke audio telefon"
+msgstr "Telefon audiosiga ulangan"
 
 msgid "IDS_BT_BODY_CONNECTED_TO_MEDIA_AUDIO"
-msgstr "Disambungkan ke audio media"
+msgstr "Media audioga ulangan"
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Disambung ke peranti HID"
+msgstr "HID qurilmaga ulandi"
 
 msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Mengimbas…"
+msgstr "Ko'rib chiqilmoqda…"
 
 msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Menghidupkan Bluetooth..."
+msgstr "Bluetoothni yoqish..."
 
 msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Mematikan Bluetooth…"
+msgstr "Bluetoothni o‘chirish..."
 
 msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Digunakan utk membuat panggilan masuk dan panggilan keluar melalui set kepala Bluetooth"
+msgstr "Kiruvchi va chiquvchi qo‘ng‘roqlar Bluetooth quloqliklari orqali amalga oshirilgan"
 
 msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Bebas tangan"
+msgstr "Dinamik"
 
 msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Digunakan utk membuat panggilan masuk dan panggilan keluar melalui kit kereta Bluetooth"
+msgstr "Kiruvchi va chiquvchi qo‘ng‘roqlar Bluetooth mashina vositalari orqali amalga oshirilgan"
 
 msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Set kepala stereo"
+msgstr "Stereo quloqliklar"
 
 msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Digunakan utk membuat panggilan dan mendengar muzik melalui set kepala stereo Bluetooth"
+msgstr "Bluetooth stereo quloqliklari orqali qo‘ng‘iroqlar amalga oshirish va musiqa tinglash uchun ishlatiladi"
 
 msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Pemindahan fail"
+msgstr "Faylni uzatish"
 
 msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Digunakan utk memindah fail ke dan dari alatan Bluetooth"
+msgstr "Fayllarni Bluetooth qurilmalaridan va qurilmalariga uzatilgan"
 
 msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Objek ditolak"
+msgstr "Obyekt tanlash"
 
 msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Digunakan utk menukar data peribadi (kad nama, kenalan buku telefon, dll.) dgn peranti Bluetooth"
+msgstr "Bluetooth qurilmalari bilan shaxsiy ma’lumotlarni (tashrif kartalari, telefon kitobi kontaktlari va boshqalar) almashish uchun ishlatiladi"
 
 msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Pencetakan asas"
+msgstr "Asosiy rasm"
 
 msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Digunakan utk mencetak imej, mesej teks, data peribadi seperti kad nama dan janji temu, cth. melalui pencetak Bluetooth jauh"
+msgstr "Tasvirlarni, matnli xabarlarni, tashrif kartalari va uchrashuvlar kabi shaxsiy ma’lumotlar va boshqalarni masofaviy Bluetooth printerlari orqali chop etish uchun ishlatilgan"
 
 msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Perangkaian dail"
+msgstr "Telefon orqali ulanadigan tarmoq"
 
 msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Digunakan utk membekalkan capaian Internet utk peranti Bluetooth melalui modem telefon"
+msgstr "Bluetooth qurilmalariga telefon modemi orqali internetga kirish uchun ishlatiladi"
 
 msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Port bersiri"
+msgstr "Tadrijiy port"
 
 msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "Peranti HID"
+msgstr "HID qurilma"
 
 msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (papan kekunci, tetikus, etc.)"
+msgstr "HID (klaviatura, sichqoncha va boshq.)"
 
 msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Menerima…"
+msgstr "Qabul qilinmoqda..."
 
 msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Berkongsi..."
+msgstr "Ulashish..."
 
 msgid "IDS_BT_SK_SCAN"
-msgstr "Imbas"
+msgstr "Qidirish"
 
 msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Ia digunakan untuk menyambung ke peranti Bluetooth lain melalui satu port bersiri maya"
+msgstr "Bu virtual tadrijiy port orqali boshqa Bluetooth qurilmalariga ulanish uchun ishlatiladi"
 
 msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Kualiti cetak"
+msgstr "Chop etish sifati"
 
 msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Padankan kekunci laluan pada %s?"
+msgstr "%s kalitlar mos keldimi?"
 
 msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Gagal menyambungkan set kepala. Peranti lain menolak sambungan"
+msgstr "Quloqlikni ulab bo‘lmadi. Boshqa qurilma ulanishni rad etdi"
 
 msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Sambungan gagal"
+msgstr "Ulanib bo‘lmadi"
 
 msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Keterlihatan"
+msgstr "Ko‘rinadigan"
 
 msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 minit"
+msgstr "2 daqiqa"
 
 msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Nyahpasangan"
+msgstr "Bog‘lanishni uzish"
 
 msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Pilihan sambungan"
+msgstr "Ulanish opsiyalari"
 
 msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Panggil audio"
+msgstr "audio qo'ng'iroq"
 
 msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Audio media"
+msgstr "Media audio"
 
 msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth tersedia"
+msgstr "Bluetooth mavjud"
 
 msgid "IDS_BT_POP_DISCONNECT"
-msgstr "Putuskan sambungan?"
+msgstr "Uzilsinmi?"
 
 msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Peranti tersedia"
+msgstr "Mavjud qurilmalar"
 
 msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 minit"
+msgstr "5 daqiqa"
 
 msgid "IDS_BT_BODY_1_HOUR"
-msgstr "1 jam"
+msgstr "1 soat"
 
 msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Memutus…"
+msgstr "Uzilmoqda..."
 
 msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s yang tinggal"
+msgstr "%s qoldi"
 
 msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Ketik utk bersambung"
+msgstr "Ulanish uchun cherting"
 
 msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Tekan untuk putus sambungan"
+msgstr "Uzilish uchun cherting"
 
 msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Ini akan menamatkan sambungan anda dengan"
+msgstr "Bu Sizning quyidagi bilan ulanishingizni yakunlaydi"
 
 msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Peranti input"
+msgstr "Kiritish qurilmasi"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Polisi keselamatan mengehadkan penggunaan sambungan Bluetooth"
+msgstr "Xavfsizlik siyosati Bluetoothdan foydalanishni taqiqlaydi"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Dasar keselamatan menyekat penggunaan sambungan Bluetooth kepada ciri bebas tangan sahaja"
+msgstr "Xavfsizlik siyosati Bluetooth ulanishidan faqat avtomatik xususiyatlarga foydalanishni taqiqlaydi"
 
 msgid "IDS_BT_BODY_DETAILS"
-msgstr "Butiran"
+msgstr "Tafsilotlar"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
-msgstr "Pilihan carian"
+msgstr "Qidirish variantlari"
 
 msgid "IDS_BT_BODY_ALL_DEVICES"
-msgstr "Semua peranti"
+msgstr "Hamma qurilmalar"
 
 msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Objek Exchange dengan %s?"
+msgstr "Obyekt %s bilan almashtirilsinmi?"
 
 msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Masukkan %1$s pada %2$s untuk memasangkan, kemudian ketik Kembali atau Masuk"
+msgstr "Enter %1$s on %2$s to pair, then tap Return or Enter"
 
 msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Tiada peranti Bluetooth ditemui"
+msgstr "Bluetooth qurilmasi topilmadi"
 
 msgid "IDS_BT_BODY_PAIRED"
-msgstr "Diperpasangkan"
+msgstr "Bog‘langan"
 
 msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Mencari perkhidmatan..."
+msgstr "Xizmatlar qidirilmoqda..."
 
 msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Permintaan berpasangan Bluetooth"
+msgstr "Bluetooth bog‘lanish so‘rovi"
 
 msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Masukkan PIN untuk memasangkan dengan %s (Cuba 0000 atau 1234)"
+msgstr "%s bilan juftlash uchun PIN-kodni kiriting (0000 yoki 1234 kiritib ko‘ring)"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Sahkan kunci laluan adalah %2$s untuk memasangkan dengan %1$s"
+msgstr "%2$s- bu tasdiqlash kirish kaliti, %1$s bilan bog‘lanish uchun"
 
 msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Tunjukkan kata laluan"
+msgstr "Parol ko‘rsatilsin"
 
 msgid "IDS_BT_HEADER_BLUETOOTH"
 msgstr "Bluetooth"
@@ -386,29 +386,29 @@ msgid "IDS_BT_BODY_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_BT_BODY_OFF"
-msgstr "Matikan"
+msgstr "O‘ch."
 
 msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d minit"
+msgstr "%d daqiqa"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
-msgstr "Peranti Bluetooth"
+msgstr "Bluetooth qurilmalari"
 
 msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Menyambung.."
+msgstr "Ulanmoqda..."
 
 msgid "IDS_BT_SK_STOP"
-msgstr "Henti"
+msgstr "To‘xtatish"
 
 msgid "IDS_BT_SK_BACK"
-msgstr "Kembali"
+msgstr "Orqaga"
 
 msgid "IDS_BT_BODY_NORMAL"
-msgstr "Biasa"
+msgstr "Normal"
 
 msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Nyahpasangan"
+msgstr "Bog‘lan. uzish"
 
 msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Memori penuh"
+msgstr "Xotira to‘la"
 

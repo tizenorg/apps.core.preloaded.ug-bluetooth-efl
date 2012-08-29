@@ -1,3 +1,11 @@
+ug-setting-bluetooth-efl (0.2.112) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.112
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 29 Aug 2012 18:24:03 +0900
+
 ug-setting-bluetooth-efl (0.2.111) unstable; urgency=low
 
   * Upload the package
