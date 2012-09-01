@@ -97,10 +97,23 @@ static void __bt_cb_enable(int result, void *data)
 	}
 
 	if (timeout == BT_ALWAYS_ON) {
-		ugd->visible = TRUE;
-		ugd->remain_time = 0;
-		ugd->visibility_timeout = timeout;
-		ugd->selected_radio = _bt_util_get_timeout_index(timeout);
+		if (bt_adapter_set_visibility(
+			BT_ADAPTER_VISIBILITY_MODE_GENERAL_DISCOVERABLE,
+			timeout) ==  BT_ERROR_NONE) {
+
+			ugd->visible = TRUE;
+			ugd->remain_time = 0;
+			ugd->visibility_timeout = timeout;
+			ugd->selected_radio = _bt_util_get_timeout_index(timeout);
+		} else {
+			if (vconf_set_int(BT_VCONF_VISIBLE_TIME, 0) != 0)
+				DBG("Set vconf failed\n");
+
+			ugd->visible = FALSE;
+			ugd->remain_time = 0;
+			ugd->visibility_timeout = BT_ZERO;
+			ugd->selected_radio = _bt_util_get_timeout_index(BT_ZERO);
+		}
 	}
 
 	elm_object_item_disabled_set(ugd->visible_item, EINA_FALSE);
@@ -160,6 +173,7 @@ static void __bt_cb_disable(int result, void *data)
 		ugd->remain_time = 0;
 		ugd->selected_radio = 0;
 
+		elm_toolbar_item_icon_set(ugd->scan_item, BT_ICON_CONTROLBAR_SCAN);
 		elm_genlist_item_update(ugd->visible_item);
 		elm_genlist_item_subitems_clear(ugd->visible_item);
 		elm_object_item_disabled_set(ugd->visible_item, EINA_TRUE);
