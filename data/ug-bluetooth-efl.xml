@@ -7,11 +7,11 @@
 		<label>Bluetooth</label>
 		<icon>org.tizen.bt-syspopup.png</icon>
 		<application-service>
-			<operation name="http://tizen.org/appsvc/operation/send"/>
+			<operation name="http://tizen.org/appcontrol/operation/send"/>
 			<mime name="*/*"/>
 		</application-service>
 		<application-service>
-			<operation name="http://tizen.org/appsvc/operation/pick"/>
+			<operation name="http://tizen.org/appcontrol/operation/pick"/>
 		</application-service>
 	</ui-application>
 </manifest>
