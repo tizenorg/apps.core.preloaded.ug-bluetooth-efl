@@ -1234,6 +1234,11 @@ static void __bt_main_paired_item_sel_cb(void *data, Evas_Object *obj,
 							dev->name,
 							BT_STR_DISCONNECT_Q);
 
+			if (ugd->popup) {
+				evas_object_del(ugd->popup);
+				ugd->popup = NULL;
+			}
+
 			popup = _bt_create_popup(ugd->win_main, BT_STR_INFORMATION,
 					msg,
 					_bt_main_popup_del_cb, ugd, 0);

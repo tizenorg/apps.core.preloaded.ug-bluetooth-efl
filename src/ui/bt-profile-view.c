@@ -748,6 +748,11 @@ static void __bt_profile_call_option_item_sel(void *data, Evas_Object *obj,
 						dev->name,
 						BT_STR_DISCONNECT_Q);
 
+		if (ugd->popup) {
+			evas_object_del(ugd->popup);
+			ugd->popup = NULL;
+		}
+
 		popup = _bt_create_popup(ugd->win_main, BT_STR_INFORMATION,
 				msg,
 				_bt_main_popup_del_cb, ugd, 0);
@@ -835,6 +840,11 @@ static void __bt_profile_media_option_item_sel(void *data, Evas_Object *obj,
 						dev->name,
 						BT_STR_DISCONNECT_Q);
 
+		if (ugd->popup) {
+			evas_object_del(ugd->popup);
+			ugd->popup = NULL;
+		}
+
 		popup = _bt_create_popup(ugd->win_main, BT_STR_INFORMATION,
 				msg,
 				_bt_main_popup_del_cb, ugd, 0);
@@ -916,11 +926,15 @@ static void __bt_profile_hid_option_item_sel(void *data, Evas_Object *obj,
 
 	ugd = dev->ugd;
 
-	if (dev->hid_checked == TRUE) {
+	if (dev->hid_checked) {
 		/* connected case */
 		snprintf(msg, sizeof(msg), "%s %s<br>%s", BT_STR_END_CONNECTION,
 						dev->name,
 						BT_STR_DISCONNECT_Q);
+		if (ugd->popup) {
+			evas_object_del(ugd->popup);
+			ugd->popup = NULL;
+		}
 
 		popup = _bt_create_popup(ugd->win_main, BT_STR_INFORMATION,
 				msg,

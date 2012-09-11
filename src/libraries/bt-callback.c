@@ -567,6 +567,11 @@ void _bt_cb_service_searched(int result, bt_device_sdp_info_s *sdp_info,
 		BT_DBG("Failed to get the service list [%d]", result);
 
 		if (ugd->waiting_service_response == TRUE) {
+			if (ugd->popup) {
+				evas_object_del(ugd->popup);
+				ugd->popup = NULL;
+			}
+
 			ugd->popup =
 			    _bt_create_popup(ugd->win_main, BT_STR_ERROR,
 					BT_STR_UNABLE_TO_GET_THE_SERVICE_LIST,
