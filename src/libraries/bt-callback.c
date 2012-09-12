@@ -116,6 +116,8 @@ static void __bt_cb_enable(int result, void *data)
 		}
 	}
 
+	_bt_util_set_phone_name();
+
 	elm_object_item_disabled_set(ugd->visible_item, EINA_FALSE);
 	elm_genlist_item_update(ugd->status_item);
 	elm_genlist_item_update(ugd->visible_item);

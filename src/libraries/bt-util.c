@@ -330,6 +330,20 @@ gboolean _bt_util_store_get_value(const char *key, bt_store_type_t store_type,
 	return TRUE;
 }
 
+void _bt_util_set_phone_name(void)
+{
+	char *phone_name = NULL;
+	char *ptr = NULL;
+
+	phone_name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+	if (phone_name && strlen(phone_name) != 0) {
+                if (!g_utf8_validate(phone_name, -1, (const char **)&ptr))
+                        *ptr = '\0';
+
+		bt_adapter_set_name(phone_name);
+	}
+}
+
 int _bt_util_get_phone_name(char *phone_name, int size)
 {
 	FN_START;

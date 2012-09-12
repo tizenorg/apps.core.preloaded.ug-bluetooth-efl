@@ -58,6 +58,8 @@ void _bt_util_launch_no_event(void *data, void *obj, void *event);
 
 void _bt_util_set_list_disabled(Evas_Object *genlist, Eina_Bool disable);
 
+void _bt_util_set_phone_name(void);
+
 int _bt_util_get_phone_name(char *phone_name, int size);
 
 int _bt_util_get_timeout_string(int timeout, char *buf, int size);
