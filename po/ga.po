@@ -1,0 +1,429 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Ag díghníomhachtú..."
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Ar siúl i gcónaí"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Gléasanna péireáilte"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printéir"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Méid an pháipéir"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Ainm an ghléis"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetooth á chasadh air..."
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Cáilíocht phriontála"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Infheicthe"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Fuaim glao"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Fuaim meán"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 uair an chloig"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d nóiméad"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Gléasanna Bluetooth"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normálta"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Díphéireáil"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Theip ar oibríocht"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Cuardach stadta"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Ceadaigh do %s do chomhad a scriosadh?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Ceadaigh %s do chomhad a fháil?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Ceadaigh do %s comhad a chur isteach?"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Tá an teagmhálaí ann cheana"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Gléas cinn"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Ainm m'fhóin"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Infheictheacht m'fhóin"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Faighte"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Seirbhísí Bluetooth"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Cineál"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Ní féidir comhad nó eolaí a scriosadh"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Ní féidir an comhad a shábháil"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Ag nuashonrú..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Gléasanna Bluetooth"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Iontráil PIN"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Gléas nua"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Ag priontáil"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Ceangail steirió"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Priontáil"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Roghanna cuardaigh"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Ceadaigh do %s ceangail?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Ceadaigh do %s fillteán %s a chruthú?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Earráid Bluetooth. Triail arís?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Am istigh do Bluetooth. Triail eile?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Deimhnigh paseochair %s le péireáil le %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Ní féidir nascadh.\nTriail arís?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Theip ar íoslódáil"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Ainm folamh"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP nasctha"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP dínasctha"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN mícheart. Triail arís"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "Fuarthas %d comhad"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Seoladh curtha ar ceal"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Ní féidir seoladh"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Nasc srathach le %s?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Comhad faighte"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Ní féidir liosta seirbhíse a fháil"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Nasc"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Dínasc"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth curtha i ngníomh"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Tá Bluetooth casta as faoi láthair.\nCas air?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetooth á chur i ngníomh..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Ag cuardach..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Nasctha"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Níl gléasanna ann"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Ag cuardach... %d gléas aimsithe"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Liosta seirbhísí á fháil..."
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Faigh %s ó %s?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Roghnaithe"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Roghnaigh gléas"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "Tá %s ann cheana. Forscríobh?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Ní féidir Bluetooth a chur i ngníomh agus mód Eitilte ar siúl"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Níl an comhad ann"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Nasctha le fuaim fóin agus meán"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Nasctha le gléas HID"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ag scanadh..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Bluetooth á chasadh as..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Úsáidtear é chun glaonna isteach agus amach a dhéanamh trí ghléasanna cinn Bluetooth"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Lámhshaor"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Úsáidtear é chun glaonna isteach agus amach a dhéanamh trí chit cairr Bluetooth"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Gléas cinn steirió"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Úsáidtear é chun glaonna a chur agus éisteacht le ceol trí ghléasanna cinn steirió Bluetooth"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Aistriú comhaid"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Úsáidtear é chun comhaid a aistriú go ghléasanna Bluetooth agus uathu"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Brúoibiacht"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Úsáidtear é chun sonraí pearsanta a mhalartú (ainmchárta, teagmhálaithe Leabhar Fóin, srl.) le gléasanna Bluetooth"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Priontáil bhunúsach"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Úsáidtear é chun íomhánna, teachtaireachtaí téacs, sonraí pearsanta mar ainmchártaí agus coinní, srl. a phriontáil le cianphrintéirí Bluetooth"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Líonrú diailithe"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Úsáidtear é chun rochtain Idirlín a sholáthar ar ghléasanna Bluetooth trí mhóideim an fhóin"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Port srathach"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "Gléas HID"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "Gléas Ionchuir Daonna (eochairchlár, luch srl.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Ag fáil..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Ag comhroinnt..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Scan"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Úsáidtear é seo le nascadh le gléasanna eile Bluetooth le port srathrach fíorúil"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Meaitseáil paseochracha ar %s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Theip ar an ngléas cinn a cheangal. Dhiúltaigh an gléas eile don nasc"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Theip ar nascadh"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 nóiméad"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Díphéireáil"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Roghanna nasctha"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Tá Bluetooth ar fáil"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Dínasc?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Gléasanna atá ar fáil"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 nóiméad"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Ag dínascadh..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s fágtha"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Tapáil chun nascadh"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Tapáil le dínascadh"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Scoirfidh seo do nasc le"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Gléas ionchuir"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Cuireann an beartas slándála srian ar úsáid nasc Bluetooth"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Cuireann an beartas slándála srian ar nasc Bluetooth a úsáid ach do ghnéithe lámhshaora amháin"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Sonraí"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Roghanna cuardaigh"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Gach gléas"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Malartaigh oibiacht le %s?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Iontráil %1$s ar %2$s le péireáil, ansin tapáil Fill nó Iontráil"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Níor aimsíodh gléas Bluetooth"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Péireáilte"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Seirbhísí á gcuardach..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Iarratas péireála Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Iontráil PIN le péireáil le %s (Triail 0000 nó 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Deimhnigh gurb í %2$s an phaseochair le péireáil le %1$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Taispeáin pasfhocal"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "As"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Ag nascadh..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stop"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Siar"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Cuimhne lán"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Roghnóir gléas Bluetooth"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Theip ar sheoladh chuig %s"
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Tá stair aistrithe folamh"
+
+msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
+msgstr "Aistriú isteach"
+
+msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
+msgstr "Aistriú amach"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Glan liosta"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Oir do pháipéar"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Ceadaigh do %s an leabhar fóin a rochtain"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Ceadaigh do %s teachtaireachtaí a rochtain?"
+

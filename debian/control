@@ -1,0 +1,19 @@
+Source: ug-setting-bluetooth-efl
+Section: libs
+Priority: extra
+Maintainer: Hocheol Seo <hocheol.seo@samsung.com>, DoHyun Pyun <dh79.pyun@samsung.com>, Chanyeol Park <chanyeol.park@samsung.com>, Girish A J <girish.joshi@samsung.com>, Byeongho Shim <bh.shim@samsung.com>
+Uploaders: Sunil Behera <sunil.behera@samsung.com>, Syam Sidhardhan <s.syam@samsung.com>
+Build-Depends: debhelper (>= 5), libelm-dev, libbundle-dev, libui-gadget-1-dev, dlog-dev, libslp-setting-dev, libedbus-dev, libevas-dev, libedje-dev, libecore-dev, libeina-dev, libaul-1-dev, libappcore-efl-dev, syspopup-caller-dev, libdbus-glib-1-dev, libglib2.0-dev, capi-network-bluetooth-dev
+Standards-Version: 3.7.2
+
+Package: libug-setting-bluetooth-efl
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: UI gadget about the bluetooth
+
+Package: libug-setting-bluetooth-efl-dbg
+Section: debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libug-setting-bluetooth-efl(= ${Source-Version})
+Description: UI gadget about the bluetooth (unstripped)

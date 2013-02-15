@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# root case
+if [ ${USER} == "root" ]
+then
+	# Set vconf values with -g/-u options
+	vconftool set -t int file/private/libug-setting-bluetooth-efl/visibility_time "0" -g 6520
+else
+	vconftool set -t int file/private/libug-setting-bluetooth-efl/visibility_time "0"
+fi

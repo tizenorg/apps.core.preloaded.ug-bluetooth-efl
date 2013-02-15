@@ -1,0 +1,429 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Deaktiválás..."
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Mindig bekapcsolva"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Párosított eszközök"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Nyomtató"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Papírméret"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Eszköz név"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetooth bekapcsolása..."
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Nyomtatási minőség"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Látható"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Hívás hangja"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Média hangja"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 óra"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d perc"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Bluetooth-eszközök"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normál"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Szétkapcsolás"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Sikertelen művelet"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Keresés leállítva"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Törölheti a(z) %s az Ön fájlját?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Engedélyezi, hogy %s letöltse az Ön fájlját?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Engedélyezi, hogy %s feltöltsön egy fájlt?"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Már van ilyen név"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Mikrofonos fülhallgató"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Saját telefon neve"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Saját telefon láthatósága"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Fogadva"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Bluetooth szolgáltatások"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Típus"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "A fájl vagy könyvtár nem törölhető"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Nem lehet menteni a fájlt"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Frissítés..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Bluetooth-eszközök"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Írja be a PIN-kódot!"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Új eszköz"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Nyomtatás"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Sztereó csatlakoztatása"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "Számítógép"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Nyomtatás"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Keresési opciók"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Engedélyezi %s-nek a csatlakozást?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Engedélyezi a(z) %s számára a(z) %s mappa létrehozását?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-hiba. Megpróbálja újra?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetooth időtúllépése. Megpróbálja újra?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "%s a megerősítő jelszó a(z) %s eszközzel való párosításhoz"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "A csatlakozás nem sikerült.\nMegpróbálja újra?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "A letöltés sikertelen"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Üres név"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP csatlakoztatva"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP-kapcsolat bontva"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Hibás PIN-kód. Próbálja újra"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d fájlt fogadott"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Küldés megszakítva"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Nem küldhető el"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Soros csatlakozás ezzel: %s?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Fájl fogadva."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Nem sikerült lekérni a szolgáltatáslistát"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Kapcsolódik"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Szétkapcsolás"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth bekapcsolva"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "A Bluetooth ki van\nkapcsolva.\nBekapcsolja?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetooth bekapcsolása"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Keresés..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Csatlakoztatva"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Nincs eszköz"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Keresés... %d eszköz található"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Szolgáltatáslista lekérése..."
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Fogadja a(z) %s fájlt a(z) %s eszközről?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Kiválasztott"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Válasszon eszközt"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "A(z) %s tétel már létezik. Felülírja?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Amíg be van kapcsolva a Repülő üzemmód, nem kapcsolható be a Bluetooth"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "A fájl nem létezik"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Csatlakoztatva a telefon- és média-hangrendszerhez"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "HID-eszközhöz csatlakoztatva"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ellenőrzés..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Bluetooth kikapcsolása..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Bejövő és kimenő hívások lebonyolítására szolgál Bluetooth-fejhallgatón"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Kihangosító"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Bejövő és kimenő hívások lebonyolítására szolgál Bluetooth-autóskészleten"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Sztereó fülhallgató"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "A Bluetooth sztereó fülhallgatóval telefonálhat és zenét hallgathat"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Fájlátvitel"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Fájlok átvitelére szolgál Bluetooth-eszközről és -eszközre"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Objektum push"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Személyes adatok (névjegykártyák, telefonkönyv-bejegyzések stb.) cseréjére szolgál más Bluetooth-eszközzel"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Egyszerű nyomtatás"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "A Bluetooth-nyomtatóval képeket, szöveges üzeneteket és személyes adatokat (pl. névjegykártyákat, naptártételeket) nyomtathat"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Telefonos hálózati kapcsolat"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Bluetooth-eszközök internet-hozzáférésének biztosítására szolgál a telefon modemjén keresztül"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Soros port"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID-eszköz"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (billentyűzet, egér stb.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Fogadás..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Megosztás..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Keresés"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Egyéb Bluetooth-eszközökhöz kapcsolódhat a segítségével, virtuális soros porton keresztül"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Egyeznek a jelszavak a következőn: %s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Nem sikerült csatlakoztatni a fejhallgatót. A másik eszköz elutasította a kapcsolatot"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Kapcsolódás sikertelen"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 perc"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Párosítás megszüntetése"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Connection Options"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "A Bluetooth elérhető"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Szétkapcsol?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Elérhető eszközök"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 perc"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Szétkapcsolás..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "Maradék kapacitás: %s"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Érintse meg a kapcsolódáshoz"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Érintse meg a kapcsolat bontásához"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Így megszakad a kapcsolata a következő eszközzel:"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Beviteli eszköz"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "A biztonsági irányelv korlátozza a Bluetooth-kapcsolat használatát"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "A biztonsági irányelv a szabadkezes funkciókra korlátozza a Bluetooth-kapcsolat használatát"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Részletek"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Keresési opciók"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Minden eszköz"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Objektumcsere ezzel: %s?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "A párosításhoz adja meg a(z) %1$s kódot a(z) %2$s eszközön, majd érintse meg a Return vagy Enter gombot"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Nincs Bluetooth-eszköz"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Párosítva"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Keresési szolgáltatások..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth-párosítás kérése"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Adja meg a PIN-t a(z) %s eszköz párosításához (próbálkozzon a 0000 vagy az 1234 kóddal)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Erősítse meg, hogy %2$s a jelszó a(z) %1$s eszközzel való párosításhoz"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Jelszó megjelenítése"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Ki"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Kapcsolódás..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Leállít"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Vissza"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Memória megtelt"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth-eszköz választó"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "A küldés a(z) %s eszközre sikertelen"
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Az átvitelek előzménylistája üres"
+
+msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
+msgstr "Befelé irányuló átvitelek"
+
+msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
+msgstr "Kifelé irányuló átvitelek"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Lista törlése"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Laphoz illesztés"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Névjegyzék-hozzáférés engedélyezése a(z) %s számára"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Engedélyezi a(z) %s számára az üzenetek hozzáférését?"
+

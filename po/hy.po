@@ -1,0 +1,429 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Ապաակտիվացում..."
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Միշտ միացված"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Նախկինում զուգակցված սարքեր"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Տպիչ"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Թղթի չափ"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Սարքի Անունը"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Միացվում է Bluetooth..."
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Տպագրության որակ"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Տեսանելի"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Զանգել ձայնային"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Միջոցներ ձայնային"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 ժամ"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d րոպե"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Bluetooth սարքեր"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Նորմալ"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Զգտկումից հանել"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Գործողությունը ձախողվեց"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Որոնումը ընդհատված է"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Թույլատրե՞լ %s-ին ջնջել ձեր ֆայլը"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Թույլատրե՞լ %s-ին ստանալ ձեր ֆայլը"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Թույլատրե՞լ %s-ին ավելացնել ֆայլ"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Կոնտակտը արդեն գոյություն ունի"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Գլխային հեռախոս"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Իմ հեռախոսի անունը"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Իմ հեռախոսի տեսանելիությունը"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Ստացված է"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Bluetooth ծառայություններ"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Տեսակ"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Հնարավոր չէ ջնջել ֆայլը կամ թղթապանակը"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Հնարավոր չէ պահպանել ֆայլը"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Թարմացնում է..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Bluetooth սարքեր"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Մուտքագրեք PIN-ը"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Նոր սարք"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Տպում"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Միացնել ստերեո սարք"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "ԱՀ"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Տպել"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Որոնման ընտրանքներ"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Թույլատրե՞լ %s-ին միանալ"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Թույլ տա՞լ, որ %sն ստեղծի %s պահոցը:"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-ի սխալ։ Կրկի՞ն փորձել"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetooth ժամանակը սպառված է։ Կրկի՞ն փորձել"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Հաստատել, որ մուտքի բանալին %s է՝ %s-ի հետ զուգտակելու համար"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Անհնար է միանալ:\nԿրկի՞ն փորձել"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Բեռնումը ձախողվեց"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Դատարկել անունը"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP-ն միացված է"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP-ն անջատված է"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Սխալ PIN: Փորձեք կրկին"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d ֆայլ է ստացվել"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Ուղարկումը չեղարկված է"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Անհնար է ուղարկել"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Կատարե՞լ հաջորդական միացում %s-ի հետ"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Ֆայլը ստացված է"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Անհնար է ստանալ ծառայության ցանկը"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Միացնել"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Անջատել"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth-ը ակտիվացված է"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth -ը անջատված է։ \nՄիացնե՞լ"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Ակտիվացնում է Bluetooth-ը..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Որոնում է..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Միացված է"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Սարքեր չկան"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Որոնվում է... %d սարք է գտնվել"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Ծառայությունների ցանկի ստացում..."
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Ստանա՞լ %s-ը %s-ից:"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Ընտրված"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Ընտրեք սարք"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%sն արդեն գոյություն ունի: Վերագրանցե՞լ:"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Անհնար է ակտիվացնել Bluetooth-ը, երբ միացված է Թռիչքային ռեժիմը"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Ֆայլը գոյություն չունի"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Կապակցված է հեռախոսին և ձայնամիջանքին"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Միացված է HID սարքին"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Սկանավորում է..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Bluetooth-ն անջատվում է..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Օգտագործվում է Bluetooth ականջակալների միջոցով մուտքային և ելքային կանչեր կատարելու համար"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Առանց ձեռքերի"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Օգտավործվում է Bluetooth մեքենայի լրակազմի միջոցով մուտքային և ելքային զանգեր կատարելու համար"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Ստերեո ականջակալ"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Օգտագործվում է կանչեր կատարելու և Bluetooth ստերեո գլխադիրով երաժշտություն լսելու համար"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Ֆայլի փոխանցում"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Օգտավործվում է Bluetooth սարքեր ֆայլեր ուղարկելու և ընդունելու համար"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Օբյեկտի փոխանցում"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Օգտագործվում է Bluetooth սարքերի միջոցով անձնական տվյալների /անձնական քարտեր, Հեռախոսագրքի կոնտակտներ և այլն/ փոխանակման համար"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Հիմնական տպում"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Օգտավործվում է անլար Bluetooth տպիչերի միջոցով պատկերներ, տեքստային հաղորդագրություններ, անձնական տվյալներ (այցեքարտ, հեռախոսագիրք) տպելու համար"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Dial-up ցանցին միացում"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Օգտավործվում է հեռախոսի մոդեմի միջոցով Bluetooth սարքերին ինտերնետ կապ տրամադրելու համար"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Հաջորդական պորտ"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID սարք"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (ստեղնաշար, մուկ և այլ.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Ստանում է..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Համօգտագործվում է..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Տեսածրել"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Սա օգտավործվում է վիրտուալ հաջորդական պորտի միջոցով այլ Bluetooth սարքերի հետ միանալու համար"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Համապատասխանեցնե՞լ մուտքի բանալին %s-ի վրա"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Չհաջողվեց կապակցել գլխային հեռախոսը: Մեկ այլ սարք մերժել է կապակցումը"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Միացումը ձախողվեց"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 րոպե"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Ապազուգակցել"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Connection Options"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth-ը մատչելի է"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Անջատե՞լ"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Մատչելի սարքեր"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 րոպե"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Անջատվում է..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "Մնում է %s"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Թակել միանալու համար"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Թակել անջատելու համար"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Սա կավարտի Ձեր միացումը հետևյալի հետ"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Ներմուծման սարք"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Անվտանգության քաղաքականությունը սահմանափակում է Bluetooth կապի օգտագործումը"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Անվտանգության քաղաքականությունը սահմանափակում է Bluetooth կապի օգտագործումը՝ թույլ տալով միայն ձեռնազատ հնարավորություններ"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Մանրամասներ"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Որոնման ընտրանքներ"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Բոլոր սարքերը"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Փոխանակե՞լ առարկան %s-ի հետ"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Enter %1$s on %2$s to pair, then tap Return or Enter"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Bluetooth սարքերը չեն գտնվել,"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Զուգակցված է"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Որոնում է ծառայություններ..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth-ի զուգակցման հարցում"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s-ի հետ զուգտակելու համար մուտքագրեք PIN (փորձեք 0000 կամ 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Հաստատել, որ մուտքի բանալին%2$s է՝ %1$s-ի հետ զուգտակելու համար"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Ցույց տալ գաղտնաբառը"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Անջատված է"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Միացում..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Կանգնել"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Հետ"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Հիշողութունը լիքն է"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth սարքի ընտրող"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "%s-ին ուղարկումը ձախողվեց"
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Փոխանցումների պատմությունը դատարկ է"
+
+msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
+msgstr "Մուտքային փոխանցումներ"
+
+msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
+msgstr "Ելքային փոխանցումներ"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Մաքրել ցուցակը"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Տեղավորել թղթի վրա"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Թույլ տալ, որ %s մուտք գործի հեռախոսագիրք"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Թույլ տա՞լ, որ %s մուտք գործի հաղորդագրություններ:"
+

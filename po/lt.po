@@ -1,0 +1,429 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Išjungiama..."
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Visada įjungta"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Suporuoti įrenginiai"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Spausdintuvas"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Popieriaus formatas"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Įrenginio vardas"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Įjungiamas „Bluetooth“..."
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Spausdinimo kokybė"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Pasiekiamas"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Skambučio garsas"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Medijos garsas"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 valanda"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d min."
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "„Bluetooth“ įrenginiai"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Įprastas"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Atsieti"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Veiksmas nepavyko"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Paieška sustabdyta"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Leisti %s ištrinti jūsų failą?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Leisti %s gauti jūsų failą?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Ar leisti %s įdėti jūsų failą?"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Adresatas jau egzistuoja"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Ausinės"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Mano telefono pavadinimas"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Mano telefono aptinkamumas"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Gauta"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "„Bluetooth“ paslaugos"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Tipas"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Neįmanoma ištrinti failo ar katalogo"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Negalima išsaugoti failo"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Atnaujinama..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "„Bluetooth“ įrenginiai"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Įvesti PIN kodą"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Naujas įrenginys"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Spausdinimas"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Prijungti stereo"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "Kompiuteris"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Spausdinti"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Paieškos parinktys"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Leisti %s prisijungti?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Leisti %s kurti aplanką %s?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "„Bluetooth“ klaida. Bandyti dar kartą?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Baigėsi „Bluetooth“ laikas. Bandyti dar kartą?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Jei norite susieti su %s, patvirtintas slaptažodis yra %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Prisijungti nepavyko.\nAr bandyti dar kartą?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Atsisiųsti nepavyko"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Tuščias vardo laukelis"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP prijungtas"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP atjungtas"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Neteisingas PIN. Bandykite dar."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "Gauta failų: %d"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Siuntimas atšauktas"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Negalima išsiųsti"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Ar sujungti serijiniu jungimu su %s?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Failas gautas"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Neįmanoma pasinaudoti paslaugų sąrašu"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Jungtis"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Atjungti"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "„Bluetooth“ įjungtas"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "„Bluetooth“ išjungtas.\nĮjungti?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Įjungiamas „Bluetooth“..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Ieškoma..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Prijungta"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Nėra įrenginių"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Ieškoma... Rasta įrenginių: %d"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Gaunamas paslaugų sąrašas..."
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Priimti %s iš %s?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Pasirinkta"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Pasirinkite įrenginį"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s jau yra. Perrašyti?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Negalima aktyvinti „Bluetooth“, kai įjungtas skrydžio režimas"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Failo nėra"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Prisijungta prie telefono ir medijos garso įrenginio"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Prisijungta prie HID įrenginio"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ieškoma..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Išjungiamas „Bluetooth“..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Naudojama priimamiems ir siunčiamiems skambučiams, prijungus „Bluetooth“ ausines"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Laisvų rankų įranga"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Naudojama priimamiems ir siunčiamiems skambučiams, prijungus „Bluetooth“ automobilinę įrangą"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereoausinės"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Naudojama skambinti ir klausytis muzikos per „Bluetooth“ stereofonines ausines"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Failo perkėlimas"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Naudojama siusti failams iš ir į „Bluetooth“ įrenginius"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Objektų perstūmimas"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Naudojama keistis asmeniniais duomenimis (vardų kortelėmis, telefonų knygos adresatais ir t. t.) su „Bluetooth“ įrenginiais"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Pagr. spausd. profilis"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Naudojama spausdinti paveikslėlius, teksto žinutes, asmeninius duomenis, pvz., vardų korteles, susitikimus ir t. t., nuotoliniu „Bluetooth“ spausdintuvu"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Rinkimas tinkle"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Naudojama nurodyti „Bluetooth“ įrenginių prieigai prie interneto per telefono modemą"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Serijinis prievadas"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "Žmogaus sąsajos įrenginiai (HID)"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (klaviatūra, pelė ir pan.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Gaunama..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Bendrinama..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Nuskait."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Naudojama jungiantis prie kitų „Bluetooth“ įrenginių per virtualųjį nuoseklųjį prievadą"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Suderinti slaptažodžius %s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Nepavyko prijungti ausinių. Kitas įrenginys ryšį atmetė"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Prisijungti nepavyko"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minutės"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Atsieti"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Ryšio parinktys"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "„Bluetooth“ prieinamas"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Ar atsijungti?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Galimi įrenginiai"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minutės"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Atjungiama..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "Liko %s"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Spustelėkite, kad prisijungtumėte"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Bakstelėkite ir atjunkite"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Bus nutrauktas jūsų ryšys su"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Įvesties įrenginys"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Saugos strategija riboja naudojimąsi „Bluetooth“ ryšiu"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Saugos politika riboja „Bluetooth“ ryšio naudojimą ir leidžia jungtis tik prie laisvų rankų funkcijų"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Išsami informacija"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Paieškos parinktys"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Visi įrenginiai"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Keistis objektu su %s?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Norėdami susieti, %2$s įveskite %1$s, tada bakstelėkite „Grįžti“ arba „Įvesti“"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Nerasta \"Bluetooth\" įrenginių"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Susieta"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Ieškoma paslaugų..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Prašymas susieti naudojant „Bluetooth“"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Įveskite PIN norėdami susieti su %s (bandykite 0000 arba 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Kad būtų galima sujungti su %1$s, patvirtinkite, kad slaptažodis yra %2$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Rodyti slaptažodį"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "„Bluetooth“"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "„Bluetooth“"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Išjungta"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Jungiamasi..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stabdyti"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Atgal"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Atmintis pilna"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "„Bluetooth“ įrenginių parinkiklis"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Nusiųsti %s nepavyko"
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Perkėlimo istorija tuščia"
+
+msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
+msgstr "Įeinantys perkėlimai"
+
+msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
+msgstr "Išeinantys perkėlimai"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Išvalyti sąrašą"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Pritaikyti pagal lapo formatą"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Leisti %s pasiekti telefonų knygą"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Leisti %s pasiekti žinutes?"
+

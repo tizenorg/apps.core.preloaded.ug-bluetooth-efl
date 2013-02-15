@@ -1,0 +1,429 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "해제 중..."
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "항상 켜기"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "등록된 기기"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "프린터"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "용지 크기"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "디바이스 이름"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "블루투스 켜는 중..."
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "인쇄 품질"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "허용"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "통화 오디오"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "미디어 오디오"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1시간"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d분"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "블루투스 기기"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "보통"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "등록 해제"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "작업을 수행하지 못하였습니다"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "검색이 중지되었습니다"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "%s이(가) 파일을 삭제할 수 있도록 허용할까요?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "%s이(가) 파일을 가져갈 수 있도록 허용할까요?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "%s이(가) 파일을 저장할 수 있도록 허용할까요?"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "같은 연락처가 있습니다"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "헤드셋"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "내 휴대폰 이름"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "내 휴대폰 검색 허용"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "수신하였습니다"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "블루투스 서비스"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "종류"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "파일이나 폴더를 삭제할 수 없습니다"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "파일을 저장할 수 없습니다"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "업데이트 중..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "블루투스 기기"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "PIN을 입력하세요"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "블루투스 기기 보기"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "인쇄 중..."
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "스테레오 헤드셋 연결"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "인쇄"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "검색 옵션"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s이(가) 연결되도록 허용할까요?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "%s이(가)  %s 폴더를 추가할 수 있도록 허용할까요?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "블루투스 오류가 발생하였습니다. 다시 시도할까요?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "입력 대기 시간이 초과되었습니다 . 다시 시도할까요?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "비밀번호 %s을(를) 확인한 후 %s을(를) 등록하세요"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "연결할 수 없습니다. 다시 시도할까요?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "다운로드하지 못하였습니다"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "이름이 없습니다"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP에 연결되었습니다"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP 연결이 끊어졌습니다"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN이 바르지 않습니다. 다시 입력할까요?"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "파일 %d개가 수신되었습니다"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "전송이 취소되었습니다"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "전송할 수 없습니다"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "%s에 시리얼 포트로 연결할까요?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "파일을 수신하였습니다"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "서비스 목록을 가져올 수 없습니다"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "연결"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "연결 해제"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "블루투스가 실행되었습니다"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "블루투스가 해제되어 있습니다.\n실행할까요?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "블루투스 실행 중..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "검색 중..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "연결되었습니다"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "기기 목록이 없습니다"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "검색 중... %d개의 기기를 찾았습니다"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "서비스 목록을 가져오는 중..."
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s을(를) %s에서 수신할까요?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "단일 선택"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "기기 선택"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s이(가) 있습니다. 덮어쓸까요?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "비행기 탑승 모드에서는 블루투스를 실행할 수 없습니다"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "파일이 없습니다"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "휴대폰과 미디어 오디오에 연결되었습니다"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "HID 기기에 연결되었습니다"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "검색 중..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "블루투스 끄는 중..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "블루투스 헤드셋을 통해 전화를 걸거나 받을 수 있습니다"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "핸즈프리"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "블루투스 핸즈프리를 통해 전화를 걸거나 받을 수 있습니다"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "스테레오 헤드셋"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "블루투스 스테레오 헤드셋으로 통화하거나 음악을 들을 수 있습니다"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "파일 전송"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "블루투스 기기 간에 파일을 전송하거나 수신할 수 있습니다"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "파일 교환"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "블루투스 기기 간에 데이터(연락처, 일정 등)를 주고 받을 수 있습니다"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "이미지 인쇄(BPP)"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "블루투스 프린터를 사용해 명함이나 문자 메시지, 사진, 일정과 같은 데이터를 인쇄할 수 있습니다"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "전화접속 네트워킹"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "블루투스 기기가 내 디바이스의 모뎀을 통해 인터넷에 연결할 수 있습니다"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "시리얼 포트"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID 기기"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID(키보드, 마우스 등)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "수신 중..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "공유 중..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "검색"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "시리얼 포트는 가상 시리얼 포트로 다른 블루투스 기기에 연결하는 데 사용됩니다"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "%s와 비밀번호가 일치하나요?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "다른 기기에서 연결을 거부하여 블루투스 헤드셋에 연결하지 못하였습니다"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "연결하지 못하였습니다"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2분"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "등록 해제"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "연결 옵션"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "블루투스 사용 가능"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "연결을 끊을까요?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "사용할 수 있는 기기"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5분"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "연결을 끊는 중..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s 남았습니다"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "연결하려면 누르세요"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "연결 해제하려면 누르세요"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "이렇게 하면 다음과의 연결이 끊어집니다"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "입력 기기"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "보안 정책에 따라 블루투스 연결이 제한됩니다"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "보안 정책에 따라 블루투스 연결은 핸즈프리로 제한됩니다"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "상세 정보"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "검색 옵션"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "모든 기기"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "%s와(과) 데이터를 교환할까요?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "등록하려면 %2$s에서 %1$s을(를) 입력한 후 엔터 버튼을 누르세요"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "블루투스 기기를 찾지 못하였습니다"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "등록됨"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "서비스 검색 중..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "블루투스 등록 요청"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s을(를) 등록하려면 비밀번호(0000 또는 1234)를 입력하세요"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "PIN %2$s을(를) 확인한 후 %1$s을(를) 등록하세요"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "비밀번호 표시"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "블루투스"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "블루투스"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "끄기"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "연결 중..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "중지"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "이전"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "저장 공간이 부족합니다"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "블루투스 기기 선택기"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "%s에게 전송하지 못하였습니다"
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "전송 기록이 없습니다"
+
+msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
+msgstr "수신"
+
+msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
+msgstr "발신"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "목록 지우기"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "용지 크기에 맞추기"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s 연락처 연결 허용"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%s이(가) 메시지에 접속하도록 허용할까요?"
+
