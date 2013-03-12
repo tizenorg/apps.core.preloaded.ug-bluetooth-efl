@@ -1,0 +1,1174 @@
+ug-setting-bluetooth-efl (0.2.140) unstable; urgency=low
+
+  * Return the function in error case
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.140
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 05 Dec 2012 10:23:31 +0900
+
+ug-setting-bluetooth-efl (0.2.139) unstable; urgency=low
+
+  * Fix PLM issues (P121128-1632 / P121128-3039)
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.139
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 29 Nov 2012 14:50:37 +0900
+
+ug-setting-bluetooth-efl (0.2.138) unstable; urgency=low
+
+  * Apply GUI guideline
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.138
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 28 Nov 2012 18:07:09 +0900
+
+ug-setting-bluetooth-efl (0.2.137) unstable; urgency=low
+
+  * Fix PLM issue (P121126-0868)
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.137
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 27 Nov 2012 09:42:42 +0900
+
+ug-setting-bluetooth-efl (0.2.136) unstable; urgency=low
+
+  * Package upload for visibility drop down fix
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.136
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 26 Nov 2012 10:46:08 +0900
+
+ug-setting-bluetooth-efl (0.2.135) unstable; urgency=low
+
+  * Package upload for visibility drop down fix
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.135
+
+ -- Divya yadav <divya.yadav@samsung.com>  Fri, 23 Nov 2012 14:44:16 +0530
+
+ug-setting-bluetooth-efl (0.2.134) unstable; urgency=low
+
+  * Implement the network client functions
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.134
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 14 Nov 2012 15:08:24 +0900
+
+ug-setting-bluetooth-efl (0.2.133) unstable; urgency=low
+
+  * Add the string to accept connection
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.133
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 13 Nov 2012 10:38:01 +0900
+
+ug-setting-bluetooth-efl (0.2.132) unstable; urgency=low
+
+  * Fix PLM issue
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.132
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 08 Nov 2012 18:19:31 +0900
+
+ug-setting-bluetooth-efl (0.2.131) unstable; urgency=low
+
+  * Add the remain time in bt_adapter_get_visibility API
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.131
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 07 Nov 2012 17:38:12 +0900
+
+ug-setting-bluetooth-efl (0.2.130) unstable; urgency=low
+
+  * Enable scan button
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.130
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 06 Nov 2012 13:15:54 +0900
+
+ug-setting-bluetooth-efl (0.2.129) unstable; urgency=low
+
+  * Changes for new BT Service changes
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.129
+
+ -- Jaganath K <jaganath.k@samsung.com>  Fri, 02 Nov 2012 17:11:58 +0530
+
+ug-setting-bluetooth-efl (0.2.128) unstable; urgency=low
+
+  * Apply new winset change
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.128
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 01 Nov 2012 19:03:36 +0900
+
+ug-setting-bluetooth-efl (0.2.127) unstable; urgency=low
+
+  * Change directory path
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.127
+
+ -- InJun Yang <injun.yang@samsung.com>  Thu, 25 Oct 2012 13:53:07 +0900
+
+ug-setting-bluetooth-efl (0.2.126) unstable; urgency=low
+
+  * Fix the bug about motion
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.126
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 23 Oct 2012 19:17:00 +0900
+
+ug-setting-bluetooth-efl (0.2.125) unstable; urgency=low
+
+  * Fix the bug about UI
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.125
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 15 Oct 2012 11:13:34 +0900
+
+ug-setting-bluetooth-efl (0.2.124) unstable; urgency=low
+
+  * Add license file in each rpm
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.124
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 15 Oct 2012 11:13:30 +0900
+
+ug-setting-bluetooth-efl (0.2.123) unstable; urgency=low
+
+  * Implement MDM phase II
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.123
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 10 Oct 2012 10:45:14 +0900
+
+ug-setting-bluetooth-efl (0.2.122) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.122
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 26 Sep 2012 17:26:45 +0900
+
+ug-setting-bluetooth-efl (0.2.121) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.121
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 21 Sep 2012 10:52:49 +0900
+
+ug-setting-bluetooth-efl (0.2.120) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.120
+
+ -- Sangki Park <sangki79.park@samsung.com>  Fri, 21 Sep 2012 08:43:43 +0900
+
+ug-setting-bluetooth-efl (0.2.119) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.119
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 17 Sep 2012 11:23:13 +0900
+
+ug-setting-bluetooth-efl (0.2.118) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.118
+
+ -- Sangki Park <sangki79.park@samsung.com>  Thu, 13 Sep 2012 10:33:09 +0900
+
+ug-setting-bluetooth-efl (0.2.117) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.117
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 12 Sep 2012 10:54:14 +0900
+
+ug-setting-bluetooth-efl (0.2.116) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.116
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 11 Sep 2012 17:06:31 +0900
+
+ug-setting-bluetooth-efl (0.2.115) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.115
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 04 Sep 2012 17:35:15 +0900
+
+ug-setting-bluetooth-efl (0.2.113) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.113
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Sat, 01 Sep 2012 10:08:36 +0900
+
+ug-setting-bluetooth-efl (0.2.112) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.112
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 29 Aug 2012 18:24:03 +0900
+
+ug-setting-bluetooth-efl (0.2.111) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.111
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 27 Aug 2012 13:14:06 +0900
+
+ug-setting-bluetooth-efl (0.2.110) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.110
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 27 Aug 2012 10:49:22 +0900
+
+ug-setting-bluetooth-efl (0.2.109) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.109
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 27 Aug 2012 10:10:27 +0900
+
+ug-setting-bluetooth-efl (0.2.108) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.108
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 23 Aug 2012 13:06:50 +0900
+
+ug-setting-bluetooth-efl (0.2.107) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.107
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 20 Aug 2012 15:49:35 +0900
+
+ug-setting-bluetooth-efl (0.2.106) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.106
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 17 Aug 2012 11:08:04 +0900
+
+ug-setting-bluetooth-efl (0.2.105) unstable; urgency=low
+
+  * Upload the package
+  * Git: magnolia/apps/home/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.105
+
+ -- Sangki Park <sangki79.park@samsung.com>  Thu, 09 Aug 2012 20:43:40 +0900
+
+ug-setting-bluetooth-efl (0.2.104) unstable; urgency=low
+
+  * Upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.104
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 08 Aug 2012 17:11:57 +0900
+
+ug-setting-bluetooth-efl (0.2.103) unstable; urgency=low
+
+  * Upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.103
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 08 Aug 2012 09:27:53 +0900
+
+ug-setting-bluetooth-efl (0.2.102) unstable; urgency=low
+
+  * Upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.102
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 07 Aug 2012 17:51:26 +0900
+
+ug-setting-bluetooth-efl (0.2.101) unstable; urgency=low
+
+  * Upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.101
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 01 Aug 2012 15:50:46 +0900
+
+ug-setting-bluetooth-efl (0.2.100) unstable; urgency=low
+
+  * Re-upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.100
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 26 Jul 2012 14:15:40 +0900
+
+ug-setting-bluetooth-efl (0.2.99) unstable; urgency=low
+
+  * Re-upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.99
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 26 Jul 2012 08:39:07 +0900
+
+ug-setting-bluetooth-efl (0.2.98) unstable; urgency=low
+
+  * Add the code about white thema
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.98
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 25 Jul 2012 11:05:51 +0900
+
+ug-setting-bluetooth-efl (0.2.96) unstable; urgency=low
+
+  * Apply new UI gadget
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.96
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 18 Jul 2012 13:03:09 +0900
+
+ug-setting-bluetooth-efl (0.2.95) unstable; urgency=low
+
+  * Arrange searched device list in order of proximity.
+  * Fix the motion shake issue
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.95
+
+ -- Sangki Park <sangki79.park@samsung.com>  Fri, 29 Jun 2012 17:26:12 +0900
+
+ug-setting-bluetooth-efl (0.2.94) unstable; urgency=low
+
+  * Remove the sending popup
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.94
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 04 Jun 2012 08:57:03 +0900
+
+ug-setting-bluetooth-efl (0.2.93) unstable; urgency=low
+
+  * Enable the scan icon in BT deactivated state
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.93
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 29 May 2012 16:14:02 +0900
+
+ug-setting-bluetooth-efl (0.2.92) unstable; urgency=low
+
+  * Upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.92
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 24 May 2012 12:49:58 +0900
+
+ug-setting-bluetooth-efl (0.2.91) unstable; urgency=low
+
+  * Upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.91
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 23 May 2012 12:17:45 +0900
+
+ug-setting-bluetooth-efl (0.2.90) unstable; urgency=low
+
+  * Add the Design ID to po files about the keyboard
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.90
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 21 May 2012 10:19:45 +0900
+
+ug-setting-bluetooth-efl (0.2.89) unstable; urgency=low
+
+  * Add new Design IDs to support the multi language
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.89
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 18 May 2012 10:25:11 +0900
+
+ug-setting-bluetooth-efl (0.2.88) unstable; urgency=low
+
+  * Change the profile view title to 'details'
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.88
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 14 May 2012 13:46:53 +0900
+
+ug-setting-bluetooth-efl (0.2.87) unstable; urgency=low
+
+  * Add the save / cancel button in renaming
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.87
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 14 May 2012 08:58:01 +0900
+
+ug-setting-bluetooth-efl (0.2.86) unstable; urgency=low
+
+  * Use the MDM system popup
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.86
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 08 May 2012 09:00:36 +0900
+
+ug-setting-bluetooth-efl (0.2.85) unstable; urgency=low
+
+  * Implement the MDM handsfree mode
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.85
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 10 Apr 2012 08:39:04 +0900
+
+ug-setting-bluetooth-efl (0.2.84) unstable; urgency=low
+
+  * Upload the changes
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.84
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 23 Mar 2012 10:53:09 +0900
+
+ug-setting-bluetooth-efl (0.2.83) unstable; urgency=low
+
+  * Implement the profile view
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.83
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 21 Mar 2012 17:19:01 +0900
+
+ug-setting-bluetooth-efl (0.2.82) unstable; urgency=low
+
+  * Apply new UI guidelien (1.7)
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.82
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 20 Mar 2012 14:41:28 +0900
+
+ug-setting-bluetooth-efl (0.2.81) unstable; urgency=low
+
+  * Apply EFL Changes
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.81
+
+ -- Chanyeol Park <chanyeol.park@samsung.com>  Thu, 15 Mar 2012 20:05:27 +0900
+
+ug-setting-bluetooth-efl (0.2.80) unstable; urgency=low
+
+  * Fix the bug about winset changes
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.80
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 15 Mar 2012 11:34:24 +0900
+
+ug-setting-bluetooth-efl (0.2.79) unstable; urgency=low
+
+  * Modify and upload packages for Elementary changes
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.79
+
+ -- Sunil Kumar Behera <sunil.behera@samsung.com>  Tue, 13 Mar 2012 19:40:35 +0530
+
+ug-setting-bluetooth-efl (0.2.78) unstable; urgency=low
+
+  * Upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.78
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 12 Mar 2012 10:14:42 +0900
+
+ug-setting-bluetooth-efl (0.2.77) unstable; urgency=low
+
+  * Remove Deprecated code - unused
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.77
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 29 Feb 2012 15:56:57 +0900
+
+ug-setting-bluetooth-efl (0.2.76) unstable; urgency=low
+
+  * Apply the winset changes
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.76
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 16 Feb 2012 10:10:12 +0900
+
+ug-setting-bluetooth-efl (0.2.75) unstable; urgency=low
+
+  * Remove visibility timeout item to stable binary
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.75
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 02 Feb 2012 13:36:22 +0900
+
+ug-setting-bluetooth-efl (0.2.74) unstable; urgency=low
+
+  * Don't show nocontent layout
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.74
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 01 Feb 2012 13:09:54 +0900
+
+ug-setting-bluetooth-efl (0.2.73) unstable; urgency=low
+
+  * Upload the package
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.73
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 31 Jan 2012 17:04:04 +0900
+
+ug-setting-bluetooth-efl (0.2.72) unstable; urgency=low
+
+  * The position of Controlbar item is changed
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.72
+
+ -- InJun Yang <injun.yang@samsung.com>  Wed, 18 Jan 2012 16:40:31 +0900
+
+ug-setting-bluetooth-efl (0.2.71) unstable; urgency=low
+
+  * Use FRWK APIs to connect / disconnect HID device
+  * Git: slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.71
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 02 Jan 2012 11:23:58 +0900
+
+ug-setting-bluetooth-efl (0.2.70) unstable; urgency=low
+
+  * Resolve GUMI verification issue
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.70
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 08 Dec 2011 11:04:55 +0900
+
+ug-setting-bluetooth-efl (0.2.69) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.69
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 30 Nov 2011 16:25:05 +0900
+
+ug-setting-bluetooth-efl (0.2.68) unstable; urgency=low
+
+  * Apply UI guideline v1.4 changes
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.68
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 30 Nov 2011 09:00:09 +0900
+
+ug-setting-bluetooth-efl (0.2.67) unstable; urgency=low
+
+  * Fix the defect H0100137291
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.67
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 22 Nov 2011 19:50:33 +0900
+
+ug-setting-bluetooth-efl (0.2.66) unstable; urgency=low
+
+  * Add new STMS string to support multi-language
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.66
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 21 Nov 2011 13:32:20 +0900
+
+ug-setting-bluetooth-efl (0.2.65) unstable; urgency=low
+
+  * Fix the defect H0100136916
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.65
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 15 Nov 2011 21:15:22 +0900
+
+ug-setting-bluetooth-efl (0.2.64) unstable; urgency=low
+
+  * Fix the prevent defect (UNREACHABLE: 59577)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.64
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 14 Nov 2011 17:36:28 +0900
+
+ug-setting-bluetooth-efl (0.2.63) unstable; urgency=low
+
+  * Support the multi-language
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.63
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 09 Nov 2011 14:59:32 +0900
+
+ug-setting-bluetooth-efl (0.2.62) unstable; urgency=low
+
+  * Adjust the position of the naviframe to bottom
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.62
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 09 Nov 2011 08:56:35 +0900
+
+ug-setting-bluetooth-efl (0.2.61) unstable; urgency=low
+
+  * Remove the progress bar in the paired title
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.61
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 07 Nov 2011 14:17:54 +0900
+
+ug-setting-bluetooth-efl (0.2.60) unstable; urgency=low
+
+  * Support the multi-language
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.60
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 07 Nov 2011 08:39:46 +0900
+
+ug-setting-bluetooth-efl (0.2.59) unstable; urgency=low
+
+  * Remove the popup menu as UI guideline
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.59
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 03 Nov 2011 16:50:18 +0900
+
+ug-setting-bluetooth-efl (0.2.58) unstable; urgency=low
+
+  * Change the focus method of editfield as new policy
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.58
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 03 Nov 2011 13:37:33 +0900
+
+ug-setting-bluetooth-efl (0.2.57) unstable; urgency=low
+
+  * Display the delete selection info in main view (H0100135960)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.57
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 27 Oct 2011 11:25:22 +0900
+
+ug-setting-bluetooth-efl (0.2.56) unstable; urgency=low
+
+  * Disable Edit button in case of no paired device
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.56
+
+ -- Chanyeol Park <chanyeol.park@samsung.com>  Wed, 26 Oct 2011 23:50:07 +0900
+
+ug-setting-bluetooth-efl (0.2.55) unstable; urgency=low
+
+  * Remove the check rutine about running beat-bluetooth process
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.55
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 26 Oct 2011 17:29:20 +0900
+
+ug-setting-bluetooth-efl (0.2.54) unstable; urgency=low
+
+  * Enable bluetooth-share feature
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.54 
+
+ -- InJun Yang <injun.yang@samsung.com>  Tue, 18 Oct 2011 21:43:18 +0900
+
+ug-setting-bluetooth-efl (0.2.53) unstable; urgency=low
+
+  * Modify the select all style
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.53
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 12 Oct 2011 08:31:41 +0900
+
+ug-setting-bluetooth-efl (0.2.52) unstable; urgency=low
+
+  * Change the navigationbar API to naviframe
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.52
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 05 Oct 2011 09:25:58 +0900
+
+ug-setting-bluetooth-efl (0.2.51) unstable; urgency=low
+
+  * Add the address info in UG dbus signal
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.51
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 03 Oct 2011 15:12:39 +0900
+
+ug-setting-bluetooth-efl (0.2.50) unstable; urgency=low
+
+  * Fix the warning error & Remove the control in flight mode
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.50
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 29 Sep 2011 08:41:38 +0900
+
+ug-setting-bluetooth-efl (0.2.49) unstable; urgency=low
+
+  * Fix the pairing issue
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.49
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 23 Sep 2011 16:20:09 +0900
+
+ug-setting-bluetooth-efl (0.2.48) unstable; urgency=low
+
+  * Upload package for changes.
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.48
+
+ -- Sunil Kumar Behera <sunil.behera@samsung.com>  Tue, 20 Sep 2011 19:10:59 +0530
+
+ug-setting-bluetooth-efl (0.2.47) unstable; urgency=low
+
+  * Fix bt activation fail bug
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.47
+
+ -- Byeongho Shim <bh.shim@samsung.com>  Sat, 17 Sep 2011 16:43:15 +0900
+
+ug-setting-bluetooth-efl (0.2.46) unstable; urgency=low
+
+  * Fix bt activation fail bug
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.46
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 16 Sep 2011 15:26:18 +0900
+
+ug-setting-bluetooth-efl (0.2.45) unstable; urgency=low
+
+  * Fix the self-testing bugs
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.45
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 16 Sep 2011 13:38:22 +0900
+
+ug-setting-bluetooth-efl (0.2.44) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.44
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 15 Sep 2011 08:36:51 +0900
+
+ug-setting-bluetooth-efl (0.2.43) unstable; urgency=low
+
+  * Re-upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.43
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 09 Sep 2011 16:27:50 +0900
+
+ug-setting-bluetooth-efl (0.2.42) unstable; urgency=low
+
+  * Re-upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.42
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 08 Sep 2011 12:03:23 +0900
+
+ug-setting-bluetooth-efl (0.2.41) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.41
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 08 Sep 2011 12:01:09 +0900
+
+ug-setting-bluetooth-efl (0.2.40) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.40
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 07 Sep 2011 17:33:42 +0900
+
+ug-setting-bluetooth-efl (0.2.39) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.39
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 07 Sep 2011 08:52:14 +0900
+
+ug-setting-bluetooth-efl (0.2.38) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.38
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 01 Sep 2011 08:24:02 +0900
+
+ug-setting-bluetooth-efl (0.2.37) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.37
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 29 Aug 2011 19:20:41 +0900
+
+ug-setting-bluetooth-efl (0.2.36) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.36 
+
+ -- InJun Yang <injun.yang@samsung.com>  Mon, 22 Aug 2011 19:20:07 +0900
+
+ug-setting-bluetooth-efl (0.2.35) unstable; urgency=low
+
+  * Implement setting_plugin_reset() function
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.35
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 12 Aug 2011 15:59:25 +0900
+
+ug-setting-bluetooth-efl (0.2.34) unstable; urgency=low
+
+  * Unset the selected effect in edit view (H0100131690)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.34
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 08 Aug 2011 09:28:17 +0900
+
+ug-setting-bluetooth-efl (0.2.33) unstable; urgency=low
+
+  * Launch BT Application, if BT(BlueZ) is activated and BT App is not alive
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.33
+
+ -- Chanyeol Park <chanyeol.park@samsung.com>  Thu, 04 Aug 2011 16:54:07 +0900
+
+ug-setting-bluetooth-efl (0.2.32) unstable; urgency=low
+
+  * Apply the changed layout style & elm_bg
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.32
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 03 Aug 2011 18:44:55 +0900
+
+ug-setting-bluetooth-efl (0.2.31) unstable; urgency=low
+
+  * Fix the text bug in service list view
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.31
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 28 Jul 2011 09:34:19 +0900
+
+ug-setting-bluetooth-efl (0.2.30) unstable; urgency=low
+
+  * Reupload the package for the i386 build
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.30
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 21 Jul 2011 13:07:06 +0900
+
+ug-setting-bluetooth-efl (0.2.29) unstable; urgency=low
+
+  * Apply the Elementary API changes
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.29
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 21 Jul 2011 10:50:13 +0900
+
+ug-setting-bluetooth-efl (0.2.28) unstable; urgency=low
+
+  * Fix the CQ defects
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.28
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 11 Jul 2011 16:55:35 +0900
+
+ug-setting-bluetooth-efl (0.2.27) unstable; urgency=low
+
+  * Upload package for the changes
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.27
+
+ -- Chethan T N <chethan.tn@samsung.com>  Fri, 08 Jul 2011 16:23:17 +0530
+
+ug-setting-bluetooth-efl (0.2.26) unstable; urgency=low
+
+  * Implement the progress during searching new devices
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.26
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 07 Jul 2011 15:42:27 +0900
+
+ug-setting-bluetooth-efl (0.2.25) unstable; urgency=low
+
+  * Rearrange the controlbar button (Defect H0100129313)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.25
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 04 Jul 2011 10:58:07 +0900
+
+ug-setting-bluetooth-efl (0.2.24) unstable; urgency=low
+
+  * Fix the CQ defects
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.24
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 30 Jun 2011 11:47:04 +0900
+
+ug-setting-bluetooth-efl (0.2.23) unstable; urgency=low
+
+  * Chagne the text alignment of the naviganbar option header.
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.23
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 28 Jun 2011 16:15:56 +0900
+
+ug-setting-bluetooth-efl (0.2.22) unstable; urgency=low
+
+  * Upload package for changes
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.22
+
+ -- Sunil Kumar Behera <sunil.behera@samsung.com>  Fri, 24 Jun 2011 17:47:19 +0530
+
+ug-setting-bluetooth-efl (0.2.21) unstable; urgency=low
+
+  * Avoid the duplicated device in the searched list.
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.21
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 22 Jun 2011 08:30:05 +0900
+
+ug-setting-bluetooth-efl (0.2.20) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.20
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 21 Jun 2011 16:09:24 +0900
+
+ug-setting-bluetooth-efl (0.2.19) unstable; urgency=low
+
+  * Add the 'deleted' message (Defect: H0100127546)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.19
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 02 Jun 2011 08:33:39 +0900
+
+ug-setting-bluetooth-efl (0.2.18) unstable; urgency=low
+
+  * Fix the bug about the edit mode (Defect:  H0100127547)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.18
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 31 May 2011 18:22:26 +0900
+
+ug-setting-bluetooth-efl (0.2.17) unstable; urgency=low
+
+  * Fix the prevent defect
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.17
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 31 May 2011 10:10:48 +0900
+
+ug-setting-bluetooth-efl (0.2.16) unstable; urgency=low
+
+  * If the dbus signal is not own request, don't response.
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.16
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 25 May 2011 17:17:04 +0900
+
+ug-setting-bluetooth-efl (0.2.15) unstable; urgency=low
+
+  * Remove the 'alert' style set in popup menu (Defect H0100127269)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.15
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 25 May 2011 09:16:33 +0900
+
+ug-setting-bluetooth-efl (0.2.14) unstable; urgency=low
+
+  * Add the 'device_name' to NFC return value
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.14
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 25 May 2011 08:31:43 +0900
+
+ug-setting-bluetooth-efl (0.2.13) unstable; urgency=low
+
+  * Fix the parameter in bt_ipc_deinit_event_signal call
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.13 
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 24 May 2011 14:07:00 +0900
+
+ug-setting-bluetooth-efl (0.2.12) unstable; urgency=low
+
+  * Move the unregister functions to on_destroy
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.12
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 24 May 2011 08:44:22 +0900
+
+ug-setting-bluetooth-efl (0.2.11) unstable; urgency=low
+
+  * Add the 'user_data' parameter in bluetooth_register_callback
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.11
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 18 May 2011 15:37:37 +0900
+
+ug-setting-bluetooth-efl (0.2.10) unstable; urgency=low
+
+  * Change the retry popup to system popup
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.10
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 17 May 2011 17:42:48 +0900
+
+ug-setting-bluetooth-efl (0.2.9) unstable; urgency=low
+
+  * Add the launch mode for the NFC application
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.9
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 17 May 2011 11:56:03 +0900
+
+ug-setting-bluetooth-efl (0.2.8) unstable; urgency=low
+
+  * Show the connected device in edit view (Defect H0100126907)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.8
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 13 May 2011 10:12:27 +0900
+
+ug-setting-bluetooth-efl (0.2.7) unstable; urgency=low
+
+  * Fix the defect CQ H0100126546 (BS occur when the back button click during editing the name)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.7
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 12 May 2011 09:01:54 +0900
+
+ug-setting-bluetooth-efl (0.2.6) unstable; urgency=low
+
+  * Upload packages for changes.
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.6
+
+ -- Sunil Kumar Behera <sunil.behera@samsung.com>  Mon, 09 May 2011 16:27:22 +0530
+
+ug-setting-bluetooth-efl (0.2.5) unstable; urgency=low
+
+  * No show the 'Retry to reqeust' popup  (Defect H0100126826)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.5
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 09 May 2011 11:28:18 +0900
+
+ug-setting-bluetooth-efl (0.2.4) unstable; urgency=low
+
+  * Modify the case of the select all (Defect H0100126473)
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.4
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 03 May 2011 09:41:03 +0900
+
+ug-setting-bluetooth-efl (0.2.3) unstable; urgency=low
+
+  * Upload the package
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.3
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 02 May 2011 17:49:43 +0900
+
+ug-setting-bluetooth-efl (0.2.2) unstable; urgency=low
+
+  * Add selectioninfo in edit view
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.2
+
+ -- Sunghyuk Lee <sunghyuk.lee@samsung.com>  Mon, 02 May 2011 15:21:41 +0900
+
+ug-setting-bluetooth-efl (0.2.1) unstable; urgency=low
+
+  * Upload changes for main ug changes
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.1
+
+ -- Sunil Kumar Behera <sunil.behera@samsung.com>  Thu, 28 Apr 2011 19:16:47 +0530
+
+ug-setting-bluetooth-efl (0.2.0) unstable; urgency=low
+
+  * Release ug+obexd init dpkg
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.2.0
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 26 Apr 2011 11:32:31 +0900
+
+ug-setting-bluetooth-efl (0.1.7) unstable; urgency=low
+
+  * Apply window trasient
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.1.7 
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Fri, 28 Jan 2011 13:14:31 +0900
+
+ug-setting-bluetooth-efl (0.1.6) unstable; urgency=low
+
+  * Apply new UG folder rule
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.1.6
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Thu, 20 Jan 2011 10:16:48 +0900
+
+ug-setting-bluetooth-efl (0.1.5) unstable; urgency=low
+
+  * Modify the git path
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.1.5
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Tue, 21 Dec 2010 09:42:52 +0900
+
+ug-setting-bluetooth-efl (0.1.4) unstable; urgency=low
+
+  * Define MAIN_W MAIN_H
+  * Git: 165.213.180.234:slp/pkgs/u/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.1.4 
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 20 Dec 2010 20:58:59 +0900
+
+ug-setting-bluetooth-efl (0.1.3) unstable; urgency=low
+
+  * Change the AUL name
+  * Git: 165.213.180.234:/git/slp/pkgs/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.1.3 
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Wed, 24 Nov 2010 13:12:29 +0900
+
+ug-setting-bluetooth-efl (0.1.2) unstable; urgency=low
+
+  * Destroy UI gadget
+  * Git: 165.213.180.234:/git/slp/pkgs/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.1.2
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 27 Sep 2010 13:21:01 +0900
+
+ug-setting-bluetooth-efl (0.1.1) unstable; urgency=low
+
+  * Change the package name
+  * Git: 165.213.180.234:/git/slp/pkgs/ug-bluetooth-efl
+  * Tag: ug-setting-bluetooth-efl_0.1.1
+
+ -- DoHyun Pyun <dh79.pyun@samsung.com>  Mon, 13 Sep 2010 18:17:40 +0900
+
+ug-setting-bluetooth-efl (0.1.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- dh79.pyun <dh79.pyun@samsung.com>  Fri, 03 Sep 2010 10:31:43 +0900

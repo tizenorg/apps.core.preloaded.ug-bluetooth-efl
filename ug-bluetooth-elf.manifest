@@ -1,0 +1,13 @@
+<manifest>
+    <define>
+        <domain name="ug_bluetooth"/>
+    </define>
+    <assign>
+        <filesystem path="/usr/ug/lib/" label="_"/>
+        <filesystem path="/usr/ug/lib/libug-setting-bluetooth-efl.so.0.1.0" label="_"/>
+        <filesystem path="/usr/ug/lib/libug-setting-bluetooth-efl.so" label="_"/>
+    </assign>
+    <request>
+        <domain name="ug_bluetooth"/>
+    </request>
+</manifest>

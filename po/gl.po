@@ -1,0 +1,429 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Desactivando..."
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Sempre activo"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Dispositivos vinculados"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Impresora"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Tamaño do papel"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Nome do dispositivo"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Activando Bluetooth..."
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Calidade de impresión"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Visible"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Audio da chamada"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Audio multimedia"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 hora"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minutos"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Dispositivos Bluetooth"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Desvincular"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Fallo na operación"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Busca detida"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Permitir que %s elimine o seu arquivo?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Permitir que %s obteña o seu arquivo?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Permitir que %s introduza un arquivo?"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "O contacto xa existe"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Auriculares"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Nome do meu teléfono"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Visibilidade do meu teléfono"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Recibido"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Servizos Bluetooth"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Tipo"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Non se pode eliminar o arquivo ou o directorio"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Non se pode gardar o arquivo"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Actualizando..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Dispositivos Bluetooth"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Introducir PIN"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Novo dispositivo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Impresión"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Conectar estéreo"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "Ordenador"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Imprimir"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Procurar opcións"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Permitir que %s se conecte?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Permitir a %s crear a carpeta %s?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Erro no Bluetooth. Intentar de novo?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Tempo de espera de Bluetooth esgotado. Intentar de novo?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Confirmar que a clave é %s para vincularse con %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Non se pode conectar.\nReintentar?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Erro ao descargar"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Nome baleiro"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP conectado"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP desconectado"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN incorrecto. Volva intentalo"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d arquivos recibidos"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Envío cancelado"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Non se pode enviar"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Conexión en serie con %s?"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Arquivo recibido"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Non se pode obter a lista de servizos"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Conectar"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Desconectar"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth activado"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "O Bluetooth está actualmente desactivado.\nDesexa activalo?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Activando Bluetooth..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Buscando..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Conectado"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Non hai dispositivos"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Buscando... atopáronse %d dispositivos"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Obtendo lista de servizos..."
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Recibir %s de %s?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Seleccionado"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Seleccionar dispositivo"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s xa existe. Sobrescribir?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Non se pode activar o Bluetooth co modo Avión activado"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "O arquivo non existe"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Conectado a teléfono e audio de elementos multimedia"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Conectado ao dispositivo HID"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Escaneando..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Desactivando Bluetooth..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Utilízase para realizar e recibir chamadas a través dos auriculares Bluetooth"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Mans libres"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Utilízase para realizar e recibir chamadas a través dos kits para vehículo Bluetooth"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Auricular estéreo"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Utilízase para realizar chamadas e escoitar música cos auriculares estéreo Bluetooth"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Transferencia de arquivos"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Utilízase para realizar transferencias de arquivos entre dispositivos Bluetooth"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Transferencia de obxectos"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Utilízase para intercambiar datos persoais (tarxetas de visita, contactos, etc.) con dispositivos Bluetooth"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Impresión básica"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Utilízase para imprimir imaxes, mensaxes de texto e datos persoais como, por exemplo, tarxetas de visita, citas, etc., a través de impresoras Bluetooth remotas"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Conexión á rede de marcación"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Utilízase para proporcionar acceso a Internet aos dispositivos Bluetooth a través do módem do teléfono"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Porto serie"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "Dispositivo HID"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (teclado, rato, etc.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Recibindo..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Compartindo..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Buscar"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Utilízase para establecer a conexión con outros dispositivos Bluetooth a través dun porto de serie virtual"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Axustar claves en %s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Non se puideron conectar os auriculares. Outro dispositivo rexeitou a conexión"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Erro na conexión"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minutos"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Desvincular"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Opcións de conexión"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth dispoñible"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Desconectar?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Dispositivos dispoñibles"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minutos"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Desconectando..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "quedan %s"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Toca para conectarte"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Tocar para desconectar"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Isto pechará a túa conexión con"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Dispositivo de entrada"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "A política de seguridade limita o uso da conexión Bluetooth"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "A política de seguridade limita o uso da conexión Bluetooth a só funcións de mans libres"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Detalles"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Procurar opcións"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Todos os dispositivos"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Intercambiar obxecto con %s?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Introduce %1$s en %2$s para realizar a vinculación e, a continuación, toca Volver ou Introducir"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Non se atoparon dispositivos Bluetooth"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Vinculado"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Servizos de busca..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Solicitude de vinculación Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Introduce o PIN para vincularte con %s. (Proba con 0000 ou 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Confirma que a clave de paso é %2$s para vincularse con %1$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Mostrar contrasinal"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Desactivado"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Conectando..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Deter"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Atrás"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Memoria chea"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Selector de dispositivos Bluetooth"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Erro ao enviar a %s"
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Historial de transferencias baleiro"
+
+msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
+msgstr "Transferencias entrantes"
+
+msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
+msgstr "Transferencias saíntes"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Borrar lista"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Axustar ao papel"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Permitir que %s teña acceso a contactos"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Permitir o acceso de %s ás mensaxes?"
+

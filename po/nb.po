@@ -1,0 +1,429 @@
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Deaktiverer..."
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Alltid på"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Parede enheter"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printer"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Papirstørrelse"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Enhetsnavn"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Slår på Bluetooth..."
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Utskriftskvalitet"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Synlig"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Anropslyd"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Medielyd"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 time"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minutter"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Bluetooth-enheter"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Avsl sammenkobl"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Operasjonen mislyktes"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Søk stoppet"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Tillat att filen slettes av %s?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Tillat at filen hentes av %s?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Tillat att filen legges til av %s?"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Kontakten finnes allerede"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Headsett"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Min telefons navn"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Min telefons synlighet"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Mottatt"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Bluetooth-tjenester"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Type"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Kan ikke slette fil eller katalog"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Kan ikke lagre fil"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Oppdaterer..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Bluetooth-enheter"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Angi PIN"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Ny enhet"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Skriver ut"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Koble til stereo"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Skriv ut"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Søkealternativer"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Tillater du at %s kobler til?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Tillate %s å opprette mappen %s?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-feil. Prøve igjen?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetooth-tidsavbrudd. Prøve igjen?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Bekreftelsestilgangskode er %s for å pare med %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Kan ikke koble til.\nPrøve igjen?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Nedlasting mislyktes"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Angi navn"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP tilkoblet"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP frakoblet"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Feil PIN-kode. Forsøk igjen"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d filer mottatt"
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Sending avbrutt"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Kan ikke sende"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Serietilkobling med %s"
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Fil mottatt"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Kan ikke hente tjenesteliste"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Koble til"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Koble fra"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth aktivert"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth er i øyeblikket\nslått av.\nSlå på?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Aktiverer Bluetooth..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Søker..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Tilkoblet"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Ingen enheter"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Søker... %d enheter funnet"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Henter tjenesteliste..."
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Motta %s fra %s?"
+
+msgid "IDS_BT_POP_SELECTED"
+msgstr "Valgt"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Velg enhet"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s finnes allerede. Vil du overskrive?"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Kan ikke aktivere Bluetooth når offlinemodus er på"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Filen finnes ikke"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Koblet til telefon og medielyd"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Tilkoblet til HID-enhet"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Søker..."
+
+msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
+msgstr "Slår av Bluetooth..."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Brukes til å foreta innkommende og utgående anrop via Bluetooth-headset"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Håndfri"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Brukes til å foreta innkommende og utgående anrop via Bluetooth-bilsett"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo-hodetelefoner"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Brukes til å foreta anrop og lytte til musikk via Bluetooth stereo-headset"
+
+msgid "IDS_BT_BODY_FILE_TRANSFER"
+msgstr "Filoverføring"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Brukes til å overføre filer til og fra Bluetooth-enheter"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Objekt-push"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Brukes til å utveksle personlige data (visittkort, telefonbokkontakter osv.) med Bluetooth-enheter"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Standardutskrift"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Brukes til å skrive ut bilder, tekstmeldinger og personlige data (visittkort, avtaler osv.) via eksterne Bluetooth-skrivere"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Modemtilkobling"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Brukes til å aktivere Internett-tilgang for Bluetooth-enheter via telefonens modem"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Serieport"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID-enhet"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (tastatur, mus osv.)"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Mottar..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Deler..."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Søk"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Denne brukes til å koble til andre Bluetooth-enheter via en virtuell serieport"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Matche tilgangskoder på %s?"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Kunne ikke koble til headset. Den andre enheten nektet tilkobling"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Kunne ikke koble til"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minutter"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Avslutt sammenkobling"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Tilkoblingsinnstillinger"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth tilgjengelig"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Koble fra?"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Tilgjengelige enheter"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minutter"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Kobler fra..."
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s gjenstår"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Trykk for å koble til"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Trykk for å koble fra"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Dette avslutter din tilkobling med"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Inndataenhet"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Sikkerhetspolicy begrenser bruk av Bluetooth-tilkobling"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Sikkerhetspolicy begrenser bruk av Bluetooth-tilkobling til kun håndfrifunksjoner"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Detaljer"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Søkealternativer"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Alle enheter"
+
+msgid "IDS_BT_POP_EXCHANGEOBJECT"
+msgstr "Utveksle objekt med %s?"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Angi %1$s på %2$s for å sammenkoble, etterfulgt av Tilbake- eller Enter"
+
+msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
+msgstr "Fant ingen Bluetooth-enheter"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Paret"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Sikkerhetstjenester..."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth-sammenkoblingsforespørsel"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Skriv inn PIN-kode for å pare med %s (Prøv 0000 eller 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Bekreft at koden er %2$s for å pare med %1$s"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Vis passord"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Av"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Kobler til..."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stopp"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Tilbake"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Minnet er fullt"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth-enhetsvelger"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Sending mislyktes til %s"
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Overføringshistorikken er tom"
+
+msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
+msgstr "Inngående overføringer"
+
+msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
+msgstr "Utgående overføringer"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Tøm liste"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Tilpass til papir"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Tillat %s-telefonboktilgang"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Tillate %s tilgang til meldinger?"
+
