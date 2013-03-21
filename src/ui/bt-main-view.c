@@ -129,35 +129,37 @@ static Evas_Object *__bt_main_status_icon_get(void *data, Evas_Object *obj,
 
 	ugd = (bt_ug_data *)data;
 
-	if (ugd->op_status == BT_ACTIVATING ||
-	     ugd->op_status == BT_DEACTIVATING ||
-	      ugd->op_status == BT_SEARCHING) {
-		__bt_main_set_controlbar_mode(ugd, BT_CONTROL_BAR_DISABLE);
-
-		if (ugd->op_status != BT_SEARCHING)
-			return NULL;
-	}
-
 	if (!strcmp(part, "elm.icon")) {
-		activated = (ugd->op_status == BT_DEACTIVATED) ? FALSE : TRUE;
+		if (ugd->op_status == BT_ACTIVATING ||
+		     ugd->op_status == BT_DEACTIVATING) {
+			btn = elm_progressbar_add(obj);
+			elm_object_style_set(btn, "list_process");
+			evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, 0.5);
+			evas_object_size_hint_weight_set(btn,
+					EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+			elm_progressbar_pulse(btn, TRUE);
+		} else {
+			activated = (ugd->op_status == BT_DEACTIVATED) ? FALSE : TRUE;
 
-		if (activated == TRUE)
-			__bt_main_set_controlbar_mode(ugd,
-						      BT_CONTROL_BAR_ENABLE);
-		else
-			__bt_main_set_controlbar_mode(ugd,
-						      BT_CONTROL_BAR_DISABLE);
+			if (activated == TRUE)
+				__bt_main_set_controlbar_mode(ugd,
+							      BT_CONTROL_BAR_ENABLE);
+			else
+				__bt_main_set_controlbar_mode(ugd,
+							      BT_CONTROL_BAR_DISABLE);
 
-		btn = elm_check_add(obj);
-		elm_object_style_set(btn, "on&off");
-		evas_object_show(btn);
-		evas_object_pass_events_set(btn, EINA_TRUE);
-		evas_object_propagate_events_set(btn, EINA_FALSE);
-		elm_check_state_set(btn, activated);	/* set on or off */
+			btn = elm_check_add(obj);
+			elm_object_style_set(btn, "on&off");
+			evas_object_show(btn);
+			evas_object_pass_events_set(btn, EINA_TRUE);
+			evas_object_propagate_events_set(btn, EINA_FALSE);
+			elm_check_state_set(btn, activated);	/* set on or off */
 
-		/* add smart callback */
-		evas_object_smart_callback_add(btn, "changed",
-					       __bt_main_onoff_btn_cb, ugd);
+			/* add smart callback */
+			evas_object_smart_callback_add(btn, "changed",
+						       __bt_main_onoff_btn_cb, ugd);
+		}
+
 		ugd->onoff_btn = btn;
 	}
 
