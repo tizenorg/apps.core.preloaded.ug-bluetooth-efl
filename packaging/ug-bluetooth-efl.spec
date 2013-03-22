@@ -61,4 +61,5 @@ rm -rf %{buildroot}
 %{_ugdir}/lib/libug-setting-bluetooth-efl.so.0.1.0
 %{_ugdir}/lib/libug-setting-bluetooth-efl.so
 %{_usrdir}/share/packages/ug-bluetooth-efl.xml
+%{_usrdir}/share/icons/default/small/ug-bluetooth-efl.png
 

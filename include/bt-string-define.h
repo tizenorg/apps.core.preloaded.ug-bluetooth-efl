@@ -274,6 +274,31 @@ extern "C" {
 #define BT_STR_BLUETOOTH_ON		_("IDS_BT_POP_ACTIVATED")
 #define BT_STR_BLUETOOTH_AVAILABLE	_("IDS_BT_BODY_BLUETOOTH_AVAILABLE")
 
+/* String access info */
+#define BT_STR_DOUBLE_TAP_RENAME _("Double Tap to rename")
+#define BT_STR_DOUBLE_TAP_UNPAIR _("Double Tap to unpair device")
+#define BT_STR_RADIO_BUTTON _("Radio Button")
+#define BT_STR_RADIO_UNSELECTED _("Unselected")
+#define BT_STR_EXP_LIST_OPEN _("Expandable list, double tap to open list")
+#define BT_STR_EXP_LIST_CLOSE _("Expandable list, double tap to close list")
+#define BT_STR_ON_OFF_BUTTON _("On/Off Button")
+#define BT_STR_MORE_BUTTON _("More button")
+#define BT_STR_DOUBLE_TAP_CONNECT _("Double tap to connect")
+#define BT_STR_DOUBLE_TAP_CONNECT_D _("Double tap to connect device")
+#define BT_STR_DOUBLE_TAP_DISCONNECT_D _("Double tap to disconnect device")
+#define BT_STR_ON _("On")
+#define BT_STR_CAMERA _("Camera")
+#define BT_STR_DISPLAY _("Display")
+#define BT_STR_KEYBOARD _("Keyboard")
+#define BT_STR_MOUSE _("Mouse")
+#define BT_STR_GAMING_DEVICE _("Gaming device")
+#define BT_STR_HEALTH_DEVICE _("Health device")
+#define BT_STR_COMPUTER _("Computer")
+#define BT_STR_LAN_ACCESS_POINT _("Lan access point")
+#define BT_STR_UNKNOWN _("Unknown")
+#define BT_ACC_STR_TITLE	"Title"
+#define BT_ACC_STR_GROUP_INDEX	"Group index"
+
 #ifdef __cplusplus
 }
 #endif

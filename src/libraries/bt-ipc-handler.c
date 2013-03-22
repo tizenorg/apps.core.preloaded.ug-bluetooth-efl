@@ -207,6 +207,7 @@ int _bt_ipc_send_obex_message(obex_ipc_param_t *param, void *data)
 				      DBUS_TYPE_STRING, &param->param4,
 				      DBUS_TYPE_STRING, &param->param5,
 				      DBUS_TYPE_STRING, &param->param6,
+				      DBUS_TYPE_STRING, &param->param7,
 				      DBUS_TYPE_INVALID)) {
 		BT_DBG("Connect sending failed\n");
 		dbus_message_unref(msg);
@@ -238,36 +239,68 @@ void _bt_ipc_update_connected_status(bt_ug_data *ugd, int connected_type,
 
 	ugd->connect_req = FALSE;
 
-	if (item != NULL) {
-		item->status = BT_IDLE;
+	if (item == NULL)
+		return;
 
-		if (connected == TRUE) {
-			item->connected_mask |= (result == BT_UG_ERROR_NONE) ? \
-				connected_type : 0x00;
-		} else {
-			item->connected_mask &= (result == BT_UG_ERROR_NONE) ? \
-				~connected_type : 0xFF;
-		}
+	item->status = BT_IDLE;
 
-		elm_genlist_item_update((Elm_Object_Item *)item->genlist_item);
-
-		if (ugd->profile_vd && ugd->profile_vd->genlist) {
-			item->call_checked = item->connected_mask & \
-						BT_HEADSET_CONNECTED;
-
-			item->media_checked = item->connected_mask & \
-						BT_STEREO_HEADSET_CONNECTED;
-
-			item->hid_checked = item->connected_mask & \
-						BT_HID_CONNECTED;
-
-			item->network_checked = item->connected_mask & \
-						BT_NETWORK_CONNECTED;
-
-			_bt_util_set_list_disabled(ugd->profile_vd->genlist,
-						EINA_FALSE);
-		}
+	if (connected == TRUE) {
+		item->connected_mask |= (result == BT_UG_ERROR_NONE) ? \
+			connected_type : 0x00;
+	} else {
+		item->connected_mask &= (result == BT_UG_ERROR_NONE) ? \
+			~connected_type : 0xFF;
 	}
 
+	elm_genlist_item_update((Elm_Object_Item *)item->genlist_item);
+
+	if (!(ugd->profile_vd && ugd->profile_vd->genlist))
+		return;
+
+	/* Check if the device update and the Profile view device is same */
+	/* Go through the ugd->profile_vd->genlist and check device address */
+	bt_dev_t *dev_info = NULL;
+	Elm_Object_Item *dev_item;
+
+	dev_item = elm_genlist_first_item_get(ugd->profile_vd->genlist);
+
+	if (dev_item == NULL) {
+		BT_DBG("No item in the list \n");
+		return;
+	}
+
+	while (dev_item != NULL) {
+		dev_info = (bt_dev_t *)elm_object_item_data_get(dev_item);
+
+		if (dev_info == NULL)
+			dev_item = elm_genlist_item_next_get(dev_item);
+		else
+			break;
+	}
+
+	/* dev_info can be NULL again, so a check is applied */
+	if (dev_info == NULL) {
+		BT_DBG("No item in the list \n");
+		return;
+	}
+
+	/* Match the BD address */
+	if (g_strcmp0(dev_info->addr_str, addr_str) != 0)
+		return;
+
+	dev_info->call_checked = dev_info->connected_mask & \
+				BT_HEADSET_CONNECTED;
+
+	dev_info->media_checked = dev_info->connected_mask & \
+				BT_STEREO_HEADSET_CONNECTED;
+
+	dev_info->hid_checked = dev_info->connected_mask & \
+				BT_HID_CONNECTED;
+
+	dev_info->network_checked = dev_info->connected_mask & \
+				BT_NETWORK_CONNECTED;
+
+	_bt_util_set_list_disabled(ugd->profile_vd->genlist,
+				EINA_FALSE);
 	FN_END;
 }

@@ -44,8 +44,6 @@ extern "C" {
 
 DBusGProxy *_bt_get_adapter_proxy(DBusGConnection *conn);
 
-void _bt_reset_environment(void);
-
 gboolean _bt_is_profile_connected(int connected_type,
 				DBusGConnection *conn,
 				unsigned char *addr);

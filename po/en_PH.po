@@ -427,3 +427,39 @@ msgstr "Allow %s phonebook access"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Allow %s to access messages?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "File not received"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "File: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Failure reason: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "To: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "File type: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "File size: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "From: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Transfer canceled"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Unable to receive"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d successful, %d failed"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Sent"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth share"
+

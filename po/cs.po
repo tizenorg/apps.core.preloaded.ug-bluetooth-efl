@@ -427,3 +427,39 @@ msgstr "Povolit %s přístup k telefonnímu seznamu"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Povolit %s přístup ke zprávám?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Soubor nebyl přijat"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Soubor: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Důvod chyby: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Komu: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Typ souboru: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Velikost souboru: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Od: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Přenos byl zrušen"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Nelze přijmout"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "úspěšně %d, chybně %d"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Odesláno"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Sdílení Bluetooth"
+

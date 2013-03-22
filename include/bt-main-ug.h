@@ -121,6 +121,8 @@ typedef struct {
 	Elm_Object_Item *no_device_item;
 	Elm_Object_Item *paired_padding;
 	Elm_Object_Item *searched_padding;
+	Elm_Object_Item *bottom_padding;
+	Elm_Object_Item *visible_exp_item[5];
 
 	/*************************
 	*           Popup objects
@@ -152,6 +154,7 @@ typedef struct {
 	int unbonding_count;
 	int selected_radio;
 	int remain_time;
+	time_t start_time;
 	bool visible;
 	int timeout_id;
 	int popup_timer;

@@ -380,10 +380,10 @@ msgid "IDS_BT_BODY_SHOW_PASSWORD"
 msgstr "Rodyti slaptažodį"
 
 msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "„Bluetooth“"
+msgstr "Bluetooth"
 
 msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "„Bluetooth“"
+msgstr "Bluetooth"
 
 msgid "IDS_BT_BODY_OFF"
 msgstr "Išjungta"
@@ -426,4 +426,40 @@ msgstr "Leisti %s pasiekti telefonų knygą"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Leisti %s pasiekti žinutes?"
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Failas negautas"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Failas: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Klaidos priežastis: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Kam: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Failo tipas: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Failo dydis: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Nuo: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Perkėlimas atšauktas"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Nepavyksta gauti"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d pavyko, %d nepavyko"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Išsiųsta"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "„Bluetooth“ bendrinimas"
 

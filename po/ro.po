@@ -427,3 +427,39 @@ msgstr "Permiteţi accesul pentru %s la agenda telefonică"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Permiteţi %s să acceseze mesajele?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Fişierul nu a fost primit"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fişier: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Motiv eşuare: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Către: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Tip de fişier: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Dimensiune fişier: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "De la: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Transferul a fost anulat"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Imposibil de primit"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d reuşite, %d nereuşite"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Trimis"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Partajare prin Bluetooth"
+

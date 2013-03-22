@@ -101,28 +101,6 @@ DBusGProxy *_bt_get_adapter_proxy(DBusGConnection *conn)
 	return adapter;
 }
 
-void _bt_reset_environment(void)
-{
-	FN_START;
-	DBusGProxy *proxy;
-	DBusGConnection *conn;
-
-	conn = dbus_g_bus_get(DBUS_BUS_SYSTEM, NULL);;
-	ret_if(conn == NULL);
-
-	proxy = dbus_g_proxy_new_for_name(conn, BT_CORE_NAME,
-			BT_CORE_PATH, BT_CORE_INTERFACE);
-
-	if (dbus_g_proxy_call(proxy, "ResetAdapter", NULL,
-					G_TYPE_INVALID, G_TYPE_INVALID) == FALSE) {
-		 BT_ERR("Bt core call failed");
-	}
-
-	dbus_g_connection_unref(conn);
-
-	FN_END;
-}
-
 gboolean _bt_is_profile_connected(int connected_type,
 				DBusGConnection *conn,
 				unsigned char *addr)

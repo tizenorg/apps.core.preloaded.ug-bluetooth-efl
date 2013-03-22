@@ -427,3 +427,39 @@ msgstr "Luba seadmele %s juurdepääs telefoniraamatule"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Kas lubada seadmele %s juurdepääs sõnumitele?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Faili ei võetud vastu"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fail: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Nurjumise põhjus: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Adressaat: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Failitüüp: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Faili suurus: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Saatja: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Edastamine tühistatud"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Ei saa vastu võtta"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d õnnestus, %d nurjus"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Saadetud"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth-ühenduse kaudu jagamine"
+

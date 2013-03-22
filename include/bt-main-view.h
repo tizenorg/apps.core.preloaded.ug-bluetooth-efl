@@ -108,7 +108,8 @@ void _bt_main_draw_selection_info(bt_ug_data *ugd, char *message);
 
 int _bt_main_service_request_cb(void *data);
 
-char *_bt_main_get_device_icon(int major_class, int minor_class, int connected);
+char *_bt_main_get_device_icon(int major_class, int minor_class,
+				int connected, gboolean highlighted);
 
 int _bt_main_check_and_update_device(Eina_List *list,
 					char *addr, char *name);
@@ -128,6 +129,10 @@ void _bt_main_add_searched_title(bt_ug_data *ugd);
 void _bt_update_paired_item_style(bt_ug_data *ugd);
 
 void _bt_update_searched_item_style(bt_ug_data *ugd);
+
+void _bt_main_remove_callback(bt_ug_data *ugd);
+
+void _bt_update_device_list(bt_ug_data *ugd);
 
 #ifdef __cplusplus
 }

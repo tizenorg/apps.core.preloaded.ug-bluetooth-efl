@@ -81,6 +81,7 @@ typedef struct {
 	char *param4;		/* File path */
 	char *param5;		/* mode */
 	char *param6;	/* Device name */
+	char *param7;		/* sending type */
 } __attribute__ ((packed)) obex_ipc_param_t;
 
 /**

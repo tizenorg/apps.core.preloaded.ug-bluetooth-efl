@@ -153,6 +153,10 @@ static void __bt_cb_disable(int result, void *data)
 		BT_DBG("Failed to enable Bluetooth : Error Cause[%d]", result);
 		ugd->op_status = BT_ACTIVATED;
 	} else {
+
+		/* Delete profile view */
+		_bt_profile_destroy_profile_view(ugd);
+
 		if (ugd->timeout_id) {
 			g_source_remove(ugd->timeout_id);
 			ugd->timeout_id = 0;
@@ -168,8 +172,12 @@ static void __bt_cb_disable(int result, void *data)
 		}
 
 		elm_object_text_set(ugd->scan_btn, BT_STR_SCAN);
-		elm_genlist_item_update(ugd->visible_item);
-		elm_genlist_item_subitems_clear(ugd->visible_item);
+		if (EINA_TRUE == elm_genlist_item_expanded_get(
+							ugd->visible_item)) {
+			elm_genlist_item_expanded_set(ugd->visible_item,
+							EINA_FALSE);
+		}
+
 		elm_object_item_disabled_set(ugd->visible_item, EINA_TRUE);
 
 		if (ugd->bt_launch_mode != BT_LAUNCH_VISIBILITY) {
@@ -182,6 +190,7 @@ static void __bt_cb_disable(int result, void *data)
 	}
 
 	elm_genlist_item_update(ugd->status_item);
+	elm_genlist_item_update(ugd->visible_item);
 
 	if (ugd->paired_title)
 		elm_genlist_item_update(ugd->paired_title);
@@ -217,10 +226,13 @@ static void __bt_cb_search_completed(int result, void *data)
 		elm_genlist_item_update(ugd->searched_title);
 
 	if (ugd->searched_device == NULL ||
-	     eina_list_count(ugd->searched_device) == 0) {
+		eina_list_count(ugd->searched_device) == 0) {
 		/* Don't add the no device item, if no device item already exist */
 		ret_if(ugd->no_device_item != NULL);
 		ugd->no_device_item = _bt_main_add_no_device_found(ugd);
+
+		if (ugd->no_device_item)
+			elm_genlist_item_update(ugd->no_device_item);
 	}
 
 	FN_END;
@@ -321,8 +333,7 @@ static void __bt_cb_new_device_found(bt_adapter_device_discovery_info_s *info,
 	if (_bt_main_check_and_update_device(ugd->searched_device,
 					info->remote_address,
 					info->remote_name) >= 0) {
-		/* Update all realized items */
-		elm_genlist_realized_items_update(ugd->main_genlist);
+		_bt_update_device_list(ugd);
 	} else {
 		dev = _bt_main_create_searched_device_item((void *)info);
 		if (NULL == dev) {
@@ -445,8 +456,7 @@ void _bt_cb_bonding_created(int result, bt_device_info_s *dev_info,
 		if (_bt_main_check_and_update_device(ugd->paired_device,
 					dev_info->remote_address,
 					dev_info->remote_name) >= 0) {
-			/* Update all realized items */
-			elm_genlist_realized_items_update(ugd->main_genlist);
+			_bt_update_device_list(ugd);
 		} else {
 			if (dev != NULL) {
 				/* Remove the item in searched dialogue */
@@ -471,7 +481,10 @@ void _bt_cb_bonding_created(int result, bt_device_info_s *dev_info,
 				_bt_update_paired_item_style(ugd);
 			}
 
-			_bt_main_connect_device(ugd, new_dev);
+			/* Don't try to auto-connect in the network case */
+			if (profile == NULL) {
+				_bt_main_connect_device(ugd, new_dev);
+			}
 
 			ugd->searched_item = NULL;
 			ugd->paired_item = item;
@@ -508,9 +521,7 @@ void _bt_cb_bonding_destroyed(int result, char *remote_address,
 		if (item == NULL)
 			break;
 
-		if (memcmp((const char *)item->addr_str,
-		    (const char *)remote_address,
-		    BT_ADDRESS_LENGTH_MAX) == 0) {
+		if (g_strcmp0(item->addr_str, remote_address) == 0) {
 			new_item = calloc(1, sizeof(bt_dev_t));
 			if (new_item == NULL)
 				break;

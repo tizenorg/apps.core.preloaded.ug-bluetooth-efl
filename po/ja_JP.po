@@ -5,7 +5,7 @@ msgid "IDS_BT_BODY_ALWAYS_ON"
 msgstr "常にON"
 
 msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "登録済みデバイス"
+msgstr "ペアリング済みデバイス"
 
 msgid "IDS_BT_BODY_PRINTER"
 msgstr "プリンター"
@@ -426,4 +426,40 @@ msgstr "%sの電話帳アクセスを許可します"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "%s​に​メッセージ​への​アクセス​を許可​しますか？"
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "ファイルが受信されませんでした。"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "ファイル: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "失敗理由: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "宛先: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "ファイルタイプ：%s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "ファイルサイズ：%s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "発信元:%s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "転送がキャンセルされました。"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "受信できません"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d件成功、%d件失敗"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "送信完了"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth共有"
 

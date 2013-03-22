@@ -5,10 +5,13 @@
 	<description>Bluetooth AppControl</description>
 	<ui-application appid="ug-bluetooth-efl" exec="/usr/ug/bin/setting-bluetooth-efl" nodisplay="true" multiple="true" type="capp" taskmanage="false">
 		<label>Bluetooth</label>
-		<icon>org.tizen.bt-syspopup.png</icon>
+		<icon>/usr/share/icons/default/small/ug-bluetooth-efl.png</icon>
 		<application-service>
 			<operation name="http://tizen.org/appcontrol/operation/send"/>
 			<mime name="*/*"/>
+		</application-service>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/send_text"/>
 		</application-service>
 		<application-service>
 			<operation name="http://tizen.org/appcontrol/operation/pick"/>

@@ -22,6 +22,7 @@ extern "C" {
 #endif
 
 #include <Elementary.h>
+#include <Ecore_IMF.h>
 
 #include "bt-type-define.h"
 
@@ -33,11 +34,14 @@ struct _bt_profile_view_data {
 	Evas_Object *layout;
 	Evas_Object *genlist;
 	Evas_Object *save_btn;
-	Evas_Object *cancel_btn;
 	Elm_Object_Item *navi_it;
 	Elm_Object_Item *name_item;
 	Elm_Object_Item *unpair_item;
 	Elm_Object_Item *title_item;
+	Elm_Object_Item *call_item;
+	Elm_Object_Item *media_item;
+	Elm_Object_Item *hid_item;
+	Elm_Object_Item *network_item;
 	Elm_Genlist_Item_Class *name_itc;
 	Elm_Genlist_Item_Class *unpair_itc;
 	Elm_Genlist_Item_Class *title_itc;
@@ -45,11 +49,16 @@ struct _bt_profile_view_data {
 	Elm_Genlist_Item_Class *media_itc;
 	Elm_Genlist_Item_Class *hid_itc;
 	Elm_Genlist_Item_Class *network_itc;
+	Ecore_IMF_Context *imf_context;
 };
 
 void _bt_profile_create_view(bt_dev_t *dev_info);
 
 void _bt_profile_delete_view(void *data);
+
+void _bt_profile_change_rotate_mode(void *data);
+
+void _bt_profile_destroy_profile_view(void *data);
 
 #ifdef __cplusplus
 }

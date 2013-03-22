@@ -427,3 +427,39 @@ msgstr "Veita %s aðgang að símaskrá"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Veita %s aðgang að skeytum?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Skrá ekki móttekin"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Skrá: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Ástæða bilunar: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Til: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Skráargerð: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Skráarstærð: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Frá: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Hætt við flutning"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Ekki tókst að taka við"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d tókst, %d mistókst"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Sent"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth-samnýting"
+

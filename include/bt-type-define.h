@@ -86,6 +86,7 @@ extern "C" {
 
 /* GENLIST_TEXT_COLOR_LIST_SUB_TEXT_SETTINGS 42 137 194 255 */
 #define BT_GENLIST_SUBTEXT_COLOR "#2A89C2FF"
+#define BT_GENLIST_WHITE_SUBTEXT_COLOR "#FFFFFFFF"
 
 #define BT_RESULT_SUCCESS "success"
 #define BT_RESULT_FAIL "fail"
@@ -97,6 +98,10 @@ extern "C" {
 #define BT_SYSPOPUP_ONE_BUTTON_TYPE "onebtn"
 
 #define BT_VCONF_VISIBLE_TIME "file/private/libug-setting-bluetooth-efl/visibility_time"
+
+/* Access information */
+#define BT_STR_ACCES_INFO_MAX_LEN 512
+#define BT_STR_ACC_ICON "Icon"
 
 /**************************************************
 *                                  Enum type
@@ -241,6 +246,16 @@ typedef enum {
 	BT_ITEM_CENTER,
 	BT_ITEM_BOTTOM,
 } bt_item_type_t;
+
+typedef enum {
+	BT_ITEM_NONE,
+	BT_ITEM_NAME,
+	BT_ITEM_UNPAIR,
+	BT_ITEM_CALL,
+	BT_ITEM_MEDIA,
+	BT_ITEM_HID,
+	BT_ITEM_NETWORK,
+} bt_profile_view_item_type_t;
 
 typedef enum {
 	BT_DEVICE_MAJOR_MASK_MISC = 0x00,
@@ -504,6 +519,7 @@ typedef struct {
 	gboolean media_checked;
 	gboolean hid_checked;
 	gboolean network_checked;
+	gboolean highlighted;
 	void *ugd;
 } bt_dev_t;
 

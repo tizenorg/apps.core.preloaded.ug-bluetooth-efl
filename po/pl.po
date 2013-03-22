@@ -427,3 +427,39 @@ msgstr "Zezwalaj urządzeniu %s na dostęp do książki telefonicznej"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Zezwolić urządzeniu %s na dostęp do wiadomości?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Nie otrzymano pliku"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Plik: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Przyczyna niepowodzenia: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Do: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Typ pliku: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Rozmiar pliku: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Od: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Anulowano przesyłanie"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Nie można odebrać"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "Powodzenie: %d, niepowodzenie: %d"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Wysłano"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Udostępnianie Bluetooth"
+

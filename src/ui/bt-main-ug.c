@@ -344,7 +344,7 @@ static void __on_destroy(ui_gadget_h ug, service_h service, void *priv)
 	FN_START;
 
 	bt_ug_data *ugd = NULL;
-	int state;
+	int err;
 
 	if (!ug || !priv)
 		return;
@@ -363,29 +363,67 @@ static void __on_destroy(ui_gadget_h ug, service_h service, void *priv)
 		ugd->timeout_id = 0;
 	}
 
-	if (ugd->op_status == BT_SEARCHING)
-		bt_adapter_stop_device_discovery();
+	if (ugd->op_status == BT_SEARCHING) {
+		err = bt_adapter_stop_device_discovery();
+		if (err != BT_ERROR_NONE)
+			BT_DBG("Stop device discovery failed: %d", err);
+	}
 
 	if (ugd->selectioninfo) {
 		evas_object_del(ugd->selectioninfo);
 		ugd->selectioninfo = NULL;
 	}
 
-	bt_adapter_unset_state_changed_cb();
-	bt_adapter_unset_device_discovery_state_changed_cb();
-	bt_device_unset_bond_created_cb();
-	bt_device_unset_bond_destroyed_cb();
-	bt_device_unset_service_searched_cb();
-	bt_audio_unset_connection_state_changed_cb();
-	bt_hid_host_deinitialize();
-	bt_audio_deinitialize();
+	err = bt_adapter_unset_state_changed_cb();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("unset of state change cb  failed: %d", err);
 
-	bt_deinitialize();
+	err = bt_adapter_unset_device_discovery_state_changed_cb();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("unset of device discovery state cb failed: %d", err);
 
-	_bt_destroy_net_connection(ugd->connection);
+	err = bt_device_unset_bond_created_cb();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("unset of bond creation cb failed: %d", err);
 
-	_bt_ipc_unregister_popup_event_signal(ugd->EDBusHandle, (void *)ugd);
-	_bt_ipc_deinit_event_signal((void *)ugd);
+	err = bt_device_unset_bond_destroyed_cb();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("unset of bond destroyed cb failed: %d", err);
+
+	err = bt_device_unset_service_searched_cb();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("unset of service search cb failed: %d", err);
+
+	err = bt_audio_unset_connection_state_changed_cb();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("unset audio connection state cb failed: %d", err);
+
+	err = bt_hid_host_deinitialize();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("bt_hid_host_deinitialize failed: %d", err);
+
+	err = bt_audio_deinitialize();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("bt_audio_deinitialize failed: %d", err);
+
+	err = bt_deinitialize();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("bt_deinitialize failed: %d", err);
+
+	err = _bt_destroy_net_connection(ugd->connection);
+	if (err != BT_UG_ERROR_NONE)
+		BT_DBG("_bt_destroy_net_connection failed: %d", err);
+
+	err = _bt_ipc_unregister_popup_event_signal(ugd->EDBusHandle,
+				(void *)ugd);
+	if (err != BT_UG_ERROR_NONE)
+		BT_DBG("_bt_ipc_unregister_popup_event_signal failed: %d", err);
+
+	err = _bt_ipc_deinit_event_signal((void *)ugd);
+	if (err != BT_UG_ERROR_NONE)
+		BT_DBG("_bt_ipc_deinit_event_signal failed: %d", err);
+
+	_bt_main_remove_callback(ugd);
 
 	__bt_ug_release_memory(ugd);
 
@@ -454,6 +492,7 @@ static void __on_event(ui_gadget_h ug, enum ug_event event, service_h service,
 	       event == UG_EVENT_ROTATE_LANDSCAPE_UPSIDEDOWN) {
 		_bt_rotate_selectioninfo(ugd->selectioninfo, ugd->rotation);
 		_bt_main_change_rotate_mode((void *)ugd);
+		_bt_profile_change_rotate_mode((void *)ugd);
 	}
 
 	FN_END;
@@ -532,10 +571,30 @@ UG_MODULE_API int setting_plugin_reset(service_h service, void *priv)
 {
 	FN_START;
 
-	_bt_reset_environment();
+	int ret;
+	int result = 0;
+
+	ret = bt_initialize();
+
+	if (ret != BT_ERROR_NONE) {
+		BT_DBG("Fail to init BT %d", ret);
+		return ret;
+	}
+
+	ret = bt_adapter_reset();
+
+	if (ret != BT_ERROR_NONE) {
+		BT_DBG("Fail to reset adapter: %d", ret);
+		result = ret;
+	}
+
+	ret = bt_deinitialize();
+
+	if (ret != BT_ERROR_NONE)
+		BT_DBG("Fail to deinit BT: %d", ret);
 
 	FN_END;
-	return 0;
+	return result;
 }
 
 void _bt_ug_destroy(void *data, void *result)

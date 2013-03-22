@@ -427,3 +427,39 @@ msgstr "Baimena eman %s-(e)ri agendan sartzeko"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Utzi %sri mezuetara sartzen?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Fitxategia ez da jaso"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fitxategia: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Akatsaren arrazoia: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Nori: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Fitxategi mota: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Fitxategiaren neurria: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Norena: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Transferentzia ezeztatuta"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Ezin da jaso"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d ondo, %d-k huts egin du"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Bidalitakoak"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth bidezko partekatzea"
+

@@ -296,24 +296,12 @@ int _bt_connect_net_profile(void *connection, void *profile, void *user_data)
 	int result;
 	bt_dev_t *dev;
 	bt_dev_t *clone_dev;
-	connection_wifi_state_e wifi_state;
 
 	retv_if(connection == NULL, BT_UG_FAIL);
 	retv_if(profile == NULL, BT_UG_FAIL);
 	retv_if(user_data == NULL, BT_UG_FAIL);
 
 	dev = (bt_dev_t *)user_data;
-
-	result = connection_get_wifi_state(connection, &wifi_state);
-	if (result != CONNECTION_ERROR_NONE) {
-		BT_ERR("Fail to get wifi state: %d", result);
-		return BT_UG_FAIL;
-	}
-
-	if (wifi_state == CONNECTION_WIFI_STATE_CONNECTED) {
-		BT_ERR("Wifi is connected");
-		return BT_UG_FAIL;
-	}
 
 	/* Fix P121126-0868 */
 	/* 'dev' can be freed, if use try to unbond during connecting NAP */

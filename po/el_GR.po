@@ -427,3 +427,39 @@ msgstr "Να επιτρέπεται στη συσκευή %s η πρόσβαση
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Να επιτραπεί η πρόσβαση του %s στα μηνύματα;"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Δεν έγινε λήψη του αρχείου"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Αρχείο: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Αιτία αποτυχίας: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Προς: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Τύπος αρχείου: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Μέγεθος αρχείου: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Από: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Η μεταφορά ακυρώθηκε"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Δεν είναι δυνατή η λήψη"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "Ολοκληρώθηκαν με επιτυχία %d, απέτυχαν %d"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Εστάλη"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Κοινή χρήση Bluetooth"
+

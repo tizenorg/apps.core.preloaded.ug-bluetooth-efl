@@ -427,3 +427,39 @@ msgstr "Permitir o acesso aos Contatos %1$s"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Permitir que %s acesse às mensagens?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Arquivo não recebido"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Arquivo: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Razão da falha: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Para: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Tipo do arquivo: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Tamanho do arquivo: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "De: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Transferência cancelada"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Impossível receber"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d com sucesso, %d falharam"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Enviado"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Compartilhar Bluetooth"
+

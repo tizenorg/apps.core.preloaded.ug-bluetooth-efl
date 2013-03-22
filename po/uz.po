@@ -427,3 +427,39 @@ msgstr "%s telefon raqamlari kitobiga kirish"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "%sga xabarlarga kirish uchun ruxsat berilsinmi?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Fayl qabul qilinmadi"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fayl: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Xato sababi: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Kimga: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Fayl turi: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Fayl o‘lchami: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Kimdan: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Uzatish bekor qilindi"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Qabul qilib bo‘lmaydi"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d muvaffaqiyatli, %d xato"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Yuborildi"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetoothdan umumiy foydalanish"
+

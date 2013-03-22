@@ -427,3 +427,39 @@ msgstr "允许%s电话簿访问"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "允许%s接入信息？"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "文件未收到"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "文件： %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "失败原因：%s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "收件人： %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "文件类型：%s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "文件大小：%s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "从： %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "传输已取消"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "无法接收"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d成功，%d失败"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "已发送"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "蓝牙共享"
+

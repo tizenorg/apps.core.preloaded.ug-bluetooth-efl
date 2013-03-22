@@ -427,3 +427,39 @@ msgstr "Névjegyzék-hozzáférés engedélyezése a(z) %s számára"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Engedélyezi a(z) %s számára az üzenetek hozzáférését?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "A fájl letöltése sikertelen"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fájl: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Hiba oka: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Címzett: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Fájltípus: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Fájlméret: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Feladó: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Átvitel megszakítva"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Nem lehet fogadni"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d sikeres, %d sikertelen"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Elküldve"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth-megosztás"
+

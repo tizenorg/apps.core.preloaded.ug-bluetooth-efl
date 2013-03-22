@@ -32,7 +32,7 @@ msgid "IDS_BT_BODY_MEDIA_AUDIO"
 msgstr "Медіа"
 
 msgid "IDS_BT_BODY_1_HOUR"
-msgstr "1 година"
+msgstr "1 годину"
 
 msgid "IDS_BT_BODY_PD_MINUTES"
 msgstr "%d хвилин"
@@ -299,7 +299,7 @@ msgid "IDS_BT_BODY_CONNECTION_FAILED"
 msgstr "Збій з'єднання"
 
 msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 хвилин"
+msgstr "2 хвилини"
 
 msgid "IDS_BT_OPT_UNPAIR"
 msgstr "Відключити"
@@ -426,4 +426,40 @@ msgstr "Дозволити %s доступ до телефонної книги"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Дозволити %s отримати доступ до повідомлень?"
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Файл не отримано"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Файл: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Причина збою: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "До: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Тип файла: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Розмір файла: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Від: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Передачу скасовано"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Неможливо отримати"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "Успішно: %d, збій: %d"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Надіслано"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Спільний доступ через Bluetooth"
 

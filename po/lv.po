@@ -427,3 +427,39 @@ msgstr "Atļaut %s piekļūt tālruņu katalogam"
 msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Vai atļaut ierīcei %s piekļūt ziņai?"
 
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Fails netika saņemts"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fails: %s"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Kļūmes iemesls: %s"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Kam: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Faila tips: %s"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Faila lielums: %s"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "No: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Pārsūtīšana atcelta"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Nevar saņemt"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d veiksmīgi, %d neizdevās"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Nosūtīts"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth koplietošana"
+

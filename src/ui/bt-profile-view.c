@@ -17,6 +17,8 @@
 #include <glib.h>
 #include <bluetooth.h>
 #include <Elementary.h>
+#include <Ecore_IMF.h>
+
 
 #include "bt-main-ug.h"
 #include "bt-main-view.h"
@@ -66,10 +68,7 @@ static int __bt_profile_delete_button(void *data)
 				__bt_profile_focused_cb);
 
 	evas_object_del(vd->save_btn);
-	evas_object_del(vd->cancel_btn);
-
 	vd->save_btn = NULL;
-	vd->cancel_btn = NULL;
 
 	/* To shutdown the IME, set the focus to FALSE */
 	elm_object_focus_set(dev->entry, EINA_FALSE);
@@ -94,11 +93,7 @@ static void __bt_profile_save_clicked_cb(void *data, Evas_Object *obj,
 	ret_if(data == NULL);
 
 	dev = (bt_dev_t *)data;
-	ret_if(dev->layout == NULL);
 	ret_if(dev->entry == NULL);
-
-	elm_object_signal_emit((Evas_Object *)dev->layout,
-			"elm,state,eraser,hide", "elm");
 
 	entry_string = elm_entry_entry_get(dev->entry);
 	ret_if(entry_string == NULL);
@@ -134,44 +129,32 @@ static void __bt_profile_save_clicked_cb(void *data, Evas_Object *obj,
 	FN_END;
 }
 
-static void __bt_profile_eraser_clicked_cb(void *data, Evas_Object *obj,
-				const char *emission, const char *source)
-{
-	FN_START;
-
-	ret_if(NULL == data);
-
-	elm_entry_entry_set((Evas_Object *)data, "");
-
-	FN_END;
-}
-
 static void __bt_profile_changed_cb(void *data, Evas_Object *obj,
 					void *event_info)
 {
 	FN_START;
 
-	bt_dev_t *dev = NULL;
-	Evas_Object *layout = NULL;
+	bt_dev_t *dev;
+	bt_ug_data *ugd;
+	bt_profile_view_data *vd;
 
-	ret_if(obj == NULL);
 	ret_if(data == NULL);
 
 	dev = (bt_dev_t *)data;
-	ret_if(dev->layout == NULL);
+	ugd = dev->ugd;
+	ret_if(ugd == NULL);
 
-	layout = (Evas_Object *)dev->layout;
+	vd = ugd->profile_vd;
+	ret_if(vd == NULL);
 
-	if (elm_object_focus_get(layout)) {
-		if (elm_entry_is_empty(obj)) {
-			elm_object_signal_emit(layout,
-					"elm,state,eraser,hide", "elm");
-		} else {
-			elm_object_signal_emit(layout,
-					"elm,state,eraser,show", "elm");
-		}
+	if (elm_object_focus_get(obj)) {
+		if (elm_entry_is_empty(obj))
+			elm_object_item_signal_emit(vd->name_item,
+					"elm,state,eraser,hide", "");
+		else
+			elm_object_item_signal_emit(vd->name_item,
+					"elm,state,eraser,show", "");
 	}
-
 	FN_END;
 }
 
@@ -180,42 +163,24 @@ static void __bt_profile_focused_cb(void *data, Evas_Object *obj,
 {
 	FN_START;
 
-	bt_dev_t *dev = NULL;
-	bt_ug_data *ugd = NULL;
-	bt_profile_view_data *vd = NULL;
-	Evas_Object *layout = NULL;
-	Evas_Object *btn = NULL;
+	bt_dev_t *dev;
+	bt_ug_data *ugd;
+	bt_profile_view_data *vd;
 
-	ret_if(obj == NULL);
 	ret_if(data == NULL);
 
 	dev = (bt_dev_t *)data;
-	ret_if(dev->layout == NULL);
-
-	layout = (Evas_Object *)dev->layout;
-
-	if (!elm_entry_is_empty(obj)) {
-		elm_object_signal_emit(layout,
-				"elm,state,eraser,show", "elm");
-	}
-
-	ret_if(dev->ugd == NULL);
 	ugd = dev->ugd;
+	ret_if(ugd == NULL);
 
-	ret_if(ugd->profile_vd == NULL);
 	vd = ugd->profile_vd;
+	ret_if(vd == NULL);
 
-	if (vd->cancel_btn == NULL) {
-		btn = _bt_create_button(ugd->navi_bar,
-					"naviframe/back_btn/default",
-					NULL, NULL,
-					__bt_profile_save_clicked_cb, dev);
+	if (!elm_entry_is_empty(obj))
+		elm_object_item_signal_emit(vd->name_item,
+				"elm,state,eraser,show", "");
 
-		vd->cancel_btn = btn;
-	}
-
-	elm_object_item_part_content_set(vd->navi_it,
-					"title_right_btn", vd->cancel_btn);
+	elm_object_item_signal_emit(vd->name_item, "elm,state,rename,hide", "");
 
 	FN_END;
 }
@@ -225,15 +190,23 @@ static void __bt_profile_unfocused_cb(void *data, Evas_Object *obj,
 {
 	FN_START;
 
-	bt_dev_t *dev = NULL;
+	bt_dev_t *dev;
+	bt_ug_data *ugd;
+	bt_profile_view_data *vd;
 
 	ret_if(data == NULL);
 
 	dev = (bt_dev_t *)data;
-	ret_if(dev->layout == NULL);
+	ugd = dev->ugd;
+	ret_if(ugd == NULL);
 
-	elm_object_signal_emit((Evas_Object *)dev->layout,
-			"elm,state,eraser,hide", "elm");
+	vd = ugd->profile_vd;
+	ret_if(vd == NULL);
+
+	elm_object_item_signal_emit(vd->name_item,
+			"elm,state,eraser,hide", "");
+	elm_object_item_signal_emit(vd->name_item,
+			"elm,state,rename,show", "");
 
 	FN_END;
 }
@@ -248,66 +221,142 @@ static void __bt_profile_maxlength_reached(void *data, Evas_Object *obj,
 	FN_END;
 }
 
+void __bt_profile_input_panel_state_cb(void *data, Ecore_IMF_Context *ctx, int value)
+{
+	FN_START;
+
+	bt_dev_t *dev;
+	bt_ug_data *ugd;
+	bt_profile_view_data *vd;
+
+	dev = (bt_dev_t *)data;
+	ret_if(dev == NULL);
+	ret_if(dev->ugd == NULL);
+
+	ugd = dev->ugd;
+	ret_if(ugd->profile_vd == NULL);
+
+	vd = ugd->profile_vd;
+	ret_if(vd->navi_it == NULL);
+
+	if (value == ECORE_IMF_INPUT_PANEL_STATE_SHOW) {
+		if (ugd->rotation == BT_ROTATE_LANDSCAPE ||
+		     ugd->rotation == BT_ROTATE_LANDSCAPE_UPSIDEDOWN) {
+			elm_naviframe_item_title_visible_set(vd->navi_it,
+							EINA_FALSE);
+		}
+	} else if (value == ECORE_IMF_INPUT_PANEL_STATE_HIDE){
+		elm_naviframe_item_title_visible_set(vd->navi_it, EINA_TRUE);
+	}
+
+	FN_END;
+}
+
+static void __bt_profile_btn_clicked_cb(void *data, Evas_Object *obj, void *event_info)
+{
+	FN_START
+
+	bt_dev_t *dev;
+
+	ret_if(data == NULL);
+
+	dev = (bt_dev_t *)data;
+
+	elm_object_focus_set(dev->entry, EINA_TRUE);
+	elm_entry_entry_set(dev->entry, "");
+
+	FN_END;
+}
+
+static char *__bt_profile_text_get(void *data, Evas_Object *obj, const char *part)
+{
+	FN_START;
+
+	if (!strcmp(part, "elm.text"))
+		return strdup(BT_STR_DEVICE_NAME);
+
+	FN_END;
+	return NULL;
+}
+
 static Evas_Object *__bt_profile_name_icon_get(void *data, Evas_Object *obj,
 					  const char *part)
 {
 	FN_START;
 
 	Elm_Entry_Filter_Limit_Size limit_filter;
-	Evas_Object *layout = NULL;
-	Evas_Object *entry = NULL;
-	bt_dev_t *dev = NULL;
+	Evas_Object *entry;
+	Evas_Object *button;
+	bt_ug_data *ugd;
+	bt_profile_view_data *vd;
+	bt_dev_t *dev;
+	char *name;
+	Ecore_IMF_Context *imf_context;
 
 	retv_if(NULL == data, NULL);
 
 	dev = (bt_dev_t *)data;
 
-	if (!strcmp(part, "elm.icon")) {
-		layout = elm_layout_add(obj);
-		dev->layout = layout;
-		elm_layout_theme_set(layout, "layout", "editfield", "title");
-		evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND,
-						EVAS_HINT_EXPAND);
+	ugd = dev->ugd;
+	retv_if(ugd->profile_vd == NULL, NULL);
 
+	vd = ugd->profile_vd;
+
+	if (!strcmp(part, "elm.icon.entry")) {
 		entry = elm_entry_add(obj);
+
 		dev->entry = entry;
+		elm_entry_single_line_set(entry, EINA_TRUE);
+		elm_entry_scrollable_set(entry, EINA_TRUE);
 
 		limit_filter.max_byte_count = 0;
 		limit_filter.max_char_count = BT_DEVICE_NAME_LENGTH_MAX;
-
 		elm_entry_markup_filter_append(entry, elm_entry_filter_limit_size,
-					     &limit_filter);
+						&limit_filter);
 
 		elm_entry_prediction_allow_set(entry, EINA_FALSE);
 
-		elm_entry_entry_set(entry, dev->name);
+		name = elm_entry_utf8_to_markup(dev->name);
+		if (name) {
+			elm_entry_entry_set(entry, name);
+			free(name);
+		} else {
+			elm_entry_entry_set(entry, dev->name);
+		}
 
 		evas_object_smart_callback_add(entry, "changed",
-					__bt_profile_changed_cb, dev);
+				__bt_profile_changed_cb, dev);
+		evas_object_smart_callback_add(entry, "preedit,changed",
+				__bt_profile_changed_cb, dev);
 		evas_object_smart_callback_add(entry, "focused",
-					__bt_profile_focused_cb, dev);
+				__bt_profile_focused_cb, dev);
 		evas_object_smart_callback_add(entry, "unfocused",
-					__bt_profile_unfocused_cb, dev);
-		evas_object_smart_callback_add(entry, "maxlength,reached",
-					       __bt_profile_maxlength_reached,
+				__bt_profile_unfocused_cb, dev);
+		/* To be uncommented when we get bluetooth specific string
+		elm_object_part_text_set(entry, "elm.guide", "Guide Text"); */
+
+		imf_context = elm_entry_imf_context_get(entry);
+		if (imf_context) {
+			ecore_imf_context_input_panel_event_callback_add(imf_context,
+					ECORE_IMF_INPUT_PANEL_STATE_EVENT,
+					__bt_profile_input_panel_state_cb,
 						dev);
+			vd->imf_context = imf_context;
+		}
 
 		evas_object_show(entry);
-
-		elm_object_part_content_set(layout,
-				"elm.swallow.content", entry);
-
-		elm_object_part_text_set(layout, "elm.text",
-				(const char *)BT_STR_DEVICE_NAME);
-
-		elm_object_signal_callback_add(layout, "elm,eraser,clicked",
-					"elm", __bt_profile_eraser_clicked_cb,
-					entry);
+		return entry;
+	} else if (!strcmp(part, "elm.icon.eraser")) {
+		button = elm_button_add(obj);
+		elm_object_style_set(button, "editfield_clear");
+		evas_object_smart_callback_add(button, "clicked",
+					__bt_profile_btn_clicked_cb, dev);
+		return button;
 	}
 
 	FN_END;
 
-	return layout;
+	return NULL;
 }
 
 static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
@@ -614,23 +663,12 @@ int __bt_profile_connect_option(bt_ug_data *ugd, bt_dev_t *dev,
 	FN_START;
 
 	int audio_profile;
-	gboolean connected = FALSE;
 
 	retv_if(ugd == NULL, BT_UG_FAIL);
 	retv_if(dev == NULL, BT_UG_FAIL);
 
 	if (dev->status != BT_IDLE) {
 		_bt_main_draw_selection_info(ugd, BT_STR_CONNECTION_FAILED);
-		return BT_UG_FAIL;
-	}
-
-	if (type == BT_HEADSET_DEVICE)
-		connected = _bt_main_is_headset_connected(ugd);
-	else if (type == BT_STEREO_HEADSET_DEVICE)
-		connected = _bt_main_is_stereo_headset_connected(ugd);
-
-	if (connected == TRUE) {
-		_bt_main_draw_selection_info(ugd, BT_STR_CONNECTION_EXISTS);
 		return BT_UG_FAIL;
 	}
 
@@ -1128,41 +1166,69 @@ static void __bt_profile_nap_option_item_sel(void *data, Evas_Object *obj,
 	FN_END;
 }
 
-static int __bt_profile_get_item_type(bt_profile_view_data *vd, Elm_Object_Item *item)
+void _bt_update_detail_item_style(bt_profile_view_data *vd)
 {
-	int i = 0;
-	int type = BT_ITEM_NO_TYPE;
-	Elm_Object_Item *current = NULL;
-	Elm_Object_Item *next = NULL;
+	FN_START;
 
-	retv_if(vd == NULL, BT_ITEM_NO_TYPE);
-	retv_if(item == NULL, BT_ITEM_NO_TYPE);
+	int item_count;
+	int i = 1;
+	Elm_Object_Item *item = NULL;
 
-	if (item == vd->name_item) {
-		return BT_ITEM_TOP;
-	} else if (item == vd->unpair_item) {
-		return BT_ITEM_BOTTOM;
-	}
+	ret_if(vd == NULL);
+	ret_if(vd->genlist == NULL);
 
-	current = elm_genlist_item_next_get(vd->title_item);
+	item_count = elm_genlist_items_count(vd->genlist);
 
-	while (current != NULL) {
-		next = elm_genlist_item_next_get(current);
+	BT_DBG("item_count %d", item_count);
 
-		if (current == item) {
-			if (next == NULL) {
-				type = (i == 0) ? BT_ITEM_NO_TYPE : BT_ITEM_BOTTOM;
-			} else {
-				type = (i == 0) ? BT_ITEM_TOP : BT_ITEM_CENTER;
-			}
-			return type;
+	if (vd->title_item == NULL || item_count < 4)
+		return;
+	/* Do not need to take care first 4 items as they are fixed */
+	item_count = item_count - 4;
+
+	item = elm_genlist_item_next_get(vd->title_item);
+
+	while (item != NULL) {
+		if (item_count == 1) {
+			elm_object_item_signal_emit(item, "elm,state,default", "");
+			break;
+		} else if (i == 1) {
+			elm_object_item_signal_emit(item, "elm,state,top", "");
+			i++;
+		} else if (item_count == i) {
+			elm_object_item_signal_emit(item, "elm,state,bottom", "");
+			break;
+		} else {
+			elm_object_item_signal_emit(item, "elm,state,center", "");
+			i++;
 		}
 
-		current = next;
-		i++;
+		item = elm_genlist_item_next_get(item);
 	}
 
-	return BT_ITEM_NO_TYPE;
+	FN_END;
+}
+
+static int __bt_profile_get_item_type(bt_profile_view_data *vd, Elm_Object_Item *item)
+{
+	retv_if(vd == NULL, BT_ITEM_NONE);
+	retv_if(item == NULL, BT_ITEM_NONE);
+
+	if (item == vd->name_item) {
+		return BT_ITEM_NAME;
+	} else if (item == vd->unpair_item) {
+		return BT_ITEM_UNPAIR;
+	} else if (item == vd->call_item) {
+		return BT_ITEM_CALL;
+	} else if (item == vd->media_item) {
+		return BT_ITEM_MEDIA;
+	} else if (item == vd->hid_item) {
+		return BT_ITEM_HID;
+	} else if (item == vd->network_item) {
+		return BT_ITEM_NETWORK;
+	}
+
+	return BT_ITEM_NONE;
 }
 
 static void __bt_profile_gl_realized(void *data, Evas_Object *obj, void *event_info)
@@ -1172,7 +1238,10 @@ static void __bt_profile_gl_realized(void *data, Evas_Object *obj, void *event_i
 	int item_type;
 	bt_ug_data *ugd;
 	bt_profile_view_data *vd;
+	Evas_Object *ao;
 	Elm_Object_Item *item = (Elm_Object_Item *)event_info;
+	char str[BT_STR_ACCES_INFO_MAX_LEN] = {0, };
+	bt_dev_t *dev_info;
 
 	ret_if(data == NULL);
 	ret_if(item == NULL);
@@ -1183,24 +1252,71 @@ static void __bt_profile_gl_realized(void *data, Evas_Object *obj, void *event_i
 	ret_if(vd == NULL);
 
 	item_type = __bt_profile_get_item_type(vd, item);
+	dev_info = (bt_dev_t *)elm_object_item_data_get(item);
 
 	BT_DBG("type: %d", item_type);
 
+	ao = elm_object_item_access_object_get(item);
+
 	switch (item_type) {
-	case BT_ITEM_TOP:
+	case BT_ITEM_NAME:
+		if (dev_info != NULL)
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_DEVICE_NAME,
+				dev_info->name, BT_STR_DOUBLE_TAP_RENAME);
+		else
+			snprintf(str, sizeof(str), "%s, %s", BT_STR_DEVICE_NAME,
+				BT_STR_DOUBLE_TAP_RENAME);
 		elm_object_item_signal_emit(item, "elm,state,top", "");
+		elm_access_info_set(ao, ELM_ACCESS_INFO, str);
 		break;
-	case BT_ITEM_CENTER:
-		elm_object_item_signal_emit(item, "elm,state,center", "");
-		break;
-	case BT_ITEM_BOTTOM:
+	case BT_ITEM_UNPAIR:
+		snprintf(str, sizeof(str), "%s, %s", BT_STR_UNPAIR,
+				BT_STR_DOUBLE_TAP_UNPAIR);
 		elm_object_item_signal_emit(item, "elm,state,bottom", "");
+		elm_access_info_set(ao, ELM_ACCESS_INFO, str);
 		break;
+	case BT_ITEM_CALL:
+		if (dev_info->call_checked)
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_CALL_AUDIO,
+				BT_STR_RADIO_BUTTON, BT_STR_SELECTED);
+		else
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_CALL_AUDIO,
+				BT_STR_RADIO_BUTTON, BT_STR_RADIO_UNSELECTED);
+		elm_access_info_set(ao, ELM_ACCESS_INFO, str);
+		break;
+	case BT_ITEM_MEDIA:
+		if (dev_info->media_checked)
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_MEDIA_AUDIO,
+				BT_STR_RADIO_BUTTON, BT_STR_SELECTED);
+		else
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_MEDIA_AUDIO,
+				BT_STR_RADIO_BUTTON, BT_STR_RADIO_UNSELECTED);
+		elm_access_info_set(ao, ELM_ACCESS_INFO, str);
+		break;
+	case BT_ITEM_HID:
+		if (dev_info->hid_checked)
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_INPUT_DEVICE,
+				BT_STR_RADIO_BUTTON, BT_STR_SELECTED);
+		else
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_INPUT_DEVICE,
+				BT_STR_RADIO_BUTTON, BT_STR_RADIO_UNSELECTED);
+		elm_access_info_set(ao, ELM_ACCESS_INFO, str);
+		break;
+	case BT_ITEM_NETWORK:
+		if (dev_info->network_checked)
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_INTERNET_ACCESS,
+				BT_STR_RADIO_BUTTON, BT_STR_SELECTED);
+		else
+			snprintf(str, sizeof(str), "%s, %s, %s", BT_STR_INTERNET_ACCESS,
+				BT_STR_RADIO_BUTTON, BT_STR_RADIO_UNSELECTED);
+		elm_access_info_set(ao, ELM_ACCESS_INFO, str);
+		break;
+	case BT_ITEM_NONE:
 	default:
-		elm_object_item_signal_emit(item, "elm,state,default", "");
 		break;
 	}
 
+	_bt_update_detail_item_style(vd);
         FN_END;
 }
 
@@ -1223,8 +1339,8 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	vd->name_itc = elm_genlist_item_class_new();
 	retv_if (vd->name_itc == NULL, NULL);
 
-	vd->name_itc->item_style = "dialogue/1icon";
-	vd->name_itc->func.text_get = NULL;
+	vd->name_itc->item_style = "dialogue/editfield/title";
+	vd->name_itc->func.text_get = __bt_profile_text_get;
 	vd->name_itc->func.content_get = __bt_profile_name_icon_get;
 	vd->name_itc->func.state_get = NULL;
 	vd->name_itc->func.del = NULL;
@@ -1248,18 +1364,24 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	git = elm_genlist_item_append(genlist, ugd->sp_itc, NULL, NULL,
 				    ELM_GENLIST_ITEM_NONE, NULL, NULL);
 
-	elm_genlist_item_select_mode_set(git, ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
+	elm_genlist_item_select_mode_set(git,
+					ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
 
 	/* device name item */
 	git = elm_genlist_item_append(genlist, vd->name_itc, dev_info, NULL,
 				    ELM_GENLIST_ITEM_NONE,
 				    __bt_profile_name_item_sel, ugd);
+	elm_genlist_item_select_mode_set(git,
+					ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY);
+	elm_object_item_signal_emit(git, "elm,state,top", "");
+
 	vd->name_item = git;
 
 	/* unpair item */
 	git = elm_genlist_item_append(genlist, vd->unpair_itc, NULL, NULL,
 				    ELM_GENLIST_ITEM_NONE,
 				    __bt_profile_unpair_item_sel, dev_info);
+	elm_object_item_signal_emit(git, "elm,state,bottom", "");
 
 	vd->unpair_item = git;
 
@@ -1330,20 +1452,22 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	if (dev_info->service_list & BT_SC_HFP_SERVICE_MASK ||
 	     dev_info->service_list & BT_SC_HSP_SERVICE_MASK) {
 		/* Call audio */
-		elm_genlist_item_append(genlist, vd->call_itc,
+		git = elm_genlist_item_append(genlist, vd->call_itc,
 					dev_info, NULL,
 					ELM_GENLIST_ITEM_NONE,
 					__bt_profile_call_option_item_sel,
 					dev_info);
+		vd->call_item = git;
 	}
 
 	if (dev_info->service_list & BT_SC_A2DP_SERVICE_MASK) {
 		/* Media audio */
-		elm_genlist_item_append(genlist, vd->media_itc,
+		git = elm_genlist_item_append(genlist, vd->media_itc,
 					dev_info, NULL,
 					ELM_GENLIST_ITEM_NONE,
 					__bt_profile_media_option_item_sel,
 					dev_info);
+		vd->media_item = git;
 	}
 
 	BT_DBG("service list: %x", dev_info->service_list);
@@ -1351,20 +1475,22 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 
 	if (dev_info->service_list & BT_SC_HID_SERVICE_MASK) {
 		/* HID device */
-		elm_genlist_item_append(genlist, vd->hid_itc,
+		git = elm_genlist_item_append(genlist, vd->hid_itc,
 					dev_info, NULL,
 					ELM_GENLIST_ITEM_NONE,
 					__bt_profile_hid_option_item_sel,
 					dev_info);
+		vd->hid_item = git;
 	}
 
 	if (dev_info->service_list & BT_SC_NAP_SERVICE_MASK) {
 		/* NAP device */
-		elm_genlist_item_append(genlist, vd->network_itc,
+		git = elm_genlist_item_append(genlist, vd->network_itc,
 					dev_info, NULL,
 					ELM_GENLIST_ITEM_NONE,
 					__bt_profile_nap_option_item_sel,
 					dev_info);
+		vd->network_item = git;
 	}
 
 	FN_END;
@@ -1372,22 +1498,14 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	return genlist;
 }
 
-static void __bt_profile_back_cb(void *data, Evas_Object *obj,
-				  void *event_info)
+void _bt_profile_destroy_profile_view(void *data)
 {
 	FN_START;
 
-	bt_dev_t *dev_info = NULL;
-	bt_ug_data *ugd = NULL;
+	bt_ug_data *ugd = (bt_ug_data *)data;
 	bt_profile_view_data *vd = NULL;
 
-	ret_if(data == NULL);
-
-	dev_info = (bt_dev_t *)data;
-	ret_if(dev_info == NULL);
-	ret_if(dev_info->ugd == NULL);
-
-	ugd = dev_info->ugd;
+	ret_if(ugd == NULL);
 	ret_if(ugd->profile_vd == NULL);
 
 	vd = ugd->profile_vd;
@@ -1428,8 +1546,15 @@ static void __bt_profile_back_cb(void *data, Evas_Object *obj,
 		vd->hid_itc = NULL;
 	}
 
+	vd->imf_context = NULL;
 	vd->save_btn = NULL;
-	vd->cancel_btn = NULL;
+
+	/* unregister callback functions */
+	if (vd->imf_context) {
+		ecore_imf_context_input_panel_event_callback_del(vd->imf_context,
+					ECORE_IMF_INPUT_PANEL_STATE_EVENT,
+					__bt_profile_input_panel_state_cb);
+	}
 
 	free(vd);
 	ugd->profile_vd = NULL;
@@ -1439,6 +1564,53 @@ static void __bt_profile_back_cb(void *data, Evas_Object *obj,
 	FN_END;
 }
 
+static void __bt_profile_back_cb(void *data, Evas_Object *obj,
+				  void *event_info)
+{
+	FN_START;
+
+	bt_dev_t *dev_info = NULL;
+	bt_ug_data *ugd = NULL;
+
+	ret_if(data == NULL);
+
+	dev_info = (bt_dev_t *)data;
+	ret_if(dev_info->ugd == NULL);
+
+	ugd = dev_info->ugd;
+	ret_if(ugd->profile_vd == NULL);
+
+	_bt_profile_destroy_profile_view(ugd);
+
+	FN_END;
+}
+
+static void __bt_profile_back_clicked_cb(void *data, Evas_Object *obj,
+				  void *event_info)
+{
+	FN_START;
+
+	bt_dev_t *dev_info;
+	Ecore_IMF_Context *imf_context;
+	Ecore_IMF_Input_Panel_State state = ECORE_IMF_INPUT_PANEL_STATE_HIDE;
+
+	dev_info = (bt_dev_t *)data;
+	ret_if(dev_info == NULL);
+	ret_if(dev_info->entry == NULL);
+
+	imf_context = elm_entry_imf_context_get(dev_info->entry);
+	if (imf_context) {
+		state = ecore_imf_context_input_panel_state_get(imf_context);
+	}
+
+	if (state == ECORE_IMF_INPUT_PANEL_STATE_SHOW) {
+		__bt_profile_save_clicked_cb(dev_info, NULL, NULL);
+	} else {
+		__bt_profile_back_cb(dev_info, NULL, NULL);
+	}
+
+	FN_END;
+}
 
 /**********************************************************************
 *                                              Common Functions
@@ -1448,12 +1620,13 @@ void _bt_profile_create_view(bt_dev_t *dev_info)
 {
 	FN_START;
 
-	bt_profile_view_data *vd = NULL;
-	bt_ug_data *ugd = NULL;
-	Evas_Object *layout = NULL;
-	Evas_Object *genlist = NULL;
+	bt_profile_view_data *vd;
+	bt_ug_data *ugd;
+	Evas_Object *layout;
+	Evas_Object *genlist;
+	Evas_Object *back_btn;
+	Evas_Object *title;
 	Elm_Object_Item *navi_it;
-	Evas_Object *back_btn = NULL;
 
 	ret_if(dev_info == NULL);
 	ret_if(dev_info->ugd == NULL);
@@ -1483,13 +1656,23 @@ void _bt_profile_create_view(bt_dev_t *dev_info)
 	/* create back button */
 	back_btn = elm_button_add(layout);
 
-	navi_it = elm_naviframe_item_push(ugd->navi_bar, BT_STR_DETAILS,
+	navi_it = elm_naviframe_item_push(ugd->navi_bar, NULL,
 					back_btn, NULL, genlist, NULL);
+
+	/* Slide title */
+	title = elm_label_add(ugd->navi_bar);
+	elm_object_style_set(title, "naviframe_title");
+	elm_label_slide_mode_set(title, ELM_LABEL_SLIDE_MODE_AUTO);
+	elm_label_wrap_width_set(title, 1);
+	elm_label_ellipsis_set(title, EINA_TRUE);
+	elm_object_text_set(title, BT_STR_DETAILS);
+	evas_object_show(title);
+	elm_object_item_part_content_set(navi_it, "elm.swallow.title", title);
 
 	/* Style set should be called after elm_naviframe_item_push(). */
 	elm_object_style_set(back_btn, "naviframe/back_btn/default");
 	evas_object_smart_callback_add(back_btn, "clicked",
-				       __bt_profile_back_cb, (void *)dev_info);
+				       __bt_profile_back_clicked_cb, (void *)dev_info);
 
 	vd->navi_it = navi_it;
 
@@ -1503,6 +1686,38 @@ void _bt_profile_delete_view(void *data)
 	FN_START;
 
 	__bt_profile_back_cb(data, NULL, NULL);
+
+	FN_END;
+}
+
+void _bt_profile_change_rotate_mode(void *data)
+{
+	FN_START;
+
+	bt_profile_view_data *vd;
+	bt_ug_data *ugd;
+	Ecore_IMF_Input_Panel_State state = ECORE_IMF_INPUT_PANEL_STATE_HIDE;
+
+	ret_if(data == NULL);
+
+	ugd = (bt_ug_data *)data;
+	ret_if(ugd->profile_vd == NULL);
+
+	vd = ugd->profile_vd;
+
+	if (vd->imf_context) {
+		state = ecore_imf_context_input_panel_state_get(vd->imf_context);
+	}
+
+	if (ugd->rotation == BT_ROTATE_LANDSCAPE ||
+	     ugd->rotation == BT_ROTATE_LANDSCAPE_UPSIDEDOWN) {
+		if (state == ECORE_IMF_INPUT_PANEL_STATE_SHOW) {
+			elm_naviframe_item_title_visible_set(vd->navi_it,
+							EINA_FALSE);
+		}
+	} else {
+		elm_naviframe_item_title_visible_set(vd->navi_it, EINA_TRUE);
+	}
 
 	FN_END;
 }
