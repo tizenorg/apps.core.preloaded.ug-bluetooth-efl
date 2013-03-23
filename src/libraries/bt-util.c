@@ -475,8 +475,10 @@ gboolean _bt_util_is_battery_low(void)
 
 	BT_DBG("charging: %d", charging);
 
-	if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, (void *)&value))
+	if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, (void *)&value)) {
 		BT_DBG("Get the battery low status fail");
+		return FALSE;
+	}
 
 	if (value <= VCONFKEY_SYSMAN_BAT_POWER_OFF)
 		return TRUE;
