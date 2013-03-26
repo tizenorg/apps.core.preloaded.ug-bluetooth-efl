@@ -661,7 +661,7 @@ void _bt_cb_hid_state_changed(int result, bool connected,
 
 	bt_address_t address = { { 0 } };
 
-	BT_DBG("Bluetooth HID Event [%d] Received");
+	BT_DBG("Bluetooth HID Event [%d] Received", result);
 
 	_bt_util_addr_string_to_addr_type(address.bd_addr, remote_address);
 
@@ -680,7 +680,7 @@ void _bt_cb_audio_state_changed(int result, bool connected,
 	bt_address_t address = { { 0 } };
 	int connected_type;
 
-	BT_DBG("Bluetooth Audio Event [%d] Received");
+	BT_DBG("Bluetooth Audio Event [%d] Received", result);
 
 	if (type == BT_AUDIO_PROFILE_TYPE_A2DP)
 		connected_type = BT_STEREO_HEADSET_CONNECTED;
