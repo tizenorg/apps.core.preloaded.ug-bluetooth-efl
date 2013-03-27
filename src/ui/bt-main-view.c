@@ -387,8 +387,8 @@ static void __bt_main_timeout_value_item_sel(void *data, Evas_Object *obj,
 			/* Set current time snapshot */
 			time(&(ugd->start_time));
 			ugd->remain_time = timeout;
-			ugd->timeout_id = g_timeout_add_seconds(1,
-					__bt_main_visible_timeout_cb, ugd);
+			ugd->timeout_id = g_timeout_add(BT_VISIBILITY_TIMEOUT,
+				(GSourceFunc)__bt_main_visible_timeout_cb, ugd);
 		}
 	}
 
@@ -3763,8 +3763,8 @@ void _bt_main_init_status(bt_ug_data *ugd, void *data)
 		if (ugd->remain_time > 0) {
 			/* Set current time snapshot */
 			time(&(ugd->start_time));
-			ugd->timeout_id = g_timeout_add_seconds(1,
-					__bt_main_visible_timeout_cb, ugd);
+			ugd->timeout_id = g_timeout_add(BT_VISIBILITY_TIMEOUT,
+				(GSourceFunc)__bt_main_visible_timeout_cb, ugd);
 		} else {
 			ugd->visibility_timeout = 0;
 		}

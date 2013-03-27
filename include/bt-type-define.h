@@ -59,6 +59,7 @@ extern "C" {
 #define BT_SEARCH_SERVICE_TIMEOUT 5
 #define BT_SELECTED_TIMEOUT 5
 #define BT_DELETED_TIMEOUT 2
+#define BT_VISIBILITY_TIMEOUT	1000
 
 /* Define Error type */
 #define BT_UG_FAIL -1
