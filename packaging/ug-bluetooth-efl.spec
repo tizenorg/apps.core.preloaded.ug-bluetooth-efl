@@ -4,7 +4,7 @@
 
 Name:       ug-bluetooth-efl
 Summary:    UI gadget about the bluetooth
-Version:    0.2.141
+Version:    0.2.142
 Release:    2
 Group:      TO_BE/FILLED_IN
 License:    Flora Software License
