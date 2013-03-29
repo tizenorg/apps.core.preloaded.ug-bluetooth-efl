@@ -398,6 +398,10 @@ static void __on_destroy(ui_gadget_h ug, service_h service, void *priv)
 	if (err != BT_ERROR_NONE)
 		BT_DBG("unset audio connection state cb failed: %d", err);
 
+	err = bt_adapter_unset_name_changed_cb();
+	if (err != BT_ERROR_NONE)
+		BT_DBG("unset name change cb failed: %d", err);
+
 	err = bt_hid_host_deinitialize();
 	if (err != BT_ERROR_NONE)
 		BT_DBG("bt_hid_host_deinitialize failed: %d", err);

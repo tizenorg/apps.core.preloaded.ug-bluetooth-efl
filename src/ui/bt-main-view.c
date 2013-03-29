@@ -3621,8 +3621,6 @@ void _bt_main_init_status(bt_ug_data *ugd, void *data)
 	service_h service = NULL;
 	int remain_time = 0;
 	int ret;
-	char *dev_name = NULL;
-	char phone_name[BT_DEVICE_NAME_LENGTH_MAX + 1];
 	bool status = false;
 	bt_adapter_state_e bt_state = BT_ADAPTER_DISABLED;
 	bt_adapter_visibility_mode_e mode =
@@ -3663,18 +3661,6 @@ void _bt_main_init_status(bt_ug_data *ugd, void *data)
 			bt_adapter_stop_device_discovery();
 
 		ugd->op_status = BT_ACTIVATED;
-
-		/* Get adapter name from bluez */
-		bt_adapter_get_name(&dev_name);
-
-		/* Get phone name from vconf */
-		_bt_util_get_phone_name(phone_name, BT_DEVICE_NAME_LENGTH_MAX);
-
-		if (g_strcmp0(dev_name, phone_name) != 0) {
-			_bt_util_set_phone_name();
-		}
-
-		g_free(dev_name);
 	}
 
 	if(bt_adapter_get_visibility(&mode, &remain_time) != BT_ERROR_NONE)
@@ -3743,9 +3729,16 @@ void _bt_main_init_status(bt_ug_data *ugd, void *data)
 	if (ret != BT_ERROR_NONE)
 		BT_DBG("bt_device_set_service_searched_cb failed");
 
+	ret = bt_adapter_set_name_changed_cb(
+				_bt_cb_adapter_name_changed,
+				(void *)ugd);
+	if (ret != BT_ERROR_NONE)
+		BT_DBG("bt_adapter_set_name_changed_cb failed");
+
 	ret = bt_hid_host_initialize(_bt_cb_hid_state_changed, (void *)ugd);
 	if (ret != BT_ERROR_NONE)
 		BT_DBG("bt_hid_host_initialize failed");
+
 
 	FN_END;
 }

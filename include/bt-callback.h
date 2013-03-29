@@ -50,6 +50,8 @@ void _bt_cb_audio_state_changed(int result, bool connected,
 				bt_audio_profile_type_e type,
 				void *user_data);
 
+void _bt_cb_adapter_name_changed(char *device_name, void *user_data);
+
 #ifdef __cplusplus
 }
 #endif

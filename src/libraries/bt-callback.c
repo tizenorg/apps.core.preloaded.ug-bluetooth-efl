@@ -694,3 +694,20 @@ void _bt_cb_audio_state_changed(int result, bool connected,
 	FN_END;
 }
 
+void _bt_cb_adapter_name_changed(char *device_name, void *user_data)
+{
+	FN_START;
+
+	bt_ug_data *ugd;
+
+	BT_DBG("Name: [%s]", device_name);
+
+	ret_if(user_data == NULL);
+
+	ugd = (bt_ug_data *)user_data;
+
+	elm_genlist_item_update((Elm_Object_Item *)ugd->status_item);
+
+	FN_END;
+}
+
