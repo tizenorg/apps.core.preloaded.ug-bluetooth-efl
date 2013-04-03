@@ -16,5 +16,11 @@
 		<application-service>
 			<operation name="http://tizen.org/appcontrol/operation/pick"/>
 		</application-service>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/bluetooth/pick"/>
+		</application-service>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/configure/bluetooth/visibility"/>
+		</application-service>
 	</ui-application>
 </manifest>

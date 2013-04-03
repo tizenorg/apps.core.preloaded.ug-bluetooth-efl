@@ -799,6 +799,7 @@ static service_h __bt_main_get_visibility_result(bt_ug_data *ugd,
 	service_h service = NULL;
 	char mode_str[BT_RESULT_STR_MAX] = { 0 };
 	const char *result_str;
+	int visibility = BT_VISIBLE_OFF;
 
 	retv_if(ugd == NULL, NULL);
 
@@ -816,9 +817,36 @@ static service_h __bt_main_get_visibility_result(bt_ug_data *ugd,
 		BT_DBG("Fail to add extra data");
 	}
 
+	/* Original output fields will be removed */
 	snprintf(mode_str, BT_RESULT_STR_MAX, "%d", (int)ugd->selected_radio);
 
 	if (service_add_extra_data(service, "visibility",
+					(const char *)mode_str) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
+	/* Convert the radio value to result */
+	switch (ugd->selected_radio) {
+	case 0:
+		visibility = BT_VISIBLE_OFF;
+		break;
+	case 1:
+	case 2:
+	case 3:
+		visibility = BT_VISIBLE_TIME_LIMITED;
+		break;
+	case 4:
+		visibility = BT_VISIBLE_ALWAYS;
+		break;
+	default:
+		visibility = BT_VISIBLE_OFF;
+		break;
+	}
+
+	memset(mode_str, 0x00, BT_RESULT_STR_MAX);
+	snprintf(mode_str, BT_RESULT_STR_MAX, "%d", visibility);
+
+	if (service_add_extra_data(service, BT_APPCONTROL_VISIBILITY,
 					(const char *)mode_str) < 0) {
 		BT_DBG("Fail to add extra data");
 	}
@@ -856,8 +884,14 @@ static service_h __bt_main_get_pick_result(bt_ug_data *ugd,
 
 	_bt_util_addr_type_to_addr_result_string(address, dev->bd_addr);
 
+	/* Original output fields will be removed */
 	if (service_add_extra_data(service, "address",
 					(const char *)address) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
+	if (service_add_extra_data(service, BT_APPCONTROL_ADDRESS,
+			(const char *)address) < 0) {
 		BT_DBG("Fail to add extra data");
 	}
 
@@ -866,9 +900,19 @@ static service_h __bt_main_get_pick_result(bt_ug_data *ugd,
 		BT_DBG("Fail to add extra data");
 	}
 
+	if (service_add_extra_data(service, BT_APPCONTROL_NAME,
+					(const char *)dev->name) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
 	snprintf(value_str, BT_RESULT_STR_MAX, "%d", dev->rssi);
 
 	if (service_add_extra_data(service, "rssi",
+					(const char *)value_str) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
+	if (service_add_extra_data(service, BT_APPCONTROL_RSSI,
 					(const char *)value_str) < 0) {
 		BT_DBG("Fail to add extra data");
 	}
@@ -881,6 +925,11 @@ static service_h __bt_main_get_pick_result(bt_ug_data *ugd,
 		BT_DBG("Fail to add extra data");
 	}
 
+	if (service_add_extra_data(service, BT_APPCONTROL_IS_PAIRED,
+					(const char *)value_str) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
 	memset(value_str, 0x00, sizeof(value_str));
 	snprintf(value_str, BT_RESULT_STR_MAX, "%d", dev->major_class);
 
@@ -889,10 +938,20 @@ static service_h __bt_main_get_pick_result(bt_ug_data *ugd,
 		BT_DBG("Fail to add extra data");
 	}
 
+	if (service_add_extra_data(service, BT_APPCONTROL_MAJOR_CLASS,
+					(const char *)value_str) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
 	memset(value_str, 0x00, sizeof(value_str));
 	snprintf(value_str, BT_RESULT_STR_MAX, "%d", dev->minor_class);
 
 	if (service_add_extra_data(service, "minor_class",
+					(const char *)value_str) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
+	if (service_add_extra_data(service, BT_APPCONTROL_MINOR_CLASS,
 					(const char *)value_str) < 0) {
 		BT_DBG("Fail to add extra data");
 	}
@@ -906,7 +965,18 @@ static service_h __bt_main_get_pick_result(bt_ug_data *ugd,
 		BT_DBG("Fail to add extra data");
 	}
 
+	if (service_add_extra_data(service, BT_APPCONTROL_SERVICE_CLASS ,
+					(const char *)value_str) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
 	if (service_add_extra_data_array(service, "uuids",
+					(const char **)dev->uuids,
+					dev->uuid_count) < 0) {
+		BT_DBG("Fail to add extra data");
+	}
+
+	if (service_add_extra_data_array(service, BT_APPCONTROL_UUID_LIST,
 					(const char **)dev->uuids,
 					dev->uuid_count) < 0) {
 		BT_DBG("Fail to add extra data");
@@ -3588,6 +3658,12 @@ void __bt_main_parse_service(bt_ug_data *ugd, service_h service)
 
 		if (service_add_extra_data(service, "files", file_path) < 0)
 			BT_ERR("Fail to add extra data");
+	} else if (g_strcmp0(operation, BT_APPCONTROL_PICK_OPERATION) == 0) {
+		BT_DBG("Pick Operation");
+		launch_type = strdup("pick");
+	} else if (g_strcmp0(operation, BT_APPCONTROL_VISIBILITY_OPERATION) == 0) {
+		BT_DBG("Visibility Operation");
+		launch_type = strdup("visibility");
 	} else if (service_get_extra_data(service, "launch-type",
 						&launch_type) == SERVICE_ERROR_NONE) {
 		if (service_add_extra_data(service, "type", "file") < 0)

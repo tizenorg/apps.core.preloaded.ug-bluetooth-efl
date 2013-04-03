@@ -99,6 +99,22 @@ extern "C" {
 
 #define BT_VCONF_VISIBLE_TIME "file/private/libug-setting-bluetooth-efl/visibility_time"
 
+/* AppControl Operation */
+#define BT_APPCONTROL_PICK_OPERATION "http://tizen.org/appcontrol/operation/bluetooth/pick"
+#define BT_APPCONTROL_VISIBILITY_OPERATION "http://tizen.org/appcontrol/operation/configure/bluetooth/visibility"
+
+/* AppControl Output */
+#define BT_APPCONTROL_ADDRESS "http://tizen.org/appcontrol/data/bluetooth/address"
+#define BT_APPCONTROL_NAME "http://tizen.org/appcontrol/data/bluetooth/name"
+#define BT_APPCONTROL_RSSI "http://tizen.org/appcontrol/data/bluetooth/rssi"
+#define BT_APPCONTROL_IS_PAIRED "http://tizen.org/appcontrol/data/bluetooth/is_paired"
+#define BT_APPCONTROL_MAJOR_CLASS "http://tizen.org/appcontrol/data/bluetooth/major_class"
+#define BT_APPCONTROL_MINOR_CLASS "http://tizen.org/appcontrol/data/bluetooth/minor_class"
+#define BT_APPCONTROL_SERVICE_CLASS "http://tizen.org/appcontrol/data/bluetooth/service_class"
+#define BT_APPCONTROL_SERVICE_TYPE "http://tizen.org/appcontrol/data/bluetooth/service_type"
+#define BT_APPCONTROL_UUID_LIST "http://tizen.org/appcontrol/data/bluetooth/uuid_list"
+#define BT_APPCONTROL_VISIBILITY "http://tizen.org/appcontrol/data/bluetooth/visibility"
+
 /* Access information */
 #define BT_STR_ACCES_INFO_MAX_LEN 512
 #define BT_STR_ACC_ICON "Icon"
@@ -120,6 +136,12 @@ typedef enum {
 	BT_1HOUR = 3600,
 	BT_NO_TIMEOUT = 0,
 } bt_visible_time_t;
+
+typedef enum {
+	BT_VISIBLE_OFF = 0,
+	BT_VISIBLE_ALWAYS = 1,
+	BT_VISIBLE_TIME_LIMITED = 2,
+} bt_visible_result_t;
 
 typedef enum {
 	BT_SEARCH_ALL_DEVICE = 0,
