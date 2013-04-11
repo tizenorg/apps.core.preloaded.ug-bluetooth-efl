@@ -3598,7 +3598,7 @@ void __bt_main_parse_service(bt_ug_data *ugd, service_h service)
 
 		BT_DBG("url_schem: %s", url_sheme);
 
-		if (g_strcmp0(url_sheme, "file") == 0) {
+		if (url_sheme == NULL || g_strcmp0(url_sheme, "file") == 0) {
 			/* File transfer */
 			file_path = g_filename_from_uri(file_url, NULL, NULL);
 			if (service_add_extra_data(service, "type", "file") < 0)
