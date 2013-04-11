@@ -3570,7 +3570,7 @@ void _bt_main_retry_pairing(void *data, int response)
 
 void __bt_main_parse_service(bt_ug_data *ugd, service_h service)
 {
-	char *url_sheme;
+	char *url_scheme;
 	char *body_text = NULL;
 	char *launch_type = NULL;
 	char *operation = NULL;
@@ -3594,11 +3594,11 @@ void __bt_main_parse_service(bt_ug_data *ugd, service_h service)
 		if (file_url == NULL)
 			goto done;
 
-		url_sheme = g_uri_parse_scheme(file_url);
+		url_scheme = g_uri_parse_scheme(file_url);
 
-		BT_DBG("url_schem: %s", url_sheme);
+		BT_DBG("url_schem: %s", url_scheme);
 
-		if (url_sheme == NULL || g_strcmp0(url_sheme, "file") == 0) {
+		if (url_scheme == NULL || g_strcmp0(url_scheme, "file") == 0) {
 			/* File transfer */
 			file_path = g_filename_from_uri(file_url, NULL, NULL);
 			if (service_add_extra_data(service, "type", "file") < 0)
@@ -3608,7 +3608,7 @@ void __bt_main_parse_service(bt_ug_data *ugd, service_h service)
 				BT_DBG("Fail to add extra data");
 		}
 
-		g_free(url_sheme);
+		g_free(url_scheme);
 
 		if (file_path == NULL) {
 			BT_DBG("Not include URI info");
