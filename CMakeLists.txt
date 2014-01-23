@@ -26,7 +26,7 @@ src/libraries/bt-net-connection.c
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 INCLUDE(FindPkgConfig)
-pkg_check_modules(pkgs REQUIRED elementary appcore-efl ui-gadget-1 x11 dlog vconf edbus evas edje ecore eina aul syspopup-caller
+pkg_check_modules(pkgs REQUIRED elementary appcore-efl ui-gadget-1 dlog vconf edbus evas edje ecore eina aul syspopup-caller
 gobject-2.0 capi-network-bluetooth capi-network-connection)
 
 FOREACH(flag ${pkgs_CFLAGS})
