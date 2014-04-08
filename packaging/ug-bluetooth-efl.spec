@@ -54,7 +54,7 @@ rm -rf %{buildroot}
 %make_install
 
 %files
-%manifest ug-bluetooth-elf.manifest
+%manifest ug-bluetooth-efl.manifest
 %defattr(-,root,root,-)
 %{_ugdir}/res/locale/*/LC_MESSAGES/*
 %{_ugdir}/res/images/ug-setting-bluetooth-efl/*
