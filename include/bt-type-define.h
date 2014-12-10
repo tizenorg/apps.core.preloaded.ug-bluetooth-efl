@@ -21,9 +21,12 @@
 extern "C" {
 #endif
 
-
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdbool.h>
+#include <tizen_error.h>
 #include <glib.h>
-
+#include <bluetooth_type.h>
 
 /**************************************************
 *                             Constant Value
@@ -293,37 +296,6 @@ typedef enum {
 	BT_DEVICE_MAJOR_MASK_HEALTH = 0x0100,
 } bt_device_major_mask_t;
 
-
-/**
- * This enum indicates Service class Type.
- */
-typedef enum {
-	BT_SC_NONE = 0,
-	BT_SC_RES_SERVICE_MASK = 0x00000001,
-	BT_SC_SPP_SERVICE_MASK = 0x00000002,
-	BT_SC_DUN_SERVICE_MASK = 0x00000004,
-	BT_SC_FAX_SERVICE_MASK = 0x00000008,
-	BT_SC_LAP_SERVICE_MASK = 0x00000010,
-	BT_SC_HSP_SERVICE_MASK = 0x00000020,
-	BT_SC_HFP_SERVICE_MASK = 0x00000040,
-	BT_SC_OPP_SERVICE_MASK = 0x00000080,
-	BT_SC_FTP_SERVICE_MASK = 0x00000100,
-	BT_SC_CTP_SERVICE_MASK = 0x00000200,
-	BT_SC_ICP_SERVICE_MASK = 0x00000400,
-	BT_SC_SYNC_SERVICE_MASK = 0x00000800,
-	BT_SC_BPP_SERVICE_MASK = 0x00001000,
-	BT_SC_BIP_SERVICE_MASK = 0x00002000,
-	BT_SC_PANU_SERVICE_MASK = 0x00004000,
-	BT_SC_NAP_SERVICE_MASK = 0x00008000,
-	BT_SC_GN_SERVICE_MASK = 0x00010000,
-	BT_SC_SAP_SERVICE_MASK = 0x00020000,
-	BT_SC_A2DP_SERVICE_MASK = 0x00040000,
-	BT_SC_AVRCP_SERVICE_MASK = 0x00080000,
-	BT_SC_PBAP_SERVICE_MASK = 0x00100000,
-	BT_SC_HID_SERVICE_MASK = 0x00200000,
-	BT_SC_ALL_SERVICE_MASK = 0x00FFFFFF,
-	BT_SC_MAX
-} bt_service_class_t;
 
 /*
  * Major device class (part of Class of Device)
