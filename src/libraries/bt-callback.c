@@ -388,11 +388,7 @@ void _bt_cb_discovery_state_changed(int result,
 {
 	FN_START;
 
-	bt_ug_data *ugd = NULL;
-
 	ret_if(user_data == NULL);
-
-	ugd = (bt_ug_data *)user_data;
 
 	if (discovery_state == BT_ADAPTER_DEVICE_DISCOVERY_FOUND)
 		__bt_cb_new_device_found(discovery_info, user_data);
