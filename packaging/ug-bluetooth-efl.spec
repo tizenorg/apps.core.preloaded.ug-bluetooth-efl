@@ -45,7 +45,6 @@ cmake . -DCMAKE_INSTALL_PREFIX=%{_ugdir}
 make %{?jobs:-j%jobs}
 
 %post
-vconftool set -tf int file/private/libug-setting-bluetooth-efl/visibility_time "0" -g 6520
 mkdir -p /usr/ug/bin/
 ln -sf /usr/bin/ug-client /usr/ug/bin/setting-bluetooth-efl
 
