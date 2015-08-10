@@ -493,10 +493,7 @@ gboolean _bt_util_is_flight_mode(void)
 
 	bool mode = FALSE;
 
-	if (vconf_get_bool(VCONFKEY_SETAPPL_FLIGHT_MODE_BOOL, (void *)&mode)) {
-		BT_DBG("Get the flight mode fail");
-		return FALSE;
-	}
+	/* Remove check the flight mode in platform */
 
 	BT_DBG("flight mode: %d", mode);
 
