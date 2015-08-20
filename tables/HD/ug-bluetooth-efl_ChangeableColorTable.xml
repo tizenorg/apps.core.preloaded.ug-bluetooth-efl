@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChangeableColorTable num="1">
+	<Theme style="Dark">
+		<ChangeableColorInfo id="ATO001" inputColor="3" hue="0" saturation="0" value="0" alpha="100" />
+	</Theme>
+	<Theme style="Light">
+		<ChangeableColorInfo id="ATO001" inputColor="3" hue="" saturation="" value="" alpha="" />
+	</Theme>
+</ChangeableColorTable>
+<ChangeableColorTable num="2">
+	<Theme style="Dark">
+		<ChangeableColorInfo id="ATO001" inputColor="3" hue="0" saturation="0" value="0" alpha="100" />
+	</Theme>
+	<Theme style="Light">
+		<ChangeableColorInfo id="ATO001" inputColor="3" hue="" saturation="" value="" alpha="" />
+	</Theme>
+</ChangeableColorTable>
+<ChangeableColorTable num="3">
+	<Theme style="Dark">
+		<ChangeableColorInfo id="ATO001" inputColor="3" hue="0" saturation="0" value="0" alpha="100" />
+	</Theme>
+	<Theme style="Light">
+		<ChangeableColorInfo id="ATO001" inputColor="3" hue="" saturation="" value="" alpha="" />
+	</Theme>
+</ChangeableColorTable>

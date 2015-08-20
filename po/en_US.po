@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Deactivating..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Always on"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Paired devices"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Printer"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Paper size"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Device name"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Turning on Bluetooth..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Print quality"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Visible"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Call audio"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Media audio"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Open"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 hour"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d minutes"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minutes"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minutes"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Allow %s phonebook access"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Always on"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Available devices"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Basic printing"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth available"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth devices"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Normal"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth share"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Unpair"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Call audio"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Operation failed"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Clear list"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Searching stopped"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Connected to phone and media audio."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Allow %s to delete your file?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Connecting..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Allow %s to get your file?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Connection failed."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Allow %s to put a file in?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Connection options"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Contact already exists"
+msgstr "Contact already exists."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Details"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Device name"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Dial-up networking"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Disconnecting..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Disconnect %2$s from the %1$s connection?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Don't ask again"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Enter %1$s on %2$s to pair, then tap Return or Enter."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Handsfree"
 
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Headset"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (keyboard, mouse, etc.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Used to make calls and listen to music via Bluetooth stereo headsets."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Used to provide Internet access for Bluetooth devices via the phone's modem."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Used to transfer files to and from Bluetooth devices."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Used to make incoming and outgoing calls via Bluetooth car kits."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Used to make incoming and outgoing calls via Bluetooth headsets."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Used to exchange personal data (namecards, Phonebook contacts, etc.) with Bluetooth devices."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Input device"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Internet access"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Media audio"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "My phone's name"
@@ -73,50 +118,191 @@ msgstr "My phone's name"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "My phone's visibility"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "No devices"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "No devices found"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "No transfer history"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Object push"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Off"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Operation failed."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Paired"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Paired devices"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minutes"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d successful, %d failed"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d successful, %d failed"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printer"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Paper size"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Print quality"
 
 msgid "IDS_BT_BODY_RECEIVED"
 msgstr "Received"
 
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Scanning..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Searching..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Searching... %d devices found."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Searching stopped."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Security policy restricts use of Bluetooth connection."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Security policy restricts use of Bluetooth connection to hands-free features only."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Sending failed to %s."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Sent"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Serial port"
+
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Bluetooth services"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Show password"
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Tap %s, then tap Scan to turn on Bluetooth and scan for phones."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Tap to connect."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Tap to disconnect."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "This is used to connect to other Bluetooth devices via a virtual serial port."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "To make your device visible to other devices, select the checkbox next to the name of your device."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Transfer history empty."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Enable Bluetooth to see a list of available devices."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "Type"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Unable to delete file or directory"
+msgstr "Unable to delete file or directory."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Unable to save file"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Unable to receive."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Unknown device."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Updating..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Unpair"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth address"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Bluetooth devices"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth device picker"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth error"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth pairing request"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "Enter PIN"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "From: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "New device"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Printing"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Select device"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Connect stereo"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Sent files"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Computer"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Fit to paper"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Keyboard"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
 
 msgid "IDS_BT_OPT_PC"
-msgstr "PC"
+msgstr "Computer"
 
 msgid "IDS_BT_OPT_PRINT"
 msgstr "Print"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Received files"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "Search options"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Unpair"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Allow %s to access messages?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "Allow %s to connect?"
@@ -124,227 +310,305 @@ msgstr "Allow %s to connect?"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "Allow %s to create folder %s?"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth is currently switched off.\nSwitch on?"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Bluetooth error. Try again?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Bluetooth timeout. Try again?"
 
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Confirm passkey is %2$s to pair with %1$s."
+
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Confirm passkey is %s to pair with %s"
+msgstr "Confirm passkey is %s to pair with %s."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "Unable to connect.\nTry again?"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Downloading failed"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Empty name"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP connected"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP disconnected"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Incorrect PIN. Try again?"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d files received"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Sending canceled"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Unable to send"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Serial connect with %s?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "File received"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Unable to get service list"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Connect"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Disconnect"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth activated"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth is currently switched off.\nSwitch on?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Activating Bluetooth..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Searching..."
-
 msgid "IDS_BT_POP_CONNECTED"
 msgstr "Connected"
 
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "No devices"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Searching... %d devices found"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Getting service list..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Receive %s from %s?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Selected"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Select device"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s already exists. Overwrite?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Unable to activate Bluetooth when Airplane mode is on"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "File does not exist"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Connected to phone and media audio"
-
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Connected to HID device"
-
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Scanning..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Turning off Bluetooth..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Used to make incoming and outgoing calls via Bluetooth headsets"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Handsfree"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Used to make incoming and outgoing calls via Bluetooth car kits."
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo headset"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Used to make calls and listen to music via Bluetooth stereo headsets"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "File transfer"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Used to transfer files to and from Bluetooth devices"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Object push"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Used to exchange personal data (namecards, Phonebook contacts, etc.) with Bluetooth devices"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Basic printing"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Used to print images, text messages, personal data such as namecards and appointments, etc. via remote Bluetooth printers"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Dial-up networking"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Used to provide Internet access for Bluetooth devices via the phone's modem"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Serial port"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID device"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (keyboard, mouse, etc.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Receiving..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Sharing..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "Scan"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "This is used to connect to other Bluetooth devices via a virtual serial port"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Match passkeys on %s?"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Failed to connect headset. Other device refused connection."
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Connection failed"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 minutes"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Unpair"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Connection options"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth available"
+msgstr "Connected to HID device."
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "Disconnect?"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Available devices"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Downloading failed."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 minutes"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Enter PIN to pair with %s."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Disconnecting..."
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Enter PIN to pair with %s (Try 0000 or 1234)."
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s remaining"
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Failed to connect headset. Other device refused connection."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Tap to connect"
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Failure reason: %s"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Tap to disconnect"
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "File: %s"
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "This will end your connection with"
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "File does not exist."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Input device"
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "File not received."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Security policy restricts use of Bluetooth connection"
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "File size: %s"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Security policy restricts use of Bluetooth connection to hands-free features only"
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "File type: %s"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Details"
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP connected."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP disconnected."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Getting service list..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID device"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Incorrect PIN. Try again?"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Memory full."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d files received."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s already exists. Overwrite?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Receive file from %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Receive %s from %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Receiving..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Searching services..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Sending canceled."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Unable to send."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Sending..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Sharing..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "File received."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "To: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Transfer cancelled."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Unable to activate Bluetooth when Airplane mode is on."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Unable to get service list."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Back"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Disconnect"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Scan"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stop"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth allows your device to exchange data wirelessly."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Make the device you are connecting to visible."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Make the device you are connecting to visible, then tap Scan."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Open %s Gallery."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Open %s Settings."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Select %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Select the device that you want to send the image to."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Select the device you want to connect to from list."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Select the picture or album you want to send."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Send the image. You can track its progress in the notification panel."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Send the picture. You can track its progress in the notification panel."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Tap the device you want to pair with or connect to. If the device is not in the list, make sure it is visible, then tap Scan."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Tap the share button and select %s Bluetooth."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Toggle the button and tap Scan to enable Bluetooth and scan for devices."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Send pictures via Bluetooth"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Set up Bluetooth"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Paired with or connected to selected device successfully. Tap the configuration icon to configure the device profile."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "You’ve completed the step-by-step guide. Return to Help."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Failed to pair with %s."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Scanning devices..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Maximum number of characters reached."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Receive file"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Share files"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Game controller"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "My device"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Transfer files"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Turning off..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Turning on..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Unavailable"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Visible to all nearby Bluetooth devices."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "My device name"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Rename device"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Enter device name."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Camera"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Group index"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Not selected"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "On/off button"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Radio button"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Selected"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Start now"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "This will end your connection with %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Double tap to open the list."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Double tap to close the list."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Connect"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Allow"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Connect to device"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Cancel"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Done"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Yes"
+
+msgid "IDS_BR_SK_NO"
+msgstr "No"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Close"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Tutorial complete."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Invalid action. Try again."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Resume"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth activated."
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Search options"
@@ -352,114 +616,321 @@ msgstr "Search options"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "All devices"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Exchange object with %s?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Show PIN"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Enter %1$s on %2$s to pair, then tap Return or Enter"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Retry"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "No Bluetooth device found"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Paired"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Low battery"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Searching services..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "More info"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth pairing request"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Enter PIN to pair with %s (Try 0000 or 1234)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Access request"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Confirm passkey is %2$s to pair with %1$s"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s is requesting permission to connect to your messages."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Show password"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s is requesting permission to connect to your Contacts."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Search"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
-
-msgid "IDS_BT_BODY_OFF"
-msgstr "Off"
-
-msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Connecting..."
-
-msgid "IDS_BT_SK_STOP"
+msgid "IDS_BT_SK4_STOP"
 msgstr "Stop"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Back"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Memory full"
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Rename"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Bluetooth device picker"
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "Off"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "Sending failed to %s"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Device"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Transfer history empty"
+msgid "IDS_BT_OPT_HELP"
+msgstr "Help"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Inbound transfers"
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "More"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Outbound transfers"
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Minutes"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Clear list"
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Seconds"
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Fit to paper"
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 minute"
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "Allow %s phonebook access"
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 second"
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "Allow %s to access messages?"
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Information"
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "File not received"
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Yesterday"
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "File: %s"
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Enabling Bluetooth..."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Failure reason: %s"
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Maximum number of characters (%d) reached."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "To: %s"
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "Show PIN"
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "File type: %s"
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Pair"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "File size: %s"
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Confirm to receive file."
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "From: %s"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Confirm"
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Transfer cancelled"
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "This name is already in use. Enter another name."
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Unable to receive"
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Connecting..."
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d successful, %d failed"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d remaining"
 
-msgid "IDS_BT_BODY_SENT"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Connected"
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s remaining."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Unable to receive files"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d files copied, %2$d failed"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Unable to send files"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 file copied, %d failed"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Enter the PIN to pair with %s. (Try 0000 or 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s wants to send you a file."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "An incorrect PIN has been entered. Try again."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "The Bluetooth device you are trying to pair with is currently busy."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "The Bluetooth device you are trying to pair with is currently busy. Try again."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "This Bluetooth pairing has timed out."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "This Bluetooth pairing has timed out. Try again."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "A Bluetooth error has occurred."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "A Bluetooth error has occurred. Tap OK to try again."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Accept"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Receive files"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Enable Bluetooth to see a list of devices you can pair with or have already paired with."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Visibility to other devices"
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Device names are shown to distinguish each of the devices available in the nearby devices list, and via Bluetooth and other methods."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Only visible to paired Bluetooth devices."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Disconnect device"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Scanning for devices..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Unable to pair with %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Preparing to receive files..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Allow application permission"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Allow application permission"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Files received via Bluetooth"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Files sent via Bluetooth"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Send via Bluetooth"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Receive via Bluetooth"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Preparing to send files..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s is requesting permission to access your messages."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s is requesting permission to access your messages. Allow?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s is requesting permission to access your contacts."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s is requesting permission to access your contacts and call history. Allow?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Unable to find application to perform this action."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Visibility timeout"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Device name"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Send files"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Unable to connect to %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Unable to use Bluetooth tethering while connected to Wi-Fi network."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Enter %1$s on %2$s to pair, then press Enter."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Serial connect with %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Match passkeys on %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Empty name."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo headset"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Connect stereo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Printing"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Unable to save file."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Used to print images, text messages, personal data such as namecards and appointments, etc. via remote Bluetooth printers."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Deactivating..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Allow %s to put a file in?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Allow %s to get your file?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Allow %s to delete your file?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Activating Bluetooth..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "TRANSFER FILES"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT PAIRING REQUEST"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s sent."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Receiving from"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Confirm the PIN (%1$s) to pair with %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Failed to send files"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Files received"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Failed to send file"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s sent."
+
+msgid "IDS_BT_POP_SENT"
 msgstr "Sent"
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Bluetooth share"
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Sent contact file %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "Sent image file %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Sent media file %s."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "Sent memo file %s."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Sent music file %s."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "Sent video file %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Receiving failed"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "File received"
 

@@ -1,18 +1,25 @@
 /*
- * Copyright (c) 2012-2013 Samsung Electronics Co., Ltd.
- *
- * Licensed under the Flora License, Version 1.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://floralicense.org/license/
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* ug-bluetooth-efl
+*
+* Copyright 2012 Samsung Electronics Co., Ltd
+*
+* Contact: Hocheol Seo <hocheol.seo@samsung.com>
+*           GirishAshok Joshi <girish.joshi@samsung.com>
+*           DoHyun Pyun <dh79.pyun@samsung.com>
+*
+* Licensed under the Flora License, Version 1.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.tizenopensource.org/license
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
 
 #ifndef __BT_PROFILE_VIEW_H__
 #define __BT_PROFILE_VIEW_H__
@@ -48,15 +55,15 @@ struct _bt_profile_view_data {
 	Elm_Genlist_Item_Class *call_itc;
 	Elm_Genlist_Item_Class *media_itc;
 	Elm_Genlist_Item_Class *hid_itc;
+#ifndef TIZEN_BT_A2DP_SINK_ENABLE
 	Elm_Genlist_Item_Class *network_itc;
+#endif
 	Ecore_IMF_Context *imf_context;
 };
 
 void _bt_profile_create_view(bt_dev_t *dev_info);
 
 void _bt_profile_delete_view(void *data);
-
-void _bt_profile_change_rotate_mode(void *data);
 
 void _bt_profile_destroy_profile_view(void *data);
 

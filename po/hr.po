@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Isključivanje..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Uvijek uključeno"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Upareni uređaji"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Pisač"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Veličina papira"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Naziv uređaja"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Uključuje se Bluetooth..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Kvaliteta ispisa"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Vidljiv"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Zvuk poziva"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Zvuk multimedije"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Otvori"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 sat"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d min"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 min"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minuta"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Dopusti %s pristup imeniku"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Uvijek uključeno"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Dostupni uređaji"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Osnovni ispis"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth dostupan"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth uređaji"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Normalna"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth dijeljenje"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Odspoji"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Zvuk poziva"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Neuspješno"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Obriši popis"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Pretraživanje prekinuto"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Spojeno na telefon i zvuk multimedije."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Dozvoliti %s brisanje datoteke?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Spajanje..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Dozvoliti %s pristup vašim datotekama?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Spajanje neuspješno."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Dozvoliti %s umetanje datoteke?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Opcije veze"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
 msgstr "Kontakt već postoji"
 
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Detalji"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Naziv uređaja"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Odlazni"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Odspajanje..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Odspoji %2$s s %1$s mreže?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Ne pitaj više"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Unesite %1$s na %2$s za spajanje, zatim dotaknite Povrat ili Unos."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Bežična oprema"
+
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Slušalice"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (tipkovnica, miš itd.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Služe za razgovore i slušanje glazbe preko Bluetooth stereo slušalica."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Omogućuje pristup Internetu Bluetooth uređajima preko modema uređaja."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Služi za prijenos datoteka sa i na Bluetooth uređaje."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Služi za razgovor preko Bluetooth auto opreme."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Služi za razgovor preko Bluetooth slušalica."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Služi za razmjenu osobnih podataka (unosa Imenika, posjetnica i sl.) s Bluetooth uređajima."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Ulazni uređaj"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Pristup internetu"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Zvuk multimedije"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "Ime telefona"
@@ -73,41 +118,173 @@ msgstr "Ime telefona"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "Vidljivost"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normalna"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Nema uređaja"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nisu pronađeni uređaji"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Nema povijesti prijenosa"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Slanje objekata"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Isključeno"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Neuspješno."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Upareno"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Upareni uređaji"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d min"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d uspješno, %d neuspješno"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d uspješno, %d neuspješno"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Pisač"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Veličina papira"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Kvaliteta ispisa"
+
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Primljeno"
+msgstr "Primljeno."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Pretraživanje..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Pretraživanje..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Tražim... Nađeno %d uređaja."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Pretraživanje prekinuto."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Sigurnosne odredbe ograničavaju korištenje Bluetooth veze."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Sigurnosne odredbe ograničavaju upotrebu Bluetooth veze samo za handsfree."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Neuspješno slanje do %s."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Poslano."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Serijski ulaz"
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Bluetooth usluge"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Prikaži lozinku."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Dodirnite %s, zatim dodirnite Skeniraj da biste uključili Bluetooth i tražili uređaje."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Dotaknite za spajanje."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Dotaknite za odspajanje."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Ovo se koristi za spajanje na druge Bluetooth uređaje preko virtualnog serijskog ulaza."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Odaberite potvrdni okvir pokraj imena vašeg uređaja da bi vaš uređaj bio vidljiv drugim uređajima."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Povijest prijenosa prazna."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Uključite Bluetooth da biste vidjeli popis dostupnih uređaja."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "Vrsta"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Nemoguće obrisati datoteku ili mapu"
+msgstr "Nemoguće obrisati datoteku ili mapu."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Nemoguće spremiti datoteku"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Nemoguće primati"
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Uređaj nepoznat."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Aktualiziranje..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Odspoji"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth adresa"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Bluetooth uređaji"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Odabir Bluetooth uređaja"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth greška"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Zahtjev za Bluetooth uparivanje"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "Unesite PIN"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "From: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "Novi uređaj"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Ispis"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Odaberite uređaj"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Spoji stereo"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Poslane datoteke"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Računalo"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Prilagodi papiru"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Tipkovnica"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mob. pristupna točka"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "PC"
@@ -115,8 +292,17 @@ msgstr "PC"
 msgid "IDS_BT_OPT_PRINT"
 msgstr "Ispis"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Primljene datoteke"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "Opcije pretraživanja"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Odspoji"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Dopustiti pristup porukama uređaju: %s?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "Dozvoliti %s spajanje?"
@@ -124,227 +310,308 @@ msgstr "Dozvoliti %s spajanje?"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "Dopustiti %s spremanje mape %s?"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth trenutno\nisključen.\nUključiti?"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Bluetooth greška. Ponoviti?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Bluetooth istekao. Ponoviti?"
 
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Potvrdite da ključ %2$s služi za spajanje sa %1$s."
+
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Potvrdite da ključ %s služi za spajanje sa %s"
+msgstr "Potvrdite da ključ %s služi za spajanje sa %s."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "Nemoguće spajanje\nPonoviti?"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Skidanje neuspješno"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Ime prazno"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP spojen"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP prekinut"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Neispravan PIN. Pokušajte ponovno"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "Primljeno %d datoteka"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Slanje prekinuto"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Nemoguće slanje"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Serijski spojiti sa %s?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Datoteka primljena"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Nemoguće preuzeti popis usluga"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Spoji"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Prekini vezu"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth uključen"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth trenutno\nisključen.\nUključiti?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetooth uključenje..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Pretraživanje..."
-
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Spojeno"
-
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Nema uređaja"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Tražim... Nađeno %d uređaja"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Preuzimanje popisa usluga..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Preuzeti %s od %s?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Odabrano"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Odaberite uređaj"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s već postoji. Piši preko?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Nemoguće uključiti Bluetooth dok je uključen način Bez mreže"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Datoteka ne postoji"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Spojeno na telefon i zvuk multimedije"
+msgstr "Spojeno."
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Spojen na HID uređaj"
+msgstr "Spojen na HID uređaj."
 
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Pretraživanje..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetooth isključivanje..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Služi za razgovor preko Bluetooth slušalica"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Bežična oprema"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Služi za razgovor preko Bluetooth auto opreme"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo slušalice"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Služe za razgovore i slušanje glazbe preko Bluetooth stereo slušalica"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Prijenos podataka"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Služi za prijenos datoteka sa i na Bluetooth uređaje"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Slanje objekata"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Služi za razmjenu osobnih podataka (unosa Imenika, posjetnica i sl.) s Bluetooth uređajima"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Osnovni ispis"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Bluetooth pisač omogućuje ispis slika, SMS poruka i osobnih podataka (npr. posjetnica, kalendara)"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Odlazni"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Omogućuje pristup Internetu Bluetooth uređajima preko modema uređaja"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Serijski ulaz"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID uređaj"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (tipkovnica, miš itd.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Primanje..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Dijeljenje..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "Skeniraj"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Ovo se koristi za spajanje na druge Bluetooth uređaje preko virtualnog serijskog ulaza"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Upariti ključeve na %s?"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Greška spajanja slušalica. Drugi uređaj odbio spajanje"
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Spajanje neuspješno"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 min"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Odspoji"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Opcije veze"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth dostupan"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Potvrda"
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "Prekinuti vezu?"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Dostupni uređaji"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Skidanje neuspješno."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 minuta"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Unesite PIN za spajanje s %s."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Odspajanje..."
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Unesite PIN za spajanje sa %s (pokušajte 0000 ili 1234)."
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "Preostalo %s"
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Greška spajanja slušalica. Drugi uređaj odbio spajanje."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Dotaknite za spajanje"
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Greška: %s"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Dotaknite za odspajanje"
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Datoteka: %s"
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Na ovaj će se način prekinuti veza s"
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Datoteka ne postoji."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Ulazni uređaj"
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Datoteka nije primljena."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Sigurnosne odredbe ograničavaju korištenje Bluetooth veze"
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Veličina: %s"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Sigurnosne odredbe ograničavaju upotrebu Bluetooth veze samo za handsfree"
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Vrsta datoteka: %s"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Detalji"
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP spojen."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP prekinut."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Preuzimanje popisa usluga..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID uređaj"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Neispravan PIN. Pokušajte ponovno"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Memorija puna."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "Primljeno %d datoteka."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s već postoji. Piši preko?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Preuzeti datoteku od %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Preuzeti %s od %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Primanje..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Traženje usluga..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Slanje prekinuto."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Nemoguće slanje."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Slanje..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Dijeljenje..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Datoteka primljena."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Primatelj: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Prijenos prekinut."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Nemoguće uključiti Bluetooth dok je uključen način Bez mreže."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Nemoguće preuzeti popis usluga."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Nazad"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Prekini vezu"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Skeniraj"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Zaustavi"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth omogućuje vašem uređaju da bežično izmjenjuje podatke."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Učinite uređaj na koji se spajate vidljivim."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Uključite vidljivost uređaja, a zatim dodirnite Skeniraj."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Otvorite %s Galeriju."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Otvorite %s Postavke."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Odaberite %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Odaberite uređaj kojem želite poslati sliku."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "S popisa odaberite uređaj koji želite spojiti."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Odaberite sliku ili album koji želite poslati."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Pošaljite sliku. Možete pratiti napredak u obavijestima."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Pošaljite sliku. Možete pratiti napredak u obavijestima."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Dodirnite uređaj koji želite spojiti ili povezati. Ako uređaj nije na popisu, provjerite je li vidljiv i dodirnite Traži."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Dodirnite gumb za dijeljenje i odaberite %s Bluetooth."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Pritisnite gumb i dodirnite Skeniraj da biste uključili Bluetooth i tražili uređaje."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Pošalji slike preko Bluetootha"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Postavi Bluetooth"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Uspješno spajanje ili povezivanje s odabranim uređajem. Dodirnite ikonu konfiguracije za konfiguriranje profila uređaja."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Završili ste sa uputama. Vratite se na pomoć."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Neuspješno uparivanje s %s."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Traženje uređaja..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Maks. broj znakova."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Primi datoteku"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Dijeli dat."
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Igraći kontroler"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Moj uređaj"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Prenesi datoteke"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Isključivanje..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Uključivanje..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Nedostupno"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Vidljiv svim Bluetooth uređajima u blizini."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Naziv mog uređaja"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Preimenuj uređaj"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Unesite naziv uređaja."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Indeks grupe"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Nije odabrano"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Gumb za uključivanje/isključivanje"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Tipka za radio"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Odabrano"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Pokreni sada"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Na ovaj će se način prekinuti veza s %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Dvaput dodirnite za otvaranje popisa."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Dvaput dodirnite za zatvaranje popisa."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Spoji"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Dopusti"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Spoji se na uređaj"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Prekid"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Da"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ne"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Zatvori"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Vodič dovršen."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Neispravna radnja. Ponovite."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Nastavi"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth uključen."
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Opcije pretraživanja"
@@ -352,114 +619,318 @@ msgstr "Opcije pretraživanja"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Svi uređaji"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Razmijeniti objekt sa %s?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Prikaži PIN"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Unesite %1$s na %2$s za spajanje, zatim dotaknite Povrat ili Unos"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Ponovi"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Nije nađen Bluetooth uređaj"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Upareno"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Baterija skoro prazna"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Traženje usluga..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Više informacija"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Zahtjev za Bluetooth uparivanje"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Unesite PIN za spajanje sa %s (pokušajte 0000 ili 1234)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Zahtjev za pristup"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Potvrdite da ključ %2$s služi za spajanje sa %1$s"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s traži dopuštenje za spajanje s vašim porukama."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Prikaži šifru"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s traži dopuštenje za spajanje s vašim Imenikom."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Traži"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
-
-msgid "IDS_BT_BODY_OFF"
-msgstr "Isključeno"
-
-msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Spajanje..."
-
-msgid "IDS_BT_SK_STOP"
+msgid "IDS_BT_SK4_STOP"
 msgstr "Zaustavi"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Nazad"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Memorija puna"
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Preimenuj"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Odabir Bluetooth uređaja"
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "Isključeno"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "Neuspješno slanje do %s"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Telefon"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Povijest prijenosa prazna"
+msgid "IDS_BT_OPT_HELP"
+msgstr "Upute"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Dolazni prijenosi"
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Više"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Odlazni prijenosi"
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Min"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Obriši popis"
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Sek"
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Prilagodi papiru"
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 min"
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "Dopusti %s pristup imeniku"
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 sek"
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "Dopustiti pristup porukama uređaju: %s?"
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Informacije"
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Datoteka nije primljena"
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Jučer"
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "Datoteka: %s"
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Uključuje se Bluetooth..."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Greška: %s"
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Maksimalan broj znakova (%d)."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "Primatelj: %s"
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "Prikaži PIN"
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "Vrsta datoteka: %s"
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Spoji"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "Veličina: %s"
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Potvrdite za primanje datoteke."
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "From: %s"
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Taj naziv se već koristi. Unesite drugi naziv."
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Prijenos prekinut"
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Spajanje..."
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Nemoguće primati"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d preostalo"
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d uspješno, %d neuspješno"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Spojen"
 
-msgid "IDS_BT_BODY_SENT"
-msgstr "Poslano"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "Preostalo %s."
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Bluetooth dijeljenje"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Nemoguće primiti datoteke"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d dat. kopir., %2$d neuspj."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Nemoguće poslati datoteke"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 dat. kopir., %d neuspješno"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Unesite PIN za uparivanje sa %s. (Pokušajte 0000 ili 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s vam želi poslati datoteku."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Unesen je netočan PIN. Pokušajte ponovno."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Bluetooth uređaj s kojim se pokušavate upariti trenutačno je zauzet."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Bluetooth uređaj s kojim se pokušavate povezati trenutačno je zauzet. Pokušajte ponovno."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Isteklo je ovo Bluetooth uparivanje."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Isteklo je ovo Bluetooth uparivanje. Pokušajte ponovno."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Došlo je do greške Bluetooth veze."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Greška Bluetootha. Dodirnite U redu i ponovite."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Prihvati"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Primanje datoteka"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Uključite Bluetooth da biste vidjeli popis uređaja s kojima se možete upariti ili s kojima ste već upareni."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Vidljivost za druge uređaje"
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Nazivi uređaja prikazani su radi razlikovanja pojedinih uređaja koji su dostupni na popisu najbližih uređaja te preko Bluetootha i na druge načine."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Vidljivo samo uparenim uređajima Bluetooth."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Odspojite uređaj"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Traženje uređaja..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Nemoguće spajanje sa %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Priprema primanja datoteka..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Dopusti dozvolu aplikacija"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Dopuštanje dozvole aplikacija"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Dat. prim. putem Bluetootha"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Dat. posl. putem Bluetootha"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Slanje putem Bluetootha"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Primanje putem Bluetootha"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Priprema slanja datoteka..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s traži dopuštenje za pristup vašim porukama."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s traži dopuštenje za pristup vašim porukama. Dopustiti?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s traži dopuštenje za pristup vašim kontaktima."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s traži dopuštenje za pristup vašim kontaktima i popisu poziva. Dopustiti?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Nema aplikacije potrebne za provedbu ove radnje."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Istek vidljivosti"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Naziv uređaja"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Šalji datoteke"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Nemoguće spojiti se s %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Nemoguće koristiti Bluetooth dijeljenje dok ste spojeni na Wi-Fi mrežu."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Unesite %1$s na %2$s za uparivanje, zatim pritisnite Unos."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Serijski spojiti sa %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Upariti ključeve na %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Ime prazno."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo slušalice"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Spoji stereo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Ispis"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Nemoguće spremiti datoteku."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Bluetooth pisač omogućuje ispis slika, SMS poruka i osobnih podataka (npr. posjetnica, kalendara)."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Isključivanje..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Dozvoliti %s umetanje datoteke?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Dozvoliti %s pristup vašim datotekama?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Dozvoliti %s brisanje datoteke?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetooth uključenje..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "PRIJENOS DATOTEKA"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT ZAHTJEV ZA SPAJANJE"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s poslano."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Šalje"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Potvrdite PIN (%1$s) za uparivanje s %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Neuspješ. slanje datoteka"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Datoteke primljene"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Neuspješ. slanje datoteke"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s poslano."
+
+msgid "IDS_BT_POP_SENT"
+msgstr "Poslano."
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Poslane kontakt datoteke %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "Poslana slika %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Poslana datoteka %s."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "Memo datoteka %s poslana."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Poslana glazbena datoteka %s."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "Poslana video datoteka %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Primanje neuspješno"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Datoteka primljena"
 

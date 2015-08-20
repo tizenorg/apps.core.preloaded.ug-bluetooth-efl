@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Deaktivizē..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Vienmēr ieslēgts"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Pārī savienotas ierīces"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Printeris"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Papīra formāts"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Ierīces nosaukums"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Ieslēdz Bluetooth..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Drukas kvalitāte"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Redzams"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Zvana audio"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Multivides audio"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Atvērt"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 stunda"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d minūtes"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minūtes"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minūtes"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Atļaut %s piekļūt tālruņu katalogam"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Vienmēr ieslēgts"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Pieejamās ierīces"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Parastā drukāšana"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth ir pieejams"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth ierīces"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Parasta"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth koplietošana"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Nesavienot pārī"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Zvana audio"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Darbība neizdevās"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Notīrīt sarakstu"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Meklēšana pārtraukta"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Izveidots savienojums ar tālruni un multivides audio."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Vai atļaut %s dzēst jūsu failu?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Savieno..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Vai atļaut %s saņemt jūsu failu?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Savienojums neizdevās."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Vai atļaut %s ievietot failu?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Savienojuma iespējas"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kontakts jau pastāv"
+msgstr "Kontakts jau pastāv."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Dati"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Ierīces nosaukums"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Iezvanes tīklošana"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Atvieno..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Vai atvienot %2$s no %1$s savienojuma?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Vairs nejautāt"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Ierīcē %2$s ievadiet %1$s, lai savienotu pārī, pēc tam pieskarieties pie Atgriezties vai Ievadīt."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Brīvroku"
 
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Austiņas"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (tastatūra, pele utt.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Lieto, lai veiktu zvanus un klausītos mūziku, izmantojot Bluetooth stereoaustiņas."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Tiek lietots, lai Bluetooth ierīcēm ļautu piekļūt internetam, izmantojot tālruņa modemu."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Izmanto, lai pārsūtītu failus uz Bluetooth ierīcēm un no tām."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Tiek lietots, lai varētu veikt un saņemt zvanus, izmantojot Bluetooth automašīnas komplektus."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Izmanto, lai aktivizētu ienākošos un izejošos zvanus, lietojot Bluetooth austiņas."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Lieto, lai veiktu personisko datu (vizītkaršu, kontaktu) apmaiņu starp Bluetooth ierīcēm."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Ievades ierīce"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Piekļuve internetam"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Multivides audio"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "Mana tālruņa nosaukums"
@@ -73,41 +118,173 @@ msgstr "Mana tālruņa nosaukums"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "Mana tālruņa uztveramība"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Parasta"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Nav ierīču"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nav atrasta neviena ierīce"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Nav pārsūtīšanas vēstures"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Objektu pārsūtīšana"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Izslēgt"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Darbība neizdevās."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Sapārots"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Pārī savienotas ierīces"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minūtes"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d veiksmīgi, %d neizdevās"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d veiksmīgi, %d neizdevās"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printeris"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Papīra formāts"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Drukas kvalitāte"
+
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Saņemts"
+msgstr "Saņemts."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Meklē..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Meklē..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Meklē... Atrastas %d ierīces."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Meklēšana pārtraukta."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Drošības politika ierobežo Bluetooth savienojuma lietošanu."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Drošības politika ļauj lietot Bluetooth savienojumu, izmantojot tikai brīvroku funkcijas."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Faila sūtīšana uz %s neizdevās."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Nosūtīts."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Seriālais ports"
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Bluetooth pakalpojumi"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Rādīt paroli."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Pieskarieties pie %s, pēc tam pieskarieties pie Meklēt, lai ieslēgtu Bluetooth un meklētu ierīces."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Pieskarieties, lai izveidotu savienojumu."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Pieskarieties, lai atvienotu."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Tas tiek izmantots, lai izveidotu savienojumu ar citām Bluetooth ierīcēm, izmantojot virtuālo seriālo portu."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Lai padarītu ierīci redzamu citām ierīcēm, izvēlieties blakus ierīces nosaukumam esošo rūtiņu."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Pārsūtīšanas vēsture ir tukša."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Lai skatītu pieejamo ierīču sarakstu, ieslēdziet Bluetooth."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "Veids"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Nevar izdzēst failu vai direktoriju"
+msgstr "Nevar izdzēst failu vai direktoriju."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Nevar saglabāt failu"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Nevar saņemt."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Nezināma ierīce."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Atjaunina..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Nesavienot pārī"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth adrese"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Bluetooth ierīces"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth ierīču atlasītājs"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth kļūda"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth pieprasījums savienošanai pārī"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "Ievadiet PIN kodu"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "No: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "Jauna ierīce"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Drukā"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Atlasīt ierīci"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Pievienot stereo"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Nosūtītie faili"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Dators"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Pielāgot papīram"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Tastatūra"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "Dators"
@@ -115,8 +292,17 @@ msgstr "Dators"
 msgid "IDS_BT_OPT_PRINT"
 msgstr "Drukāt"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Saņemtie faili"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "Meklēšanas iespējas"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Nesavienot pārī"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Vai atļaut ierīcei %s piekļūt ziņai?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "Vai atļaut %s savienot?"
@@ -124,227 +310,308 @@ msgstr "Vai atļaut %s savienot?"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "Vai atļaut ierīcei %s izveidot mapi %s?"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth pašreiz ir izslēgts.\nVai ieslēgt?"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Bluetooth kļūda. Vai mēģināt vēlreiz?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Bluetooth taimauts. Vai mēģināt vēlreiz?"
 
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Apstipriniet piekļuves kodu %2$s, lai izveidotu savienojumu pārī ar %1$s."
+
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Lai izveidotu savienojumu ar %s, apstiprināšanas piekļuves kods ir %s"
+msgstr "Lai izveidotu savienojumu ar %s, apstiprināšanas piekļuves kods ir %s."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "Nevar izveidot savienojumu.\nVai mēģināt vēlreiz?"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Lejupielāde neizdevās"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Nav nosaukuma"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP pievienots"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP atvienots"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Nepareizs PIN. Lūdzu, mēģiniet vēlreiz!"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "Saņemti %d faili"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Sūtīšana atcelta"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Nevar nosūtīt"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Seriālais savienojums ar %s?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Fails saņemts"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Nevar iegūt pakalpojumu sarakstu"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Savienot"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Atvienot"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth aktivizēts"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth pašreiz ir izslēgts.\nVai ieslēgt?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Aktivizē Bluetooth..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Meklē..."
-
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Savienots"
-
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Nav ierīču"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Meklē... Atrastas %d ierīces"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Izgūst pakalpojumu sarakstu..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Vai saņemt failu %s no ierīces %s?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Izvēlēts"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Atlasīt ierīci"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s jau pastāv. Vai pārrakstīt?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Nevar aktivizēt Bluetooth, ja ir ieslēgts lidojuma režīms"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Šāda faila nav"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Izveidots savienojums ar tālruni un multivides audio"
+msgstr "Savienots."
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Pievienots HID ierīcei"
+msgstr "Pievienots HID ierīcei."
 
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Skenē..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Tiek izslēgts Bluetooth..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Izmanto, lai aktivizētu ienākošos un izejošos zvanus, lietojot Bluetooth austiņas"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Brīvroku"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Tiek lietots, lai varētu veikt un saņemt zvanus, izmantojot Bluetooth automašīnas komplektus"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo austiņas"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Lieto, lai veiktu zvanus un klausītos mūziku, izmantojot Bluetooth stereoaustiņas"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Failu pārsūtīšana"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Izmanto, lai pārsūtītu failus uz Bluetooth ierīcēm un no tām"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Objektu pārsūtīšana"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Lieto, lai veiktu personisko datu (vizītkaršu, kontaktu) apmaiņu starp Bluetooth ierīcēm"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Parastā drukāšana"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Lieto, lai izdrukātu attēlus, īsziņas un personiskos datus (piem., vizītkartes, kalendāra ierakstus) ar attālajiem Bluetooth printeriem"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Iezvanes tīklošana"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Tiek lietots, lai Bluetooth ierīcēm ļautu piekļūt internetam, izmantojot tālruņa modemu"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Seriālais ports"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID ierīce"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (tastatūra, pele utt.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Saņem..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Koplieto..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "Meklēt"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Tas tiek izmantots, lai izveidotu savienojumu ar citām Bluetooth ierīcēm, izmantojot virtuālo seriālo portu"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Vai %s piekļuves kodi ir atbilstoši?"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Neizdevās pievienot austiņu. Otra ierīce atteica savienojumu"
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Savienojums neizdevās"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 minūtes"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Nesavienot pārī"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Savienojuma iespējas"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth ir pieejams"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Apstipr."
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "Vai atvienot?"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Pieejamās ierīces"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Lejupielāde neizdevās."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 minūtes"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Ievadiet PIN kodu, lai savienotu pārī ar %s."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Atvieno..."
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Ievadiet PIN kodu, lai izveidotu savienojumu ar %s (izmēģiniet 0000 vai 1234)."
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "Atlicis: %s"
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Neizdevās pievienot austiņu. Otra ierīce atteica savienojumu."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Pieskarieties, lai izveidotu savienojumu"
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Kļūmes iemesls: %s"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Pieskarieties, lai atvienotu"
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fails: %s"
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Šādi tiks pārtraukts jūsu savienojums ar"
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Šāda faila nav."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Ievades ierīce"
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Fails netika saņemts."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Drošības politika ierobežo Bluetooth savienojuma lietošanu"
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Faila lielums: %s"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Drošības politika ļauj lietot Bluetooth savienojumu, izmantojot tikai brīvroku funkcijas"
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Faila tips: %s"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Dati"
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP pievienots."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP atvienots."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Izgūst pakalpojumu sarakstu..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID ierīce"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Nepareizs PIN. Lūdzu, mēģiniet vēlreiz!"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Atmiņa pilna."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "Saņemti %d faili."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s jau pastāv. Vai pārrakstīt?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Vai saņemt failu no %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Vai saņemt failu %s no ierīces %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Saņem..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Meklē pakalpojumus..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Sūtīšana atcelta."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Nevar nosūtīt."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Sūta..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Koplieto..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Fails saņemts."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Kam: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Pārsūtīšana atcelta."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Nevar aktivizēt Bluetooth, ja ir ieslēgts lidojuma režīms."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Nevar iegūt pakalpojumu sarakstu."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Atpakaļ"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Atvienot"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Meklēt"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Apturēt"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth ļauj ierīcei veikt datu apmaiņu bezvadu režīmā."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Padariet ierīci, ar kuru veidojat savienojumu, redzamu."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Padariet redzamu ierīci, ar kuru veidojat savienojumu, pēc tam pieskarieties pie Meklēt."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Atveriet %s galeriju."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Atveriet %s iestatījumus."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Izvēlieties %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Izvēlieties ierīci, uz kuru sūtīt attēlu."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Sarakstā izvēlieties ierīci, ar kuru izveidot savienojumu."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Izvēlieties nosūtāmo attēlu vai albumu."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Nosūtiet attēlu. Paziņojumu panelī varat sekot līdzi norisei."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Nosūtiet attēlu. Paziņojumu panelī varat sekot līdzi norisei."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Pieskarieties ierīcei, ar kuru vēlaties savienot pārī vai izveidot savienojumu. Ja ierīce nav sarakstā, pārliecinieties, vai tā ir redzama, un pēc tam pieskarieties pie Meklēt."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Pieskarieties kopīgošanas pogai un izvēlieties %s Bluetooth."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Pārslēdziet pogu un pieskarieties pie Meklēt, lai ieslēgtu Bluetooth un meklētu ierīces."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Attēlu sūtīšana, izmantojot Bluetooth"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Bluetooth iestatīšana"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Savienošana pārī vai savienojuma izveide ar izvēlēto ierīci ir pabeigta. Pieskarieties konfigurēšanas ikonai, lai konfigurētu ierīces profilu."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Jūs esat pabeidzis detalizēto pamācību. Atgriezieties sadaļā Palīdzība."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Neizdevās savienošana pārī ar %s."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Meklē ierīces..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Sasniegts maksimālais rakstzīmju skaits."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Saņemt failu"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Kopīgot failus"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Spēļu vadāmierīce"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Mana ierīce"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Pārsūtīt failus"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Izslēdz..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Ieslēdz..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Nav pieejams"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Redz. visām tuvumā esoš. Bluetooth ierīcēm."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Manas ierīces nosaukums"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Pārdēvēt ierīci"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Ievadiet ierīces nosaukumu."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Grupas indekss"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Nav izvēlēts"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Ieslēgšanas/izslēgšana poga"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Radiopoga"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Izvēlēts"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Sākt tūlīt"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Šādi tiks pārtraukts savienojums ar ierīci %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Lai atvērtu sarakstu, veiciet dubultskārienu."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Lai aizvērtu sarakstu, veiciet dubultskārienu."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Savienot"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Atļaut"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Izveidot savienojumu ar ierīci"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Gatavs"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Jā"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nē"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Aizvērt"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Apmācība pabeigta."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Nederīga darbība. Mēģiniet vēlreiz."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Atsākt"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth aktivizēts."
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Meklēšanas iespējas"
@@ -352,114 +619,318 @@ msgstr "Meklēšanas iespējas"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Visas ierīces"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Vai veikt objekta datu apmaiņu ar %s?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Parādīt PIN"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Ierīcē %2$s ievadiet %1$s, lai savienotu pārī, pēc tam pieskarieties pie Atgriezties vai Ievadīt"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Atkārtot"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Bluetooth ierīce nav atrasta"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Sapārots"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Akumulators gandrīz tukšs"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Meklē pakalpojumus..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Papildinformācija"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth pieprasījums savienošanai pārī"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Ievadiet PIN kodu, lai izveidotu savienojumu ar %s (izmēģiniet 0000 vai 1234)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Piekļuves pieprasījums"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Apstipriniet piekļuves kodu %2$s, lai izveidotu savienojumu pārī ar %1$s"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s pieprasa atļauju izveidot savienojumu ar jūsu ziņām."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Rādīt paroli"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s pieprasa atļauju izveidot savienojumu ar jūsu tālruņu katalogu."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Meklēt"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_SK4_STOP"
+msgstr "Pārtraukt"
 
-msgid "IDS_BT_BODY_OFF"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "Labi"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Pārdēvēt"
+
+msgid "IDS_BT_BUTTON_OFF"
 msgstr "Izslēgt"
 
-msgid "IDS_BT_BODY_CONNECTING"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Tālrunis"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "Palīdzība"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Vēl"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Minūtes"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Sekundes"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 minūte"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 sekunde"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Informācija"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Vakar"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Ieslēdz Bluetooth..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Sasniegts maksimālais rakstzīmju skaits (%d)."
+
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "Rādīt PIN kodu"
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Savienot pārī"
+
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Apstipriniet, lai saņemtu failu."
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Šis nosaukums jau tiek lietots. Ievadiet citu nosaukumu."
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
 msgstr "Savieno..."
 
-msgid "IDS_BT_SK_STOP"
-msgstr "Apturēt"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "Atlikušas %1$d:%2$d"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Atpakaļ"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Savienots"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Atmiņa pilna"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "Atlicis: %s"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Bluetooth ierīču atlasītājs"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Nevar saņemt failus"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "Faila sūtīšana uz %s neizdevās"
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d nokop., %2$d – radās kļ."
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Pārsūtīšanas vēsture ir tukša"
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Nevar nosūtīt failus"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Ienākoši pārsūtījumi"
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 nokopēts, %d – radās kļūme"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Izejoši pārsūtījumi"
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Ievadiet PIN kodu, lai izveidotu savienojumu pārī ar %s. (Mēģiniet 0000 vai 1234.)"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Notīrīt sarakstu"
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s vēlas jums nosūtīt failu."
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Pielāgot papīram"
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Ievadīts nepareizs PIN kods. Mēģiniet vēlreiz."
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "Atļaut %s piekļūt tālruņu katalogam"
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Bluetooth ierīce, ar kuru mēģināt izveidot savienojumu pārī, šobrīd ir aizņemta."
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "Vai atļaut ierīcei %s piekļūt ziņai?"
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Bluetooth ierīce, ar kuru mēģināt izveidot savienojumu pārī, šobrīd ir aizņemta. Mēģiniet vēlreiz."
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Fails netika saņemts"
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Šim Bluetooth savienojumam pārī iestājās taimauts."
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "Fails: %s"
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Šim Bluetooth savienojumam pārī iestājās taimauts. Mēģiniet vēlreiz."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Kļūmes iemesls: %s"
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Radās Bluetooth kļūda."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "Kam: %s"
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Radās Bluetooth kļūda. Lai mēģinātu vēlreiz, pieskarieties pie Labi."
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "Faila tips: %s"
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Pieņemt"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "Faila lielums: %s"
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Saņemt failus"
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "No: %s"
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Ieslēdziet Bluetooth, lai skatītu ierīces, ar ko var izveidot vai jau ir izveidots savienojums pārī."
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Pārsūtīšana atcelta"
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Redzamība citām ierīcēm"
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Nevar saņemt"
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Tiek parādīti ierīču nosaukumi, lai atšķirtu katru tuvumā esošo ierīču sarakstā pieejamo ierīci, kā arī ierīces, kas pieejamas, izmantojot Bluetooth un citas metodes."
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d veiksmīgi, %d neizdevās"
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Redzams tikai pārī savienotajām Bluetooth ierīcēm."
 
-msgid "IDS_BT_BODY_SENT"
-msgstr "Nosūtīts"
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Atvienot ierīci"
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Bluetooth koplietošana"
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Meklē ierīces..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Nevar savienot pārī ar %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Gatavojas failu saņemšanai..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Atļaut programmas atļaujas"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Programmas atļaujas"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Faili saņemti, izm.Bluetooth"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Faili sūtīti, izm.Bluetooth"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Sūtīt, izmantojot Bluetooth"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Saņemt, izmantojot Bluetooth"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Gatavojas failu sūtīšanai..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s pieprasa atļauju piekļūt jūsu ziņām."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s pieprasa atļauju piekļūt jūsu ziņām. Vai atļaut?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s pieprasa atļauju piekļūt jūsu kontaktiem."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s pieprasa atļauju piekļūt jūsu kontaktiem un zvanu vēsturei. Vai atļaut?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Nevar atrast programmu, lai veiktu šo darbību."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Redzamības taimauts"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Ierīces nosaukums"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Sūtīt failus"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Nevar izveidot savienojumu ar %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Nevar izmantot Bluetooth piesaisti, ja ir izveidots savienojums ar Wi-Fi tīklu."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Lai savienotu pārī, ierīcē %2$s ievadiet %1$s, pēc tam nospiediet Enter."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Seriālais savienojums ar %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Vai %s piekļuves kodi ir atbilstoši?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Nav nosaukuma."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo austiņas"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Pievienot stereo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Drukā"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Nevar saglabāt failu."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Lieto, lai izdrukātu attēlus, īsziņas un personiskos datus (piem., vizītkartes, kalendāra ierakstus) ar attālajiem Bluetooth printeriem."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Deaktivizē..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Vai atļaut %s ievietot failu?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Vai atļaut %s saņemt jūsu failu?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Vai atļaut %s dzēst jūsu failu?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Aktivizē Bluetooth..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "PĀRSŪTĪT FAILUS"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BLUETOOTH PĀR.SAV.PIEPR."
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s nosūtīts."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Saņem no"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Apstipriniet PIN kodu (%1$s), lai savienotu pārī ar %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Neizdevās nosūtīt failus"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Saņemtie faili"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Neizdevās nosūtīt failu"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s nosūtīts."
+
+msgid "IDS_BT_POP_SENT"
+msgstr "Nosūtīts."
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Nosūtīts kontakta fails %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "Nosūtītais attēla fails %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Nosūtīts multivides fails %s."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "Nosūtītais piezīmes fails %s."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Nosūtītais mūzikas fails %s."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "Nosūtītais video fails %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Saņemšana neizdevās"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Fails ir saņemts"
 

@@ -1,0 +1,837 @@
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 oras"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minuto"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minuto"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Palaging naka-on"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Mga available na device"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Pangunahing pag-print"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Available ang Bluetooth."
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Mga Bluetooth device"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Pagbabahagi ng bluetooth"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Call audio"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "I-clear ang listahan"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Nakakonekta sa audio ng telepono at media."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Kumokonekta..."
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Nabigo ang koneksyon."
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Mga opsyon sa koneksyon"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Umiiral na ang contact."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Mga Detalye"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Pangalan ng device"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Dial-up networking"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Nagdidiskonekta..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Idiskonekta ang %2$s mula sa koneksyon sa %1$s?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Huwag nang magtanong muli."
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Ilagay ang %1$s sa %2$s na ipe-pair, pagkatapos ay i-tap ang Bumalik o ang Enter."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Handsfree"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Headset"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (keyboard, mouse, atbp.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Ginagamit upang magsagawa ng mga tawag at makinig ng musika sa pamamagitan ng mga stereo headset ng Bluetooth."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Ginagamit upang magbigay ng access sa Internet para sa mga Bluetooth device sa pamamagitan ng modem ng telepono."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Ginagamit upang maglipat ng mga file papunta at pabalik sa mga Bluetooth device."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Ginagamit upang magsagawa ng mga papasok at papalabas na tawag sa pamamagitan ng mga Bluetooth car kit."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Ginagamit upang magsagawa ng mga papasok at papalabas na tawag sa pamamagitan ng mga Bluetooth headset."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Ginagamit upang makipagpalitan ng personal na data (mga namecard, contact sa Phonebook, atbp.) sa mga Bluetooth device."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Input device"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Access sa Internet"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Media audio"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Pangalan ng aking telepono"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Pagpapakita ng aking telepono"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Walang mga device"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Walang mga device na nakita"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Walang kasaysayan ng paglilipat"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Object push"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "I-off"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Nabigo ang pagpapatakbo."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Paired"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Mga na-pair na device"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d (na) minuto"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d ang matagumpay, %d ang pumalya"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d ang matagumpay, %d ang nabigo"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printer"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Laki ng papel"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Kalidad ng pag-print"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Natanggap."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Naghahanap..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Naghahanap... %d (na) device ang nakita."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Ihininto ang paghahanap."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Pinaghihigpitan ng patakaran sa seguridad ang paggamit ng koneksyon sa Bluetooth."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Pinaghihigpitan ng patakaran sa seguridad ang paggamit ng koneksyon sa Bluetooth sa mga hands-free na feature lang."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Nabigo ang pagpapadala sa %s."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Naipadala."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Serial port"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Mga service ng Bluetooth"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Ipakita ang password."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "I-tap ang %s, pagkatapos ay i-tap ang Mag-scan para i-on ang Bluetooth at mag-scan ng mga device."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "I-tap upang kumonekta."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "I-tap upang idiskonekta."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Ginagamit ito upang kumonekta sa iba pang mga Bluetooth device sa pamamagitan ng virtual serial port."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Upang ipakita sa iba pang mga device ang iyong device, piliin ang tickbox sa tabi ng pangalan ng iyong device."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Walang laman ang kasaysayan ng paglilipat."
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Uri"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Hindi matanggal ang file o directory"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Hindi matanggap."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Hindi kilalang device"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Ina-update..."
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Unpair"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth address"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Mga Bluetooth device"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Tagapili ng Bluetooth device"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth error"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Kahilingan sa pagpe-pair sa Bluetooth"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Ipasok ang PIN"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Mula kay: %s"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Bagong device"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Pumili ng device"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Mga naipadalang file"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Computer"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Isakto sa papel"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Keyboard"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "I-print"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Mga natanggap na file"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Mga opsyon sa paghahanap"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Alisin sa pagkaka-pair"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Payagan ang %s na kumonekta?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Payagan ang %s na gawin ang folder na %s?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Kasalukuyang naka-off ang Bluetooth.\nI-on?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Error sa Bluetooth. Subukang muli?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Nag-time out ang Bluetooth. Subukang muli?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Ang passkey sa pagkumpirma ay %s upang i-pair sa %s."
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Hindi makakonekta.\nSubukang muli?"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Nakakonekta sa HID device."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Magdiskonekta?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Nabigo ang pagda-download."
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Ilagay ang PIN upang makipag-pair sa %s."
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Hindi naikonekta ang headset. Tinanggihan ng kabilang device ang koneksyon."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Dahilan ng pagkabigo: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "File: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Hindi umiiral ang file."
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Hindi natanggap ang file."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Laki ng file: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Uri ng file: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "Nakakonekta ang FTP."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "Nadiskonekta ang FTP"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Kinukuha ang listahan ng serbisyo…"
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID device"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Mali ang PIN. Subukang muli?"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Puno na ang memory."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d files received."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s already exists. Overwrite?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Tumanggap ng file mula sa %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Receive %s from %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Tinatanggap..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Naghahanap ng mga serbisyo..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Kinansela ang pagpapadala."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Hindi mapadala."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Ipinapadala..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Ibinabahagi..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Natanggap na ang file."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Kay: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Kinansela ang paglipat."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Hindi ma-activate ang Bluetooth kapag naka-on ang Flight mode."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Hindi makuha ang listahan ng serbisyo"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Bumalik"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Diskonekta"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Mag-scan"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Ihinto"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Tulong"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Nagbibigay-daan ang Bluetooth sa iyong device na wireless na makipagpalitan ng data."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Gawing nakikita ang device kung saan ka kumokonekta."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Make the device you are connecting to visible, then tap Scan."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Buksan ang %s Gallery."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Buksan ang %s Mga Setting."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Piliin ang %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Piliin ang device na gusto mong padalhan ng imahe."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Piliin ang device kung saan mo gustong kumonekta mula sa listahan."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Pumili ng litrato o album na gusto mong ipadala."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Ipadala ang imahe. Maaari mong sundan ang pag-usad nito sa notification panel."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Ipadala ang litrato. Maaari mong sundan ang pag-usad nito sa notification panel."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "I-tap ang device na nais mong i-pair o kung saan mo nais kumonekta. Kung wala sa listahan ang device, tiyaking nakikita ito, pagkatapos ay i-tap ang Mag-scan."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "I-tap ang button na ibahagi at piliin ang %s Bluetooth."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "I-toggle ang button at i-tap ang I-scan upang i-on ang Bluetooth at mag-scan para sa mga device."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Magpadala ng mga litrato sa pamamagitan ng Bluetooth."
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "I-set up ang Bluetooth."
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Matagumpay ang pagpe-pair o pagkonekta sa napiling device. I-tap ang icon ng configuration upang i-configure ang profile ng device."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Nakumpleto mo na ang hakbang-hakbang na gabay. Bumalilk sa Tulong."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Nabigong mag-pair sa %s."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Nagsa-scan ng device..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Naabot na ang maximum na bilang ng mga character."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Tanggapin ang file"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Magbahagi file"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Game controller"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Aking device"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Maglipat ng mga file"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Ino-off..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Ino-on..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Hindi available"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Nakikita ng lahat ng kalapit na Bluetooth device."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Pangalan ng aking device"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Palitan ang pangalan ng device"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Ipasok ang pangalan ng device."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Camera"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Index ng grupo"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Hindi pinili"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Button na I-on/I-off"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Radio button"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Napili"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Magsimula ngayon"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Wawakasan nito ang iyong koneksyon sa %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "I-double tap upang buksan ang listahan."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "I-double tap upang isara ang listahan."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Kumonekta"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Payagan"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Ikansela"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Tapos na"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Oo"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Hindi"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Isara"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Kumpleto na ang tutorial."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Hindi wastong aksyon. Subukang muli."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Ituloy"
+
+msgid "IDS_CST_OPT_HIDE"
+msgstr "Itago"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Naka-activate ang Bluetooth."
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Mga opsyon sa paghahanap"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Lahat ng device"
+
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Ipakita ang PIN"
+
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "I-retry"
+
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
+
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Low battery"
+
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Higit pang impormasyon"
+
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
+
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Kahilingan sa pag-access"
+
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Maghanap"
+
+msgid "IDS_BT_SK4_STOP"
+msgstr "Ihinto"
+
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Palitan ng pangalan"
+
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "I-off"
+
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Telepono"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "Tulong"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Higit pa"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Minuto"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Segundo"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 minuto"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 segundo"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Impormasyon"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Kahapon"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Binubuksan ang Bluetooth..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Naabot na ang maximum na bilang ng mga character (%d)."
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "I-pair"
+
+msgid "IDS_COM_BODY_RECEIVE"
+msgstr "Tumanggap"
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Kumpirma"
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Ginagamit na ang pangalang ito. Magpasok ng ibang pangalan."
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Kumokonekta..."
+
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d ang natitira"
+
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Nakakonekta"
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s ang natitira."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Hindi makatanggap ng mga file"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d file nakopya, %2$d hindi"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Di makapagpadala ng mga file"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 file nakopya, %d ang hindi"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Ipasok ang PIN upang makipag-pair sa %s. (Subukan ang 0000 o 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "Gusto ni %s na magpadala sa iyo ng file."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Nagpasok ng maling PIN. Subukang muli."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Kasalukuyang busy ang Bluetooth device na sinusubukan mong i-pair."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Nag-time out ang Bluetooth na pagpe-pair na ito."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "May naganap na error sa Bluetooth."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Tanggapin"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Tumanggap ng mga file"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "I-on ang Bluetooth para makita ang listahan ng mga device na maaari mong ipareha o naka-pareha na."
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Ipinapakita ang mga pangalan ng device para makilala ang bawat device na available sa listahan ng mga device na malapit at sa pamamagitan ng Bluetooth at iba pang mga paraan."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Nakikita lang ng mga naka-pair na Bluetooth device."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Idiskonekta ang device"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Nagsa-scan ng mga device..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Hindi mai-pair sa %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Naghahandang tumanggap ng mga file..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Payagan ang pahintulot ng application"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Files natanggap sa Bluetooth"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Files napadala sa Bluetooth"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Ipadala sa Bluetooth"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Tanggapin sa Bluetooth"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Naghahanda upang magpadala ng mga file..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "Humihiling ang %s ng pahintulot na ma-access ang iyong mga mensahe."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "Humihiling ang %s ng pahintulot na ma-access ang iyong mga contact."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Hindi makahanap ng application na magsasagawa ng aksyong ito."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Pag-timeout ng visibility"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Magpadala ng mga file"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Hindi makakonekta sa %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Hindi magamit ang Bluetooth tethering habang nakakonekta sa Wi-Fi network."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Ipasok ang %1$s sa %2$s para ipares, pagkatapos ay pindutin ang Enter."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Kumonekta nang serial sa %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Itugma ang mga passkey sa %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Walang laman ang pangalan."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo headset"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Connect stereo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Pag-print"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Hindi ma-save ang file."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Ginagamit upang mag-print ng mga larawan, text message, personal na data gaya ng mga namecard at appointment, atbp. sa pamamagitan ng mga Bluetooth na printer."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Dini-deactivate..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Payagan ang %s na maglagay ng file?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Payagan ang %s na kunin ang iyong file?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Payagan ang %s na i-delete ang iyong file?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Ina-activate ang Bluetooth..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "MAGLIPAT NG MGA FILE"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "HILING SA PAG-PAIR NG BT"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Kumpirmahin ang PIN (%1$s) upang makipag-pair sa %2$s."
+

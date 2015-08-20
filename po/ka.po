@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "გამორთვა..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "მუდამ ჩართული"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "დაკავშირებული მოწყობილობები"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "პრინტერი"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "ფურცლის ზომა"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "მოწყობილობის სახელი"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "სრულდება Bluetooth–ის ჩართვა..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "ბეჭდვის ხარისხი"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "ხილვადი"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "აუდიო ზარის განხორციელება"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "მედია აუდიო"
+msgid "IDS_BT_SK_OPEN"
+msgstr "გახსნა"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 საათი"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d წუთი"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 წუთი"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 წუთი"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "„%s“ მოწყობილობას მიეცით ტელეფონების წიგნზე წვდომის ნება"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "მუდამ ჩართული"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "მისაწვდომი მოწყობილობები"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "ბეჭდვის ძირითადი რეჟიმი"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth გააქტიურებულია"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth მოწყობილობები"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "ნორმალური"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth გაზიარება"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "დაწყვილ. გაუქმ."
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "აუდიო ზარის განხორციელება"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "ოპერაცია ვერ შესრულდა"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "სიის გასუფთავება"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "ძებნა შეწყდა"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "დაკავშირებულია ტელეფონისა და მედიის აუდიოსთან."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "ჰქონდეს %s-ს თქვენი ფაილების წაშლის ნება?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "უკავშირდება..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "დართავთ %s-ს თქვენი ფაილების მიღების ნებას?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "ვერ დაუკავშირდა."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "ჰქონდეს %s-ს ფაილის ჩადების ნება?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Connection options"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "კონტაქტი უკვე არსებობს"
+msgstr "კონტაქტი უკვე არსებობს."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "დეტალები"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "მოწყობილობის სახელი"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Dial-up კავშირი ქსელთან"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "გამორთვა..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%2$s გაითიშოს %1$s დაკავშირებიდან?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "აღარ მკითხო"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ჩაწერეთ %1$s %2$s-ში და დააწყვილეთ, შემდეგ დააკაკუნეთ დაბრუნებაზე ან შესვლაზე."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "სასმენი"
 
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "გარნიტურა"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (კლავიატურა, თაგუნა და ა.შ.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "გამოიყენება Bluetooth სტერეო მინიგარნიტურებით ზარის განსახორციელებლად და მუსუკის მოსასმენად."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "გამოიყენება Bluetooth მოწყობილობების ინტერნეტთან დასაკავშირებლად ტელეფონის მოდემის საშუალებით."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "გამოიყენება ფაილების გასაგზავნად Bluetooth მოწყობილობებზე და პირიქით."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "გამოიყენება შემომავალი და გამავალი ზარების განსახორციელებლად Bluetooth მანქანის კომპლექტებით."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "გამოიყენება შემომავალი და გამავალი ზარების განსახორციელებლად Bluetooth მინიგარნიტურებით."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "გამოიყენება პირადი მონაცემების (სავიზიტო ბარათების, ტელეფონის წიგნში მყოფი კონტაქტების და ა.შ.) გასაცვლელად Bluetooth მოწყობილობებთან."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "მიმღები მოწყობილობა"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "ინტერნეტზე წვდომა"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "მედია აუდიო"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "ჩემი ტელეფონის სახელი"
@@ -73,41 +118,173 @@ msgstr "ჩემი ტელეფონის სახელი"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "ჩემი ტელეფონის ხილვადობა"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "ნორმალური"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "მოწყობილობები არ არის"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "მოწყობილობები ვერ მოიძებნა"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "მონაცემთა გადაცემის ისტორია არ არის"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "ობიექტის გააქტიურება"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "გამორთ."
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "ოპერაცია ვერ შესრულდა."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "დაწყვილებული"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "დაკავშირებული მოწყობილობები"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d წუთი"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d წარმატებით შესრულდა, %d ვერ შესრულდა"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d შესრულდა, %d ვერ შესრულდა"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "პრინტერი"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "ფურცლის ზომა"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "ბეჭდვის ხარისხი"
+
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "მიღებულია"
+msgstr "მიღებულია."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "მიმდ. სკანირება"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "იძებნება..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "იძებნება... ნაპოვნია %d მოწყობილობა."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "ძებნა შეწყდა."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "უსაფრთხოების პოლიტიკა ზღუდავს Bluetooth კავშირის გამოყენებას."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "უსაფრთხოების პოლიტიკა ფარგლავს Bluetooth კავშირის გამოყენებას მხოლოდ ტელეფონის ფუნქციებისთვის."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "ვერ გაიგზავნა მოწყობილობაზე „%s“."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "გაგზავნილია."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "სერიული პორტი"
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Bluetooth მომსახურება"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "გამოჩნდეს პაროლი."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "შეეხეთ ღილაკს %s და შეეხეთ „სკანირება“-ს, რომ ჩართოთ Bluetooth და მოძებნოთ მოწყობილობები."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "დააკაკუნეთ, რომ დაუკავშირდეთ."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "დააკაკუნეთ და გამოირთვება."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "ეს გამოიყენება სხვა Bluetooth მოწყობილობებთან დასაკავშირებლად, ვირტუალური სერიული პორტის საშუალებით."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "თუ გსურთ თქვენი მოწყობილობა ხილული იყოს სხვებისთვის, მონიშნეთ უჯრა თქვენი მოწყობილობის გვერდით."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "გადაცემათა ისტორია ცარიელია."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "ხელმისაწვდომი მოწყობილობების სანახავად ჩართეთ Bluetooth."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "ტიპი"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "ვერ წაშლით ფაილს ან დირექტორიას"
+msgstr "ვერ წაშლით ფაილს ან დირექტორიას."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "ფაილს ვერ შეინახავთ"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "ვერ მიიღებთ."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "უცნობი მოწყობილობა."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "განახლება..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "დაწყვილ. გაუქმ."
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth მისამართი"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Bluetooth მოწყობილობები"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth მოწყობილობის ამრჩევი"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth შეცდ."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth დაწყვილების მოთხოვნა"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "შეიყვანეთ PIN"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "ვისგან: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "ახალი მოწყობილობა"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "ბეჭდვა"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "მოწყობილობის შერჩევა"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "სტერეოს დაკავშირება"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "გაგზავნილი ფაილები"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "კომპიუტერი"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "ფურცელზე მორგება"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "კლავიატურა"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "კომპიუტერი"
@@ -115,14 +292,26 @@ msgstr "კომპიუტერი"
 msgid "IDS_BT_OPT_PRINT"
 msgstr "ამობეჭდვა"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "მიღებული ფაილები"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "ძიების ოფციები"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "დაწყვილების გაუქმება"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "ჰქონდეს %s-ს წერილებზე წვდომის ნება?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "დავრთო %s-ს დაკავშირების ნება?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
-msgstr "მისცემთ ნებას ”%s”–ს შექმნას საქაღალდე ”%s”?"
+msgstr "მისცემთ ნებას „%s“–ს შექმნას საქაღალდე „%s“?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth ამჟამად გამორთულია.\nჩაირთოს?"
 
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Bluetooth–ის შეცდომა. ისევ ცდით?"
@@ -130,221 +319,299 @@ msgstr "Bluetooth–ის შეცდომა. ისევ ცდით?"
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Bluetooth–ის დრო გავიდა. ისევ ცდით?"
 
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "დადასტურების პაროლ-კოდი არის %2$s, რომ მოხდეს დაწყვილება მოწყობილობასთან „%1$s“."
+
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "დამოწმებული პაროლ–კოდი არის ”%s”, რომლითაც ხდება დაწყვილება ”%s”–სთან"
+msgstr "დამოწმებული პაროლ–კოდი არის „%s“, რომლითაც ხდება დაწყვილება „%s“–სთან."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "ვერ უკავშირდება.\nისევ ცდით?"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "ვერ ჩამოიტვირთა"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "სახელი ცარიელია"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP დაკავშირდა"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP გამოირთო"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "PIN არასწორია. გთხოვთ, თავიდან ცადოთ"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "მიღებულია %d ფაილი"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "გაგზავნა შეწყდა"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "ვერ იგზავნება"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "დაუკავშირდეს სერიული პორტი ”%s”-ს?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "ფაილი მიღებულია"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "სერვისების სიას ვერ მიიღებთ"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "კავშირი"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "გათიშვა"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth გააქტიურდა"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth ამჟამად გამორთულია.\nჩაირთოს?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "აქტიურდება Bluetooth..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "იძებნება..."
-
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "დაკავშირებულია"
-
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "მოწყობილობები არ არის"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "იძებნება... ნაპოვნია %d მოწყობილობა"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "მომსახურების სიის მიღება..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "გსურთ მიიღოთ %s მოწყობილობიდან %s?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "შერჩეული"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "მოწყობილობის შერჩევა"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s უკვე არის. გადააწერთ?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Bluetooth ვერ გააქტიურდება, როცა ჩართულია ფრენის რეჟიმი"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "ფაილი არ არსებობს"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "დაკავშირებულია ტელეფონისა და მედიის აუდიოსთან"
+msgstr "დაკავშირებულია."
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "დაკავშირებულია HID მოწყობილობასთან"
+msgstr "დაკავშირებულია HID მოწყობილობასთან."
 
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "მიმდ. სკანირება"
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetooth ითიშება..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "გამოიყენება შემომავალი და გამავალი ზარების განსახორციელებლად Bluetooth მინიგარნიტურებით"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "სასმენი"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "გამოიყენება შემომავალი და გამავალი ზარების განსახორციელებლად Bluetooth მანქანის კომპლექტებით"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "სტერეო გარნიტურა"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "გამოიყენება Bluetooth სტერეო მინიგარნიტურებით ზარის განსახორციელებლად და მუსუკის მოსასმენად"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "ფაილის გადაგზავნა"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "გამოიყენება ფაილების გასაგზავნად Bluetooth მოწყობილობებზე და პირიქით"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "ობიექტის გააქტიურება"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "გამოიყენება პირადი მონაცემების (სავიზიტო ბარათების, ტელეფონის წიგნში მყოფი კონტაქტების და ა.შ.) გასაცვლელად Bluetooth მოწყობილობებთან"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "ბეჭდვის ძირითადი რეჟიმი"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "გამოიყენება სურათების, ტექსტური წერილების, პერსონალური მონაცემების, მაგ., სავიზიტო ბარათებისა და შეხვედრების და ა.შ. ამოსაბეჭდად, დისტანციური Bluetooth პრინტერების საშუალებით"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Dial-up კავშირი ქსელთან"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "გამოიყენება Bluetooth მოწყობილობების ინტერნეტთან დასაკავშირებლად ტელეფონის მოდემის საშუალებით"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "სერიული პორტი"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID მოწყობილობა"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (კლავიატურა, თაგუნა და ა.შ.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "იტვირთება..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "ზიარდება..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "სკანირება"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "ეს გამოიყენება სხვა Bluetooth მოწყობილობებთან დასაკავშირებლად, ვირტუალური სერიული პორტის საშუალებით"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "შეესაბამება პაროლ-კოდებს %s-ზე?"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "გარნიტურა ვერ დაკავშირდა. სხვა მოწყობილობამ უარყო დაკავშრება"
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "ვერ დაუკავშირდა"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 წუთი"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "დაწყვილების გაუქმება"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Connection Options"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth გააქტიურებულია"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "დასტური"
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "გათიშავთ?"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "მისაწვდომი მოწყობილობები"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "ვერ ჩამოიტვირთა."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 წუთი"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "%s-თან დასაწყვილებლად შეიყვანეთ PIN."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "გამორთვა..."
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "ჩაწერეთ „%s“–თან დაწყვილების PIN (მოსინჯეთ 0000 ან 1234)."
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s დარჩენილი"
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "გარნიტურა ვერ დაკავშირდა. სხვა მოწყობილობამ უარყო დაკავშრება."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "დააკაკუნეთ, რომ დაუკავშირდეთ"
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "წარუმატებლობის მიზეზი: %s"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "დააკაკუნეთ და გამოირთვება"
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "ფაილი: %s"
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "ამით შეწყდება კავშირი მოწყობილობასთან"
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "ფაილი არ არსებობს."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "მიმღები მოწყობილობა"
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "ფაილი არ არის მიღებული."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "უსაფრთხოების პოლიტიკა ზღუდავს Bluetooth კავშირის გამოყენებას"
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "ფაილის ზომა: %s"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "უსაფრთხოების პოლიტიკა ფარგლავს Bluetooth კავშირის გამოყენებას მხოლოდ ტელეფონის ფუნქციებისთვის"
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "ფაილის ტიპი: %s"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "დეტალები"
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP დაკავშირდა."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP გამოირთო."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "მომსახურების სიის მიღება..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID მოწყობილობა"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN არასწორია. გთხოვთ, თავიდან ცადოთ"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "მეხსიერება შევსებულია."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "მიღებულია %d ფაილი."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s უკვე არის. გადააწერთ?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "მიიღებთ ფაილს %s-სგან?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "გსურთ მიიღოთ %s მოწყობილობიდან %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "იტვირთება..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "მომსახურებების ძებნა..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "გაგზავნა შეწყდა."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "ვერ იგზავნება."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "იგზავნება..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "ზიარდება..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "ფაილი მიღებულია."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "ვის: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "გადაცემა გაუქმდა."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Bluetooth ვერ გააქტიურდება, როცა ჩართულია ფრენის რეჟიმი."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "სერვისების სიას ვერ მიიღებთ."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "უკან"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "გათიშვა"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "სკანირება"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "შეჩერება"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth საშუალებას აძლევს მოწყობილობას უსადენოდ გაცვალოს მონაცემები."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "გახადეთ ხილული მოწყობილობა, რომელსაც უკავშირდებით."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "გახადეთ ხილული მოწყობილობა, რომელსაც უკავშირდებით და შემდეგ შეეხეთ „სკანირება“-ს."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "გახსენით გალერეა %s."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "გახსენით პარამეტრები %s."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "აირჩიეთ %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "აირჩიეთ მოწყობილობა, რომელზეც გსურთ გადაგზავნოთ სურათი."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "სიაში აირჩიეთ მოწყობილობა. რომელსაც გსურთ დაუკავშირდეთ."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "აირჩიეთ სურათი ან ალბომი, რომლის გაგზავნაც გსურთ."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "გაგზავნეთ სურათი. შეგიძლიათ თვალყური ადევნოთ ამ პროცესს შეტყობინების დაფაზე."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "გაგზავნეთ სურათი. შეგიძლიათ თვალყური ადევნოთ ამ პროცესს შეტყობინების დაფაზე."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "შეეხეთ მოწყობილობას, რომელიც გსურთ დაწყვილდეს ან დაკავშირდეს აპარატთან. თუ აპარატი არ არის სიაში, დარწმუნდით რომ იგი ხილულია, შემდეგ კი შეეხეთ „სკანირება“-ს."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "შეეხეთ გაზიარების ღილაკს და აირჩიეთ %s Bluetooth."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "დააჭირეთ ღილაკს და შეეხეთ „სკანირება“-ს, რომ ჩართოთ Bluetooth და მოძებნოთ მოწყობილობები."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "სურათების გაგზავნა Bluetooth-ით"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Bluetooth-ის დაყენება"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "შერჩეულ აპარატთან დაწყვილება ან დაკავშირება წარმატებით შესრულდა. შეეხეთ კონფიგურაციის ნიშანს, რომ შეარჩიოთ აპარატის კონფიგურაცია."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "თქვენ გაიარეთ ნაბიჯ-ნაბიჯ მეგზური. დახმარებაზე დაბრუნება."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%s ვერ დაწყვილდა."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "მოწყობილობების ძებნა..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "მიღწეულია სიმბოლოების მაქსიმალური რაოდენობა."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "ფაილის მიღება"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "ფაილთა გაზიარება"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "თამაშის მაკონტროლებელი"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "ჩემი აპარატი"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "ფაილების გადაცემა"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "სრულდება გამორთვა..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "სრულდება ჩართვა..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "მიუწვდომელია"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "ხილულია ახლო Bluetooth მოწყობილობებისთვის."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "ჩემი მოწყობილობის სახელი"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "მოწყობილობის სახელის შეცვლა"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "ჩაწერეთ მოწყობილობის სახელი."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "ფოტოაპარატი"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "ჯგუფის ინდექსი"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "არ არის არჩეული"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "ჩართვა-გამორთვის ღილაკი"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "მოსანიშნი წრე"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "შერჩეულია"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "დაიწყეთ ახლა"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ამით შეწყდება კავშირი %s-თან."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "შეეხეთ ორჯერ და გახსენით სია."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "შეეხეთ ორჯერ და დახურეთ სია."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "კავშირი"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "დართე ნება"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "დაუკავშირდით აპარატს"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "შესრულდა"
+
+msgid "IDS_BR_SK_YES"
+msgstr "კი"
+
+msgid "IDS_BR_SK_NO"
+msgstr "არა"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "დახურვა"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "სახელმძღვანელო დასრულდა."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "მოქმედება არასწორია. ისევ ცადეთ."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "განახლება"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth გააქტიურდა."
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "ძიების ოფციები"
@@ -352,114 +619,318 @@ msgstr "ძიების ოფციები"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "ყველა მოწყობილობა"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "გსურთ ობიექტის გაცვლა %s-თან?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "გამოჩნდეს PIN"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "ჩაწერეთ %1$s %2$s-ში და დააწყვილეთ, შემდეგ დააკაკუნეთ დაბრუნებაზე ან შესვლაზე"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "ხელახალი ცდა"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "არაა Bluetooth-ის მოწყობილობა"
+msgid "IDS_ST_BODY_PIN"
+msgstr "P I N"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "დაწყვილებული"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "კვების ელემენტი იცლება"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "მომსახურებების ძებნა..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "დამატებითი ინფორმაცია"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth დაწყვილების მოთხოვნა"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "ჩაწერეთ ”%s”–თან დაწყვილების PIN (მოსინჯეთ 0000 ან 1234)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "წვდომის მოთხოვნა"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "დადასტურების პაროლ-კოდი არის %2$s, რომ მოხდეს დაწყვილება მოწყობილობასთან ”%1$s”"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s ითხოვს ნებართვას თქვენს წერილებთან დასაკავშირებლად."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "გამოჩნდეს პაროლი"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s ითხოვს ნებართვას თქვენი ტელეფონების წიგნთან დასაკავშირებლად."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "ძიება"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_SK4_STOP"
+msgstr "გაჩერება"
 
-msgid "IDS_BT_BODY_OFF"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "კი"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "ხელახლა დასათაურება"
+
+msgid "IDS_BT_BUTTON_OFF"
 msgstr "გამორთ."
 
-msgid "IDS_BT_BODY_CONNECTING"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "ტელეფონი"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "დახმარება"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "სხვა"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "წუთი"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "წამი"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 წუთი"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 წამი"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "ინფორმაცია"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "გუშინ"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "სრულდება Bluetooth–ის ჩართვა..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "მიღწეულია სიმბოლოების მაქსიმალური რაოდენობა (%d)."
+
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "გამოჩნდეს PIN"
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "დაწყვილება"
+
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "ფაილის მიღების დადასტურება."
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "ეს სახელი უკვე გამოყენებულია. ჩაწერეთ სხვა სახელი"
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
 msgstr "უკავშირდება..."
 
-msgid "IDS_BT_SK_STOP"
-msgstr "შეჩერება"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "დარჩა %1$d:%2$d"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "უკან"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "დაკავშირებული"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "მეხსიერება შევსებულია"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s დარჩენილი."
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Bluetooth მოწყობილობის ამრჩევი"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "ფაილების მიღება შეუძლებელია"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "ვერ გაიგზავნა მოწყობილობაზე ”%s”"
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d ფაილი დაკოპირდა, %2$d არა"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "გადაცემათა ისტორია ცარიელია"
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "ფაილების გაგზავნა შეუძლებელია"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "შემომავალი გადაცემები"
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 ფაილი დაკოპირდა, %d არა"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "გამავალი გადაცემები"
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s-თან დასაწყვილებლად შეიყვანეთ PIN. (მოსინჯეთ 0000 ან 1234.)"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "სიის გასუფთავება"
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s ცდილობს გამოგიგზავნოთ ფაილი."
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "ფურცელზე მორგება"
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "შეყვანილი PIN არასწორია. კიდევ მოსინჯეთ."
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "”%s” მოწყობილობას მიეცით ტელეფონების წიგნზე წვდომის ნება"
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Bluetooth მოწყობილობა, რომელთან დაწყვილებასაც ცდილობთ, ამჟამად დაკავებულია."
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "ჰქონდეს %s-ს წერილებზე წვდომის ნება?"
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Bluetooth მოწყობილობა, რომელთან დაწყვილებასაც ცდილობთ, ამჟამად დაკავებულია. კიდევ მოსინჯეთ."
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "ფაილი არ არის მიღებული"
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "ამ Bluetooth-ით დაწყვილების დრო გავიდა."
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "ფაილი: %s"
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "ამ Bluetooth-ით დაწყვილების დრო გავიდა. კიდევ მოსინჯეთ."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "წარუმატებლობის მიზეზი: %s"
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "მოხდა Bluetooth-ის შეცდომა."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "ვის: %s"
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "მოხდა Bluetooth-ის შეცდომა. შეეხეთ OK-ს და ისევ სცადეთ."
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "ფაილის ტიპი: %s"
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "მიღება"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "ფაილის ზომა: %s"
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "ფაილების მიღება"
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "ვისგან: %s"
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "ჩართეთ Bluetooth და ნახეთ მოწყობილობები, რომლებთანაც შეიძლება დაწყვილება, ან რომლებიც უკვე დაწყვილებულია."
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "გადაცემა გაუქმდა"
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "ხილვადობა სხვებისთვის"
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "ვერ მიიღებთ"
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "ნაჩვენებია მოწყობილობების სახელები, რათა განასხვაოთ ახლომდებარე მოწყობილობების სიაში მყოფი თითოეული მათგანი, რომელთანაც შეიძლება კავშირის დამყარება Bluetooth-ითა და სხვა მეთოდებით."
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d წარმატებით შესრულდა, %d ვერ შესრულდა"
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "ხილულია მხოლოდ დაწყვილებული Bluetooth მოწყობილობებისთვის."
 
-msgid "IDS_BT_BODY_SENT"
-msgstr "გაგზავნილია"
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "აპარატის გამორთვა"
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Bluetooth გაზიარება"
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "იძებნება მოწყობილობები..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "ვერ დაწყვილდება %s-სთან."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "მზადდება ფაილების მიღება..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "პროგრამის ნებართვის ჩართვა"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "პროგრამის ნებართვის ჩართვა"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "ფაილები მოვიდა Bluetooth-ით"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "გაიგზავნა Bluetooth-ით"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth-ით გაგზავნა"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth-ით მიღება"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "მზადდება ფაილთა გაგზავნა..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s ითხოვს თქვენს შეტყობინებებზე წვდომის ნებართვას."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s ითხოვს თქვენს შეტყობინებებზე წვდომის ნებართვას. დართავთ ნებას?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s ითხოვს თქვენს კონტაქტებზე წვდომის ნებართვას."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s ითხოვს ნებართვას, გახსნას თქვენი კონტაქტები და ზარების ისტორია. დართავთ ნებას?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "პროგრამა ვერ მოიძებნა ამ მოქმედების შესასრულებლად."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "ხილვადობის ვადა"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "მოწყობილობის სახელი"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "ფაილების გაგზავნა"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "ვერ უკავშირდება %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Bluetooth-ით მობილურ ინტერნეტს ვერ გამოიყენებთ კომპიუტერში, როდესაც კავშირი დამყარებულია Wi-Fi ქსელთან."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "შეიყვანეთ %1$s %2$s-ში და დააწყვილეთ, შემდეგ კი დააჭირეთ „შესვლა“-ს."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "დაუკავშირდეს სერიული პორტი „%s“-ს?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "შეესაბამება პაროლ-კოდებს %s-ზე?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "სახელი ცარიელია."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "სტერეო გარნიტურა"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "სტერეოს დაკავშირება"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "ბეჭდვა"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "ფაილს ვერ შეინახავთ."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "გამოიყენება სურათების, ტექსტური წერილების, პერსონალური მონაცემების, მაგ., სავიზიტო ბარათებისა და შეხვედრების და ა.შ. ამოსაბეჭდად, დისტანციური Bluetooth პრინტერების საშუალებით."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "გამორთვა..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "ჰქონდეს %s-ს ფაილის ჩადების ნება?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "დართავთ %s-ს თქვენი ფაილების მიღების ნებას?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "ჰქონდეს %s-ს თქვენი ფაილების წაშლის ნება?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "აქტიურდება Bluetooth..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "ფაილების გადაცემა"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT დაწყვილების მოთხოვნა"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s გაიგზავნა."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "იღებთ მოწყობილობიდან"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "დაადასტურეთ PIN (%1$s) და დააწყვილეთ %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "ფაილები ვერ გაიგზავნა"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "ფაილები მიღებულია"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "ფაილი ვერ გაიგზავნა"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s გაიგზავნა."
+
+msgid "IDS_BT_POP_SENT"
+msgstr "გაგზავნილია."
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "გაგზავნილი კონტაქტის ფაილი %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "გაგზავნილი გრაფიკული ფაილი %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "გაგზავნილი მედია ფაილი %s."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "გაგზავნილი შეხსენების ფაილები %s."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "გაგზავნილი მუსიკის ფაილი %s."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "გაგზავნილი ვიდეო ფაილები %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "მიღება ვერ შესრულდა"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "ფაილი მიღებულია"
 

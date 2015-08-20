@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Деактивиране..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Винаги включено"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Сдвоени устройства"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Принтер"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Размер на страницата"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Име устройство"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Включване на Bluetooth..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Качество на печат"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Видим"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Аудио за разговор"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Аудио за мултимедия"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Отвори"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 час"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d минути"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 минути"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 минути"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Разрешаване на достъп на %s до телефонния указател"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Винаги включено"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Достъпни устройства"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Основни настройки за отпечатване"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth е достъпен"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth устройства"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Нормален"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Споделяне на Bluetooth"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Отделяне"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Аудио за разговор"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Операцията е неуспешна"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Изтриване на списък"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Търсенето спряно"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Свързан с телефона и аудио-медиите."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Позволяване на %s да изтрива ваш файл?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Свързване..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Разрешаване на %s да получи вашия файл?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Неуспешно свързване."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Позволяване на %s да записва файл?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Опции за свързване"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
 msgstr "Контактът вече съществува"
 
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Детайли"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Име устройство"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Dial-up връзки"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Изключване..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Прекъсване на %2$s от връзката на %1$s?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Не питай повече"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Въведете %1$s на %2$s за сдвояване, след което чукнете върху Return или Enter."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Свободни ръце"
+
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Слушалки"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (клавиатура, мишка и т.н.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Използва се за провеждане на разговори и слушане на музика чрез Bluetooth стерео слушалки."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Използва се за предоставяне на интернет достъп за Bluetooth устройства чрез модема на телефона."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Използва се за прехвърляне на файлове от и към Bluetooth устройства."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Използва се за провеждане на входящи и изходящи обаждания чрез Bluetooth комплекти за автомобил."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Използва се за входящи и изходящи разговори чрез Bluetooth слушалки."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Използва се за обмяна на лични данни (визитни картички, записи от Тел. указател и др.) с Bluetooth устройства."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Входно устройство"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Достъп до интернет"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Аудио за мултимедия"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "Име на моя телефон"
@@ -73,50 +118,191 @@ msgstr "Име на моя телефон"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "Видимост на моя телефон"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Нормален"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Няма устройства"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Не са намерени устройства"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Няма хронология на прехвърлянията"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Предаване на обект"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Off"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Операцията е неуспешна."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Сдвоено"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Сдвоени устройства"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d минути"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "Успешно %d, неуспешно %d"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d успешно, %d неуспешно"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Принтер"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Размер на страницата"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Качество на печат"
+
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Получени"
+msgstr "Получени."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Сканиране..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Търсене..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Търсене... Открити са %d устройства."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Търсенето e спряно."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Правилата за защита ограничават използването на връзка чрез Bluetooth."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Правилата за защита ограничават използването на връзка чрез Bluetooth само до функциите за устройство за свободни ръце."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Изпращането до %s е неуспешно."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Изпратен."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Сериен порт"
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Bluetooth услуги"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "За показване на паролата."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Докоснете %s, след което докоснете Сканиране, за да включите Bluetooth и да сканирате за устройства."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Чукнете, за да се свържете."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Чукнете за край на връзката."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Това се използва за свързване към други Bluetooth устройства през виртуален сериен порт."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Изберете отметката до името на вашето устройство, за да го направите видимо за други устройства."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Хронологията на прехвърлянията е празна."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Включете Bluetooth, за да видите списък с достъпните устройства."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "Тип"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Файлът или директорията не може да се изтрие"
+msgstr "Файлът или директорията не може да се изтрие."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Файлът не може да се запамети"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Не може да приеме"
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Непоз. устр."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Актуализиране..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Отделяне"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth адрес"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Bluetooth устройства"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Избор на Bluetooth устройство"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth грешка"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Искане за свързване в двойка на Bluetooth"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "Въведете PIN"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "От: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "Ново устройство"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Отпечатване"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Избор на устр-во"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Свържи стерео"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Изпращане на файлове"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Компютър"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Оразмери според формата на листа"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Клавиатура"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Мобилна входяща точка"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "Компютър"
 
 msgid "IDS_BT_OPT_PRINT"
-msgstr "Отпечатаване"
+msgstr "Отпечатване"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Получени файлове"
 
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "Опции за търсене"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Отделяне"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Разрешаване на %s на достъп до съобщения?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "Разрешаване на %s да се свърже?"
@@ -124,11 +310,17 @@ msgstr "Разрешаване на %s да се свърже?"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "Позволяване на %s да създаде папка %s?"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "В момента Bluetooth е изключен.\nВключване?"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Грешка в Bluetooth. Нов опит?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Таймаут на Bluetooth. Повторен опит?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Паролата за потвърждаване е %2$s за сдвояване с %1$s."
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
 msgstr "Потвърждаване, че паролата е %s, за да се направи свързване с %s"
@@ -136,215 +328,290 @@ msgstr "Потвърждаване, че паролата е %s, за да се 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "Невъзможно свързване.\nПовторен опит?"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Неуспешно изтегляне"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Празно име"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP свързан"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "Прекратена връзката с FTP"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Неправилен PIN. Моля, опитайте отново"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "Получени са %d файла"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Изпращането е отменено"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Невъзможно изпращане"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Да направя ли връзка през серийния порт с %s?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Файлът получен"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Не може да се получи списъкът с услуги"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Свързване"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Изключване"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth активиран"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "В момента Bluetooth е изключен.\nВключване?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Активиране на Bluetooth..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Търсене..."
-
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Свързан"
-
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Няма устройства"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Търсене... Открити са %d устройства"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Получаване на списък с услуги..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Получаване на %s от %s?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Избрани"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Избор на устр-во"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s вече съществува. Презапис?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Не може да се активира Bluetooth, когато е включен режим Полет"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Файлът не съществува"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Свързан с телефона и аудио-медиите"
+msgstr "Свързан."
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Свързан с HID устройство"
+msgstr "Свързан с HID устройство."
 
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Сканиране..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Изключване на Bluetooth..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Използва се за входящи и изходящи разговори чрез Bluetooth слушалки"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Свободни ръце"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Използва се за провеждане на входящи и изходящи обаждания чрез Bluetooth комплекти за автомобил"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Стерео слушалки"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Използва се за провеждане на разговори и слушане на музика чрез Bluetooth стерео слушалки"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Прехвърляне на файл"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Използва се за прехвърляне на файлове от и към Bluetooth устройства"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Предаване на обект"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Използва се за обмяна на лични данни (визитни картички, записи от Тел. указател и др.) с Bluetooth устройства"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Основни настройки за отпечатване"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Използва се за отпечатване на изображения, текстови съобщения, лични данни, като напр. визитни картички и срещи, чрез принтери с отдалечена Bluetooth връзка"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Dial-up връзки"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Използва се за предоставяне на интернет достъп за Bluetooth устройства чрез модема на телефона"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Сериен порт"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID устройство"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (клавиатура, мишка и т.н.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Получаване..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Споделяне..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "Сканиране"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Това се използва за свързване към други Bluetooth устройства през виртуален сериен порт"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Съвпадение на паролите в %s?"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Неуспешно свързване към слушалка. Другото устройство е отказало връзката"
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Неуспешно свързване"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 минути"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Отделяне"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Опции за свързване"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth е достъпен"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Потвър."
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "Изключване?"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Достъпни устройства"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Неуспешно изтегляне."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 минути"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Въведете PIN за свързване с %s."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Въведете PIN за свързване с %s (пробвайте 0000 или 1234)."
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Неуспешно свързване към слушалка. Другото устройство е отказало връзката."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Причина за отказа: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Файл: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Файлът не съществува."
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Файлът не е получен."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Размер на файл: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Тип файл: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP свързан."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "Прекратена връзката с FTP."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Получаване на списък с услуги..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID устройство"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Неправилен PIN. Моля, опитайте отново"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Паметта е заета."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "Получени са %d файла."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s вече съществува. Презапис?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Получаване на файл от %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Получаване на %s от %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Получаване..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Търсене на услуги..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Изпращането е отменено."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Невъзможно изпращане."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Изпращане..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Споделяне..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Файлът получен."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "До: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Прехвърлянето е прекратено."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Не може да се активира Bluetooth, когато е включен режим Полет."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Не може да се получи списъкът с услуги."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Назад"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Изключване"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Сканиране"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Стоп"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth позволява на устройството ви да обменя данни безжично."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Направете видимо устройството, с което се свързвате."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Направете видимо устройството, с което се свързвате, след което чукнете Сканиране."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Отваряне на %s Галерия."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Отваряне на %s Настройки."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Избeрете %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Изберете устройството, до което искате да изпратите изображението."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Изберете устройството, с което искате да се свържете, от списъка."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Изберете снимката или албума, които искате да изпратите."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Изпратете изображението. Можете да проследявате напредъка му в панела за известяване."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Изпратете снимката. Можете да проследявате напредъка ѝ в панела за известяване."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Чукнете устройството, с което искате да сдвоите вашето устройство или с което искате да се свържете. Ако устройството не е в списъка, уверете се, че е видимо, след което чукнете Сканиране."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Чукнете бутона за споделяне и изберете %s Bluetooth."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Използвайте бутона и чукнете Сканиране, за да включите Bluetooth и да сканирате за устройства."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Изпращане снимки чрез Bluetooth"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Настройка на Bluetooth"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Успешно сдвоено или свързано с избраното устройство. Чукнете иконата за конфигуриране, за да конфигурирате профила на устройството."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Приключихте ръководството стъпка по стъпка. Върнете се към Помощта."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Сдвояването с %s е неуспешно."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Сканиране устройства..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Достигнат максимален брой знаци."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Получаване на файл"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Спод.файлове"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Игрален контролер"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Мое устройство"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Прехвърляне на файлове"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
 msgstr "Изключване..."
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "Остават %s"
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Включване..."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Чукнете, за да се свържете"
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Недостъпен*"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Чукнете за край на връзката"
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Видимо за всички близки Bluetooth устройства."
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Това ще прекрати вашата връзка с"
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Име на моето устройство"
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Входно устройство"
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Преименуване на устройството"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Правилата за защита ограничават използването на връзка чрез Bluetooth"
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Въвеждане на име на устройство"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Правилата за защита ограничават използването на връзка чрез Bluetooth само до функциите за устройство за свободни ръце"
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Камера"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Детайли"
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Group index"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Не е избрано"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Бутон Вкл./изкл"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Радио бутон"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Избрани"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Стартирай сега"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Това ще прекрати вашата връзка с %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Чукнете двукратно, за да отворите списъка."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Чукнете двукратно, за да затворите списъка."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Свързване"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Разрешаване"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Свързване към устройство"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Отмени"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Готово"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Да"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Не"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Затвори"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Самоучителят завърши."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Невалидно действие. Опитайте отново."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Поднови"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth e активиран."
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Опции за търсене"
@@ -352,114 +619,318 @@ msgstr "Опции за търсене"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Всички устройства"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Обмен на обект с %s?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Показване на PIN"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Въведете %1$s на %2$s за сдвояване, след което чукнете върху Return или Enter"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Отново"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Не е намерено Bluetooth устройство"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Сдвоено"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Изтощена батерия"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Търсене на услуги..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Още информация"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Искане за свързване в двойка на Bluetooth"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Въведете PIN за свързване с %s (пробвайте 0000 или 1234)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Искане достъп"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Паролата за потвърждаване е %2$s за сдвояване с %1$s"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s иска разрешение да се свърже с вашите съобщения."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Показване на паролата"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s иска разрешение да се свърже с вашия телефонен указател."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Търси"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
-
-msgid "IDS_BT_BODY_OFF"
-msgstr "Изключено"
-
-msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Свързване..."
-
-msgid "IDS_BT_SK_STOP"
+msgid "IDS_BT_SK4_STOP"
 msgstr "Стоп"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Назад"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Паметта е заета"
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Преименуване"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Избор на Bluetooth устройство"
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "Изключи"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "Изпращането до %s е неуспешно"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Телефон"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Хронологията на прехвърлянията е празна"
+msgid "IDS_BT_OPT_HELP"
+msgstr "Помощ"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Входящи прехвърляния"
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Още"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Изходящи прехвърляния"
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Минути"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Изтриване на списък"
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Секунди"
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Оразмери според формата на листа"
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 минута"
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "Разрешаване на достъп на %s до телефонния указател"
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 секунда"
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "Разрешаване на %s на достъп до съобщения?"
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Информация"
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Файлът не е получен"
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Вчера"
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "Файл: %s"
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Включване на Bluetooth..."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Причина за отказа: %s"
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Достигнат е максималният брой знаци (%d)."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "До: %s"
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "Показване на PIN"
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "Тип файл: %s"
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Двойка"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "Размер на файл: %s"
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Потвърдете, за да получите файла."
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "От: %s"
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Този файл вече се използва. Въведете друго име."
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Прехвърлянето е прекратено"
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Свързване..."
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Не може да приеме"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d остават"
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "Успешно %d, неуспешно %d"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Свързано"
 
-msgid "IDS_BT_BODY_SENT"
-msgstr "Изпратен"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "Остават %s."
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Споделяне на Bluetooth"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Не се получават файлове"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d файла коп., %2$d неусп."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Не може да се изпратят файлове"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 файл копиран, %d неуспешни"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Въведете PIN кода за сдвояване с %s. (Опитайте 0000 или 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s иска да ви изпрати файл."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Въведен е неправилен PIN код. Опитайте отново."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Bluetooth устройството, с което се опитвате да се сдвоите, е заето в момента."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Bluetooth устройството, с което се опитвате да се сдвоите, е заето в момента. Опитайте отново."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Времето за изчакване на Bluetooth сдвояването изтече."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Времето на това Bluetooth привързване изтече. Опитайте отново."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Възникна грешка с Bluetooth."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Възникна грешка в Bluetooth. Чукнете OK, за да опитате отново."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Приемам"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Получаване на файлове"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Включете Bluetooth, за да видите списък с устройствата, с които можете да се сдвоите или с които вече сте се сдвоили."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Видимост към други устройства"
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Имената на устройствата са показани, за да се различава всяко от устройствата, налични в списъка с устройства наблизо, и чрез Bluetooth и други методи."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Видимо само за сдвоени Bluetooth устройства."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Изключ. на вр. на устройството"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Сканиране за устройства..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Невъзможно свързване с %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Подг. за получ. на файлове..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Позволяване на разрешение за приложение"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Позв. разрешение за приложение"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Пол. се файлове с Bluetooth"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Изпр. се файлове с Bluetooth"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Изпращане чрез Bluetooth"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Получаване чрез Bluetooth"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Подг. за изпр. на файлове..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s иска разрешение да получи достъп до вашите съобщения."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s иска разрешение да получи достъп до вашите съобщения. Разрешавате ли?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s иска разрешение за достъп до вашите контакти."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s иска разрешение да получи достъп до вашите контакти и хронология на повикванията. Разрешавате ли?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Не може да се намери приложение, което да извърши това действие."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Период на изчакване"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Име устройство"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Изпращане на файлове"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Невъзможно свързване с %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Не може да се използва Bluetooth привързване, докато сте свързани към Wi-Fi мрежа."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Въведете %1$s на %2$s за сдвояване, след което натиснете Enter."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Да направя ли връзка през серийния порт с %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Съвпадение на паролите в %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Празно име."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Стерео слушалки"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Свържи стерео"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Отпечатване"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Файлът не може да се запамети."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Използва се за отпечатване на изображения, текстови съобщения, лични данни, като напр. визитни картички и срещи, чрез принтери с отдалечена Bluetooth връзка."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Деактивиране..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Позволяване на %s да записва файл?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Разрешаване на %s да получи вашия файл?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Позволяване на %s да изтрива ваш файл?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Активиране на Bluetooth..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "ПРЕХВЪРЛЯНЕ НА ФАЙЛОВЕ"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "ИСКАНЕ ЗА BT СДВОЯВАНЕ"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s e изпратен."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Получаване от"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Потвърдете PIN кода (%1$s), за да сдвоите с %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Неуспешно изпращ. файлове"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Получени файлове"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Изпр. на файл е неуспешно"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s e изпратен."
+
+msgid "IDS_BT_POP_SENT"
+msgstr "Изпратен."
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Изпратен файл на запис %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "Изпратен файл с изображение %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Изпратен медиен файл %s."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "Изпратен файл с бележка %s."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Изпратен музикален файл %s."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "Изпратен видео файл %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Получаването неуспешно"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Файлът е получен"
 

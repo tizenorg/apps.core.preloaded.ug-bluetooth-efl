@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Desaktiveerimine..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Alati sees"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Seotud seadmed"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Printer"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Paberi formaat"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Seadme nimi"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Bluetooth-ühenduse sisselülitamine..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Prindi kvaliteet"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Nähtav"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Kõne heli"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Meediumi heli"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Ava"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 tund"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d minutit"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minutit"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minutit"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Luba seadmele %s juurdepääs telefoniraamatule"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Alati sees"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Saadaolevad seadmed"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Tavaline printimine"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth on saadaval"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth-seadmed"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Tavaline"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth-ühenduse kaudu jagamine"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Seo lahti"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Kõne heli"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Toiming nurjus"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Tühjenda loend"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Otsing on peatatud"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Ühendatud telefoni ja meediumiheliga."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Kas %s tohib faili kustutada?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Ühendamine..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Kas %s tohib faili hankida?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Ühendamine nurjus."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Kas %s tohib faili lisada?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Ühenduse valikud"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kontakt on juba olemas"
+msgstr "Kontakt on juba olemas."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Üksikasjad"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Seadme nimi"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Sissehelistamisvõrk"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Ühenduse katkestamine..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Kas katkestada %1$s ühendus üksusega %2$s?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Ära küsi enam"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Sisestage sidumiseks %1$s seadmes %2$s, seejarel toksake nupul Tagasta voi Sisesta."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Käed-vabad"
 
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Peakomplekt"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (klaviatuur, hiir jne.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Kasutatakse helistamiseks ja muusika kuulamiseks Bluetoothi stereo-peakomplektiga."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Kasutatakse Bluetoothi seadmetele telefonimodemi kaudu Interneti-ligipääsu tagamiseks."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Kasutatakse failide edastamiseks ja vastuvõtuks Bluetoothi seadmetega."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Kasutatakse kõnede tegemiseks Bluetoothi autokomplektiga."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Kasutatakse kõnede tegemiseks Bluetoothi peakomplektiga."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Kasutatakse isiklike andmete (nimekaardid, telefoniraamatu kontaktid jms.) vahetamiseks Bluetoothi seadmetega."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Sisendseade"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Juurdepääs internetile"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Meediumi heli"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "Minu telefoni nimi"
@@ -73,41 +118,173 @@ msgstr "Minu telefoni nimi"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "Minu telefoni nähtavus"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Tavaline"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Seadmeid pole"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Seadmeid ei leitud"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Edastuse ajalugu pole"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Kommertsteate objekt"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Väljas"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Toiming nurjus."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Ühildatud"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Seotud seadmed"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minutit"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d õnnestus, %d nurjus"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d õnnestus, %d nurjus"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printer"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Paberi formaat"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Prindi kvaliteet"
+
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Vastu võetud"
+msgstr "Vastu võetud."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Skaneerimine..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Otsimine..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Otsimine... %d seadet on leitud."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Otsing on peatatud."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Turvalisuse poliis piirab Bluetooth-uhenduse kasutuse."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Turvalisuse poliis piirab Bluetooth-uhenduse kasutamise ainult kaed-vabad funktsioonide puhul."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Saatmine seadmesse %s nurjus."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Saadetud."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Jadaport"
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Bluetooth-teenused"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Kuva parool."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Toksake ikooni %s ja seejärel käsku Otsi, et lülitada Bluetooth-ühendust sisse ja otsida seadmeid."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "puudutage uhendamiseks."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Uhenduse katkestamiseks toksake."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Seda kasutatakse teiste Bluetooth-seadmetega uhenduse loomiseks virtuaalse jadapordi kaudu."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Oma seadme nähtavaks muutmiseks teistele seadmetele valige oma seadme nime kõrval olev märkeruut."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Edastuse ajalugu on tühi."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Saadaolevate seadmete loendi nagemiseks lulitage Bluetooth-uhendus sisse."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "Tüüp"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Faili või kataloogi ei saa kustutada"
+msgstr "Faili või kataloogi ei saa kustutada."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Faili ei saa salvestada"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Ei saa vastu võtta."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Tundmatu seade."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Värskendamine..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Seo lahti"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth-aadress"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Bluetooth-seadmed"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth-seadme valija"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetoothi tõrge"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetoothi sidumistaotlus"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "Sisestage PIN-kood"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Saatja: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "Uus seade"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Printimine"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Vali seade"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Ühenda stereo"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Saadetud failid"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Arvuti"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Mahuta paberile"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Klahvistik"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "Arvuti"
@@ -115,8 +292,17 @@ msgstr "Arvuti"
 msgid "IDS_BT_OPT_PRINT"
 msgstr "Prindi"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Vastuvõetud failid"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "Otsingu valikud"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Seo lahti"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Kas lubada seadmele %s juurdepääs sõnumitele?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "Lubada seadmel %s luus ühendus?"
@@ -124,227 +310,308 @@ msgstr "Lubada seadmel %s luus ühendus?"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "Kas lubada %s-l luua kaust %s?"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth on hetkel\nvälja lülitatud.\nKas lülitada sisse?"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Bluetoothi tõrge. Kas proovida uuesti?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Bluetoothi ajalõpp. Kas proovida uuesti?"
 
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Kinnituse paasukood on %2$s, et siduda seadmega %1$s."
+
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Kinnituse pääsukood on %s, et siduda seadmega %s"
+msgstr "Kinnituse paasukood on %s, et siduda seadmega %s."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "Ei saa ühendada.\nProovida uuesti?"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Allalaadimine nurjus"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Tühi nimi"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP on ühendatud"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP ühendus on katkestatud"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Vale PIN. Palun proovige uuesti"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d faili on vastu võetud"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Saatmine tühistatud"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Ei saa saata"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Luua jadaühendus seadmega %s?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Fail on vastu võetud"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Teenuseloendit ei saa hankida"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Ühenda"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Katkesta ühendus"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth aktiveeritud"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth on hetkel\nvälja lülitatud.\nKas lülitada sisse?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetoothi aktiveerimine..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Otsimine..."
-
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Ühendatud"
-
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Seadmeid pole"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Otsimine... %d seadet on leitud"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Teenuseloendi laadimine..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Võtta vastu %s saatjalt %s?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Valitud"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Vali seade"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s on juba olemas. Kas kirjutada üle?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Bluetooth-ühendust ei saa lennurežiimis aktiveerida"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Faili ei ole olemas"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Ühendatud telefoni ja meediumiheliga"
+msgstr "Ühendatud."
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "HID-seadmega ühendatud"
+msgstr "HID-seadmega ühendatud."
 
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Skaneerimine..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetooth-ühenduse väljalülitamine..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Kasutatakse kõnede tegemiseks Bluetoothi peakomplektiga"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Käed-vabad"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Kasutatakse kõnede tegemiseks Bluetoothi autokomplektiga"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo-peakomplekt"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Kasutatakse helistamiseks ja muusika kuulamiseks Bluetoothi stereo-peakomplektiga"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Faili edastamine"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Kasutatakse failide edastamiseks ja vastuvõtuks Bluetoothi seadmetega"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Kommertsteate objekt"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Kasutatakse isiklike andmete (nimekaardid, telefoniraamatu kontaktid jms.) vahetamiseks Bluetoothi seadmetega"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Tavaline printimine"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Kasutatakse piltide, tekstisõnumite, isiklike andmete, nagu nimekaardid ja kohtumised, printimiseks Bluetoothi printerite kaudu"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Sissehelistamisvõrk"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Kasutatakse Bluetoothi seadmetele telefonimodemi kaudu Interneti-ligipääsu tagamiseks"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Jadaport"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID-seade"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (klaviatuur, hiir jne.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Vastuvõtmine..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Jagamine..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "Otsi"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Seda kasutatakse teiste Bluetooth-seadmetega ühenduse loomiseks virtuaalse jadapordi kaudu"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Ühildada pääsuvõtmed väljal %s?"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Peakomplekti ühendamine nurjus. Teine seade keeldus ühendamisest"
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Ühendamine nurjus"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 minutit"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Seo lahti"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Ühenduse valikud"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth on saadaval"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Kinnita"
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "Katkestada ühendus?"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Saadaolevad seadmed"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Allalaadimine nurjus."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 minutit"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Sisestage PIN, et uhildada seadmega %s."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Ühenduse katkestamine..."
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Sisestage PIN-kood, et siduda seadmega %s (proovige 0000 voi 1234)."
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s jäänud"
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Peakomplekti uhendamine nurjus. Teine seade keeldus uhendamisest."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "puudutage ühendamiseks"
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Nurjumise põhjus: %s"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Ühenduse katkestamiseks toksake"
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fail: %s"
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "See lõpetab järgmise ühenduse"
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Faili ei ole olemas."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Sisendseade"
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Faili ei võetud vastu."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Turvalisuse poliis piirab Bluetooth-ühenduse kasutuse"
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Faili suurus: %s"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Turvalisuse poliis piirab Bluetooth-ühenduse kasutamise ainult käed-vabad funktsioonide puhul"
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Failitüüp: %s"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Üksikasjad"
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP on ühendatud."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP ühendus on katkestatud."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Teenuseloendi laadimine..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID-seade"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Vale PIN. Palun proovige uuesti"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Mälu on täis."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d faili on vastu võetud."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s on juba olemas. Kas kirjutada üle?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Võtta vastu fail seadmelt %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Võtta vastu %s saatjalt %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Vastuvõtmine..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Teenuste otsimine..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Saatmine tühistatud."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Ei saa saata."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Saatmine..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Jagamine..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Fail on vastu võetud."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Adressaat: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Edastamine tühistatud."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Bluetooth-ühendust ei saa lennurežiimis aktiveerida."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Teenuseloendit ei saa hankida."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Tagasi"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Katkesta ühendus"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Otsi"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Lõpeta"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth võimaldab teie seadmel vahetada andmeid juhtmevabalt."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Muutke ühendatav seade nähtavaks."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Muutke ühendatav seade nähtavaks ja seejärel toksake käsku Otsi."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Avage %s Galerii."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Avage %s Seaded."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Valige %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Valige seade, kuhu soovite pildi saata."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Valige loendist seade, millega soovite luua ühendust."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Valige pilt või album, mida soovite saata."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Saatke pilt. Saate jälgida selle edenemist teavituste paneelil."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Saatke pilt. Saate jälgida selle edenemist teavituste paneelil."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Toksake seadet, millega soovite siduda või ühendust luua. Kui seadet pole loendis, veenduge, et see on nähtav ja seejärel toksake käsku Otsi."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Toksake jagamise nuppu ja valige %s Bluetooth."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Liigutage nuppu ja toksake käsku Otsi, et lülitada Bluetooth-ühendust sisse ja otsida seadmeid."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Piltide saatmine Bluetoothi kaudu"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Bluetoothi seadistamine"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Valitud seadmega sidumine või ühendamine õnnestus. Seadme profiili konfigureerimiseks toksake konfigureerimise ikooni."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Olete lõpetanud samm-sammult juhendi. Naaske menüüsse Spikker."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Sidumine seadmega %s nurjus."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Seadmete otsimine..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Lubatud arv märke on täis."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Võtke fail vastu"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Jaga faile"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Mängu juhtketas"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Minu seade"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Edasta failid"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Väljalülitamine..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Sisselülitamine..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Kättesaamatu"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Nähtav lähedalasuv. Bluetooth-seadmetele."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Minu seadme nimi"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Nimeta seade ümber"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Sisestage seadme nimi."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kaamera"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Rühma register"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Pole valitud"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Sisse-/väljalülitamise nupp"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Raadio nupp"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Valitud"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Eelvaade"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "See lopetab teie uhenduse seadmega %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Toksake kaks korda, et avada loendit."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Toksake kaks korda, et sulgeda loendit."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Ühenda"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Luba"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Loo ühendus seadmega"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Tühista"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Valmis"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Jah"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ei"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Sulge"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Õpetus on lõpule viidud."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Vale toiming. Proovige uuesti."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Jätka"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth aktiveeritud."
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Otsingu valikud"
@@ -352,114 +619,318 @@ msgstr "Otsingu valikud"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Kõik seadmed"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Vahetada objekt seadmega %s?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Näita PIN-koodi"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Sisestage sidumiseks %1$s seadmes %2$s, seejärel toksake nupul Tagasta või Sisesta"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Uuesti"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Bluetooth-seadet ei leitud"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Ühildatud"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Aku on peaaegu tühi"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Teenuste otsimine..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Lisateave"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetoothi sidumistaotlus"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Sisestage PIN-kood, et siduda seadmega %s (proovige 0000 või 1234)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Juurdepääsu taotlus"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Kinnituse pääsukood on %2$s, et siduda seadmega %1$s"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s taotleb luba uhenduse loomiseks teie sonumitega."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Kuva parool"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s taotleb luba uhenduse loomiseks teie telefoniraamatuga."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Otsi"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
-
-msgid "IDS_BT_BODY_OFF"
-msgstr "Väljas"
-
-msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Ühendamine..."
-
-msgid "IDS_BT_SK_STOP"
+msgid "IDS_BT_SK4_STOP"
 msgstr "Lõpeta"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Tagasi"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Mälu on täis"
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Nimeta ümber"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Bluetooth-seadme valija"
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "Väljas"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "Saatmine seadmesse %s nurjus"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Telefon"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Edastuse ajalugu on tühi"
+msgid "IDS_BT_OPT_HELP"
+msgstr "Spikker"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Sissetulevad edastamised"
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Veel"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Väljaminevad edastamised"
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Minutid"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Tühjenda loend"
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Sekundit"
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Mahuta paberile"
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 minut"
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "Luba seadmele %s juurdepääs telefoniraamatule"
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 sekund"
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "Kas lubada seadmele %s juurdepääs sõnumitele?"
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Teave"
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Faili ei võetud vastu"
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Eile"
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "Fail: %s"
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetooth-ühenduse sisselülitamine..."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Nurjumise põhjus: %s"
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Maksimaalne tähemärkide arv (%d) on saavutatud."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "Adressaat: %s"
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "Näita PIN-koodi"
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "Failitüüp: %s"
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Seo"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "Faili suurus: %s"
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Kinnitage faili vastuvotmine."
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "Saatja: %s"
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "See nimi on juba kasutusel. Sisestage teine nimi."
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Edastamine tühistatud"
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Ühenduse loomine..."
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Ei saa vastu võtta"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d jäänud"
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d õnnestus, %d nurjus"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Ühendatud"
 
-msgid "IDS_BT_BODY_SENT"
-msgstr "Saadetud"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s jäänud."
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Bluetooth-ühenduse kaudu jagamine"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Faile ei saa vastu võtta"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d faili kop., %2$d nurjus"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Faile ei saa saata"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 fail kopeeritud, %d nurjus"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Sisestage PIN-kood, et siduda seadmega %s. (Proovige 0000 või 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s soovib teile faili saata."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Sisestatud PIN-kood on vale. Proovige uuesti."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Bluetooth-seade, millega proovite siduda, on hetkel hõivatud."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Bluetooth-seade, millega proovite siduda, on hetkel hõivatud. Proovige uuesti."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "See Bluetooth-ühenduse kaudu sidumine on aegunud."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "See Bluetooth-ühenduse kaudu sidumine on aegunud. Proovige uuesti."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Ilmnes Bluetooth-ühenduse tõrge."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Ilmnes Bluetooth-ühenduse tõrge. Uuesti proovimiseks toksake valikut OK."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Nõustu"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Failide vastuvõtmine"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Sidumiseks saadaolevate seadmete või juba seotud seadmete loendi nägemiseks lülitage Bluetooth-ühendus sisse."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Nähtavus teistele seadmetele"
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Seadmete nimed kuvatakse selleks, et eristada iga lähedalasuva seadme loendis ning Bluetoothi ja muude meetodite kaudu saadaolevat seadet."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Nähtav ainult seotud Bluetooth-seadmetele."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Seadme ühenduse katkestamine"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Seadmete otsimine..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Ei saa siduda seadmega %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Valmist. faile vastu võtma..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Luba rakenduse luba"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Luba rakenduse luba"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Failid BT kaudu vastu võetud"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Failid BT kaudu saadetud"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Saada Bluetoothiga"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Võta vastu Bluetoothi kaudu"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Valmist. faile saatma..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s taotleb luba juurdepääsuks teie sõnumitele."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s taotleb luba juurdepääsuks teie sõnumitele. Kas lubate?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s taotleb luba juurdepääsuks teie kontaktidele."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s taotleb luba juurdepääsuks teie kontaktidele ja kõnede ajaloole. Kas lubate?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Selle toimingu teostamiseks ei leita rakendust."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Nähtavuse kuvaõpp"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Seadme nimi"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Saada failid"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "%s-ühendust ei saa luua."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Bluetooth-modemit ei saa kasutada, kui olete ühendatud Wi-Fi võrguga."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Sisestage sidumiseks %1$s üksusel %2$s ja seejärel vajutage Sisesta."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Luua jadaühendus seadmega %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Ühildada pääsuvõtmed väljal %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Tühi nimi."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo-peakomplekt"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Ühenda stereo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Printimine"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Faili ei saa salvestada."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Kasutatakse piltide, tekstisõnumite, isiklike andmete, nagu nimekaardid ja kohtumised, printimiseks Bluetoothi printerite kaudu."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Desaktiveerimine..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Kas %s tohib faili lisada?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Kas %s tohib faili hankida?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Kas %s tohib faili kustutada?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetoothi aktiveerimine..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "EDASTA FAILID"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT SIDUMISTAOTLUS"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s on saadetud."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Vastuvõtmine asukohast"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Kinnitage PIN-kood (%1$s), et siduda seadmega %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Failide saatmine nurjus"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Failid on vastu võetud"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Faili saatmine nurjus"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s on saadetud."
+
+msgid "IDS_BT_POP_SENT"
+msgstr "Saadetud."
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Saada kontaktile fail %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "Saadetud pildifail %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Meediumifail %s on saadetud."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "Saadetud memofail %s."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Saadetud muusikafail %s."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "Saadetud videofail %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Vastuvõtmine nurjus"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Fail on vastu võetud"
 

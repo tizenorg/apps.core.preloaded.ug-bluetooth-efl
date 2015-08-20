@@ -1,18 +1,25 @@
 /*
- * Copyright (c) 2012-2013 Samsung Electronics Co., Ltd.
- *
- * Licensed under the Flora License, Version 1.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://floralicense.org/license/
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* ug-bluetooth-efl
+*
+* Copyright 2012 Samsung Electronics Co., Ltd
+*
+* Contact: Hocheol Seo <hocheol.seo@samsung.com>
+*           GirishAshok Joshi <girish.joshi@samsung.com>
+*           DoHyun Pyun <dh79.pyun@samsung.com>
+*
+* Licensed under the Flora License, Version 1.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.tizenopensource.org/license
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
 
 #ifndef __BT_IPC_HANDLER_H__
 #define __BT_IPC_HANDLER_H__
@@ -46,6 +53,7 @@ typedef enum {
 	BT_AUDIO_DEVICE,
 	BT_HEADSET_DEVICE,
 	BT_STEREO_HEADSET_DEVICE,
+	BT_MUSIC_PLAYER_DEVICE,
 	BT_HID_DEVICE,
 	BT_NETWORK_DEVICE,
 	BT_DEVICE_MAX,
@@ -71,17 +79,15 @@ typedef enum {
 
 typedef struct {
 	int param1; /* Connect type: Headset / Stereo Headset / HID device */
-	char param2[BT_UG_IPC_MSG_LEN];	/* Device address */
+	unsigned char param2[BT_ADDRESS_LENGTH_MAX];	/* Device address */
 } __attribute__ ((packed)) bt_ug_ipc_param_t;
 
 typedef struct {
-	int param1; 		/* Reserved */
-	char param2[BT_UG_IPC_MSG_LEN];	/* Device address */
-	int param3;		/* file count */
-	char *param4;		/* File path */
-	char *param5;		/* mode */
-	char *param6;	/* Device name */
-	char *param7;		/* sending type */
+	unsigned char addr[BT_ADDRESS_LENGTH_MAX];	/* Device address */
+	int file_cnt;		/* file count */
+	char *dev_name;	/* Device name */
+	char *type;		/* sending type */
+	char **filepath;
 } __attribute__ ((packed)) obex_ipc_param_t;
 
 /**
@@ -92,22 +98,16 @@ typedef struct {
 	int param2;
 } bt_ug_param_info_t;
 
-int _bt_ipc_init_event_signal(void *data);
+int _bt_ipc_register_popup_event_signal(bt_ug_data *ugd);
 
-int _bt_ipc_deinit_event_signal(void *data);
-
-int _bt_ipc_register_popup_event_signal(E_DBus_Connection *conn,
-					void *data);
-
-int _bt_ipc_unregister_popup_event_signal(E_DBus_Connection *conn,
-					  void *data);
+int _bt_ipc_unregister_popup_event_signal(bt_ug_data *ugd);
 
 int _bt_ipc_send_message(char *method_type, bt_ug_ipc_param_t *param,
 			 void *data);
 
 int _bt_ipc_send_obex_message(obex_ipc_param_t *param, void *data);
 
-void _bt_ipc_update_connected_status(bt_ug_data *ugd, int connected_type,
+void _bt_ipc_update_connected_status(void *data, int connected_type,
 						bool connected, int result,
 						bt_address_t *addr);
 

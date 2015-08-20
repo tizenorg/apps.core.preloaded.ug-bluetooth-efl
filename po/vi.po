@@ -1,0 +1,837 @@
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 giờ"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 phút"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 phút"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Luôn bật"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Các thiết bị hiện có"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "In cơ bản"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth sẵn sàng"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Thiết bị Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Chia sẻ Bluetooth"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Âm thanh cuộc gọi"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Xóa danh sách"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Được kết nối tới điện thoại và âm thanh media."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Đang kết nối..."
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Kết nối bị lỗi."
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Tùy chọn kết nối"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Danh bạ đã tồn tại."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Chi tiết"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Tên thiết bị"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Mạng quay số"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Ngắt kết nối..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Ngắt %2$s khỏi kết nối %1$s?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Không hỏi lại"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Nhập %1$s trên %2$s để ghép đôi, sau đó chạm vào Trở lại hoặc Enter."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Đàm thoại rảnh tay"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Tai nghe Bluetooth"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (bàn phím, chuột..vv..)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Được dùng để thực hiện cuộc gọi và nghe nhạc qua bộ tai nghe âm thanh nổi Bluetooth."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Sử dụng để hỗ trợ truy cập Internet cho thiết bị Bluetooth khác thông qua modem điện thoại."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Sử dụng để truyền file đến và đi từ các thiết bị Bluetooth."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Sử dụng để gọi và nhận cuộc gọi thông qua thiết bị Bluetooth xe hơi."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Sử dụng để gọi và nhận cuộc gọi thông qua tai nghe Bluetooth."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Sử dụng để trao đổi dữ liệu cá nhân (danh thiếp, danh bạ, v.v..) thông qua Bluetooth."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Thiết bị nhập"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Truy cập Internet"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Âm thanh media"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Tên điện thoại"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Cho phép tìm thấy"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Bình thường"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Không có thiết bị"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Không tìm thấy thiết bị nào"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Không có lịch sử truyền"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Gửi đối tượng"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Tắt"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Hoạt động bị lỗi."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Đã ghép đôi"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Các thiết bị đã ghép đôi"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d phút"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d thành công, %d lỗi"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d thành công, %d lỗi"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Máy in"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Kích thước giấy"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Chất lượng in"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Đã nhận."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Đang tìm..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Đang tìm kiếm... %d thiết bị được tìm thấy."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Tìm kiếm đã dừng."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Chính sách bảo mật hạn chế việc sử dụng kết nối Bluetooth."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Chính sách bảo mật chỉ hạn chế việc sử dụng kết nối Bluetooth tới các tính năng rảnh tay."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Gửi đến %s đã bị lỗi."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Đã gửi."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Cổng nối tiếp"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Dịch vụ Bluetooth"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Hiện mật mã."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Chạm vào %s rồi chạm Dò để bật Bluetooth và dò tìm các thiết bị."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Chạm để kết nối."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Chạm để ngắt kết nối."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Sử dụng để kết nối với thiết bị Bluetooth khác qua cổng nối tiếp ảo."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Để các thiết bị khác có thể nhìn thấy thiết bị của bạn, hãy chọn hộp chọn cạnh tên thiết bị của bạn."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Lịch sử truyền trống."
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Loại"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Không thể xóa file hoặc thư mục."
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Không thể nhận."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Thiết bị không rõ."
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Đang cập nhật..."
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Ngắt kết nối"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Địa chỉ Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Thiết bị Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bộ chọn thiết bị Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Lỗi Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Yêu cầu kết nối Bluetooth"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "Nhập mã PIN"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Từ: %s"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Thiết bị mới"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Chọn thiết bị"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "File đã gửi"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Máy tính"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Vừa khổ giấy"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Bàn phím"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "Máy tính"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "In"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "File đã nhận"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Tùy chọn tìm kiếm"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Hủy ghép đôi"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Cho phép %s kết nối?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Cho phép %s tạo thư mục %s?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth đang tắt.\n Bật?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Lỗi Bluetooth. Thử lại?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Ngừng Bluetooth. Thử lại?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Xác nhận mã khóa là %s để ghép đôi với %s."
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Không thể kết nối.\nThử lại?"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Đã kết nối với thiết bị HID."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Ngắt kết nối?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Tải về bị lỗi."
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Nhập mã PIN để ghép đôi với %s."
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Kết nối tai nghe không thành công. Thiết bị kia đã từ chối kết nối."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Nguyên nhân lỗi: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "File: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "File không tồn tại."
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Chưa nhận được File."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Kích thước File: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Loại file: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "Đã kết nối FTP."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "Đã ngắt kết nối FTP."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Đang nhận danh sách dịch vụ..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "Thiết bị HID"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN không chính xác. Thử lại?"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Đầy bộ nhớ."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "Đã nhận %d file(s)."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s đã tồn tại. Ghi đè lên?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Nhận file từ %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Nhận %s từ %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Đang nhận …"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Đang tìm kiếm dịch vụ..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Việc gửi bị hủy bỏ."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Không thể gửi."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Đang gửi…"
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Đang chia sẻ..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "File đã nhận."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Đến: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Hủy truyền file."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Không thể bật Bluetooth khi ở chế độ Máy bay."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Không thể lấy được danh sách dịch vụ."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Trở về"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Ngắt"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Dò"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Dừng"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "Trợ giúp"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth cho phép thiết bị có thể trao đổi dữ liệu không dây."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Hiển thị thiết bị đang kết nối đến."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Đặt thiết bị bạn đang kết nối đến có thể nhìn thấy được, sau đó chạm Dò."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Mở Bộ sưu tập %s."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Mở Cài đặt %s."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Chọn Bluetooth %s."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Chọn thiết bị bạn muốn gửi hình ảnh đến."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Chọn thiết bị bạn muốn kết nối từ danh sách."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Chọn ảnh hoặc album bạn muốn gửi."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Gửi hình ảnh. Bạn có thể theo dõi quá trình gửi hình ảnh trong bảng thông báo."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Gửi hình ảnh. Bạn có thể theo dõi quá trình gửi hình ảnh trong bảng thông báo."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Chạm vào thiết bị bạn muốn ghép đôi hoặc kết nối. Nếu thiết bị bạn muốn kết nối không có trong danh sách, hãy bật chế độ cho phép tìm thấy, sau đó chạm vào Dò."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Chạm vào phím chia sẻ và chọn Bluetooth %s."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Chuyển trạng thái phím và chạm Dò để bật Bluetooth và dò tìm các thiết bị."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Gửi ảnh qua Bluetooth"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Cài đặt Bluetooth"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Đã ghép đôi hoặc kết nối thành công với thiết bị đã chọn. Chạm vào biểu tượng cấu hình để cấu hình thiết bị."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Bạn đã hoàn thành hướng dẫn từng bước. Quay lại Trợ giúp."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Không ghép đôi được với %s."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Đang dò tìm thiết bị..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Đã đạt số ký tự tối đa."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Nhận file"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Chia sẻ file"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Bộ điều khiển trò chơi"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Thiết bị của bạn"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Truyền File"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Đang tắt..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Đang bật..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Không có"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Hiển thị cho mọi thiết bị Bluetooth ở gần."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Tên thiết bị của bạn"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Đổi tên thiết bị"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Nhập tên thiết bị."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Máy ảnh"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Chỉ mục nhóm"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Chưa được chọn"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Phím bật/tắt"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Phím Radio"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Đã chọn"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Bắt đầu ngay"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Việc này sẽ ngắt kết nối của bạn với %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Chạm hai lần để mở danh sách."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Chạm hai lần để đóng danh sách."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Kết nối"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Cho phép"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Hủy"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "H.tất"
+
+msgid "IDS_BR_SK_YES"
+msgstr "OK"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Không"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Đóng"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Hướng dẫn đã hoàn tất."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Thao tác không hợp lệ. Thử lại."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Tiếp tục"
+
+msgid "IDS_CST_OPT_HIDE"
+msgstr "Ẩn"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Đã bật Bluetooth."
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Tùy chọn tìm kiếm"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Tất cả thiết bị"
+
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Hiển thị mã PIN"
+
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Thử lại"
+
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
+
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Pin yếu"
+
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Thêm thông tin"
+
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Không hiện lại"
+
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Yêu cầu truy nhập"
+
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Tìm kiếm"
+
+msgid "IDS_BT_SK4_STOP"
+msgstr "Dừng"
+
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Đổi tên"
+
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "Tắt"
+
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Điện thoại"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "Trợ giúp"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Nhiều hơn"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Phút"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Giây"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 phút"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 giây"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Thông tin"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Hôm qua"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Đang bật Bluetooth..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Đã đạt số ký tự tối đa (%d)."
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Ghép đôi"
+
+msgid "IDS_COM_BODY_RECEIVE"
+msgstr "Nhận tin"
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Xác nhận"
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Tên này đã được sử dụng. Hãy nhập tên khác."
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Đang kết nối..."
+
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "Còn %1$d:%2$d"
+
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Đã kết nối"
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s còn lại."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Không thể nhận file"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "Đã sao chép %1$d file, %2$d bị lỗi"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Không thể gửi file"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "Đã sao chép 1 file, %d bị lỗi"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Nhập mã PIN để ghép đôi với %s. (Thử 0000 hoặc 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s muốn gửi file cho bạn."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Đã nhập sai mã PIN. Hãy thử lại."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Thiết bị Bluetooth bạn đang muốn ghép đôi hiện đang bận."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Đã hết thời gian ghép đôi Bluetooth này."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Đã xảy ra lỗi Bluetooth."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Chấp nhận"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Nhận file"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Bật Bluetooth để xem danh sách các thiết bị mà bạn có thể ghép đôi hoặc đã ghép đôi."
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Tên các thiết bị được hiển thị để phân biệt mỗi thiết bị có trong danh sách thiết bị ở gần và thông qua Bluetooth và các phương pháp khác."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Chỉ hiển thị đối với những thiết bị Bluetooth đã ghép đôi."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Ngắt kết nối thiết bị"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Đang dò tìm thiết bị..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Không thể ghép đôi với %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Đang chuẩn bị nhận file..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Cho phép ứng dụng"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Đã nhận file qua Bluetooth"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Đã gửi file qua Bluetooth"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Gửi qua Bluetooth"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Nhận qua Bluetooth"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Đang chuẩn bị gửi file..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s đang yêu cầu quyền truy cập tin nhắn của bạn."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s đang yêu cầu quyền truy cập danh bạ của bạn."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Không tìm thấy ứng dụng để thực hiện hành động này."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Thời gian hiển thị"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Gửi file"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Không thể kết nối đến %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Không thể sử dụng Kết nối Bluetooth internet trong khi kết nối với mạng Wi-Fi."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Nhập %1$s trên %2$s để ghép đôi, sau đó nhấn Enter."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Kết nối serial với %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Khớp mã khóa trên %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Tên trống."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Bộ tai nghe âm thanh nổi"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Kết nối âm thanh nổi"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "In"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Không thể lưu File."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Được dùng để in ảnh, tin nhắn văn bản, dữ liệu cá nhân như danh thiếp và cuộc hẹn,... qua máy in Bluetooth từ xa."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Đang tắt..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Cho phép %s đặt file vào?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Cho phép %s nhận File của bạn?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Cho phép %s xóa file của bạn?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Đang kích hoạt Bluetooth..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "TRUYỀN FILE"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "YÊU CẦU GHÉP ĐÔI BT"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Xác nhận mã PIN (%1$s) để ghép đôi với %2$s."
+

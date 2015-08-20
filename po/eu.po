@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Desaktibatzen..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Beti aktibatuta"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Sinkronizatutako gailuak"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Inprimagailua"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Paper tamaina"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Gailuaren izena"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Bluetootha pizten..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Inprimaketa kalitatea"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Ikusgai"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Deitu audiora"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Multimedia audioa"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Ireki"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "Ordu 1"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d minutu"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minutu"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minutu"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Baimena eman %s-(e)ri agendan sartzeko"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Beti aktibatuta"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Eskura dauden gailuak"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Oinarrizko inprimaketa"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth erabilgarri"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth gailuak"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Arrunta"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth bidezko partekatzea"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Desparekatu"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Deitu audiora"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Eragiketak huts egin du"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Ezabatu zerrenda"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Bilaketa gelditu egin da"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Telefono eta multimedia audiora konektatua"
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "%s zure artxiboa ezabatzeko baimendu?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Konektatzen"
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "%s-ek zure fitxategia eskuratzea baimendu?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Konektatzerakoan errorea"
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "%s-ri fitxategi bat sartzea baimendu?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Konexio aukerak"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
 msgstr "Kontaktua dagoeneko bada"
 
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Xehetasunak"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Gailuaren izena"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Markaketa sarea"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Deskonektatzen"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Deskonektatu %2$s %1$s konexiotik?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Ez galdetu berriz"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Adierazi %1$s %2$s-(e)n parekatzeko, eta ondoren ukitu Itzuli edo Intro"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Esku-librekoa"
+
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Entzungailua"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (teklatua, sagua, etab.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Bluetooth entzungailu estereoen bidez deiak egin eta musika entzuteko erabiltzen da"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Bluetooth gailuei telefonoaren modemaren bidez internetera sarrera emateko erabiltzen da"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Bluetooth gailuen artean transferentziak egiteko erabiltzen da"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Bluetooth autorako kiten bidez deiak egin eta jasotzeko erabiltzen da"
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Bluetooth entzungailuen bidez deiak egin eta jasotzeko erabiltzen da"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Bluetooth gailuen artean datu pertsonalak (bisita txartelak, helbide liburuko kontaktuak, etab.) trukatzeko erabiltzen da"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Sarrera gailua"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Internetera sarbidea"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Multimedia audioa"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "Nire telefonoaren izena"
@@ -73,269 +118,68 @@ msgstr "Nire telefonoaren izena"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "Nire telefonoaren ikusgaitasuna"
 
-msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
-msgstr "No more connections possible"
-
-msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Jasota"
-
-msgid "IDS_BT_BODY_SERVICES"
-msgstr "Bluetooth zerbitzuak"
-
-msgid "IDS_BT_BODY_TYPE"
-msgstr "Mota"
-
-msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Ezin da fitxategia edo direktorioa ezabatu"
-
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Ezin da fitxategia gorde"
-
-msgid "IDS_BT_BODY_UPDATING_ING"
-msgstr "Eguneratzen..."
-
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
-msgstr "Bluetooth gailuak"
-
-msgid "IDS_BT_HEADER_ENTERPIN"
-msgstr "PINa idatzi"
-
-msgid "IDS_BT_HEADER_NEW_DEVICE"
-msgstr "Gailu berria"
-
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Inprimaketa"
-
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Konektatu estereora"
-
-msgid "IDS_BT_OPT_PC"
-msgstr "PC"
-
-msgid "IDS_BT_OPT_PRINT"
-msgstr "Inprimatu"
-
-msgid "IDS_BT_OPT_SEARCH_OPTIONS"
-msgstr "Bilaketa aukerak"
-
-msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
-msgstr "%s-ren konexioa baimendu?"
-
-msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
-msgstr "%s-(e)ri %s karpeta sortzen utzi?"
-
-msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
-msgstr "Bluetooth-en errorea. Saiatu berriz?"
-
-msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
-msgstr "Bluetooth denboraz kanpo. Saiatu berriz?"
-
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Baieztatu pasahitza %s dela %s-(e)kin parekatzeko"
-
-msgid "IDS_BT_POP_CONNECTAGAIN"
-msgstr "Ezin da konektatu.\nBerriro saiatu?"
-
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Errorea deskargatzerakoan"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Izena hutsik"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP konektatuta"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP deskonektatuta"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "PIN okerra. Berriro saiatu"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d fitxategi jasota"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Bidalketa baliogabetuta"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Ezin da bidali"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Serie konexioa %s-rekin?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Fitxategia jaso da"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Ezin da zerbitzu zerrenda eskuratu"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Konektatu"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Deskonektatu"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth aktibatuta"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth unean desaktibatuta dago.\nPiztu?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetooth aktibatzen..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Bilatzen"
-
-msgid "IDS_BT_POP_CONNECTED"
-msgstr "Konektatuta"
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Arrunta"
 
 msgid "IDS_BT_BODY_NO_DEVICES"
 msgstr "Gailurik ez"
 
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Bilatzen... %d gailu aurkitu dira"
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Ez da gailurik aurkitu"
 
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Zerbitzu zerrenda lortzen..."
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
 
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Jaso %s  %s-(e)tik?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Aukeratutakoa(k)"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Gailua aukeratu"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s badago. Gainidatzi?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Ezin da Bluetooth aktibatu Hegaldi modua piztuta dagoenean"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Fitxategia ez da existitzen"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Telefono eta multimedia audiora konektatua"
-
-msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "HID gailura konektatuta"
-
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Eskaneatzen..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetootha itzaltzen..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Bluetooth entzungailuen bidez deiak egin eta jasotzeko erabiltzen da"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Esku-librekoa"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Bluetooth autorako kiten bidez deiak egin eta jasotzeko erabiltzen da"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Entzungailu estereoa"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Bluetooth entzungailu estereoen bidez deiak egin eta musika entzuteko erabiltzen da"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Fitxategi transferentzia"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Bluetooth gailuen artean transferentziak egiteko erabiltzen da"
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Transferentziaren historiarik ez"
 
 msgid "IDS_BT_BODY_OBJECT_PUSH"
 msgstr "Difusio objektua"
 
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Bluetooth gailuen artean datu pertsonalak (bisita txartelak, helbide liburuko kontaktuak, etab.) trukatzeko erabiltzen da"
+msgid "IDS_BT_BODY_OFF"
+msgstr "Desaktibatuta"
 
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Oinarrizko inprimaketa"
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Eragiketak huts egin du"
 
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Irudiak, testu mezuak, datu pertsonalak (bisita txartelak, hitzorduak, etab.) urruneko Bluetooth inprimagailuen bidez inprimatzeko erabiltzen da"
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Parekatuta"
 
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Markaketa sarea"
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Sinkronizatutako gailuak"
 
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Bluetooth gailuei telefonoaren modemaren bidez internetera sarrera emateko erabiltzen da"
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minutu"
 
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Serie ataka"
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d ondo, %d-k huts egin du"
 
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID gailua"
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d ondo, %d-k huts egin du"
 
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (teklatua, sagua, etab.)"
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Inprimagailua"
 
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Jasotzen"
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Paper tamaina"
 
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Partekatzen..."
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Inprimaketa kalitatea"
 
-msgid "IDS_BT_SK_SCAN"
-msgstr "Arakatu"
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Jasota"
 
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Hau bestelako Bluetooth gailuak serieko ataka birtual baten bidez konektatzeko erabiltzen da"
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Eskaneatzen..."
 
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Pasahitzak %s-n parekatu?"
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Bilatzen"
 
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Ezin izan dira aurikularrak konektatu. Beste gailu batek konexioa ukatu du"
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Bilatzen... %d gailu aurkitu dira."
 
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Konektatzerakoan errorea"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 minutu"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Desparekatu"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Konexio aukerak"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth erabilgarri"
-
-msgid "IDS_BT_POP_DISCONNECT"
-msgstr "Deskonektatu?"
-
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Eskura dauden gailuak"
-
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 minutu"
-
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Deskonektatzen"
-
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s faltan"
-
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Ukitu konektatzeko"
-
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Ukitu deskonektatzeko"
-
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Honek konexioa amaituko du honekin:"
-
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Sarrera gailua"
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Bilaketa gelditu egin da"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
 msgstr "Segurtasun politikak Bluetooth konexioaren erabilera mugatzen du"
@@ -343,8 +187,431 @@ msgstr "Segurtasun politikak Bluetooth konexioaren erabilera mugatzen du"
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
 msgstr "Segurtasun politikak Bluetooth konexioaren erabilera esku-libreko ezaugarrietara soilik mugatzen du"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Xehetasunak"
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Ezin izan zaio %s-(r)i bidali"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Bidalitakoak"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Serie ataka"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Bluetooth zerbitzuak"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Erakutsi pasahitza."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Ukitu %s, ondoren ukitu Bilatu, Bluetooth piztu eta gailuak bilatzeko."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Ukitu konektatzeko"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Ukitu deskonektatzeko"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Hau bestelako Bluetooth gailuak serieko ataka birtual baten bidez konektatzeko erabiltzen da"
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Zure gailua beste gailuei ikusgai jartzeko, hautatu gailuaren alboko markatze koadroa."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Transferentzien historia hutsik"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Piztu Bluetootha erabilgarri dauden gailuen zerrenda ikusteko"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Mota"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Ezin da fitxategia edo direktorioa ezabatu"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Ezin da jaso"
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Gailu ezezaguna"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Eguneratzen..."
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Desparekatu"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth helbidea"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Bluetooth gailuak"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth gailu aukeratzailea"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth errorea"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth parekatze eskaera"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "PINa idatzi"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Norena: %s"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Gailu berria"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Aukeratu gailua"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Bidalitako fitxategiak"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Ordenagailua"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Doitu paperera"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Teklatua"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "SP mugikorra"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Inprimatu"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Jasotako fitxategiak"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Bilaketa aukerak"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Desparekatu"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Utzi %sri mezuetara sartzen?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s-ren konexioa baimendu?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "%s-(e)ri %s karpeta sortzen utzi?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth unean desaktibatuta dago.\nPiztu?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-en errorea. Saiatu berriz?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetooth denboraz kanpo. Saiatu berriz?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Baieztatu pasahitza %2$s dela %1$s-(r)ekin parekatzeko"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Baieztatu pasahitza %s dela %s-(e)kin parekatzeko"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Ezin da konektatu.\nBerriro saiatu?"
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Konektatuta"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "HID gailura konektatuta"
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Baieztatu"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Deskonektatu?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Errorea deskargatzerakoan"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "PINa idatzi %s-rekin parekatzeko"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Idatzi PINa %s-erekin parekatzeko (saiatu 0000 edo 1234 erabilita)"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Ezin izan dira aurikularrak konektatu. Beste gailu batek konexioa ukatu du."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Akatsaren arrazoia: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fitxategia: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Fitxategia ez da existitzen"
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Fitxategia ez da jaso"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Fitxategiaren neurria: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Fitxategi mota: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP konektatuta"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP deskonektatuta"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Zerbitzu zerrenda lortzen..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID gailua"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN okerra. Berriro saiatu"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Memoria beteta"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d fitxategi jasota"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s badago. Gainidatzi?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s-ren fitxategia jaso?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Jaso %s  %s-(e)tik?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Jasotzen"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Zerbitzuak bilatzen..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Bidalketa baliogabetuta"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Ezin da bidali"
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Bidaltzen"
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Partekatzen..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Fitxategia jaso da"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Nori: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Transferentzia ezeztatuta"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Ezin da Bluetooth aktibatu Hegaldi modua piztuta dagoenean"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Ezin da zerbitzu zerrenda eskuratu"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Atzera"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Deskonektatu"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Arakatu"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Gelditu"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetoothak zure gailuari datuak ari gabe trukatzea ahalbidetzen dio"
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Jarri konektatzen ari zaren gailua ikusgai"
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Jarri konektatzen ari zaren gailua ikusgai, ondoren ukitu Bilatu"
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Ireki %s Galeria"
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Ireki %s Ezarpenak"
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Hautatu %s Bluetootha"
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Hautatu zer gailutara bidali nahi duzun irudia"
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Hautatu zerrendako zer gailutara konektatu nahi duzun"
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Hautatu bidali nahi duzun irudia edo albuma"
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Bidali irudia. Horren aurrerabidea segitu dezakezu jakinarazpenen panelean."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Bidali argazkia. Horren aurrerabidea segitu dezakezu jakinarazpenen panelean."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Ukitu zer gailurekin parekatu edo konektatu nahi duzun. Gailua ez bada zerrendan agertzen, ziurtatu ikusgarri dagoela, ondoren sakatu Bilatu."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Ukitu partekatze botoia eta hautatu %s Bluetootha"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Aktibatu botoia eta ukitu Bilatu Bluetootha pizteko eta gailuak bilatzeko"
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Bidali irudiak Bluetooth bidez"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Ezarri Bluetootha"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Behar bezala parekatu edo konektatu da hautatutako gailuarekin. Ukitu konfigurazio ikonoa gailuaren profila konfiguratzeko."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Pausoz pausoko gida amaitu duzu. Itzuli Laguntzara."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Ezin izan da %s-(e)rekin parekatu."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Gailuak arakatzen..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Gehienezko karaktere kopurura heldu zara"
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Jaso fitxategia"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Partekatu fitx."
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Joko kontrolagailua"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Nire gailua"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Transferitu fitxategiak"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Itzaltzen..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Pizten..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Ez dago eskuragarri"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Ikusgai gertuko Bluetooth gailu guztientzat."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Nire gailuaren izena"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Berrizendatu gailua"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Adierazi gailuaren izena"
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Talde aurkibidea"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Ez da aukeratu"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Pizteko/itzaltzeko botoia"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Irratiaren botoia"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Aukeratuta"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Hasi orain"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Honek %s-(r)ekin duzun konexioa amaituko du"
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Ukitu bi aldiz zerrenda irekitzeko."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Ukitu bi aldiz zerrenda ixteko."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Konektatu"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Onartu"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Konektatu gailura"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Ezeztatu"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Amaituta"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Bai"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ez"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Itxi"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Tutoriala osatuta"
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Ekintza baliogabea. Saiatu berriz."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Berrabiarazi"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth aktibatuta"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Bilaketa aukerak"
@@ -352,114 +619,318 @@ msgstr "Bilaketa aukerak"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Gailu guztiak"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Objektua %s-(e)kin trukatu?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Erakutsi PIN"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Adierazi %1$s %2$s-(e)n parekatzeko, eta ondoren ukitu Itzuli edo Intro"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Berriro saiatu"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Ez da Bluetooth gailurik aurkitu"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PINa"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Parekatuta"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Bateria gutxi"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Zerbitzuak bilatzen..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Informazio gehiago"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth parekatze eskaera"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Idatzi PINa %s-erekin parekatzeko (saiatu 0000 edo 1234 erabilita)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Sarbide eskaera"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Baieztatu pasahitza %2$s dela %1$s-(r)ekin parekatzeko"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s-(e)k baimena eskatzen dizu zure mezuetara konektatzeko"
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Erakutsi pasahitza"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s-(e)k baimena eskatzen dizu zure Kontaktuetara konektatzeko"
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Bilatu"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_SK4_STOP"
+msgstr "Eten"
 
-msgid "IDS_BT_BODY_OFF"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "Ados"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Berrizendatu"
+
+msgid "IDS_BT_BUTTON_OFF"
 msgstr "Desaktibatuta"
 
-msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Konektatzen"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Telefonoa"
 
-msgid "IDS_BT_SK_STOP"
-msgstr "Gelditu"
+msgid "IDS_BT_OPT_HELP"
+msgstr "Laguntza"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Atzera"
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Gehiago"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Memoria beteta"
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Minutuak"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Bluetooth gailu aukeratzailea"
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Segundoak"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "Ezin izan zaio %s-(r)i bidali"
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "Minutu 1"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Transferentzien historia hutsik"
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "Segundo 1"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Sarrera transferentziak"
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Informazioa"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Irteera transferentziak"
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Atzo"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Ezabatu zerrenda"
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetootha pizten..."
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Doitu paperera"
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Gehienezko karaktere kopurura (%d) iritsi zara"
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "Baimena eman %s-(e)ri agendan sartzeko"
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "Erakutsi PINa"
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "Utzi %sri mezuetara sartzen?"
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Parekatu"
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Fitxategia ez da jaso"
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Baieztatu fitxategia jasotzeko"
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "Fitxategia: %s"
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Izen hau erabiltzen ari zara. Idatzi beste izen bat."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Akatsaren arrazoia: %s"
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Konektatzen..."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "Nori: %s"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d gelditzen da"
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "Fitxategi mota: %s"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Konektatuta"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "Fitxategiaren neurria: %s"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s faltan"
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "Norena: %s"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Ezin izan dira fitx. jaso"
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Transferentzia ezeztatuta"
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d fitx. kop., %2$d(e)k huts"
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Ezin da jaso"
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Ezin izan dira fitx. bidali"
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d ondo, %d-k huts egin du"
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "Fitx. 1 kopiat., %d(e)k huts"
 
-msgid "IDS_BT_BODY_SENT"
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Idatzi PINa %s-(r)ekin parekatzeko. (Saiatu 0000 edo 1234 erabilita.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s-(e)k fitxategi bat bidali nahi dizu."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "PIN okerra adierazi duzu. Saiatu berriz."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Bluetooth gailu batekin parekatzen saiatzen ari zara, baina orain lanpetuta dago."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Bluetooth gailu batekin parekatzen saiatzen ari zara, baina orain lanpetuta dago. Saiatu berriz."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Bluetooth parekatzea iraungi da."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Bluetooth parekatze hau iraungi da. Saiatu berriz."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Bluetooth errorea gertatu da."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Bluetooth-en errorea gertatu da. Ukitu Ados berriro saiatzeko."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Onartu"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Jaso fitxategiak"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Piztu Bluetooth parekatzeko dauden edo parekatu dituzun gailuen zerrenda ikusteko."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Beste gailuetarako ikusgaitas."
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Gailuen izenak gertuko gailuen zerrendan eta Bluetooth eta beste metodo batzuen bidez erabilgarri dauden gailuak bereizteko erakusten dira."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Parekatutako Bluetooth gailuetarako soilik ikusgarri."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Deskonektatu gailua"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Gailuak bilatzen..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Ezin da %s-rekin parekatu"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Fitx. jasotzeko prestatzen..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Onartu aplikazioaren baimena"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Onartu aplikazioaren baimena"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Fitxat. Bluetoothez jasota"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Fitxat. Bluetoothez bidalita"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Bidali Bluetoothez"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Jaso Bluetoothez"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Fitx. bidalketa prestatzen..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s zure mezuetara sartzeko baimena eskatzen ari da."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s-(e)k baimena eskatzen dizu zure mezuetara sartzeko. Onartu?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s zure kontaktuetara sartzeko baimena eskatzen ari da."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s zure kontaktuetara eta deien historiara sartzeko baimena eskatzen ari da. Eman?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Ezin da aplikazioa aurkitu ekintza gauzatzeko."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Ikusgait. denbora muga"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Gailuaren izena"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Bidali fitxategiak"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Ezin da %s-ra konektatu"
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Ezin da Bluetooth ainguraketa erabili Wi-Fi konektatuta bazaude"
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Adierazi %1$s %2$s-(e)n parekatzeko eta sakatu Intro."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Serie konexioa %s-rekin?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Pasahitzak %s-n parekatu?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Izena hutsik"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Entzungailu estereoa"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Konektatu estereora"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Inprimaketa"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Ezin da fitxategia gorde"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Irudiak, testu mezuak, datu pertsonalak (bisita txartelak, hitzorduak, etab.) urruneko Bluetooth inprimagailuen bidez inprimatzeko erabiltzen da"
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Desaktibatzen..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "%s-ri fitxategi bat sartzea baimendu?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "%s-ek zure fitxategia eskuratzea baimendu?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "%s zure artxiboa ezabatzeko baimendu?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetooth aktibatzen..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "TRANSFERITU FITXATEGIAK"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT PAREKATZE ESKAERA"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s bidalita"
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Hemendik jasotzen"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Baieztatu PINa (%1$s) %2$s(r)ekin parekatzeko."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Errorea fitx. bidaltzean"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Jasotako fitxategiak"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Ezin izan da fitx. bidali"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s bidalita"
+
+msgid "IDS_BT_POP_SENT"
 msgstr "Bidalitakoak"
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Bluetooth bidezko partekatzea"
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Bidalitako kontaktuaren fitxategia %s"
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "Bidali %s irudi fitxategia"
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Bidalitako multimedia fitxategia %s"
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "%s memo fitxategia bidalita"
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Bidalitako %s musika fitxategia"
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "Bidalitako %s bideo fitxategia"
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Ezin izan da jaso"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Fitxategia jaso da"
 

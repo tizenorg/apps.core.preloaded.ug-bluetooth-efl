@@ -1,18 +1,25 @@
 /*
- * Copyright (c) 2012-2013 Samsung Electronics Co., Ltd.
- *
- * Licensed under the Flora License, Version 1.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://floralicense.org/license/
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* ug-bluetooth-efl
+*
+* Copyright 2012 Samsung Electronics Co., Ltd
+*
+* Contact: Hocheol Seo <hocheol.seo@samsung.com>
+*           GirishAshok Joshi <girish.joshi@samsung.com>
+*           DoHyun Pyun <dh79.pyun@samsung.com>
+*
+* Licensed under the Flora License, Version 1.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.tizenopensource.org/license
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
 
 #ifndef __BT_TYPE_DEFINE_H__
 #define __BT_TYPE_DEFINE_H__
@@ -21,12 +28,9 @@
 extern "C" {
 #endif
 
-#include <stdlib.h>
-#include <unistd.h>
-#include <stdbool.h>
-#include <tizen_error.h>
+
 #include <glib.h>
-#include <bluetooth_type.h>
+#include <bluetooth.h>
 
 /**************************************************
 *                             Constant Value
@@ -36,7 +40,8 @@ extern "C" {
 #define BT_MAX_CHARS_IN_FTP_TITLE 12
 #define BT_MAX_MENU_NAME_LEN 64
 #define BT_MAX_SERVICE_LIST 9
-#define BT_DEVICE_NAME_LENGTH_MAX 100 /* UX guideline */
+#define DEVICE_NAME_MAX_CHARACTER 32
+#define DEVICE_NAME_MAX_LEN 100
 #define BT_ADDRESS_LENGTH_MAX 6
 #define BT_ADDRESS_STR_LEN 18
 #define BT_FILE_NAME_LEN_MAX 255
@@ -52,17 +57,19 @@ extern "C" {
 #define BT_GLOBALIZATION_TEXT_LENGTH \
 	(BT_GLOBALIZATION_STR_LENGTH+BT_EXTRA_STR_LEN)
 #define BT_DISCONNECT_TEXT_LENGTH \
-		((2*BT_GLOBALIZATION_STR_LENGTH)+BT_DEVICE_NAME_LENGTH_MAX)
+		((2*BT_GLOBALIZATION_STR_LENGTH)+DEVICE_NAME_MAX_LEN)
 #define BT_SERVICE_TEXT_LENGTH \
 	(BT_SERVICE_CONTENT_LENGTH+BT_HTML_EXTRA_TAG_LENGTH)* \
 	BT_MAX_SERVICE_LIST
 #define BT_UG_SYSPOPUP_TIMEOUT_FOR_MULTIPLE_POPUPS 200
+
 
 /* Timeout Value */
 #define BT_SEARCH_SERVICE_TIMEOUT 5
 #define BT_SELECTED_TIMEOUT 5
 #define BT_DELETED_TIMEOUT 2
 #define BT_VISIBILITY_TIMEOUT	1000
+#define BT_HELP_TIMEOUT	3000
 
 /* Define Error type */
 #define BT_UG_FAIL -1
@@ -83,10 +90,10 @@ extern "C" {
 ***************************************************/
 
 #define BT_SET_FONT_SIZE \
-"<font=SLP:style=Medium><font_size=%d>%s</font_size></font>"
+"<font_size=%d>%s</font_size>"
 
 #define BT_SET_FONT_SIZE_COLOR \
-"<font=SLP:style=Medium><font_size=%d><color=%s>%s</color></font_size></font>"
+"<font_size=%d><color=%s>%s</color></font_size>"
 
 /* GENLIST_TEXT_COLOR_LIST_SUB_TEXT_SETTINGS 42 137 194 255 */
 #define BT_GENLIST_SUBTEXT_COLOR "#2A89C2FF"
@@ -95,17 +102,33 @@ extern "C" {
 #define BT_RESULT_SUCCESS "success"
 #define BT_RESULT_FAIL "fail"
 
-#define BT_DEFAULT_PHONE_NAME "Fraser"
+#define BT_ADAPTER_ON "on"
+#define BT_ADAPTER_OFF "off"
+
+#define BT_DEFAULT_PHONE_NAME "Kiran"
 
 #define BT_SYSPOPUP_REQUEST_NAME "app-confirm-request"
 #define BT_SYSPOPUP_TWO_BUTTON_TYPE "twobtn"
 #define BT_SYSPOPUP_ONE_BUTTON_TYPE "onebtn"
 
-#define BT_VCONF_VISIBLE_TIME "file/private/libug-setting-bluetooth-efl/visibility_time"
+#define BT_FILE_VISIBLE_TIME "file/private/libug-setting-bluetooth-efl/visibility_time"
 
 /* AppControl Operation */
 #define BT_APPCONTROL_PICK_OPERATION "http://tizen.org/appcontrol/operation/bluetooth/pick"
+
 #define BT_APPCONTROL_VISIBILITY_OPERATION "http://tizen.org/appcontrol/operation/configure/bluetooth/visibility"
+
+#define BT_APPCONTROL_ONOFF_OPERATION "http://tizen.org/appcontrol/operation/configure/bluetooth/onoff"
+
+#define APP_CONTROL_OPERATION_SETTING_BT_ENABLE "http://tizen.org/appcontrol/operation/setting/bt_enable"
+
+#define APP_CONTROL_OPERATION_SETTING_BT_VISIBILITY "http://tizen.org/appcontrol/operation/setting/bt_visibility"
+
+#define BT_APPCONTROL_EDIT_OPERATION "http://tizen.org/appcontrol/operation/edit"
+
+#define BT_APPCONTROL_ONOFF_MIME "application/x-bluetooth-on-off"
+
+#define BT_APPCONTROL_VISIBILITY_MIME "application/x-bluetooth-visibility"
 
 /* AppControl Output */
 #define BT_APPCONTROL_ADDRESS "http://tizen.org/appcontrol/data/bluetooth/address"
@@ -176,14 +199,36 @@ typedef enum {
 } bt_status_t;
 
 typedef enum {
-	BT_LAUNCH_NORMAL = 0x00,
-	BT_LAUNCH_SEND_FILE = 0x01,
-	BT_LAUNCH_PRINT_IMAGE = 0x02,
-	BT_LAUNCH_CONNECT_HEADSET = 0x03,
-	BT_LAUNCH_USE_NFC = 0x04,
-	BT_LAUNCH_PICK = 0x05,
-	BT_LAUNCH_VISIBILITY = 0x06,
+	BT_POPUP_PAIRING_ERROR = 0,
+	BT_POPUP_GET_SERVICE_LIST_ERROR,
+	BT_POPUP_GETTING_SERVICE_LIST,
+	BT_POPUP_CONNECTION_ERROR,
+	BT_POPUP_DISCONNECT,
+	BT_POPUP_ENTER_DEVICE_NAME,
+	BT_POPUP_LOW_BATTERY,
+} bt_popup_t;
+
+typedef enum {
+	BT_LAUNCH_NORMAL = 0,
+	BT_LAUNCH_SEND_FILE,
+	BT_LAUNCH_PRINT_IMAGE,
+	BT_LAUNCH_CONNECT_HEADSET,
+	BT_LAUNCH_CONNECT_AUDIO_SOURCE,
+	BT_LAUNCH_USE_NFC,
+	BT_LAUNCH_PICK,
+	BT_LAUNCH_VISIBILITY,
+	BT_LAUNCH_SHARE_CONTACT,
+	BT_LAUNCH_HELP,
+	BT_LAUNCH_ONOFF,
 } bt_launch_mode_t;
+
+typedef enum {
+	BT_HELP_VIEW_NONE = 0x00,
+	BT_HELP_VIEW_1 = 0x01,
+	BT_HELP_VIEW_2 = 0x02,
+	BT_HELP_VIEW_3 = 0x03,
+	BT_HELP_VIEW_4 = 0x04,
+} bt_help_view_t;
 
 typedef enum {
 	BT_CONTROL_BAR_DISABLE,
@@ -202,19 +247,12 @@ typedef enum {
 } bt_store_type_t;
 
 typedef enum {
-	BT_ROTATE_PORTRAIT = 0,
-	BT_ROTATE_LANDSCAPE,
-	BT_ROTATE_PORTRAIT_UPSIDEDOWN,
-	BT_ROTATE_LANDSCAPE_UPSIDEDOWN,
-} bt_rotate_mode_t;
-
-typedef enum {
 	BT_ACTIVATED = 0,
 	BT_ACTIVATING,
 	BT_DEACTIVATED,
 	BT_DEACTIVATING,
 	BT_SEARCHING,
-	BT_PAIRING
+	BT_PAIRING,
 } bt_oper_t;
 
 typedef enum {
@@ -229,6 +267,7 @@ typedef enum {
 typedef enum {
 	BT_IDLE = 0,
 	BT_DEV_PAIRING,
+	BT_DEV_UNPAIRING,
 	BT_CONNECTING,
 	BT_DISCONNECTING,
 	BT_SERVICE_SEARCHING
@@ -254,6 +293,8 @@ typedef enum {
 	BT_STEREO_HEADSET_CONNECTED = 0x02,
 	BT_HID_CONNECTED = 0x04,
 	BT_NETWORK_CONNECTED = 0x08,
+	BT_NETWORK_SERVER_CONNECTED = 0x10,
+	BT_MUSIC_PLAYER_CONNECTED = 0x20,
 } bt_connected_mask_t;
 
 /**
@@ -296,7 +337,6 @@ typedef enum {
 	BT_DEVICE_MAJOR_MASK_HEALTH = 0x0100,
 } bt_device_major_mask_t;
 
-
 /*
  * Major device class (part of Class of Device)
  */
@@ -315,7 +355,7 @@ typedef enum {
 } bt_major_class_t;
 
 /*
- * Minoor device class (part of Class of Device)
+ * Minor device class (part of Class of Device)
  */
 typedef enum {
 	BTAPP_MIN_DEV_CLS_UNCLASSIFIED = 0x00,
@@ -493,13 +533,14 @@ typedef enum {
 typedef struct {
 	unsigned char bd_addr[BT_ADDRESS_LENGTH_MAX];
 	char addr_str[BT_ADDRESS_STR_LEN + 1];
-	char name[BT_DEVICE_NAME_LENGTH_MAX + 1];/**<  Device Name */
+	char name[DEVICE_NAME_MAX_LEN + 1];/**<  Device Name */
 	bt_service_class_t service_list;  /**< type of service */
 	bt_major_class_t major_class; /**< major class of the device */
 	bt_minor_class_t minor_class; /**< minor class of the device */
 	int authorized;    /**< authorized ? */
 	bt_cod_service_class_t service_class; /**< service class of device */
 	int rssi;	 /**< Received signal strength indicator */
+	int is_connected;
 	int connected_mask;
 	int status;
 	int item_type;
@@ -508,6 +549,7 @@ typedef struct {
 	void *layout;
 	void *entry;
 	void *genlist_item;
+	void *icon;
 	void *net_profile;
 	gboolean is_bonded;
 	gboolean call_checked;
@@ -516,12 +558,17 @@ typedef struct {
 	gboolean network_checked;
 	gboolean highlighted;
 	void *ugd;
+	int pan_connection_result;
 } bt_dev_t;
+
+typedef struct {
+	bt_popup_t type;
+	void *data;
+} bt_popup_data;
 
 typedef struct {
 	unsigned char bd_addr[BT_ADDRESS_LENGTH_MAX];
 } bt_address_t;
-
 
 /**************************************************
 *                              Callback type

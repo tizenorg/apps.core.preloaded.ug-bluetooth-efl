@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<help package="ug-setting-bluetooth" version="0.0.1">
+	<label id="IDS_HELP_BODY_BLUETOOTH">Bluetooth</label>
+	<summary id="IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY">Bluetooth enables your device to exchange data wirelessly.</summary>
+		<items>
+			<item>
+				<title id="IDS_HELP_MBODY_SET_UP_BLUETOOTH">Set up Bluetooth</title>
+				<contents>
+					<![CDATA[
+					<font_size=20><br><br></>
+					<text id="1.">1.</text>&nbsp;<text id="IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE">Make the device you are connecting to visible</text><br>
+					<text id="2.">2.</text>&nbsp;<text id="IDS_HELP_BODY_OPEN_PS_SETTINGS">Open %s Settings</text><br>
+					<text id="3.">3.</text>&nbsp;<text id="IDS_HELP_BODY_SELECT_PS_BLUETOOTH">Select %s Bluetooth</text><br>
+					<text id="4.">4.</text>&nbsp;<text id="IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES">Tap %s, then tap Scan to turn on Bluetooth and scan for devices</text><br>
+					<text id="5.">5.</text>&nbsp;<text id="IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST">Select the device you want to connect to from list</text><br>
+					<font_size=8><br><br></>
+					<color=#4198E0FF><text id="IDS_HELP_BODY_MORE_INFO">More info</text></><br>
+					<text id="IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE">To make your device visible to other devices, select the tickbox next to the name of your device</text></><br>
+					]]>
+					<argument textid="IDS_HELP_BODY_OPEN_PS_SETTINGS" type="image" id="%s" value="relsize=50x50 vsize=full href=help_ic_settings.png"/>
+					<argument textid="IDS_HELP_BODY_SELECT_PS_BLUETOOTH" type="image" id="%s" value="relsize=50x50 vsize=full href=help_ic_bluetooth.png"/>
+					<argument textid="IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES" type="image" id="%s" value="relsize=100x50 vsize=full href=help_toggle_button.png"/>
+				</contents>
+				<link type="startnow" appid="ug-bluetooth-efl" uri="tizen-help://ug-bluetooth-efl/setupbluetooth" />
+			</item>
+	</items>
+</help>

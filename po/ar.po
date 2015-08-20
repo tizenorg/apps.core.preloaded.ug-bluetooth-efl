@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "جاري إلغاء التفعيل..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "التشغيل دوما"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "الأجهزة المقترنة"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "طابعة"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "حجم الورقة"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "اسم الجهاز"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "جار تشغيل البلوتوث..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "جودة الطباعة"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "مرئي"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "صوت الاتصال"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "صوت الوسائط"
+msgid "IDS_BT_SK_OPEN"
+msgstr "فتح"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "ساعة واحدة"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d دقيقة"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "دقيقتين"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "٥ دقائق"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "السماح لـ %s بالوصول إلى سجل هاتف"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "التشغيل دوما"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "الأجهزة المتاحة"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "طباعة أساسية"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "البلوتوث"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "البلوتوث متاح"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "أجهزة البلوتوث"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "عادي"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "مشاركة عبر البلوتوث"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "إلغاء الإقران"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "صوت الاتصال"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "فشلت العملية"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "مسح القائمة"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "تم إيقاف البحث"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "تم التوصيل بصوت الهاتف والوسائط."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "السماح لـ %s بحذف الملف الخاص بك؟"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "جار التوصيل..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "السماح ﻟ%s بالحصول على ملفك؟"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "فشل التوصيل."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "السماح لـ %s بوضع ملف في؟"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "خيارات الاتصال"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "جهة الاتصال موجودة مسبقا"
+msgstr "جهة الاتصال موجودة مسبقا."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "التفاصيل"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "اسم الجهاز"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "شبكة الاتصال"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "جار الفصل..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "هل تريد فصل %2$s عن اتصال %1$s؟"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "عدم السؤال مرة أخرى"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "أدخل %1$s على %2$s للإقتران ثم انقر فوق رجوع أو إدخال."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "طقم تحرير اليدين"
 
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "السماعة"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "أجهزة HID‬ (لوحة المفاتيح، الماوس، وما إلى ذلك)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "يتم استخدامها لإجراء المكالمات والاستماع للموسيقى عبر سماعة ستيريو البلوتوث."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "يتم استخدامها لتفعيل نفاذ الإنترنت لأجهزة البلوتوث عبر مودم الهاتف."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "تستخدم لتحويل الملفات من وإلى أجهزة بلوتوث."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "تستخدم لاستقبال وإرسال المكالمات عبر عدة البلوتوث للسيارة."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "تستخدم لإجراء المكالمات الواردة والصادرة عبر سماعة البلوتوث."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "يتم استخدامها لتبادل البيانات الشخصية (بطاقات الاسماء وأسماء دليل الهاتف... إلخ)مع أجهزة البلوتوث الأخرى."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "جهاز الإدخال"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "الاتصال بالإنترنت"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "صوت الوسائط"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "اسم هاتفي"
@@ -73,41 +118,173 @@ msgstr "اسم هاتفي"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "رؤية هاتفي"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "عادي"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "لا توجد أجهزة"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "لم يتم العثور على أجهزة"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "لا توجد محفوظات للنقل"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "إرسال محتوى"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "غير مفعل"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "فشلت العملية."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "تم الإقتران"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "الأجهزة المقترنة"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d دقيقة"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d ناجحة، %d فاشلة"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d ناجحة، %d فاشلة"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "طابعة"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "حجم الورقة"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "جودة الطباعة"
+
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "تم الاستلام"
+msgstr "تم الاستلام."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "جاري البحث..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "قيد البحث"
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "جاري البحث... تم العثور على %d جهاز."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "تم إيقاف البحث."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "سياسة الأمان تقيد استخدام اتصال البلوتوث."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "سياسة الأمان تقصر استخدام اتصال البلوتوث على ميزة تحرير اليدين فقط."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "فشل الإرسال إلى %s."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "تم الإرسال."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "منفذ تسلسلي"
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "خدمات البلوتوث"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "اعرض كلمة المرور."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "انقر فوق %s، ثم فوق مسح لتشغيل البلوتوث والمسح بحثًا عن أجهزة."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "انقر للتوصيل."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "انقر لقطع الاتصال."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "يستخدم ذلك للاتصال بأجهزة بلوتوث أخرى عبر منفذ تسلسلي افتراضي."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "لجعل جهازك مرئيًا لأجهزة أخرى، حدد مربع التحديد بجانب اسم جهازك."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "فرغت محفوظات النقل."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "قم بتشغيل البلوتوث لعرض قائمة بالأجهزة المتاحة."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "النوع"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "يتعذر حذف ملف أو دليل"
+msgstr "يتعذر حذف ملف أو دليل."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "يتعذر حفظ الملف"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "يتعذر الاستقبال."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "لم يتم التعرّف على الجهاز."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "جاري التحديث..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "إلغاء الإقران"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "البلوتوث"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "عنوان البلوتوث"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "أجهزة البلوتوث"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "اختيار جهاز البلوتوث"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "خطأ في البلوتوث"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "طلب إقتران بلوتوث"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "أدخل PIN"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "من: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "جهاز جديد"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "قيد الطباعة"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "تحديد جهاز"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "توصيل استريو"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "الملفات المرسلة"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "الكمبيوتر"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "ملاءمة للورقة"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "لوحة المفاتيح"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "كمبيوتر"
@@ -115,8 +292,17 @@ msgstr "كمبيوتر"
 msgid "IDS_BT_OPT_PRINT"
 msgstr "طباعة"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "الملفات المستلمة"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "خيارات البحث"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "الغاء الاقتران"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "السماح لـ %s بالوصول إلى الرسائل؟"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "السماح ﻟ%s بالتوصيل؟"
@@ -124,227 +310,308 @@ msgstr "السماح ﻟ%s بالتوصيل؟"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "السماح لـ %s بإنشاء المجلد %s؟"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "البلوتوث في وضع الايقاف حاليا. هل تريد تشغيله؟"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
-msgstr "خطأ Bluetooth. المحاولة ثانية؟"
+msgstr "خطأ البلوتوث. المحاولة ثانية؟"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "انتهت مهلة البلوتوث. المحاولة ثانية؟"
 
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "‫قم بتأكيد أن مفتاح المرور هو %2$s للإقران مع %1$s."
+
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "تأكيد أن مفتاح المرور هو %s للإقتران مع %s"
+msgstr "قم بتأكيد أن مفتاح المرور هو %s للإقتران مع %s."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "غير قادر على التوصيل. حاول ثانية؟"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "فشل التنزيل"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "الاسم فارغ"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "تم اتصال FTP"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "تم فصل FTP"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "رمز PIN غير صحيح. أعد المحاولة"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "تم استلام %d ملف (ملفات)"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "تم إلغاء الإرسال"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "غير قادر على الإرسال"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "توصيل تسلسلي مع %s؟"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "تم استقبال الملف"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "غير قادر على الحصول على قائمة الخدمة"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "توصيل"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "فصل"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "تم تفعيل البلوتوث"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "البلوتوث في وضع الايقاف حاليا. هل تريد تشغيله؟"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "جاري تنشيط البلوتوث..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "قيد البحث"
-
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "تم التوصيل"
-
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "لا توجد أجهزة"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "جاري البحث... تم العثور على %d جهاز"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "الحصول على لائحة الخدمة..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "تلقي %s من %s؟"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "محدد"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "تحديد جهاز"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "يوجد %s بالفعل. استبداله؟"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "يتعذر تفعيل البلوتوث عند تشغيل وضع الطيران"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "الملف غير موجود"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "متصل بصوت الهاتف والوسائط"
+msgstr "تم التوصيل."
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "متصل بجهاز HID"
+msgstr "تم توصيله بجهاز HID."
 
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "جاري الفحص..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "جار إيقاف تشغيل بلوتوث..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "تستخدم لإجراء المكالمات الواردة والصادرة عبر سماعة البلوتوث"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "طقم تحرير اليدين"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "مستخدمة لاستقبال وإرسال المكالمات عبر عدة البلوتوث للسيارة"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "سماعة استريو"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "تستخدم لإجراء المكالمات والاستماع للموسيقى عبر سماعة ستيريو البلوتوث"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "نقل الملف"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "مستخدمة لتحويل الملفات من وإلى أجهزة بلوتوث"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "إرسال محتوى"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "مستخدمة لتبادل البيانات الشخصية (بطاقات الاسماء وأسماء دليل الهاتف... إلخ)مع أجهزة البلوتوث الأخرى"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "طباعة أساسية"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "تستخدم لطباعة الصور والرسائل النصية والمعلومات الشخصية مثل بطاقات الأسماء والمواعيد...إلخ عبر طابعة البلوتوث"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "شبكة الاتصال"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "مستخدمة لتفعيل نفاذ الإنترنت لأجهزة البلوتوث عبر مودم الهاتف"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "منفذ تسلسلي"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "جهاز HID"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "أجهزة HID‬ (لوحة المفاتيح، الماوس، وما إلى ذلك)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "جاري الاستقبال..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "جاري المشاركة..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "بحث"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "يستخدم ذلك للاتصال بأجهزة بلوتوث أخرى عبر منفذ تسلسلي افتراضي"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "هل تريد مطابقة مفاتيح المرور مع %s؟"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "فشل الاتصال بسماعة الرأس. رفض الجهاز الآخر هذا الاتصال"
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "فشل التوصيل"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "دقيقتين"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "غير مقترن"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "خيارات الاتصال"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth متاح"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "تأكيد"
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "فصل؟"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "الأجهزة المتاحة"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "فشل التنزيل."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 دقائق"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "أدخل الرمز للقرن مع  %s."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "جاري الفصل..."
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "أدخل رمز PIN للإقران مع %s (جرب 0000 أو 1234)."
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s المتبقية"
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "فشل الاتصال بسماعة الرأس. رفض الجهاز الآخر هذا الاتصال."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "انقر للتوصيل"
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "سبب العطل: %s"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "انقر لقطع الاتصال"
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "الملف: %s"
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "سوف يؤدي ذلك إلى إنهاء اتصالك بـ"
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "الملف غير موجود."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "جهاز الإدخال"
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "لم يتم استلام الملف."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "سياسة الأمان تقيد استخدام اتصال البلوتوث"
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "حجم الملف: %s"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "سياسة الأمان تقصر استخدام اتصال البلوتوث على ميزة تحرير اليدين فقط"
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "نوع الملف: %s"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "التفاصيل"
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "تم اتصال FTP."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "تم فصل FTP."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "الحصول على لائحة الخدمة..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "جهاز HID"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "رمز PIN غير صحيح. أعد المحاولة"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "امتلأت الذاكرة."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "تم استلام %d ملف (ملفات)."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "يوجد %s بالفعل. استبداله؟"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "هل تريد استلام ملف من %s؟"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "تلقي %s من %s؟"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "جاري الاستقبال..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "جاري البحث عن خدمات..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "تم إلغاء الإرسال."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "يتعذر الإرسال."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "جاري\n الإرسال..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "جاري المشاركة..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "تم استقبال الملف."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "إلى: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "تم إلغاء النقل."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "يتعذر تفعيل البلوتوث عند تشغيل وضع الطيران."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "يتعذر الحصول على قائمة الخدمة."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "رجوع"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "فصل"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "بحث"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "إيقاف"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "البلوتوث"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "يتيح البلوتوث للجهاز إمكانية تبادل البيانات لاسلكيا."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "جعل الجهاز الذي تتصل به مرئيا."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "اجعل الجهاز الذي تتصل به مرئيا، انقر فوق بحث."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "فتح المعرض %s."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "افتح الضبط %s."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "حدد بلوتوث %s."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "حدد الجهاز الذي تريد إرسال الصورة إليه."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "حدد الجهاز الذي تريد الاتصال به من القائمة."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "حدد الصورة أو الألبوم الذي تريد إرساله."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "قم بإرسال الصورة. يمكنك تتبع التقدم في لوحة الإخطارات."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "قم بإرسال الصورة. يمكنك تتبع التقدم في لوحة الإخطارات."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "‏‫انقر فوق الجهاز الذي تريد الاقتران أو الاتصال به‬. إذا لم يكن هذا الجهاز مدرجا بالقائمة، فتأكد من أنه مرئي، ثم انقر فوق بحث."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "انقر فوق زر المشاركة وحدد بلوتوث %s."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "حرك الزر وانقر فوق بحث لتشغيل البلوتوث والبحث عن أجهزة."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "إرسال الصور عبر البلوتوث‬"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "إعداد البلوتوث‬"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "تم الاقتران أو الاتصال بالجهاز المحدد بنجاح. انقر فوق رمز التكوين لتكوين ملف تعريف الجهاز."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "لقد أكملت الدليل التدريجي. ارجع إلى التعليمات."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "فشل الإقران مع %s."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "جار فحص الأجهزة..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "تم الوصول إلى أقصى عدد من الحروف."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "استلام ملف"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "مشاركة ملفات"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "وحدة التحكم بالألعاب"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "جهازي"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "نقل الملفات"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "إيقاف التشغيل..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "جاري التشغيل..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "غير متوفر"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "مرئية لجميع أجهزة البلوتوث القريبة."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "اسم الجهاز"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "إعادة تسمية الجهاز"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "أدخل اسم الجهاز."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "الكاميرا"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "فهرس المجموعة"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "لم يتم اختياره"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "زر التشغيل/إيقاف التشغيل"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "زر الراديو"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "تم التحديد"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "بدء التشغيل الآن"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "سيؤدي ذلك إلى إنهاء اتصالك بـ ‎%s"
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "انقر نقرا مزدوجا لفتح القائمة."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "انقر نقرا مزدوجا لإغلاق القائمة."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "توصيل"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "السماح"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "توصيل الجهاز"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "تمت"
+
+msgid "IDS_BR_SK_YES"
+msgstr "نعم"
+
+msgid "IDS_BR_SK_NO"
+msgstr "لا"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "إغلاق"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "استكمال المادة التعليمية."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "إجراء غير صالح. حاول مرة أخرى."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "استئناف"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "تم تفعيل البلوتوث."
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "خيارات البحث"
@@ -352,114 +619,318 @@ msgstr "خيارات البحث"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "كل الأجهزة"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "تبادل المحتوى مع %s؟"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "إظهار رقم PIN"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "أدخل %1$s على %2$s للإقتران ثم انقر فوق رجوع أو إدخال"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "حاول ثانية"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "لم يتم العثور على جهاز بلوتوث"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "تم الإقتران"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "البطارية ضعيفة"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "جاري البحث عن خدمات..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "مزيد من المعلومات"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "طلب إقتران بلوتوث"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "أدخل رمز PIN للإقران مع %s (جرب 0000 أو 1234)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "طلب الوصول"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "تأكيد أن مفتاح المرور هو %2$s للإقران مع %1$s"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "يطلب %s الحصول على إذن للاتصال برسائلك."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "عرض كلمة المرور"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "يطالب %s الحصول على إذن للوصول الى دليل الهاتف."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "البلوتوث"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "بحث"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "البلوتوث"
-
-msgid "IDS_BT_BODY_OFF"
-msgstr "غير مفعل"
-
-msgid "IDS_BT_BODY_CONNECTING"
-msgstr "جاري التوصيل"
-
-msgid "IDS_BT_SK_STOP"
+msgid "IDS_BT_SK4_STOP"
 msgstr "إيقاف"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "رجوع"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "موافق"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "الذاكرة ممتلئة"
+msgid "IDS_BT_OPT_RENAME"
+msgstr "تغيير الاسم"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "اختيار جهاز البلوتوث"
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "غير فعال"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "فشل الإرسال إلى %s"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "الهاتف"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "محفوظات النقل فارغة"
+msgid "IDS_BT_OPT_HELP"
+msgstr "مساعدة"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "عمليات نقل واردة"
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "المزيد"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "عمليات نقل صادرة"
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "دقائق"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "مسح القائمة"
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "ثوان"
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "ملاءمة للورقة"
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "دقيقة واحدة"
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "السماح لـ %s بالوصول إلى سجل هاتف"
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "ثانية واحدة"
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "السماح لـ %s بالوصول إلى الرسائل؟"
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "معلومات"
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "لم يتم استلام الملف"
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "أمس"
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "الملف: %s"
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "جار تشغيل البلوتوث..."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "سبب العطل: %s"
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "تم بلوغ أقصى عدد من الأحرف (%d)."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "إلى: %s"
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "إظهار رقم PIN"
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "نوع الملف: %s"
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "إقران"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "حجم الملف: %s"
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "قم بتأكيد استلام الملف."
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "من: %s"
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "هذا الاسم مستخدم بالفعل. أدخل اسما آخر."
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "تم إلغاء النقل"
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "جار الاتصال..."
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "غير قادر على الاستقبال"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "متبق %1$d:‏%2$d"
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d ناجحة، %d فاشلة"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "تم الاتصال"
 
-msgid "IDS_BT_BODY_SENT"
-msgstr "تم الإرسال"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr ".%s يتبقى"
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "مشاركة عبر البلوتوث"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "يتعذر تلقي الملفات"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "تم نسخ %1$d من الملفات، فشل نسخ %2$d"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "يتعذر إرسال الملفات"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "تم نسخ ملف واحد، فشل نسخ %d"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "أدخل رقم PIN للإقران مع %s. (حاول ٠٠٠٠ أو ١٢٣٤.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "يتوفر ملف للإرسال من قبل %s."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "تم إدخال رمز PIN غير صحيح. حاول مرة أخرى."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "إن جهاز البلوتوث الذي تحاول الاقتران به مشغول حالياً. حاول مرة أخرى."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "إن جهاز البلوتوث الذي تحاول الاقتران به مشغول حاليا. حاول مرة أخرى."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "انتهت مهلة هذا الاقتران عبر البلوتوث."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "انتهت مهلة هذا الاقتران عبر البلوتوث. حاول مرة أخرى."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "حدث خطأ في البلوتوث."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "حدث خطأ في البلوتوث. انقر فوق موافق للمحاولة مرة أخرى."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "قبول"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "تلقّي الملفات"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "قم بتشغيل البلوتوث لرؤية قائمة الأجهزة التي يمكنك الاقتران بها أو التي اقترنت بها مسبقاً."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "إمكانية الرؤية لأجهزة أخرى"
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "تُعرض أسماء الأجهزة لتمييز كل الأجهزة المتوفرة في قائمة الأجهزة المجاورة، عبر البلوتوث وغيرها من الطرق."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "مرئي لأجهزة البلوتوث المقترنة فقط."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "قطع اتصال الجهاز"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "جار البحث عن أجهزة..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "يتعذر الإقتران مع %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "يتم الإعداد لاستلام الملفات..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "السماح بإذن التطبيق"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "السماح بإذن التطبيق"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "تم تلقّي الملفات عبر البلوتوث"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "تم إرسال الملفات عبر البلوتوث"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "الإرسال عبر البلوتوث"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "التلقّي عبر البلوتوث"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "يتم الإعداد لإرسال الملفات..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "لديك طلب من %s للحصول على إذن بالوصول إلى رسائلك."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "ثمة طلب من %s للحصول على إذن من أجل الوصول إلى رسائلك. السماح؟"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "لديك طلب من %s للحصول على إذن بالوصول إلى جهات الاتصال."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "ثمة طلب من %s للحصول على إذن من أجل الوصول إلى جهات الاتصال ومحفوظات المكالمات. هل تريد السماح بذلك؟"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "يتعذر العثور على التطبيق للقيام بهذا الإجراء."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "مهلة الرؤية"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "اسم الجهاز"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "إرسال الملفات"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "يتعذر الاتصال بـ %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "يتعذر استخدام تقييد البلوتوث أثناء الاتصال بشبكة Wi-Fi."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "أدخل %1$s على %2$s للإقران، ثم اضغط على إدخال."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "توصيل تسلسلي مع %s؟"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "هل تريد مطابقة مفاتيح المرور مع %s؟"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "الاسم فارغ."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "سماعة استريو"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "توصيل استريو"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "طباعة"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "يتعذر حفظ الملف."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "تستخدم لطباعة الصور والرسائل النصية والمعلومات الشخصية مثل بطاقات الأسماء والمواعيد...إلخ عبر طابعة البلوتوث."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "جاري إلغاء التفعيل..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "السماح لـ %s بوضع ملف في؟"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "السماح ﻟ%s بالحصول على ملفك؟"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "السماح لـ %s بحذف الملف الخاص بك؟"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "جاري تنشيط البلوتوث..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "نقل الملفات"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "طلب إقران البلوتوث"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "تم إرسال %s."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "الاستلام من"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "تأكيد رقم PIN ‏(%1$s) للإقتران بـ %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "فشل إرسال الملفات"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "تم تلقي الملفات"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "فشل إرسال الملف"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "تم إرسال %s."
+
+msgid "IDS_BT_POP_SENT"
+msgstr "تم الإرسال."
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "تم إرسال ملف الوسائط %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "ملف الصور الذي تم إرساله %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "تم إرسال ملف الوسائط %s."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "ملف المذكرة الذي تم إرساله %s."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "ملف الموسيقى الذي تم إرساله %s."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "ملف الفيديو الذي تم إرساله %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "فشل التلقي"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "تم استلام ملف"
 

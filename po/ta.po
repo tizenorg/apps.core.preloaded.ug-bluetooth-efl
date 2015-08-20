@@ -1,0 +1,837 @@
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 மணிநேரம்"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 நிமிடங்கள்"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 நிமிடங்கள்"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "எப்போதும் ஆன்"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "இருக்கும் சாதனங்கள்"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "பேஸிக் ப்ரின்ட்டிங்"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "ப்ளூடூத்"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "ப்ளூடூத் கிடைகிறது"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "ப்ளூடூத் சாதனங்கள்"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "ப்ளூடூத் பகிர்வு"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "அழைப்பு கேட்பொலி"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "பட்டியலை துடைக்கவும்"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "ஃபோன் மற்றும் ஊடக கேட்பொலியுடன் இணைக்கப்பட்டுள்ளது."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "இணைகிறது…"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "இணைப்பு தோல்வி."
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "இணைப்பு தெரிவுகள்"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "தொடர்பு முன்பே உள்ளது."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "விவரங்கள்"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "சாதன பெயர்"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "டயல்-அப் நெட்வொர்கிங்"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "துண்டிக்கிறது…"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$s இணைப்பிலிருந்து %2$s  துண்டிக்கவா?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "மீண்டும் கேட்காதே"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "பிணைக்கவென %1$s என்பதை %2$s என்பதில் உள்ளிடுக, பிறகு பின் அல்லது எண்டர் விசையில் டேப் செய்க."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "ஹேன்ட்ஸ்ஃப்ரீ"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "ஹெட்செட்"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (விசைப்பலகை, மவுஸ், மற்றும் பல.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "ப்ளூடூத் ஸ்டீரியோ ஹெட்செட் வழியே அழைப்புகள் செய்ய, இசை கேட்க பயன்படுகிறது."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "ஃபோனின் மோடம் மூலம் ப்ளூடூத் சாதனங்களுக்கு இணையதள அணுகல் வசதி வழங்க பயன்படுகிறது."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "கோப்பை ப்ளூடூத் சாதனங்களில் இருந்து இடமாற்ற பயன்படுகிறது."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "ப்ளூடூத் கார்கிட்டுகள் மூலம் உள்வரும் மற்றும் வெளிச்செல்லும் அழைப்புகள்  செய்ய பயன்படுகிறது."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "ப்ளூடூத் ஹெட்செட்கள் வழி உள்வரும் மற்றும் வெளிச்செல்லும் அழைப்புகள் செய்ய பயன்படுகிறது."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "தனிப்பட்ட விபரங்களை ப்ளூடூத் கருவிகளுடன் பரிமாற பயன்படுகிறது (பெயரட்டைகள், போன்புக் தொடர்புகள் போன்றவை)."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "உள்ளீட்டு சாதனம்"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "இணைய அணுகல்"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "ஊடக கேட்பொலி"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "எனது ஃபோன் பெயர்"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "எனது ஃபோன் புலப்பாடு"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "சாதாரண"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "சாதனங்கள் இல்லை"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "சாதனங்கள் எதுவும் கண்டறியப்படவில்லை"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "இடமாற்று வரலாறு இல்லை"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "பொருளை புஷ்"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "ஆஃப்"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "செயல்பாடு தோல்வி."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "பிணைக்கப்பட்டது"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "பிணைக்கப்பட்ட சாதனங்கள்"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d நிமிடங்கள்"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d வெற்றி, %d தோல்வி"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d வெற்றி, %d தோல்வி"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "அச்சுப்பொறி"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "காகித அளவு"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "அச்சுத் தரம்"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "பெறப்பட்டது."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "தேடுதல்..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "தேடுகிறது... %d சாதனங்கள் கண்டுபிடிக்கப்பட்டன"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "தேடல் நிறுத்தப்பட்டது."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "ப்ளூடூத் இணைப்பு பயன்படுத்துவதை பாதுகாப்பு கொள்கை தடைசெய்கிறது."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "ஹேண்ட்ஸ்-ஃப்ரீ அம்சங்களில் மட்டும் ப்ளூடூத் இணைப்பை பயன்படுத்த பாதுகாப்பு கொள்கையானது தடுக்கிறது."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "%s-க்கு அனுப்ப இயலவில்லை."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "அனுப்பப்பட்டது."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "தொடர் துறை"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "ப்ளூடூத் சேவைகள்"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "கடவுச்சொல் காட்டவும்."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "%s என்பதை டேப் செய்து, பிறகு ப்ளூடூத்தை ஆன் செய்து சாதனங்களுக்காக ஸ்கேன் செய்யவென ஸ்கேனை டேப் செய்யவும்."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "இணைப்பதற்கு டேப் செய்க."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "துண்டிக்க டேப் செய்க."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "ஒரு மெய்நிகர் தொடர் துறை வழியே மற்ற ப்ளூடூத் சாதனங்களை இணைக்க பயன்படுகிறது."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "உங்கள் சாதனம் மற்ற சாதனங்களில் புலப்பட உங்கள் சாதனத்தின் பெயருக்கு அருகிலுள்ள தேர்வுப்பெட்டியை தேர்வுசெய்க."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "வரலாற்றை காலியாக மாற்றுக."
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "வகை"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "கோப்பு அல்லது டைரக்டரியை நீக்க முடியவில்லை."
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "பெற இயலாது."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "தெரியாத சாதனம்"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "புதுப்பிக்கிறது..."
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "பிணைநீக்கு"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "ப்ளூடூத்"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ப்ளூடூத் முகவரி"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "ப்ளூடூத் சாதனங்கள்"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "ப்ளூடூத் சாதனப் பிக்கர்"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "ப்ளூடூத் பிழை"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "ப்ளூடூத் பிணைத்தல் விண்ணப்பம்"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "PIN உள்ளிடுக"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "அனுப்புநர்: %s"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "புதிய சாதனம்"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "சாதனம் தேர்வுசெய்க"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "அனுப்பிய கோப்புகள்"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "கணினி"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "தாளுக்கு பொருத்து"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "விசைப்பலகை"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "அச்சு"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "பெறப்பட்ட கோப்புகள்"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "தேடல் தெரிவுகள்"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "பிணைநீக்குக"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "இணைக்க %sக்கு அனுமதியளிக்கவா?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "கோப்புறை %s ஐ உருவாக்க %sஐ அனுமதிக்கவா?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "ப்ளூடூத் தற்போது ஆஃப் செய்யப்பட்டுள்ளது.\nஆன் செய்யவா?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "ப்ளூடூத் பிழை. மீண்டும் முயலவா?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "ப்ளூடூத் நேரம் முடிந்தது. மீண்டும் முயலவா?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "%s உடன் பிணைக்க இருக்கும் %s கடவுவிசை உறுதிப்படுத்துக."
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "இணைக்க இயலாது.\nமீண்டும் முயலவா?"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "HID சாதனத்தில் இணைக்கப்பட்டது."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "துண்டிக்கவா?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "பதிவிறக்குதல் தோல்வி."
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "%s உடன் இணையாக்க பிஐஎன் பதிக."
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "ஹெட்செட்டை இணைப்பது தோல்வியுற்றது. வேறொரு சாதனம் இணைப்பை தவிர்க்கிறது."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "தோல்வி காரணம்: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "கோப்பு: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "கோப்பு இல்லை."
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "கோப்பு பெறப்படவில்லை."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "கோப்பு அளவு: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "கோப்பு வகை: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP இணைக்கப்பட்டது."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP துண்டிக்கப்பட்டது."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "சேவைப் பட்டியல் பெறப்படுகிறது..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "ஹச்ஐடி சாதனம்"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "தவறான பிஐஎன். மீண்டும் முயலவா?"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "நினைவகம் நிரம்பியது."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d கோப்புகள் பெறப்பட்டன."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s முன்பே உள்ளது. மேலெழுதவா?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%sயிடமிருந்து கோப்பைப் பெறவா?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s என்பதிலிருந்து %s பெறவா?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "பெறப்படுகிறது…"
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "சேவைகளைத் தேடுகிறது..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "அனுப்புதல் ரத்தானது."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "அனுப்புவது தோல்வி."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "அனுப்புகிறது..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "பகிர்கிறது..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "கோப்பு பெறப்பட்டது."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "பெறுநர்: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "இடமாற்றம் ரத்து."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "ஃப்ளைட் முறை ஆனாக இருக்கும்போது ப்ளூடூத்தை செயல்படுத்த இயலாது."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "சேவை பட்டியலை பெற முடியவில்லை."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "பின்"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "துண்டி"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "ஸ்கேன்"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "நிறுத்துக"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "உதவி"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "ப்ளூடூத்"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "தரவுகளை ஒயரில்லாமல் பரிமாறிக்கொள்ள ப்ளூடூத் உங்கள் சாதனத்திற்கு வழிவகுக்கிறது."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "நீங்கள் இணைத்துள்ள சாதனத்தை புலப்படும்படி செய்க."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "நீங்கள் இணைக்கின்ற சாதனத்தை பார்க்கும்படி செய்து, பிறகு ஸ்கேன் என்பதை டேப் செய்க"
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "%s கேலரி திறக்கவும்."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "%s அமைவுகள் திறக்கவும்"
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "%s ப்ளூடூத்தை தேர்வு செய்க."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "நீங்கள் படிமம் அனுப்ப விரும்பும் சாதனத்தை தேர்வு செய்க."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "பட்டியலில் இருந்து நீங்கள் இணைக்க விரும்பும் சாதனத்தை தேர்வு செய்க."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "நீங்கள் அனுப்ப விரும்பும் படம் அல்லது தொகுப்பை தேர்வு செய்க."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "படிமத்தை அனுப்புக. அறிவிப்பு பலகையில் நீங்கள் இதன் முன்னேற்றத்தை டிராக் செய்யலாம்"
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "படத்தை அனுப்பவும். அறிவிப்பு பலகையில் நீங்கள் இதன் முன்னேற்றத்தை டிராக் செய்யலாம்."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "நீங்கள் ஜோடி சேர விரும்பும் அல்லது இணைக்க விரும்பும் சாதனத்தை டேப் செய்க. சாதனம் பட்டியலில் இல்லையெனில்,அது புலப்படும்படியாக உறுதிசெய்து விட்டு பிறகு ஸ்கேனை டேப் செய்க."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "பகிர் பொத்தானை டேப் செய்து %s ப்ளூடூத்தை தேர்வு செய்க."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "பொத்தானை டாகிள் செய்து மற்றும் ப்ளூடூத்தை ஆன் செய்து சாதனங்களுக்காக ஸ்கேன் செய்யவென ஸ்கேனை டேப் செய்யவும்."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "ப்ளூடூத் வழியே படங்களை அனுப்புக"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "ப்ளூடூத்தை அமைக்கவும்"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "தேர்ந்தெடுக்கப்பட்ட சாதனத்துடன் வெற்றிகரமாக ஜோடி சேர்க்கப்பட்டது அல்லது இணைக்கப்பட்டது. சாதன ப்ரொஃபைலை கட்டமைக்கவென கட்டமைப்பு சின்னத்தை டேப் செய்க."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "ஒன்றன் பின் ஒன்றான வழிகாட்டுதலை நீங்கள் முடித்துவிட்டீர்கள். உதவி என்பதற்கு திரும்புக."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%s உடன் இணைப்பது தோல்வியுற்றது."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "சாதனம் ஸ்கேனிங்..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "அதிகபட்ச எழுத்துக்களின் எண்ணிக்கையை அடைந்தது."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "கோப்பினை பெறவும்"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "கோப்புகள் பகிர்க"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "விளையாட்டு கட்டுப்படுத்தி"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "எனது சாதனம்"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "கோப்புகளை இடமாற்று"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "பணிநிறுத்துகிறது..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "ஆன் செய்கிறது..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "கிடைக்கவில்லை"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "அருகிலுள்ள அனைத்து ப்ளூடூத் சாதனங்களுக்கும் புலப்படும்."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "எனது சாதனப் பெயர்"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "சாதனம் மறுபெயரிடுக"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "சாதனப் பெயரை உள்ளிடவும்."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "கேமரா"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "குழு அட்டவணை"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "தேர்ந்தெடுக்கப்படாதவை"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "ஆன்/ஆஃப் பொத்தான்"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "ரேடியோ பொத்தான்"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "தேர்வுசெய்யப்பட்டது"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "இப்போது துவக்குக"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "இது %s-வுடனான உங்கள் இணைப்பை முடிக்கும்."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "பட்டியலைத் திறக்கவென இருமுறை டேப் செய்க."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "பட்டியலை மூடவென இருமுறை டேப் செய்க."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "இணை"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "அனுமதி"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "ரத்து"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "முடிந்தது"
+
+msgid "IDS_BR_SK_YES"
+msgstr "ஆம்"
+
+msgid "IDS_BR_SK_NO"
+msgstr "இல்லை"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "மூடவும்"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "பயிற்சி முடிவுற்றது"
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "தவறான செயல். மீண்டும் முயலுக."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "மீண்டும் துவக்குக"
+
+msgid "IDS_CST_OPT_HIDE"
+msgstr "மறை"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "ப்ளூடூத் செயற்படுத்தப்பட்டது."
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "தேடல் தெரிவுகள்"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "எல்லா சாதனங்கள்"
+
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "PIN காட்டவும்"
+
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "மீண்டும் முயலு"
+
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
+
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "மின்கலம் குறைந்துள்ளது"
+
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "கூடுதல் விவரம்"
+
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
+
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "அணுகல் கோரிக்கை"
+
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "தேடுக"
+
+msgid "IDS_BT_SK4_STOP"
+msgstr "நிறுத்துக"
+
+msgid "IDS_BT_BUTTON_OK"
+msgstr "சரி"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "மறுபெயர்"
+
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "ஆஃப்"
+
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "ஃபோன்"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "உதவி"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "மேலும்"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "நிமிடங்கள்"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "நொடிகள்"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 நிமிடம்"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 நொடி"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "விவரம்"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "நேற்று"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "ப்ளூடூத் ஆன் செய்கிறது..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "அதிகபட்ச எழுத்துகளின் (%d) எண்ணிக்கையை அடைந்தது."
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "பிணை"
+
+msgid "IDS_COM_BODY_RECEIVE"
+msgstr "பெறு"
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "உறுதி"
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "இந்த பெயர் ஏற்கனவே பயன்பாட்டில் உள்ளது. மற்றொரு பெயரை உள்ளிடவும்."
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "இணைக்கிறது..."
+
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d மீதமுள்ளது"
+
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "இணைக்கபட்டது"
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s மீதமுள்ளது."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "கோப்புகளைப் பெற இயலவில்லை"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d வெற்றி, %2$d தோல்வி"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "கோப்புகளை அனுப்ப இயலவில்லை"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 கோப்பு நகலானது, %d தோல்வி"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s உடன் இணைக்க, PIN-ஐ உள்ளிடவும். (0000 அல்லது 1234 என்பதை முயலவும்.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s உங்களுக்கு ஓர் கோப்பு அனுப்ப விரும்புகிறார்."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "தவறான PIN உள்ளிடப்பட்டது. மீண்டும் முயலுக."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "நீங்கள் இணைக்க விரும்பும் ப்ளூடூத் சாதனம் தற்போது பணிமிகுதியாக உள்ளது."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "இந்த ப்ளூடூத் இணைப்பு நேரம் முடிந்தது."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "ஒரு ப்ளூடூத் பிழை ஏற்பட்டுள்ளது."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "ஏற்கவும்"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "கோப்புகளைப் பெறவும்"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "நீங்கள் இணைக்கக்கூடிய அல்லது ஏற்கனவே இணைக்கப்பட்ட சாதனங்களின் பட்டியலைக் காண, ப்ளூடூத்தை ஆன் செய்யவும்."
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "அருகிலுள்ள சாதனங்கள் பட்டியல் மற்றும் ப்ளூடூத் மற்றும் இதர முறைகள் வழியே கிடைக்கும் ஒவ்வொரு சாதனங்களையும் வேறுபடுத்த, சாதன பெயர்கள் காண்பிக்கப்படுகின்றன."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "பிணைக்கப்பட்ட ப்ளூடூத் சாதனங்களுக்கு மட்டுமே புலப்படும்."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "சாதனத்தைத் துண்டிக்கவும்"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "சாதனங்களுக்கான ஸ்கேன் செய்கிறது..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "%s உடன் இணைக்க இயலவில்லை."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "கோப்புகளை பெறத் தயாராகிறது..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "பயன்பாட்டு அனுமதியை அனுமதிக்கவும்"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "ப்ளூடூத் வழி கோப். கிடைத்தன"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "ப்ளூடூத் வழி கோப். அனுப்பப்."
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "ப்ளூடூத் வழியே அனுப்புக"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "ப்ளூடூத் வழியே பெறுக"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "கோப்பு. அனுப்ப தயாராகிறது..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "உங்கள் தகவல்களை அணுக, %s அனுமதி கோருகிறது."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "உங்கள் தொடர்புகளை அணுக, %s அனுமதி கோருகிறது."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "இந்தச் செயலை செய்வதற்கு பயன்பாட்டைக் கண்டறிய இயலவில்லை."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "புலப்பாடு நேரமுடிவு"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "கோப்புக்களை அனுப்பவும்"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "%s உடன் இணைக்க இயலாது."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Wi-Fi நெட்வொர்க்குடன் இணைந்திருக்கையில் ப்ளூடூத் பயன்படுத்த இயலாது."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "பிணைக்க, %1$s என்பதை %2$s என்பதில் உள்ளிடவும், பிறகு எண்டரை அழுத்தவும்."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "%s உடன் தொடராக இணைக்கவா?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "%sல் கடவுவிசைகளைப் பொருத்தவா?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "பெயரை காலியாக்கு."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "ஸ்டீரியோ தலையணி"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "ஸ்டீரியோவை இணை"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "அச்சிடல்"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "கோப்பு சேமிப்பில் தவறு."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "படிமங்கள், உரைத் தகவல்கள், பெயரட்டைகள் மற்றும் நியமனங்கள் போன்ற தனிநபர் தரவுகளை ரிமோட் ப்ளூடூத் அச்சுப்பொறிகள் மூலம் அச்சிட பயன்படுகிறது."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "செயலிழக்கிறது..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "இதில் கோப்பை வைக்க %sயை அனுமதிக்கவா?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "உங்கள் கோப்பை பெற %sயை அனுமதிக்கவா?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "உங்கள் கோப்பை நீக்க %sயை அனுமதிக்கவா?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "ப்ளூடூத் இயக்குதல்…"
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "கோப்புகளை இடமாற்றுக"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT இணைப்பு கோரிக்கை"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "%2$s உடன் பிணைக்க PIN (%1$s) உறுதிசெய்யவும்."
+

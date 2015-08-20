@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "O‘chirilmoqda..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Har doim yoqilgan holda"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Bog‘langan qurilmalar"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Printer"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Qog‘oz o‘lchami"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Qurilma nomi"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Bluetoothni yoqish..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Chop etish sifati"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Ko‘rinadigan"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "audio qo'ng'iroq"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Media audio"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Ochish"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 soat"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d daqiqa"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 daqiqa"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 daqiqa"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s telefon raqamlari kitobiga kirish"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Har doim yoqilgan holda"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Mavjud qurilmalar"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Asosiy rasm"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth mavjud"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth qurilmalari"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Normal"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetoothdan umumiy foydalanish"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Bog‘lan. uzish"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "audio qo'ng'iroq"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Operatsiya bajarilmadi"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Ro‘yxatni o'chiring"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Qidiruv to‘xtatildi"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Telefon va media audioga ulangan."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "%sga faylingizni o'chirish uchun ruxsat berilsinmi?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Ulanmoqda..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "%sga faylingizni olish uchun ruxsat berilsinmi?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Ulanib bo‘lmadi."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "%sga fayl qo‘yish uchun ruxsat berilsinmi?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Ulanish opsiyalari"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Kontakt avvaldan mavjud"
+msgstr "Kontakt avvaldan mavjud."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Tafsilotlar"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Qurilma nomi"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Telefon orqali ulanadigan tarmoq"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Uzilmoqda..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$s ulanishidan %2$s uzilsinmi?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Boshqa so'ramang"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Bog‘lanish uchun %2$sda %1$sni kiriting, so‘ngra Qaytish yoki Kiritishga teging."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Dinamik"
 
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Quloqlik"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (klaviatura, sichqoncha va boshq.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Bluetooth stereo quloqliklari orqali qo‘ng‘iroqlar amalga oshirish va musiqa tinglash uchun ishlatiladi."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Bluetooth qurilmalariga telefon modemi orqali internetga kirish uchun ishlatiladi."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Fayllarni Bluetooth qurilmalaridan va qurilmalariga uzatilgan."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Kiruvchi va chiquvchi qo‘ng‘roqlar Bluetooth mashina vositalari orqali amalga oshirilgan."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Kiruvchi va chiquvchi qo‘ng‘roqlar Bluetooth quloqliklari orqali amalga oshirilgan."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Bluetooth qurilmalari bilan shaxsiy ma’lumotlarni (tashrif kartalari, telefon kitobi kontaktlari va boshqalar) almashish uchun ishlatiladi."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Kiritish qurilmasi"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Internetga kirish"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Media audio"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "Mening telefonim nomi"
@@ -73,41 +118,173 @@ msgstr "Mening telefonim nomi"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "Mening telefonim ko‘rinish imkoniyati"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Qurilmalar yo‘q"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Qurilmalar topilmadi"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "Boshqa ulanishlarga ruxsat berilmaydi"
 
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Uzatishlar jurnali yo‘q"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Obyekt tanlash"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "O‘ch."
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Operatsiya bajarilmadi."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Bog‘langan"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Bog‘langan qurilmalar"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d daqiqa"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d muvaffaqiyatli, %d xato"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d muvaffaqiyatli, %d xato"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printer"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Qog‘oz o‘lchami"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Chop etish sifati"
+
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Qabul qilindi"
+msgstr "Qabul qilindi."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ko'rib chiqilmoqda…"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Qidirilmoqda..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Qidirilmoqda... %d qurilmalar topildi."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Qidiruv to‘xtatildi."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Xavfsizlik siyosati Bluetoothdan foydalanishni taqiqlaydi."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Xavfsizlik siyosati Bluetooth ulanishidan faqat avtomatik xususiyatlarga foydalanishni taqiqlaydi."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "%sga yuborib bo‘lmadi."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Yuborildi."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Tadrijiy port"
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Bluetooth xizmatlari"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Parol ko‘rsatilsin."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Bluetoothni yoqish va qurilmalarni qidirish uchun %sga teging, so‘ngra Qidirishga teging."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Ulanish uchun cherting."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Uzilish uchun teging."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Bu virtual tadrijiy port orqali boshqa Bluetooth qurilmalariga ulanish uchun ishlatiladi."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Qurilmangizni boshqa qurilmalarga ko‘rinadigan qilish uchun qurilmangiz yonidagi belgilash katakchasini tanlang."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "O‘tkazish jurnali bo‘sh."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Mavjud qurilmalar ro‘yxatini ko‘rish uchun Bluetoothni yoqing."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "Tur"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Fayl yoki katalogni o'chirib bo‘lmaydi"
+msgstr "Fayl yoki katalogni o'chirib bo‘lmaydi."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Faylni saqlab bo‘lmaydi"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Qabul qilib bo‘lmaydi."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Noma’lum qurilma."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Yangilanmoqda..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Bog‘lan. uzish"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth manzili"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Bluetooth qurilmalari"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth qurilmasi yig‘uvchisi"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth xatosi"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth bog‘lanish so‘rovi"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "PIN-kod kiriting"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Kimdan: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "Yangi qurilma"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Chop etilmoqda"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Qurilma tanlang"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Bluetooth stereo quloqliklarni ulang"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Yuborilgan fayllar"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Kompyuter"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Qog‘ozga moslash"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Klaviatura"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "SHK"
@@ -115,8 +292,17 @@ msgstr "SHK"
 msgid "IDS_BT_OPT_PRINT"
 msgstr "Chop etish"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Olingan fayllar"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "Qidirish variantlari"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Bog‘lanishni uzish"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%sga xabarlarga kirish uchun ruxsat berilsinmi?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "%sga ulanish ruxsati berilsinmi?"
@@ -124,227 +310,308 @@ msgstr "%sga ulanish ruxsati berilsinmi?"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "%sga %s jildini yaratish uchun ruxsat berilsinmi?"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Hozirda Bluetooth o‘chirilgan.\nYoqilsinmi?"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Bluetooth xatosi. Qayta urinib ko‘rmoqchimisiz?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Bluetooth taymauti. Qayta urinib ko‘rmoqchimisiz?"
 
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%2$s- bu tasdiqlash kirish kaliti, %1$s bilan bog‘lanish uchun."
+
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "%s - bu tasdiqlash kirish kaliti, %s bilan bog‘lanish uchun"
+msgstr "%s - bu tasdiqlash kirish kaliti, %s bilan bog‘lanish uchun."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "Ulanib bo‘lmaydi.\nQayta urinib ko‘rmoqchimisiz?"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Yuklab olish bajarilmadi"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Nom bo‘sh"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP ulandi"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP uzildi"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Noto‘g‘ri PIN. Qayta urinib ko‘rmoqchimisiz?"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d fayl qabul qilindi"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Yuborish bekor qilindi"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Yuborib bo‘lmaydi"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "%s bilan tadrijiy ulanilsinmi?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Fayl qabul qilindi"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Xizmatlar ro‘yxatini olib bo‘lmaydi"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Ulanish"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Uzish"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth faollashtirildi"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Hozirda Bluetooth o‘chirilgan.\nYoqilsinmi?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetooth faollashtirilmoqda..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Qidirilmoqda..."
-
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Ulangan"
-
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Qurilmalar yo‘q"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Qidirilmoqda... %d qurilmalar topildi"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Xizmatlar ro‘yxati olinmoqda..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "%s %sdan qabul qilinsinmi?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Tanlangan"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Qurilma tanlang"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s avvaldan mavjud. Qayta yozilsinmi?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Uchush rejimi yoqilgan vaqtda Bluetoothni faollashtirib bo‘lmaydi"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Fayl mavjud emas"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Telefon va media audioga ulangan"
+msgstr "Ulangan."
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "HID qurilmaga ulandi"
+msgstr "HID qurilmaga ulandi."
 
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Ko'rib chiqilmoqda…"
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetoothni o‘chirish..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Kiruvchi va chiquvchi qo‘ng‘roqlar Bluetooth quloqliklari orqali amalga oshirilgan"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Dinamik"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Kiruvchi va chiquvchi qo‘ng‘roqlar Bluetooth mashina vositalari orqali amalga oshirilgan"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Stereo quloqliklar"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Bluetooth stereo quloqliklari orqali qo‘ng‘iroqlar amalga oshirish va musiqa tinglash uchun ishlatiladi"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Faylni uzatish"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Fayllarni Bluetooth qurilmalaridan va qurilmalariga uzatilgan"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Obyekt tanlash"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Bluetooth qurilmalari bilan shaxsiy ma’lumotlarni (tashrif kartalari, telefon kitobi kontaktlari va boshqalar) almashish uchun ishlatiladi"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Asosiy rasm"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Tasvirlarni, matnli xabarlarni, tashrif kartalari va uchrashuvlar kabi shaxsiy ma’lumotlar va boshqalarni masofaviy Bluetooth printerlari orqali chop etish uchun ishlatilgan"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Telefon orqali ulanadigan tarmoq"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Bluetooth qurilmalariga telefon modemi orqali internetga kirish uchun ishlatiladi"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Tadrijiy port"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID qurilma"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (klaviatura, sichqoncha va boshq.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Qabul qilinmoqda..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Ulashish..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "Qidirish"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Bu virtual tadrijiy port orqali boshqa Bluetooth qurilmalariga ulanish uchun ishlatiladi"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "%s kalitlar mos keldimi?"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Quloqlikni ulab bo‘lmadi. Boshqa qurilma ulanishni rad etdi"
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Ulanib bo‘lmadi"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 daqiqa"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Bog‘lanishni uzish"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Ulanish opsiyalari"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth mavjud"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Tasdiq."
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "Uzilsinmi?"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Mavjud qurilmalar"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Yuklab olish bajarilmadi."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 daqiqa"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "%s bilan bog‘lash uchun PIN-kodni kiriting."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Uzilmoqda..."
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s bilan juftlash uchun PIN-kodni kiriting. (0000 yoki 1234 kiritib ko‘ring)"
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s qoldi"
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Quloqlikni ulab bo‘lmadi. Boshqa qurilma ulanishni rad etdi."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Ulanish uchun cherting"
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Xato sababi: %s"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Uzilish uchun cherting"
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fayl: %s"
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Bu Sizning quyidagi bilan ulanishingizni yakunlaydi"
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Fayl mavjud emas."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Kiritish qurilmasi"
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Fayl qabul qilinmadi."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Xavfsizlik siyosati Bluetoothdan foydalanishni taqiqlaydi"
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Fayl o‘lchami: %s"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Xavfsizlik siyosati Bluetooth ulanishidan faqat avtomatik xususiyatlarga foydalanishni taqiqlaydi"
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Fayl turi: %s"
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Tafsilotlar"
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP ulandi."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP uzildi."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Xizmatlar ro‘yxati olinmoqda..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID qurilma"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Noto‘g‘ri PIN. Qayta urinib ko‘rmoqchimisiz?"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Xotira to‘la."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d fayl qabul qilindi."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s avvaldan mavjud. Qayta yozilsinmi?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%sdan fayl qabul qilinsinmi?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s %sdan qabul qilinsinmi?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Qabul qilinmoqda..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Xizmatlar qidirilmoqda..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Yuborish bekor qilindi."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Yuborib bo‘lmaydi."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Yuborilmoqda..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Ulashish..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Fayl qabul qilindi."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Kimga: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Uzatish bekor qilindi."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Uchush rejimi yoqilgan vaqtda Bluetoothni faollashtirib bo‘lmaydi."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Xizmatlar ro‘yxatini olib bo‘lmaydi."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Orqaga"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Uzish"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Qidirish"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "To‘xtatish"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth qurilmangizni ma’lumotlarni simsiz uzatish imkonini beradi."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Siz ulanayotgan qurilmani ko‘rinadigan qiling."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Ulanayotgan qurilmangizni ko‘rinadigan qiling, shundan so‘ng Qidirishni bosing."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "%s Galereyani oching."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "%s Parametrlarni oching."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "%s Bluetoothni tanlang."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Tasvirni yubormoqchi bo‘lgan qurilmani tanlang."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Ro‘yxatdan ulanmoqchi bo‘lgan qurilmangizni tanlang."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Yubormoqchi bo‘lgan rasm yoki albomni tanlang."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Tasvirni yuboring. Bildirishnoma panelida yuborish jarayoni borishini kuzatishingiz mumkin."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Rasmni yuboring. Bildirishnoma panelida yuborish jarayoni borishini kuzatishingiz mumkin."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Bog‘lanmoqchi yoki ulanmoqchi bo‘lgan qurilmangizni cherting. Agar qurilma ro‘yxatda berilmagan bo‘lsa, u ko‘rinadigan qilib sozlanganligiga ishonch hosil qiling va undan so‘ng Qidirishni bosing."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Ulashish tugmasini bosing va %s Bluetoothni tanlang."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Bluetoothni yoqish va qurilmalarni qidirish uchun tugma holatini o‘zgartiring va Qidirishni bosing."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Bluetooth orqali rasmlarni yuborish"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Bluetoothni sozlash"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Bog‘langan yoki ulangan qurilmani muvaffaqiyatli tanladi. Qurilma profilini sozlash uchun konfiguratsiya tugmasini bosing."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Bosqichma-bosqich ko‘rsatmalarni yakunladingiz. Yordamga qaytish."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%s bilan bog‘lab bo‘lmadi."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Qurilmalar skanerlash..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Belgilar soni ruxsat etilgan maksimal miqdorga yetdi."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Faylni olish"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Faylni ulashish"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "O‘yin pulti"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Mening qurilmam"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Fayllarni uzatish"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "O‘chirilmoqda..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Yoqilmoqda..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Mavjud emas"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Yaqindagi BT qurilmalariga ko‘rinadi."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Qurilmam nomi"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Qurilma nomini o'zgartirish"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Enter device name."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Guruh indeksi"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Tanlanmagan"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Yoqish/o‘chirish tugmasi"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Radio button"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Selected"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Hozir ishga tushirish"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Bu Sizning %s bilan ulanishingizni yakunlaydi."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Ro‘yxatni ochish uchun ikki marta cherting."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Ro‘yxatni yopish uchun ikki marta cherting."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Ulanish"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Ruxsat"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Qurilmaga ulanish"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Bekor qilish"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Bajarildi"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ha"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Yo‘q"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Yopish"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Ko‘rsatma yakunlandi."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Noto‘g‘ri harakat. Qayta urinib ko‘ring."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Davom ettirish"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth faollashtirildi."
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Qidirish variantlari"
@@ -352,114 +619,318 @@ msgstr "Qidirish variantlari"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Hamma qurilmalar"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Obyekt %s bilan almashtirilsinmi?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "PIN-kodni ko‘rsatish"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Enter %1$s on %2$s to pair, then tap Return or Enter"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Qay/urin."
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Bluetooth qurilmasi topilmadi"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN-kod"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Bog‘langan"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Batareya quvvati kam"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Xizmatlar qidirilmoqda..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Ko‘proq ma’lumot"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth bog‘lanish so‘rovi"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "%s bilan juftlash uchun PIN-kodni kiriting (0000 yoki 1234 kiritib ko‘ring)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Kirish talabi"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "%2$s- bu tasdiqlash kirish kaliti, %1$s bilan bog‘lanish uchun"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s Sizning xabarlaringizga kirish uchun ruxsat so‘ramoqda."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Parol ko‘rsatilsin"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s Sizning Kontaktlaringizga kirish uchun ruxsat so‘ramoqda."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Qidirish"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
-
-msgid "IDS_BT_BODY_OFF"
-msgstr "O‘ch."
-
-msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Ulanmoqda..."
-
-msgid "IDS_BT_SK_STOP"
+msgid "IDS_BT_SK4_STOP"
 msgstr "To‘xtatish"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Orqaga"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Xotira to‘la"
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Nom o‘zgartirish"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Bluetooth qurilmasi yig‘uvchisi"
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "O‘chir-gan"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "%sga yuborib bo‘lmadi"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Telefon"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "O‘tkazish jurnali bo‘sh"
+msgid "IDS_BT_OPT_HELP"
+msgstr "Yordam"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Kiruvchi uzatishlar"
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Yana"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Chiquvchi uzatishlar"
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "daqiqa"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Ro‘yxatni o'chiring"
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Soniya"
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Qog‘ozga moslash"
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 daqiqa"
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "%s telefon raqamlari kitobiga kirish"
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 soniya"
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "%sga xabarlarga kirish uchun ruxsat berilsinmi?"
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Ma’lumot"
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Fayl qabul qilinmadi"
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Kecha"
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "Fayl: %s"
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetoothni yoqish..."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Xato sababi: %s"
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Belgilar soni ruxsat etilgan maksimal miqdorga (%d) yetdi."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "Kimga: %s"
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "PIN-kodni ko‘rsatish"
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "Fayl turi: %s"
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Bog‘lash"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "Fayl o‘lchami: %s"
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Faylni qabul qilish uchun tasdiqlang."
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "Kimdan: %s"
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Ushbu nom avvaldan ishlatilmoqda. Boshqa nom kiriting"
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Uzatish bekor qilindi"
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Ulanmoqda..."
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Qabul qilib bo‘lmaydi"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d qoldi"
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d muvaffaqiyatli, %d xato"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Ulandi"
 
-msgid "IDS_BT_BODY_SENT"
-msgstr "Yuborildi"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s qoldi."
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Bluetoothdan umumiy foydalanish"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Fayllarni olib bo‘lmaydi"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d fyl nus-ol., %2$d ta xato"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Fayllarni yuborib bo‘lmaydi"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 fyl. nus/ol-di, %d ta xato"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s bilan bog‘lash uchun PIN-kodni kiriting. (0000 yoki 1234 ni sinab ko‘ring.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s Sizga fayl yubormoqchi."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Noto‘g‘ri PIN-kod kiritildi. Qayta urinib ko‘ring."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Siz bog‘lanmoqchi bo‘lgan Bluetooth qurilmasi ayni vaqtda band."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Siz bog‘lanmoqchi bo‘lgan Bluetooth qurilmasi ayni vaqtda band. Qayta urinib ko‘ring."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Bluetooth bog‘lanish vaqti tugadi."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Bluetooth bog‘lanish vaqti tugadi. Qayta urinib ko‘ring."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Bluetooth xatosi yuz berdi."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Bluetooth xatosi yuz berdi. Qayta urinish uchun OKga teging."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Qabul qilish"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Fayllarni qabul qilish"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Bog‘lanishingiz mumkin bo‘lgan yoki bog‘langan qurilmalaringiz ro‘yxatini ko‘rish uchun Bluetooth-ni yoqing."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Boshqa qur-ga ko‘r. imkoniyati"
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Yaqin-atrofdagi qurilmalar ro‘yxatidagi qurilmalarni Bluetooth va boshqalar orqali ajratib olish uchun qurilma nomlari ko‘rsatiladi."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Faqatgina bog‘langan Bluetooth qurilmalariga ko‘rinadi."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Qurilmani uzish"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Qurilmalar qidirilmoqda..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "%s bilan bog‘lab bo‘lmaydi."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Fayl ol. u-n tayyorlanish..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Ilovaga ruxsat berish"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Ilovaga ruxsat berish"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth orq. olin. fayllar"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth orq. yub. fayllar"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth orqali yuborish"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth orqali olish"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Fayl yub. u-n tayyorla-sh..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s xabarlaringizga kirish uchun ruxsat so‘ramoqda."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s xabarlaringizga kirish uchun ruxsat so‘ramoqda. Ruxsat berilsinmi?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s kontaktlaringizga kirish uchun ruxsat so‘ramoqda."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s kontaktlar va qo‘ng‘iroqlaringiz jurnaliga kirish uchun ruxsat so‘ramoqda. Ruxsat berilsinmi?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Ushbu amalni bajarish uchun ilovani topib bo‘lmaydi."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Ko‘rinish taym-auti"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Qurilma nomi"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Fayllarni yuborish"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "%sga ulanib bo‘lmaydi."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Wi-Fi tarmoqqa ulanganda, Bluetooth bog‘lanishidan foydalanib bo‘lmaydi."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Bog‘lanish uchun %2$s da %1$s ni kiriting, so‘ngra Kiritishni bosing."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "%s bilan tadrijiy ulanilsinmi?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "%s kalitlar mos keldimi?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Nom bo‘sh."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo quloqliklar"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Bluetooth stereo quloqliklarni ulang"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Chop etilmoqda"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Faylni saqlab bo‘lmaydi."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Tasvirlarni, matnli xabarlarni, tashrif kartalari va uchrashuvlar kabi shaxsiy ma’lumotlar va boshqalarni masofaviy Bluetooth printerlari orqali chop etish uchun ishlatilgan."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "O‘chirilmoqda..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "%sga fayl qo‘yish uchun ruxsat berilsinmi?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "%sga faylingizni olish uchun ruxsat berilsinmi?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "%sga faylingizni o'chirish uchun ruxsat berilsinmi?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetooth faollashtirilmoqda..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "FAYLLARNI UZATISH"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT BOG‘LANISH SO‘ROVI"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s yuborildi."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Quyidagidan qabul qilish"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "%2$s bilan bog‘lanish uchun PIN-kodni (%1$s) tasdiqlang."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Fayllar yuborilmadi"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Fayllar olindi"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Faylni yuborib bo‘lmadi"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s yuborildi."
+
+msgid "IDS_BT_POP_SENT"
+msgstr "Yuborildi."
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Yuborilgan kontakt fayli %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "%s tasvir fayli yuborildi."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Yuborilgan media fayl %s."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "%s eslatma fayli yuborildi."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "%s musiqa fayli yuborildi."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "%s video fayli yuborildi."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Qabul qilib bo‘lmadi"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Fayl olindi"
 

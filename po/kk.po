@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Өшірілуде.."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Әрдайым қосулы"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Жұптасқан құрылғылар"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Басып шығарғыш"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Қағаз көлемі"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Құрылғының аты"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Bluetooth қосылуда..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Басып шығару сапасы"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Көріну"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Қоңырау дыбысы"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Мультимедиа дыбысы"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Ашу"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 сағат"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d минут"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 минут"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 минут"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s телефон кітапшасына кіруге рұқсат ету"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Әрдайым қосулы"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Қол жетімді құрылғылар"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Негізгі басылым"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth қол жетімді"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth құрылғылары"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Қалыпты"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth бөлісу"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Жұпсыздандыру"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Қоңырау дыбысы"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Әрекет сәтсіз аяқталды"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Тізімді тазалау"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Іздеу тоқтатылды"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Телефон мен мультимедиалық аудио құрылғыға қосылған."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "%s файлды жоюына рұқсат бересіз бе?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Қосылуда..."
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Файлды алуға рұқсат аласыз ба %s ?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Қосылу үзіліп кетті"
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "%s файл салуына рұқсат бересіз бе?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Connection options"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Контакт бар"
+msgstr "Контакт бар."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Өзгешеліктері"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Құрылғының аты"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Терілмелі желі"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Ажырату"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$s қосылымынан %2$s ажыратасыз ба?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Қайтадан сұрамаңыз"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Жұптастыру үшін %2$s құрылғысына %1$s енгізіңіз, сосын “Оралу” немесе “Енгізу” опциясын түртіңіз."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Дауысты қатайту"
 
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Құлақшын"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (пернетақта, тінтуір, т.б.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Қашықтықтағы Bluetooth қос құлақ аспабы музыка тыңдауға мүмкіндік береді."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Блютуз құрылғыларына телефон арқылы интернетке кіруді қамтамасыз ету үшін пайдаланылған."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Bluetooth сымсыз құрылғысы тұтынушыларға басқа телефондарға ақпарат жіберуге мүмкіндік береді."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Bluetooth сымсыз автомобиль кешені кірген шыққан қоңырауларжы қабылдауға мүмкіндік береді."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Bluetooth сымсыз гарнитурасы қоңырауларды қабылдап және жауап беруге мүмкіндік береді."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Жеке мәліметтер өзгертуға (визиткалар,контактілер,басқ.) Bluetooth құрылғыларымен  қолданылады."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Құрылғы енгізу"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Интернетке кіру"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Мультимедиа дыбысы"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "Телефонның  аты"
@@ -73,41 +118,173 @@ msgstr "Телефонның  аты"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "Телефонның түрі"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Қалыпты"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Құрылғылар жоқ"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Құрылғылар табылмады"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Жіберілімдер журналы"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Объектіні жіберу"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Өшірілген"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Әрекет сәтсіз аяқталды."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Жұпталған"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Жұптасқан құрылғылар"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d минут"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d сәтті, %d сәтсіз"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d сәтті, %d сәтсіз"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Басып шығарғыш"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Қағаз көлемі"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Басып шығару сапасы"
+
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Қабылданған"
+msgstr "Қабылданған."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Көшірілуде..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Іздеуде...."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Ізделуде... %d құрылғы табылды."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Іздеу тоқтатылды."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Қауіпсіздік саясаты Bluetooth байланысының пайдаланылуын шектейді."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Қауіпсіздік саясаты Bluetooth арқылы спикерфон мүмкіндіктеріне ғана қосылып пайдаланылуын шектейді."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "%s ішіне жіберу сәтсіз болды."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Жіберілген"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Сериялық порт"
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Блютуз қызметі"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Құпиясөзді көрсету."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Bluetooth қосып, құрылғыларды іздеу үшін %s түртіңіз, содан кейін “Іздеу” түймесін түртіңіз."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Қосылу үшін түртіңіз."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Ажырату үшін түртіңіз."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Ол басқа Bluetooth құрылғыларына виртуалды сериялық порты арқылы қосылу үшін пайдаланылады."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Құрылғыңызды басқа құрылғыларға көрінетіндей ету үшін, құрылғы атауының жанындағы белгі көзін таңдаңыз."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Берілу журналы бос."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Қол жетімді құрылғылар тізімін көру үшін Bluetooth қосыңыз."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "Түрі"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Файл немесе каталогты жою мүмкін емес"
+msgstr "Файл немесе каталогты жою мүмкін емес."
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Файлды сақтау мүмкін емес"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Алуға мүмкіндік болмады."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Белгісіз құрал"
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Жаңартуда..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Жұпсыздандыру"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth мекенжайы"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Bluetooth құрылғылары"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth құрылғысын алу құралы"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth қатесі"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth жұптастыру сұрауы"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "PIN енгізу"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Кімнен: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "Жаңа құрылғы"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Басып шығару"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Құрылғыны таңдау"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Стереоны қосу"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Жіберілген файлдар"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Компьютер"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Қағазға сәйкестендіру"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Пернетақта"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile AP"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "Компьютер"
@@ -115,8 +292,17 @@ msgstr "Компьютер"
 msgid "IDS_BT_OPT_PRINT"
 msgstr "Басып шығару"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Алынған файлдар"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "Іздеу параметрлері"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Жұптан босату"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%s хабарларға кіруге мүмкіндік беру керек пе?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "%s ге байланысқа рұқсат беру керек пе?"
@@ -124,227 +310,308 @@ msgstr "%s ге байланысқа рұқсат беру керек пе?"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "%s қалтасын жасауына %s рұқсат беру керек пе?"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth кәзір сөндірулі.\nҚосу керек пе?"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Bluetooth қате. Қайталау керек пе?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Bluetooth уақыты бітті. Қайталау керек пе?"
 
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$s жұптастыру үшін құпиясөздің %2$s екеніне көз жеткізіңіз."
+
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "%s құрылғысымен жұптастыру үшін кілтсөздің %s екеніне көз жеткізіңіз"
+msgstr "%s құрылғысымен жұптастыру үшін кілтсөздің %s екеніне көз жеткізіңіз."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "Байланысқа қосыла алмады.\nӘрекетті қайталайсыз ба?"
 
-msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Жазылу үзіліп кетті"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Аты бос"
-
-msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP қослды"
-
-msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP ажыратылды"
-
-msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
-msgstr "Дұрыс емес PIN. Қайталаңыз"
-
-msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d файл алынды"
-
-msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Жіберу тоқтатылды"
-
-msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Жіберуге болмайды"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "%s сериялық байланысты құру керек пе?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Файл алынды"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Қызметтер тізімін алу мүмкін емес"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Қосылу"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Ажырату"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth қосылған"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth кәзір сөндірулі.\nҚосу керек пе?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Bluetooth қосылуда..."
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Іздеуде...."
-
 msgid "IDS_BT_POP_CONNECTED"
 msgstr "Қосылған"
 
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Құрылғылар жоқ"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Ізделуде... %d құрылғы табылды"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Қызмпеттер тізімін алу..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "%s файлын %s ішінен алу керек пе?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Таңдалды"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Құрылғыны таңдау"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s бұрыннан бар. Үстіне жазу керек пе?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Bluetooth мүмкіндігін ұшу режимі қосулы кезде іске қосу мүмкін емес"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Файл жоқ"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Телефон мен мультимедиалық аудио құрылғыға қосылған"
-
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "HID құрылғысына қосылған"
+msgstr "HID құрылғысына қосылған."
 
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Көшірілуде..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Bluetooth өшірілуде..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Bluetooth сымсыз гарнитурасы қоңырауларды қабылдап және жауап беруге мүмкіндік береді"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Дауысты қатайту"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Bluetooth сымсыз автомобиль кешені кірген шыққан қоңырауларжы қабылдауға мүмкіндік береді"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Стерео құлақ аспабы"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Қашықтықтағы Bluetooth қос құлақ аспабы музыка тыңдауға мүмкіндік береді"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Файл беру"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Bluetooth сымсыз құрылғысы тұтынушыларға басқа телефондарға ақпарат жіберуге мүмкіндік береді"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Объектіні жіберу"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Жеке мәліметтер өзгертуға (визиткалар,контактілер,басқ.) Bluetooth құрылғыларымен  қолданылады"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Негізгі басылым"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Қашықтықтағы Bluetooth принтері бейнелерді, мәтіндік хабарламаларды және жеке мәліметтерді басып шығаруға (визиткаларды, күнтізбе элементтерін) мүмкіндік береді"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Терілмелі желі"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Блютуз құрылғыларына телефон арқылы интернетке кіруді қамтамасыз ету үшін пайдаланылған"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Сериялық порт"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "HID құрылғысы"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (пернетақта, тінтуір, т.б.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Алуда..."
-
-msgid "IDS_BT_POP_SHARING_ING"
-msgstr "Бөлісуде..."
-
-msgid "IDS_BT_SK_SCAN"
-msgstr "Қар. шығу"
-
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Ол басқа Bluetooth құрылғыларына виртуалды сериялық порты арқылы қосылу үшін пайдаланылады"
-
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "%s ішінде кіру кілтін сәйкестендіру керек пе?"
-
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Гарнитура қосылмады. Басқа құрылғы байланыстан бас тартты"
-
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Қосылу үзіліп кетті"
-
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 минут"
-
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Жұптан босату"
-
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Connection Options"
-
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Bluetooth қол жетімді"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Растау"
 
 msgid "IDS_BT_POP_DISCONNECT"
 msgstr "Қосылысты ажырату?"
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Қол жетімді құрылғылар"
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Жазылу үзіліп кетті."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 минут"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "%s жұптастыру үшін PIN енгізу."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s құрылғысымен жұптастыру үшін PIN кодын енгізіңіз (0000 немесе 1234 енгізіп көріңіз)"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Гарнитура қосылмады. Басқа құрылғы байланыстан бас тартты."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Ақаулық себебі: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Файл: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Файл жоқ."
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Файл алынбады."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Файл өлшемі: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Файл түрі: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP қослды."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP ажыратылды."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Қызмпеттер тізімін алу..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID құрылғысы"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Дұрыс емес PIN. Қайталаңыз"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Жад толып кеткен."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d файл алынды."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s бұрыннан бар. Үстіне жазу керек пе?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s жіберген файл алынсын ба?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s файлын %s ішінен алу керек пе?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Алуда..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Іздеу қызметтері..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Жіберу тоқтатылды."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Жіберуге болмайды."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Жіберілуде..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Бөлісуде..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Файл алынды"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Кміге: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Жіберуден бас тартылды."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Bluetooth мүмкіндігін ұшу режимі қосулы кезде іске қосу мүмкін емес."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Қызметтер тізімін алу мүмкін емес."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Aртқа"
+
+msgid "IDS_BT_SK_DISCONNECT"
 msgstr "Ажырату"
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s қалған"
+msgid "IDS_BT_SK_SCAN"
+msgstr "Қар. шығу"
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Қосылу үшін түртіңіз"
+msgid "IDS_BT_SK_STOP"
+msgstr "Үзіліс"
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Ажырату үшін түртіңіз"
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Ол байланысыңызды аяқтайды"
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Деректермен сымсыз күйде ауысу үшін Bluetooth құрылғыңызды қосады."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Құрылғы енгізу"
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Қосылып жатқан құрылғыны көрінетін ету."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Қауіпсіздік саясаты Bluetooth байланысының пайдаланылуын шектейді"
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Қосылып тұрған құрылғыны көрінетін етіп, “Тексеру” опциясын түртіңіз."
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Қауіпсіздік саясаты Bluetooth арқылы спикерфон мүмкіндіктеріне ғана қосылып пайдаланылуын шектейді"
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "%s галереясын ашу."
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Өзгешеліктері"
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "%s параметрлерін ашу."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "%s Bluetooth опциясын таңдаңыз."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Сурет жіберілетін құрылғыны таңдаңыз."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Тізімнен қосқыңыз келетін құрылғыны таңдаңыз."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Жібергіңіз келген суретті немесе альбомды таңдаңыз."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Суретті жіберіңіз. Ескерту тақтасынан оның орындалуын бақылауға болады."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Суретті жіберіңіз. Ескерту тақтасынан оның орындалуын бақылауға болады."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Жұптастырылатын немесе қосылатын құрылғыны түртіңіз. Егер құрылғы тізімде болмаса, оның көрінетініне көз жеткізіп, Тексеру опциясын түртіңіз."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Бөлісу түймесін түртіп, %s Bluetooth опциясын таңдаңыз."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Түймені басып, Bluetooth қосу үшін “Тексеру” түймесін түртіңіз, сосын құрылғыларды тексеріңіз."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Суреттерді Bluetooth арқылы жіберу"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Bluetooth мүмкін. реттеу"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Таңдалған құрылғымен сәтті жұптастырылды немесе қосылды. Құрылғы профилін конфигурациялау үшін конфигурация белгішесін түртіңіз."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Сіз қадамдық нұсқаулықты аяқтадыңыз. Анықтамаға қайтыңыз."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%s құрылғысымен жұптастырылмады."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Құрылғылар тексерілуде..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Таңбалардың ен көп саны артты."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Файл қабылдау"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Файлдарды бөлісу"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Ойын басқарушысы"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Менің құрылғым"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Файлдар тасымалдау"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Өшірілуде..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Қосылуда..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Байланыс аясынан тыс жерде"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Барлық жақын Bluetooth құр-на көрінеді."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Менің құрылғымның аты"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Құрылғы атын өзгерту"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Құрылғы атауын енгізу."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Камера"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Топ индексі"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Таңдалмаған"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Қосу/өшіру түймесі"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Ауыстырғыш түйме"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Таңдалған"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Қазір іске қосу"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Бұл %s қосылымын аяқтайды."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Тізімді ашу үшін екі рет түртіңіз."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Тізімді жабу үшін екі рет түртіңіз."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Қосылу"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Рұқсат"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Құрылғыға қосу"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Тоқтату"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Дайын"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Иә"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Жоқ"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Жабу"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Оқулық аяқталды."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Әрекет қате. Қайталап көріңіз."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Жаңарту"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth қосылған"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Іздеу параметрлері"
@@ -352,114 +619,318 @@ msgstr "Іздеу параметрлері"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Барлық құрылғылар"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Обьектілерді алмастырасыз ба %s?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "PIN кодын көрсету"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Enter %1$s on %2$s to pair, then tap Return or Enter"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Қайталау"
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Ешқандай Bluetooth құрылғысы табылмады"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Жұпталған"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Батареяның заряды  аз"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Іздеу қызметтері..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Қосымша ақпарат"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Bluetooth жұптастыру сұрауы"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "%s құрылғысымен жұптастыру үшін PIN кодын енгізіңіз (0000 немесе 1234 енгізіп көріңіз)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Қатынас сұрау"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "%1$s жұптастыру үшін құпиясөздің %2$s екеніне көз жеткізіңіз"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s хабарларыңызға қосылуға рұқсат сұрауда."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Құпиясөзді көрсету"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s телефон кітапшаңызға қосылу рұқсатын сұрауда."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Іздеу"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_SK4_STOP"
+msgstr "Тоқтату"
 
-msgid "IDS_BT_BODY_OFF"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Атын өзгерту"
+
+msgid "IDS_BT_BUTTON_OFF"
 msgstr "Өшірілген"
 
-msgid "IDS_BT_BODY_CONNECTING"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Телефон"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "Көмек"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Басқа"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Минуттар"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Секунд"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 минут"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 секунд"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Ақпарат"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Кеше"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetooth қосылуда..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Ең көп таңбалар санына (%d) жетті."
+
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "PIN кодты көрсету"
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Жұптастыру"
+
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Файл алу үшін растаңыз."
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Осындай атау бұрыннан пайдаланылуда. Басқа атауды енгізіңіз"
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
 msgstr "Қосылуда..."
 
-msgid "IDS_BT_SK_STOP"
-msgstr "Үзіліс"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d қалды"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Aртқа"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Қосылды"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Жад толып кеткен"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s қалған."
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Bluetooth құрылғысын алу құралы"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Файлдарды алу мүмкін емес"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "%s ішіне жіберу сәтсіз болды"
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d файл көш-ді, %2$d сәтсіз"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Берілу журналы бос"
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Файлдарды жіберу мүмкін емес"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Ішкі жіберулер"
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 файл көшірілді, %d сәтсіз"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Сыртқы жіберулер"
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s құрылғысымен жұптастыру үшін PIN кодын енгізіңіз. (0000 не 1234 көріңіз.)"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Тізімді тазалау"
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s файл жібергісі келеді."
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Қағазға сәйкестендіру"
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Қате PIN код енгізілді. Әрекетті қайталап көріңіз."
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "%s телефон кітапшасына кіруге рұқсат ету"
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Жұптастырмақшы болған Bluetooth құрылғысы қазір бос емес."
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "%s хабарларға кіруге мүмкіндік беру керек пе?"
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Жұптастырмақшы болған Bluetooth құрылғысы ағымда бос емес. Әрекетті қайталап көріңіз."
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Файл алынбады"
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Bluetooth жұптастыру уақытша тоқтатылды."
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "Файл: %s"
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Bluetooth жұптастыру уақытша тоқтатылды. Әрекетті қайталап көріңіз."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Ақаулық себебі: %s"
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Bluetooth қатесі орын алды."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "Кміге: %s"
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Bluetooth қатесі орын алды. Әрекетті қайталау үшін, OK түймесін түртіңіз."
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "Файл түрі: %s"
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Қабылдау"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "Файл өлшемі: %s"
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Файлдарды алу"
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "Кімнен: %s"
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Жұптастыруға болатын немесе жұптастырылып қойған құрылғылар тізімін көру үшін Bluetooth қосыңыз."
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Жіберуден бас тартылды"
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Басқа құрылғыларға көріну"
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Алуға мүмкіндік болмады"
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Құрылғы атаулары жақын құрылғылар тізімінде қол жетімді әрбір құрылғыны ажырату үшін және Bluetooth және басқа әдістер арқылы көрсетіледі."
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d сәтті, %d сәтсіз"
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Тек жұптастырылған Bluetooth құрылғыларына көрінеді."
 
-msgid "IDS_BT_BODY_SENT"
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Құрылғы ажырату"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Құрылғылар тексерілуде..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "%s менен тіркестіру мүмкін емес."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Файл қабылдауға дайындалуда..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Бағдарламаға рұқсат беру"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Бағдарламаға рұқсат беру"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Файл-р Bluetooth арқ. алынды"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Файл-р BT арқ. жібер-і"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth арқылы жіберу"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth арқылы қабылдау"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Файл жіберуге дайындалуда..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s хабарларыңызға кіруге рұқсат сұрауда."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s хабарларыңызға кіруге рұқсатты қажет етуде. Рұқсат етесіз бе?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s контактілеріңізге кіруге рұқсат сұрауда."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s қоңырауларыңыз бен қоңырау журналыңызға қатынасуға рұқсат сұрауда. Рұқсат етесіз бе?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Бұл әрекетті орындау үшін бағдарламаны табу мүмкін емес."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Көріну уақыты бітті"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Құрылғының аты"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Файлдарды жіберу"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "%s жүйесіне қосылу мүмкін емес."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Wi-Fi желісіне қосылған кезде Bluetooth бекітуді пайдалану мүмкін емес."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Жұптастыру үшін, %2$s құрылғысында %1$s енгізіп, “Енгізу” түймесін басыңыз."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "%s сериялық байланысты құру керек пе?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "%s ішінде кіру кілтін сәйкестендіру керек пе?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Аты бос."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Стерео құлақ аспабы"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Стереоны қосу"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Басып шығару"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Файлды сақтау мүмкін емес."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Қашықтықтағы Bluetooth принтері бейнелерді, мәтіндік хабарламаларды және жеке мәліметтерді басып шығаруға (визиткаларды, күнтізбе элементтерін) мүмкіндік береді."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Өшірілуде.."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "%s файл салуына рұқсат бересіз бе?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Файлды алуға рұқсат аласыз ба %s ?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "%s файлды жоюына рұқсат бересіз бе?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetooth қосылуда..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "ФАЙЛДАР ТАСЫМАЛДАУ"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT ЖҰПТАСТЫРУ СҰРАУЫ"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s жіберілді."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Алу"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "%2$s жұптастыру үшін PIN (%1$s) кодын растаңыз."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Файлд.жіберу орындалмады"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Файлдар қабылданды"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Файл жіберу сәтсіз болды"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s жіберілді."
+
+msgid "IDS_BT_POP_SENT"
 msgstr "Жіберілген"
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Bluetooth бөлісу"
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "%s контакт файлы жіберілді."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "%s сурет файлы жіберілді."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "%s медиа файлы жіберілді."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "%s жазба файлы жіберілді."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "%s музыкалық файлы жіберілді."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "%s бейне файлы жіберілді."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Қабылданбады"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Файл алынды"
 

@@ -1,0 +1,837 @@
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 ຊົ່ວໂມງ"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 ນາທີ"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 ນາທີ"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "ເປີດຕະຫຼອດ"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "ເຄື່ອງທີ່ໃຊ້ງານໄດ້"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "ການພິມພື້ນຖານ"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "ບລູທູດ"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "ມີບລູທູດຢູ່"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "ເຄື່ອງອຸປະກອນບລູທູດ"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "ການແບ່ງປັນບລູທູດ"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "ສຽງການໂທ"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "ລົບລ້າງລາຍການ"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "ໄດ້ເຊື່ອມຕໍ່ຫາໂທລະສັບ ແລະສຽງຂອງສື່."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "ກໍາລັງເຊື່ອມຕໍ່..."
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "ການເຊື່ອມຕໍ່ບໍ່ສໍາເລັດ."
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "ທາງເລືອກການເຊື່ອມຕໍ່"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "ມີຜູ້ຕິດຕໍ່ຢູ່ຮຽບຮ້ອຍແລ້ວ."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "ລາຍລະອຽດ"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "ຊື່ເຄື່ອງ"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "ການເຊື່ອມຕໍ່ເຄືອຂ່າຍແບບໄດອັບ"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "ກຳລັງຕັດການເຊື່ອມຕໍ່..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "ຕັດເຊື່ອມຕໍ່ %2$s ຈາກການເຊື່ອມຕໍ່ %1$s ບໍ?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "ຢ່າຖາມອີກ"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ໃສ່ %1$s ໃນ %2$s ເພື່ອຈັບຄູ່, ຈາກນັ້ນແຕະປຸ່ມກັບຄືນ ຫຼືເອັນເທີ."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "ຊຸດຟັງຫູ"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "ຊຸດຫູຟັງ"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (ແປ້ນພິມ, ເມົ້າສ໌, ອື່ນໆ)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "ໃຊ້ເພື່ອໂທ ແລະຟັງເພງຜ່ານຊຸດຫູຟັງສະເຕເຣໂອບລູທູດ."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "ໃຊ້ເພື່ອໃຫ້ເຄື່ອງບລູທູດອື່ນເຂົ້າເຖິງອິນເຕີເນັດຜ່ານໂມເດັມໂທລະສັບ"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "ໃຊ້ເພື່ອໂອນໄຟລ໌ຈາກອຸປະກອນບລູທູດ"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "ໃຊ້ໃນການໂທເຂົ້າແລະໂທອອກໂດຍໃຊ້ບລູທູດເຊື່ອມຕໍ່ໃນລົດ"
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "ໃຊ້ໃນການໂທເຂົ້າແລະໂທອອກໂດຍໃຊ້ຫູຟັງບລູທູດ"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "ໃຊ້ໃນການແລກປ່ຽນຂໍ້ມູນສ່ວນຕົວ(ນາມບັດ,ຜູ້ຕິດຕໍ່ໃນປຶ້ມບັນທຶກໂທລະສັບ,ອື່ນໆ)ກັບເຄື່ອງບລູທູດ"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "ອຸປະກອນປ້ອນຂໍ້ມູນ"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "ການເຂົ້າອິນເຕີເນັດ"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "ສຽງສື່"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "ຊື່ຂອງໂທລະສັບຂອງຂ້ອຍ"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "ຄວາມສາມາດເຫັນໄດ້ຂອງໂທລະສັບຂອງຂ້ອຍ"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "ປົກກະຕິ"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "ບໍ່ມີເຄື່ອງອຸປະກອນ"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "ບໍ່ພົບອຸປະກອນ"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "ບໍ່ມີປະຫວັດການໂອນ"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "ອັອບເຈັກ ພູຊ"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "ປິດ"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "ການດໍາເນີນງານບໍ່ສໍາເລັດ."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "ໄດ້ຈັບຄູ່ແລ້ວ"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "ເຄື່ອງໄດ້ຈັບຄູ່ແລ້ວ"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d ນາທີ"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d successful, %d failed"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d successful, %d failed"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "ເຄື່ອງພິມ"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "ຂະໜາດເຈ້ຍ"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "ຄຸນະພາບການພິມ"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "ຮັບແລ້ວ"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "ກຳລັງຄົ້ນ​ຫາ..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Searching... %d devices found."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "ການຄົ້ນຫາຢຸດ."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "ນະໂຍບາຍດ້ານຄວາມປອດໄພຈຳກັດການເຊື່ອມຕໍ່ບລູທູດ."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "ນະໂຍບາຍດ້ານຄວາມປອດໄພຫ້າມຈຳກັດການເຊື່ອມຕໍ່ບລູທູດເຂົ້າກັບຄຸນລັກສະນະແຮນຟຣີເທົ່ານັ້ນ."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "ການສົ່ງໄປຫາ %s ບໍ່ສໍາເລັດ."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "ສົ່ງ​ແລ້ວ"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "ຜອດ​ອະນຸກົມ"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "ການບໍລິການບລູທູດ"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "ສະແດງລະຫັດ."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "ແຕະ %s, ຈາກນັ້ນແຕະສະແກນ ເພື່ອເປີດບລູທູດ ແລະສະແກນຫາເຄື່ອງ."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "ແຕະເພື່ອເຊື່ອມຕໍ່."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "ແຕະເພື່ອປິດເຊື່ອມຕໍ່."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "ໄດ້ນໍາໃຊ້ອັນນີ້ເພື່ອເຊື່ອມຕໍ່ໃສ່ເຄື່ອງບລູທູດອື່ນຜ່ານຊ່ອງຕໍ່ເນື່ອງກັນແທ້."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "ເພື່ອໃຫ້ເຄື່ອງອື່ນເຫັນເຄື່ອງຂອງທ່ານ, ເລືອກຫ້ອງໝາຍຕິກຢູ່ຕໍ່ໜ້າຊື່ຂອງເຄື່ອງຂອງທ່ານ."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "ການໂອນປະຫວັດຫວ່າງເປົ່າ."
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "ປະເພດ"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Unable to delete file or directory."
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "ບໍ່ສາມາດຮັບໄດ້."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "ເຄື່ອງທີ່ບໍ່ຮູ້ຈັກ."
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "ກຳລັງອັບເດດ..."
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "ແຍກຄູ່"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "ບລູທູດ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ທີ່ຢູ່ບລູທູດ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "ເຄື່ອງອຸປະກອນບລູທູດ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "ຕົວເລືອກເຄື່ອງບລູທູດ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "ບລູທູດຂັດຂ້ອງ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "ຂໍຈັບຄູ່ບລູທູດ"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "​ໃສ່ PIN"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "ຈາກ: %s"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "New device"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "ເລືອກເຄື່ອງ"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "ໄຟລ໌ທີ່ໄດ້ສົ່ງແລ້ວ"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "ຄອມພິວເຕີ"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Fit to paper"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "ຄີບອດ"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "AP ໂທລະສັບມືຖື"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "ພິມ"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "ໄຟລ໌ທີ່ໄດ້ຮັບ"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Search options"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "ແຍກຄູ່"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "ອະນຸຍາດໃຫ້ %s ເຊື່ອມຕໍ່?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Allow %s to create folder %s?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth is currently switched off.\nSwitch on?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "ບລູທູດຂັດຂ້ອງ. ລອງໃໝ່ອີກບໍ?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "ບລູທູດໝົດເວລາ. ລອງໃໝ່ອີກບໍ?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "ຢືນຢັນປຸ່ມຜ່ານແມ່ນ %s ເພື່ອຈັບຄູ່ກັບ %s."
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່.\nລອງໃໝ່ອີກບໍ?"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "ໄດ້ເຊື່ອມຕໍ່ກັບເຄື່ອງອຸປະກອນ HID."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "ປິດການເຊື່ອມຕໍ່ບໍ່?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "ການດາວໂຫຼດບໍ່ສໍາເລັດ."
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "ໃສ່ລະຫັດ PIN ເພື່ອຈັບຄູ່ກັບ %s."
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບຊຸດຫູຟັງໄດ້. ອຸປະກອນອື່ນປະຕິເສດການເຊື່ອມຕໍ່."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "ເຫດຜົນຂອງຄວາມບໍ່ສໍາເລັດ: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "ໄຟລ໌: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "ໄຟລ໌ບໍ່ມີຢູ່."
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "ໄຟລ໌ບໍ່ໄດ້ຮັບ."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "ຂະໜາດໄຟລ໌: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "ປະເພດໄຟລ໌: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "ເຊື່ອມຕໍ່ FTPແລ້ວ."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP disconnected."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "ກໍາລັງເອົາບັນຊີບໍລິການຄືນມາ..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "ເຄື່ອງອຸປະກອນ HID"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN ບໍ່​ຖືກຕ້ອງ. ລອງໃໝ່ບໍ?"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "ຄວາມຈຳເຕັມ."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "ຮັບ %d ໄຟລ໌ແລ້ວ."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s already exists. Overwrite?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "ຮັບໄຟລ໌ຈາກ %s ບໍ?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "ຮັບ %s ຈາກ %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "ກໍາລັງຮັບ..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Searching services..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "ການສົ່ງຖືກຍົກເລີກ."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "ບໍ່ສາມາດສົ່ງໄດ້."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "ກຳລັງສົ່ງ..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "ກໍາລັງແຊຣ໌..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "​ໄຟລ໌​ໄດ້​ຮັບ​ແລ້ວ."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "ເຖິງ: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "ການໂອນຖືກຍົກເລີກ."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "ບໍ່ສາມາດເປີດໃຊ້ບລູທູດໄດ້ເມື່ອໂໝດເຮືອບິນເປີດຢູ່."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Unable to get service list."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "ກັບຄືນ"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "ຢຸດເຊື່ອມຕໍ່"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "ສະແກນ"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "ຢຸດ"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "ຊ່ວຍ​ເຫຼືອ"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "ບລູທູດ"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "ບລູທູດຊ່ວຍໃຫ້ເຄື່ອງຂອງທ່ານແລກປ່ຽນຂໍ້ມູນທາງໄວເລສໄດ້."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "ສ້າງເຄື່ອງທີ່ທ່ານກໍາລັງເຊື່ອມຕໍ່ໃຫ້ສາມາດເຫັນໄດ້."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "ເຮັດໃຫ້ເຄື່ອງທີ່ທ່ານກໍາລັງເຊື່ອມຕໍ່ຢູ່ເຫັນໄດ້, ຈາກນັ້ນແຕະປຸ່ມສະແກນ."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "ເປີດແກເລີຣີ %s."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "ເປີດການຕັ້ງຄ່າ %s."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "ເລືອກ %s ບລູທູດ."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "ເລືອກເຄື່ອງທີ່ທ່ານຕ້ອງການສົ່ງຮູບໃຫ້."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "ເລືອກເຄື່ອງມືທີ່ທ່ານຕ້ອງການເຊື່ອມຕໍ່ໃສ່ຈາກບັນຊີລາຍການ."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "ເລືອກຮູບ ແລະອາລະບໍາທີ່ທ່ານຕ້ອງການສົ່ງ."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "ສົ່ງພາບ. ທ່ານສາມາດຕິດຕາມຄວາມຄືບໜ້າຂອງມັນຢູ່ໃນຖາດການແຈ້ງບອກໄດ້."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "ສົ່ງຮູບ. ທ່ານສາມາດຕິດຕາມຄວາມຄືບໜ້າຂອງມັນຢູ່ໃນຖາດການແຈ້ງບອກໄດ້."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "ແຕະເຄື່ອງທີ່ທ່ານຕ້ອງການຈັບຄູ່ນໍາ ຫຼືເຊື່ອມຕໍ່ໃສ່. ຖ້າເຄື່ອງບໍ່ຢູ່ໃນບັນຊີລາຍການ, ຕ້ອງໃຫ້ແນ່ໃຈວ່າມັນສາມາດເຫັນໄດ້, ຈາກນັ້ນແຕະປຸ່ມສະແກນ."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "ແຕະປຸ່ມແບ່ງປັນ ແລະເລືອກບລູທູດ %s."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "ໃສ່ໄລລັອກປຸ່ມ ແລະແຕະປຸ່ມສະແກນເພື່ອເປີດບລູທູດ ແລະສະແກນຫາເຄື່ອງ."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "ສົ່ງຮູບຜ່ານບລູທູດ"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "ຕັ້ງບລູທູດ"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "ໄດ້ຈັບຄູ່ກັບ ຫຼືໄດ້ເຊື່ອມຕໍ່ເຂົ້າໃສ່ເຄື່ອງທີ່ໄດ້ເລືອກໄວ້ສໍາເລັດແລ້ວ. ແຕະໄອຄອນການຈັດລຽງ ເພື່ອຈັດລຽງຮູບແບບເຄື່ອງ."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "ທ່ານໄດ້ປະຕິບັດສໍາເລັດຕາມຄໍາແນະນໍາແຕ່ລະຂັ້ນຕອນ. ກັບຄືນໄປສູ່ຕົວຊ່ວຍເຫຼືອ."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "ຈັບຄູ່ກັບ %s ບໍ່ສໍາເລັດ."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "ກໍາລັງສະແກນເຄື່ອງ..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "ຮອດຈໍານວນຕົວອັກສອນສູງສຸດແລ້ວ."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "ຮັບໄຟລ໌"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "ແບ່ງປັນໄຟລ໌"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "ຕົວຄວບຄຸມເກມ"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "ເຄື່ອງຂອງຂ້ອຍ"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Transfer files"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "ກໍາລັງປິດ..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "ກໍາລັງເປີດ..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "ບໍ່ມີຢູ່"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "ໃຫ້ທຸກເຄື່ອງບລູທູດທີ່ຢູ່ໃກ້ຄຽງເຫັນໄດ້."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "ຊື່ເຄື່ອງຂອງຂ້ອຍ"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "ຕັ້ງຊື່ເຄື່ອງໃໝ່"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "ໃສ່ຊື່ເຄື່ອງເຂົ້າໄປ."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "ກ້ອງຖ່າຍຮູບ"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "ດັດຊະນີກຸ່ມ"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "ບໍ່ໄດ້ເລືອກ"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "ປຸ່ມ ເປີດ/ປິດ"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "ປຸ່ມວິທະຍຸ"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "​ປຸ່ມເລືອກ"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "ເລີ່ມຕົ້ນດຽວນີ້"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ການປິດເຊື່ອມຕໍ່ຈະຈົບການເຊື່ອມຕໍ່ຂອງທ່ານກັບ %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "ເຄາະສອງບາດຊ້ອນເພື່ອເປີດລາຍການ."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "ເຄາະສອງບາດຊ້ອນເພື່ອປິດລາຍການ."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "​ເຊື່​ອມຕໍ່"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "ອະນຸຍາດ"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "ສຳ​ເລັດ"
+
+msgid "IDS_BR_SK_YES"
+msgstr "ແມ່ນ"
+
+msgid "IDS_BR_SK_NO"
+msgstr "ບໍ່"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "ປິດ"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "ການແນະນໍາສໍາເລັດ."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "ການດໍາເນີນການບໍ່ຖືກຕ້ອງ. ລອງໃໝ່ອີກ."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "ເລີ່ມ ໃໝ່ບໍ"
+
+msgid "IDS_CST_OPT_HIDE"
+msgstr "ເຊື່ອງ"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "ບລູທູດໄດ້ເປີດໃຊ້ຢູ່."
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Search options"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "ທຸກເຄື່ອງ"
+
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "ສະແດງ PIN"
+
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "ລອງໃໝ່ອີກ"
+
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
+
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "ແບັດເຕີຣີອ່ອນ"
+
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "ຂໍ້ມູນເພີ່ມເຕີມ"
+
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
+
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "ສະເໜີຂໍການເຂົ້າເຖິງ"
+
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "ຄົ້ນຫາ"
+
+msgid "IDS_BT_SK4_STOP"
+msgstr "ຢຸດ"
+
+msgid "IDS_BT_BUTTON_OK"
+msgstr "ຕົກລົງ"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "ປ່ຽນຊື່​ໃໝ່"
+
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "ມອດ"
+
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "ໂທລະສັບ"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "ຊ່ວຍ​ເຫຼືອ"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "ຕື່ມອີກ"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "ນາທີ"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "ວິນາທີ"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 ນາທີ"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 ວິນາທີ"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "ຂໍ້ມູນຂ່າວສານ"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "ມື້ວານນີ້"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "ກໍາລັງເປີດບລູທູດ..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "ຮອດຈໍານວນຕົວອັກສູງສຸດ (%d) ແລ້ວ."
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "ຈັບຄູ່"
+
+msgid "IDS_COM_BODY_RECEIVE"
+msgstr "ໄດ້ຮັບ"
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "ຢືນຢັນ"
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "ຊື່ນີ້ໃຊ້ງານຢູ່ຮຽບຮ້ອຍແລ້ວ. ໃສ່ຊື່ອື່ນ."
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "ກໍາລັງເຊື່ອມຕໍ່..."
+
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "ຍັງເຫຼືອ %1$d:%2$d"
+
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ"
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s ຍັງເຫຼືອຢູ່."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "ບໍ່ສາມາດຮັບໄຟລ໌ໄດ້"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "ກັອບປີ້ %1$d ໄຟລ໌, %2$d ບໍ່ໄດ້"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "ບໍ່ສາມາດສົ່ງໄຟລ໌ໄດ້"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "ກັອບປີ້ 1 ໄຟລ໌, %d ບໍ່ໄດ້"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "ປ້ອນ PIN ເພື່ອຈັບຄູ່ກັບ %s. (ລອງ 0000 ຫຼື 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s ຕ້ອງການສົ່ງໄຟລ໌ໃຫ້ທ່ານ."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "ປ້ອນ PIN ບໍ່ຖືກຕ້ອງເຂົ້າໄປ. ລອງໃໝ່ອີກ."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "ອຸປະກອນບລູທູດທີ່ທ່ານພະຍາຍາມຈັບຄູ່ນັ້ນບໍ່ຫວ່າງໃນປະຈຸບັນນີ້."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "ການຈັບຄູ່ບລູທູດຂອງທ່ານໝົດເວລາແລ້ວ."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "ບລູທູດເກີດຂັດຂ້ອງ."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "ຍອມຮັບ"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "ຮັບໄຟລ໌"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "ເປີດບລູທູດເພື່ອເບິ່ງລາຍການອຸປະກອນທີ່ທ່ານສາມາດຈັບຄູ່ກັບ ຫຼືໄດ້ຈັບຄູ່ແລ້ວ."
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "ຊື່ອຸປະກອນສະແດງຂຶ້ນ ເພື່ອຈໍາແນກຄວາມແຕກຕ່າງຂອງອຸປະກອນແຕ່ລະອັນທີ່ມີຢູ່ໃນລາຍການອຸປະກອນໃກ້ຄຽງ, ແລະຜ່ານບລູທູດ, ແລະວິທີອື່ນໆ."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "ໃຫ້ແຕ່ອຸປະກອນບລູທູດທີ່ຈັບຄູ່ແລ້ວເທົ່ານັ້ນເຫັນໄດ້."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "ປິດໃຊ້ງານເຄື່ອງ"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "ກໍາລັງສະແກນຫາເຄື່ອງ…"
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "ບໍ່ສາມາດຈັບຄູ່ກັບ %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "ກໍາລັງກຽມຮັບໄຟລ໌..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "ໃຫ້ການອະນຸຍາດແອພພລິເຄຊັນ"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "ຮັບໄຟລ໌ຜ່ານບລູທູດແລ້ວ"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "ສົ່ງໄຟລ໌ຜ່ານບລູທູດແລ້ວ"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "ສົ່ງຜ່ານບລູທູດ"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "ຮັບຜ່ານບລູທູດ"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "ກໍາລັງກຽມສົ່ງໄຟລ໌..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s ກໍາລັງຂໍການອະນຸຍາດເຂົ້າໃຊ້ຂໍ້ຄວາມຂອງທ່ານ."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s ກໍາລັງຂໍການອະນຸຍາດເຂົ້າໃຊ້ຜູ້ຕິດຕໍ່ຂອງທ່ານ."
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "ບໍ່ສາມາດຊອກຫາແອພພລິເຄຊັນເພື່ອດໍາເນີນການນີ້ໄດ້."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "ໝົດເວລາການສະແດງໃຫ້ເຫັນ"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "ສົ່ງໄຟລ໌ຕ່າງໆ"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາ %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "ບໍ່ສາມາດໃຊ້ການເຊື່ອມໂຍງເຄືອຂ່າຍດ້ວຍບລູທູດໄດ້ ໃນຂະນະທີ່ໄດ້ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ Wi-Fi."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "ປ້ອນ %1$s ຢູ່ໃນ %2$s ເພື່ອຈັບຄູ່, ຈາກນັ້ນກົດເອັນເທີ."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "ອະນຸກົມເຊື່ອມຕໍ່ກັບ %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "ປຸ່ມຜ່ານເຂົ້າຄູ່ກັນໄດ້ຢູ່ໃນ %s ບໍ?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "ຊື່ຫວ່າງເປົ່າ"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo headset"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Connect stereo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "ການພິມ"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "ບໍ່ສາມາດເກັບຊ່ອງ."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "ບໍ່ສາມາດພິມຮູບ, ຂໍ້ຄວາມ, ຂໍ້ມູນສ່ວນຕົວເຊັ່ນ: ນາມບັດ ແລະການນັດໝາຍ, ອື່ນໆ ຜ່ານທາງເຄື່ອງພິມບລູທູດທາງໄກໄດ້."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "ກໍາລັງປິດໃຊ້..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "ອະນຸຍາດໃຫ້ %s ວາງໃນໄຟລ໌?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "ອະນຸຍາດໃຫ້ %s ຮັບໄຟລ໌ຂອງທ່ານ?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "ອະນຸຍາດໃຫ້ %s ລຶບໄຟລ໌ຂອງທ່ານ?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "ເປີດໃຊ້ງານບູທູດ..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "ໂອນໄຟລ໌"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "ການສະເໜີຂໍຈັບຄູ່ BT"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "ຢືນຢັນ PIN (%1$s) ເພື່ອຈັບຄູ່ກັບ %2$s."
+

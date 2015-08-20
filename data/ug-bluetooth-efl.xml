@@ -1,20 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns="http://tizen.org/ns/packages" package="ug-bluetooth-efl" version="2.0.25" install-location="internal-only">
 	<label>Bluetooth</label>
-	<author email="dh79.pyun@samsung.com" href="www.samsung.com">DoHyun Pyun</author>
-	<description>Bluetooth AppControl</description>
-	<ui-application appid="ug-bluetooth-efl" exec="/usr/ug/bin/setting-bluetooth-efl" nodisplay="true" multiple="true" type="capp" taskmanage="false">
+	<author email="in.sung.cho@samsung.com" href="www.samsung.com">Insung Cho</author>
+	<description>Bluetooth Setting</description>
+	<ui-application appid="ug-bluetooth-efl" exec="/usr/apps/ug-bluetooth-efl/bin/ug-bluetooth-efl" ui-gadget="true" nodisplay="true" multiple="true" type="capp" taskmanage="false" process-pool="true" effectimage-type="edj-default">
 		<label>Bluetooth</label>
+		<label xml:lang="as-in">ব্লুটুথ</label>
+		<label xml:lang="bn-in">ব্লুটুথ</label>
+		<label xml:lang="en-gb">Bluetooth</label>
+		<label xml:lang="en-ph">Bluetooth</label>
+		<label xml:lang="en-us">Bluetooth</label>
+		<label xml:lang="es-us">Bluetooth</label>
+		<label xml:lang="gu-in">બ્લ્યુટુથ</label>
+		<label xml:lang="hi-in">ब्लूटूथ</label>
+		<label xml:lang="id-id">Bluetooth</label>
+		<label xml:lang="km-kh">Bluetooth</label>
+		<label xml:lang="kn-in">ಬ್ಲೂಟೂತ್</label>
+		<label xml:lang="ko-kr">블루투스</label>
+		<label xml:lang="lo-la">ບລູທູດ</label>
+		<label xml:lang="ml-in">ബ്ലുടൂത്ത്</label>
+		<label xml:lang="mr-in">ब्लुटूथ</label>
+		<label xml:lang="ms-my">Bluetooth</label>
+		<label xml:lang="my-mm">ဘလူးတုသ္</label>
+		<label xml:lang="ne-np">ब्लुटूथ</label>
+		<label xml:lang="or-in">ବ୍ଲୁଟୁଥ୍</label>
+		<label xml:lang="pa-in">ਬਲੂਟੁੱਥ</label>
+		<label xml:lang="pt-br">Bluetooth</label>
+		<label xml:lang="si-lk">බ්ලූටූත්</label>
+		<label xml:lang="ta-in">ப்ளூடூத்</label>
+		<label xml:lang="te-in">బ్లూటూత్</label>
+		<label xml:lang="th-th">บลูทูธ</label>
+		<label xml:lang="tl-ph">Bluetooth</label>
+		<label xml:lang="ur-pk">بلیو ٹوتھ</label>
+		<label xml:lang="vi-vn">Bluetooth</label>
+		<label xml:lang="zh-cn">蓝牙</label>
+
 		<icon>/usr/share/icons/default/small/ug-bluetooth-efl.png</icon>
 		<application-service>
-			<operation name="http://tizen.org/appcontrol/operation/send"/>
+			<operation name="http://tizen.org/appcontrol/operation/share"/>
 			<mime name="*/*"/>
 		</application-service>
 		<application-service>
-			<operation name="http://tizen.org/appcontrol/operation/send_text"/>
+			<operation name="http://tizen.org/appcontrol/operation/share_contact"/>
 		</application-service>
 		<application-service>
-			<operation name="http://tizen.org/appcontrol/operation/pick"/>
+			<operation name="http://tizen.org/appcontrol/operation/multi_share"/>
+			<mime name="*/*"/>
+		</application-service>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/share_text"/>
 		</application-service>
 		<application-service>
 			<operation name="http://tizen.org/appcontrol/operation/bluetooth/pick"/>
@@ -22,5 +56,53 @@
 		<application-service>
 			<operation name="http://tizen.org/appcontrol/operation/configure/bluetooth/visibility"/>
 		</application-service>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/edit"/>
+			<mime name="application/x-bluetooth-on-off"/>
+		</application-service>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/edit"/>
+			<mime name="application/x-bluetooth-visibility"/>
+		</application-service>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/setting/bt_visibility"/>
+		</application-service>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/setting/bt_enable"/>
+		</application-service>
 	</ui-application>
+	<ui-application appid="ug-bluetooth-efl-single" exec="/usr/apps/ug-bluetooth-efl/bin/ug-bluetooth-efl-single" ui-gadget="true" nodisplay="true" multiple="false" type="capp" taskmanage="false" process-pool="true" hw-acceleration="use-GL" effectimage-type="edj-default">
+            <label>Bluetooth-single</label>
+			<label xml:lang="as-in">ব্লুটুথ</label>
+			<label xml:lang="bn-in">ব্লুটুথ</label>
+			<label xml:lang="en-gb">Bluetooth</label>
+			<label xml:lang="en-ph">Bluetooth</label>
+			<label xml:lang="en-us">Bluetooth</label>
+			<label xml:lang="es-us">Bluetooth</label>
+			<label xml:lang="gu-in">બ્લ્યુટુથ</label>
+			<label xml:lang="hi-in">ब्लूटूथ</label>
+			<label xml:lang="id-id">Bluetooth</label>
+			<label xml:lang="km-kh">Bluetooth</label>
+			<label xml:lang="kn-in">ಬ್ಲೂಟೂತ್</label>
+			<label xml:lang="ko-kr">블루투스</label>
+			<label xml:lang="lo-la">ບລູທູດ</label>
+			<label xml:lang="ml-in">ബ്ലുടൂത്ത്</label>
+			<label xml:lang="mr-in">ब्लुटूथ</label>
+			<label xml:lang="ms-my">Bluetooth</label>
+			<label xml:lang="my-mm">ဘလူးတုသ္</label>
+			<label xml:lang="ne-np">ब्लुटूथ</label>
+			<label xml:lang="or-in">ବ୍ଲୁଟୁଥ୍</label>
+			<label xml:lang="pa-in">ਬਲੂਟੁੱਥ</label>
+			<label xml:lang="pt-br">Bluetooth</label>
+			<label xml:lang="si-lk">බ්ලූටූත්</label>
+			<label xml:lang="ta-in">ப்ளூடூத்</label>
+			<label xml:lang="te-in">బ్లూటూత్</label>
+			<label xml:lang="th-th">บลูทูธ</label>
+			<label xml:lang="tl-ph">Bluetooth</label>
+			<label xml:lang="ur-pk">بلیو ٹوتھ</label>
+			<label xml:lang="vi-vn">Bluetooth</label>
+			<label xml:lang="zh-cn">蓝牙</label>
+
+            <icon>/usr/share/icons/default/small/ug-bluetooth-efl.png</icon>
+    </ui-application>
 </manifest>

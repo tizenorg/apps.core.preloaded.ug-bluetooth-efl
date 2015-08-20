@@ -1,0 +1,22 @@
+#include "bluetooth_image_macro.edc"
+
+collections {
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_medical.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_activated.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_camera.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_computer.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_display.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_gaming.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_headphone.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_headset.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_keyboard.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_mouse.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_multimedia.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_network_infrastructure.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_printer.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_storage.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_mobilephone.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_unknown.png");
+	RESOURCE_IMAGE_DEVICE("buluetooth_Device_type_icon_wrist.png");
+}
+

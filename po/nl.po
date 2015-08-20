@@ -1,0 +1,936 @@
+msgid "IDS_BT_SK_OPEN"
+msgstr "Openen"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 uur"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minuten"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minuten"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Toegang tot telefoonlijst voor %s toestaan"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Altijd aan"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Beschikbare apparaten"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Basisfuncties voor afdrukken"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth beschikbaar"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Bluetooth-apparaten"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth delen"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Oproepaudio"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Lijst wissen"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Verbonden met telefoon- en media-audio."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Verbinden…"
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Verbinding mislukt"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Verbindingsopties"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Contactpersoon bestaat al."
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Gegevens"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Naam apparaat"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Inbelnetwerk"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Verbinding verbreken..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Verbinding van %2$s met de %1$s-verbinding verbreken?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Niet meer vragen"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Geef %1$s in op %2$s om te koppelen, en tik dan op Return of Enter."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Handsfree"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Headset"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (toetsenbord, muis, enzovoort)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Met de externe Bluetooth stereoheadset kunt u naar muziek luisteren."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Met het Bluetooth-apparaat is internettoegang via een telefoonmodem mogelijk."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Met het Bluetooth-apparaat kunt u bestanden overbrengen tussen uw handset en een ander Bluetooth-apparaat."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Met de Bluetooth-carkit zijn uitgaande/inkomende oproepen mogelijk."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Met de Bluetooth-headset zijn uitgaande/inkomende oproepen mogelijk."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Object ophalen Met het Bluetooth-apparaat kunnen persoonlijke gegevens (visitekaartjes, planningen, etc.) worden uitgewisseld."
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Invoerapparaat"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Internettoegang"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Media-audio"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Naam van mijn telefoon"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Zichtbaarheid van mijn telefoon"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normaal"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Geen apparaten"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Geen apparaten gevonden"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "Geen verbindingen meer mogelijk"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Geen overdrachtgeheugen"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Object ophalen"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Uit"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Bewerking is mislukt."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Gekoppeld"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Gekoppelde apparaten"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minuten"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d geslaagd, %d mislukt"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d geslaagd, %d mislukt"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Printer"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Papierformaat"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Afdrukkwaliteit"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Ontvangen."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Bezig met scannen..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Zoeken..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Zoeken... %d apparaten gevonden."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Stop zoeken"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Gebruik van Bluetooth-verbinding beperkt door beveiligingsbeleid."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Veiligheidsbeleid beperkt gebruik van Bluetooth-verbinding tot hands-free functies."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Verzenden naar %s mislukt."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Verzonden."
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Seriële poort"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Bluetooth-diensten"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Toon wachtwoord."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Tik op %s, tik daarna op Scannen om Bluetooth in te schakelen en te zoeken naar apparaten."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Tik voor verbinding."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Tik om verbinding te verbreken."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Dit wordt gebruikt om verbinding te maken met andere Bluetooth-apparaten via een virtuele seriële poort."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Selecteer het selectievakje naast de naam van uw apparaat om uw apparaat altijd zichtbaar te maken voor andere apparaten."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Overdrachtlijst is leeg."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Schakel Bluetooth in om een lijst met beschikbare apparaten te zien."
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Type"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Kan bestand of directory niet verwijderen."
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Kan niet ontvangen"
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Onbekend apparaat."
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Bijwerken..."
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Kopp. opheffen"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth-adres"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Bluetooth-apparaten"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth-apparaatkiezer"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth-fout"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth-koppelverzoek"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "PIN invoeren"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Van: %s"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Nieuw apparaat"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Apparaat selecteren"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Verzonden bestanden"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Computer"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Passend maken"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Toetsenbord"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobiel toegangspunt"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "Pc"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Afdrukken"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Ontvangen bestanden"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Zoekopties"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Koppeling opheffen"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Mag %s berichten openen?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s toestaan om te verbinden?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "%s toestaan om map %s te maken?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth is momenteel uitgeschakeld.\nInschakelen?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-fout. Opnieuw proberen?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetooth time-out. Opnieuw proberen?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Bevestig dat sleutel %2$s is voor koppelen met %1$s."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "Bevestig sleutel is %s om te koppelen met %s."
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Kan niet verbinden.\nOpnieuw proberen?"
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Verbonden."
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Aangesloten op HID-apparaat."
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Bevestig"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Verbinding verbreken?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Downloaden mislukt."
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "PIN invoeren voor koppeling met %s"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Geef pincode in om te koppelen met %s (probeer 0000 of 1234)."
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Kan geen verbinding maken met headset. Ander apparaat heeft verbinding geweigerd."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Reden voor fout: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Bestand: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Bestand bestaat niet."
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Bestand niet ontvangen."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Bestandsgrootte: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Bestandstype: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "Verbinding met FTP."
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "Verbinding met FTP verbroken."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Servicelijst ophalen..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID-apparaat"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN onjuist. Probeer het opnieuw"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Geheugen vol"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d bestanden ontvangen."
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s bestaat al. Overschrijven?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Bestand ontvangen van %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s ontvangen van %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Ontvangen..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Services zoeken..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Verzenden geannuleerd."
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Kan niet verzenden."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Verzenden..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Delen..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Bestand ontvangen."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Aan: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Overdragen geannuleerd."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Kan Bluetooth niet inschakelen wanneer vliegtuigstand is ingeschakeld."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Kan servicelijst niet ophalen."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Terug"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Verb.verbr"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Scannen"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stoppen"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Via Bluetooth kan uw apparaat gegevens draadloos uitwisselen."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Maak het apparaat zichtbaar waarmee u verbinding maakt."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Maak het apparaat zichtbaar waarmee u verbinding maakt en tik op Scannen."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Open %s Galerij."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Open %s Instellingen."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Selecteer %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Selecteer het apparaat waarnaar u de afbeelding wilt verzenden."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Selecteer het apparaat waarmee u verbinding wilt maken, in de lijst."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Selecteer de foto of het album die of dat u wilt verzenden."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Verzend het bericht. Controleer de voortgang in het meldingenvenster."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Verzend de foto. Controleer de voortgang in het meldingenvenster."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Tik op het apparaat waarmee u wilt koppelen of verbinden. Als het apparaat niet in de lijst staat, maakt u dit zichtbaar en tikt u op Scannen."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Tik op de knop voor delen en selecteer %s Bluetooth."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Tik op de knop en tik op Scannen om Bluetooth in te schakelen en te zoeken naar apparaten."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Afbeeldingen verzenden via Bluetooth"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Bluetooth instellen"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Koppeling of verbinding met geselecteerd apparaat tot stand gebracht. Tik op het configuratiepictogram om het apparaatprofiel te configureren."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "De stap-voor-stap-gids is voltooid. Ga terug naar Help."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Kan niet koppelen met %s."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Apparaten scannen..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Maximumaantal tekens bereikt."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Bestand ontvangen"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Best. delen"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Gamecontroller"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Mijn apparaat"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Bestanden overdragen"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Uitschakelen..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Inschakelen..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Niet beschikbaar"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Zichtbaar voor alle Bluetooth-apparaten in de buurt."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Mijn apparaatnaam"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Naam apparaat wijzigen"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Naam apparaat ingeven."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Camera"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Groepsindex"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Niet geselecteerd"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Aan/uit-knop"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Keuzerondje"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Geselecteerd"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Nu starten"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Hiermee beëindigt u de verbinding met %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Tik tweemaal om de lijst te openen."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Tik tweemaal om de lijst te sluiten."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Verbinden"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Toestaan"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Verbinden met apparaat"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Annuleer"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Gereed"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nee"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Sluiten"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Zelfstudie voltooid."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Ongeldige actie. Probeer het opnieuw."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Hervatten"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth ingeschakeld."
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Zoekopties"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Alle apparaten"
+
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Pincode weergeven"
+
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Opnieuw"
+
+msgid "IDS_ST_BODY_PIN"
+msgstr "Toegangscode"
+
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Batterij bijna leeg"
+
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Meer info"
+
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
+
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Toegangsverzoek"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s vraagt toestemming om verbinding te maken met uw berichten."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s vraagt toestemming om verbinding te maken met uw telefoonlijst."
+
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Zoeken"
+
+msgid "IDS_BT_SK4_STOP"
+msgstr "Stop"
+
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Wijzig naam"
+
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "Uit"
+
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Telefoon"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "Help"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Meer"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "minuten"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "seconden"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 minuut"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 seconde"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Informatie"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Gisteren"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetooth inschakelen..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Maximumaantal tekens (%d) bereikt."
+
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "Pincode tonen"
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Koppelen"
+
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Bevestigen om bestand te ontvangen."
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Deze naam is al in gebruik. Voer een andere naam in."
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Verbinden..."
+
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d over"
+
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Verbonden"
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s over."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Kan bestanden niet ontvangen"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d best gekop., %2$d mislukt"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Kan bestanden niet verzenden"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 bestand gekop., %d mislukt"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Voer de pincode in om te koppelen met %s. (Probeer 0000 of 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s wil een bestand naar u verzenden."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Er is een onjuiste pincode ingevoerd. Probeer het opnieuw."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Het Bluetooth-apparaat waarmee u probeert te koppelen, is momenteel bezet."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Het Bluetooth-apparaat waarmee u probeert te koppelen, is momenteel bezet. Probeer het opnieuw."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Deze Bluetooth-koppeling is verlopen."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Deze Bluetooth-koppeling is verlopen. Probeer het opnieuw."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Er is een Bluetooth-fout opgetreden."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Er is een Bluetooth-fout opgetreden. Tik op OK en probeer het opnieuw."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "OK"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Bestanden ontvangen"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Schakel Bluetooth in om een lijst met apparaten te zien waarmee u kunt koppelen of waarmee u al gekoppeld bent."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Zichtbaarh. voor andere appar."
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Apparaatnamen worden weergegeven om onderscheid te maken tussen de apparaten die beschikbaar zijn in de lijst met apparaten in de buurt, en via Bluetooth en andere methoden."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Alleen zichtbaar voor gekoppelde Bluetooth-apparaten."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Verbinding apparaat verbreken"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Scannen voor apparaten..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Koppeling onmogelijk met %s."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Best. ontvangen voorbereiden..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Applicatiemachtiging toestaan"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Applicatiemachtiging toestaan"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Bestanden ontv via Bluetooth"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Bestanden verz via Bluetooth"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Verzenden via Bluetooth"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Ontvangen via Bluetooth"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Best. verzenden voorbereiden..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s vraagt toestemming om uw berichten te openen."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s vraagt toestemming om uw berichten te openen. Toestaan?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s vraagt toestemming voor toegang tot uw contacten."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s vraagt toestemming om uw contacten en oproepenlijst te openen. Toestaan?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Kan geen applicatie vinden om deze actie uit te voeren."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Time-out zichtbaarheid"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Naam apparaat"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Bestanden verzenden"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Kan niet verbinden met %s."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Kan Bluetooth-tethering niet gebruiken bij verbinding met Wi-Fi-netwerk."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Voer %1$s in op %2$s om te koppelen, en tik daarna op Enter."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Seriële verbinding met %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Sleutel afstemmen op %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Naam invoeren."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereoheadset"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Stereo aansluiten"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Afdrukken"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Kan bestand niet opslaan."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Basisfuncties voor afdrukken Met een externe Bluetooth-printer kunt u afbeeldingen, tekstberichten, visitekaartjes etc. afdrukken"
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Uitschakelen..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "%s toestaan om een bestand te plaatsen?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "%s toestaan om uw bestand op te halen?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "%s toestaan om bestand te verwijderen?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Bluetooth  inschakelen..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "BESTANDEN OVERDRAGEN"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT-KOPPELINGSVERZOEK"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s verzonden."
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Ontvangen van"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Bevestig de pincode (%1$s) voor koppelen met %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Geen bestanden verzonden"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Bestanden ontvangen"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Kan best. niet verzenden"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s verzonden."
+
+msgid "IDS_BT_POP_SENT"
+msgstr "Verzonden."
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Contactbestand %s verzonden."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "Afbeeldingsbestand %s verzonden."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Mediabestand %s verzonden."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "Memobestand %s verzonden."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Muziekbestand %s verzonden."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "Videobestand %s verzonden."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Ontvangen mislukt"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Bestand ontvangen"
+

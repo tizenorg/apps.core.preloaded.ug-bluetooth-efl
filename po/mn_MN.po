@@ -1,0 +1,936 @@
+msgid "IDS_BT_SK_OPEN"
+msgstr "Нээх"
+
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 цаг"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 минут"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 минут"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s-д утасны дэвтэрт хандахыг зөвшөөрөх"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Үргэлж асаалттай"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Боломжтой төхөөрөмжүүд"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Үндсэн хэвлэлт"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Bluetooth боломжтой"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "Bluetooth төхөөрөмжүүд"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Bluetooth хуваалцах"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Дуудлагын аудио"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Жагсаалтыг арилгах"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Утасны болон медиа аудиотой холбогдсон"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Холбогдож байна..."
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Холболт амжилтгүй боллоо"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Холболтын сонголтууд"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "Харилцагч аль хэдийн байна"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Дэлгэрэнгүй"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Төхөөрөмжийн нэр"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Залгах сүлжээ"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Салгагдаж байна..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%2$s-г %1$s-н холболтоос салгах уу?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Дахин бүү асуу"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "%2$s дээр %1$s хослуулахаар оруулаад, дараа нь Return эсвэл Enter-г товш"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Гарнаас чөлөөт"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "Чихэвч"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (гар товчлуур, хулгана г.м.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Bluetooth стерео чихэвчүүдээр дуудлага хийх болон хөгжим сонсоход ашигладаг."
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Bluetooth төхөөрөмжүүдэд утасны модем ашиглан интернет лүү хандахад ашигласан."
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Bluetooth төхөөрөмжүүд лүү болон төхөөрөмжөөс файл дамжуулахад ашигладаг."
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Bluetooth машины иж бүрдэл ашиглан дуудлага хүлээн авах болон хийхэд ашигладаг."
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Bluetooth чихэвч ашиглан дуудлага хүлээн авах болон хийхэд ашигладаг."
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Bluetooth төхөөрөмжүүдээр хувийн өгөгдөл солилцоход ашигладаг (нэрийн хуудас, Утасны дэвтрийн харилцагчид, гэх мэт.)"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Оруулах төхөөрөмж"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Интернэтэд нэвтрэх эрх"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Медиа аудио"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "Миний утасны нэр"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "Миний утасны харагдах байдал"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Ердийн"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Төхөөрөмж алга"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Төхөөрөмж олдсонгүй"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Дамжуулалтын түүх байхгүй"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Объект түгээх"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Унтраах"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Ажиллагаа амжилтгүй."
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Хослогдсон"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Хослогдсон төхөөрөмжүүд"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d минут"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d амжилттай, %d амжилтгүй"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d successful, %d failed"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Принтер"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Цаасны хэмжээ"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Хэвлэх чанар"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "Хүлээн авсан"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Шалгаж байна..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Хайж байна..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Searching... %d devices found."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "Searching stopped."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Хамгаалалтын бодлого Bluetooth холболтын ашиглалтыг хязгаарлана"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Хамгаалалтын бодлого Bluetooth холболтыг зөвхөн гар чөлөөтэй байлгах функцуудаар хязгаарлаж байна"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "%s-д файл илгээж чадсангүй"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Илгээсэн"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Сериал порт"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "Bluetooth үйлчилгээнүүд"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Нууц үгийг харуул."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Bluetooth-г асааж, төхөөрөмжүүдийг хайхын тулд %s-г товшоод, Уншихыг товш."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Товшиж холбогд"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Салгахын тулд товш"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Виртуал сериал портоор бусад Bluetooth төхөөрөмжид холбогдоход үүнийг ашиглана"
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Төхөөрөмжөө бусад төхөөрөмжид харагддаг болгохын тулд, төхөөрөмжийнхөө нэрийн хажуу дахь тэмдэглэх нүдийг сонго."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Transfer history empty."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Боломжтой төхөөрөмжүүдийн жагсаалт харахын тулд Bluetooth асаана уу."
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "Төрлөөр"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "Unable to delete file or directory."
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Хүлээн авах боломжгүй."
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Үл мэдэх төхөөрөмж"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "Шинэчилж байна..."
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Хослуулах болих"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth хаяг"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "Bluetooth төхөөрөмжүүд"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Bluetooth төхөөрөмж сонгогч"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth алдаа"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth хослуулах хүсэлт"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "PIN Оруул"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "Хэнээс: %s"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "Шинэ төхөөрөмж"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Төхөөрөмж сонгох"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Илгээсэн файлууд"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Компьютер"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Fit to paper"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Гар товчлуур"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Зөөврийн AP"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "Компьютер"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "Хэвлэх"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Хүлээн авсан файлууд"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "Search options"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Үл хослуулах"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%s-д зурваст хандахыг зөвшөөрөх үү?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s -г холбогдохыг зөвшөөрөх үү?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "Allow %s to create folder %s?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth is currently switched off.\nSwitch on?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth алдаа. Дахин оролдох уу?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "Bluetooth хугацаандаа хүрч тасарсан. Дахин оролдох уу?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Нэвтрэх түлхүүр нь %1$s-тай хослуулах %2$s болохыг баталгаажуул"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "%s-тай хослуулах нэвтрэх түлхүүр нь %s болохыг баталгаажуул."
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "Холбогдох боломжгүй.\nДахин оролдох уу?"
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Холбогдсон"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "HID төхөөрөмжид холбогдсон"
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Баталгаажуулах"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Салгах уу?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "Таталт амжилтгүй болсон"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "PIN -г %s хослохоор оруул"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s-тай хослуулахын тулд PIN оруул (0000 эсвэл 1234 гэж оруулж үз)."
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Failed to connect headset. Other device refused connection."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Алдааны шалтгаан: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Файл: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Ийм файл байхгүй"
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Файлыг хүлээж авсангүй."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Файлын хэмжээ: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Файлын төрөл: %s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "FTP холбогдсон"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "FTP disconnected."
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Үйлчилгээний жагсаалт олж байна..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "HID төхөөрөмж"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Буруу PIN. Дахин оролдох уу?"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Санах ой дүүрсэн."
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "%d файл хүлээн авсан"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s хэдийн байна. Дарж бичих үү?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s-с файл хүлээн авах уу?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s-с %s хүлээж авах уу?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Хүлээн авч байна..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Searching services..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "Илгээх ажиллагаа цуцлагдлаа"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "Илгээх боломжгүй."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Илгээж байна..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "Хуваалцаж байна..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Файлыг хүлээж авлаа."
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Хэнд: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Дамжуулалтыг цуцалсан"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Unable to activate Bluetooth when Flight mode is on."
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Unable to get service list."
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Буцах"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Салгах"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Унших"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Зогсоох"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth нь таны төхөөрөмжид өгөгдлийг утасгүй солилцох боломж өгнө."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Холбож байгаа төхөөрөмжөө харагддаг болго."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Холбож буй төхөөрөмжөө харагддаг болгоод, Унших-ыг товш."
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "%s Галерей нээх."
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "%s-н тохиргоо нээх."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "%s Bluetooth сонго."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Зураг илгээхийг хүссэн төхөөрөмжөө сонго."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Жагсаалтаас холбогдохыг хүссэн төхөөрөмжөө сонго."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Илгээхийг хүссэн зураг эсвэл цомгийг сонго."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Зураг илгээ. Та түүний явцыг мэдэгдлийн самбарт хянах боломжтой."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Зураг илгээ. Та түүний явцыг мэдэгдлийн самбарт хянах боломжтой."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Хослуулах эсвэл холбогдохыг хүссэн төхөөрөмжийг товш. Хэрэв төхөөрөмж жагсаалтад байхгүй бол, түүнийг харагдахуйц байгаа эсэхийг нягтлаад, дараа нь Унших-ыг товш."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Хуваалцах товчийг товшиж, %s Bluetooth сонго."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Товчийг шилжүүлж, Унших-ыг товшиж Bluetooth-г асааж, төхөөрөмжүүдийг хай."
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Bluetooth ашиглан зураг илгээх"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Bluetooth тохируулах"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Сонгосон төхөөрөмжтэй амжилттай хосолсон эсвэл холбогдсон. Тохиргооны дүрсэн дээр товшиж төхөөрөмжийн хувийн мэдээлэл тохируул."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Та алхмаар хөтлөх хөтчийг дуусгалаа. Тусламж руу буц."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "%s-тэй хослуулж чадсангүй."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Төхөөрөмж хайж унших..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Тэмдэгтийн тоо дээд хязгаарт хүрсэн."
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Файл хүлээн авах"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Файлууд хуваалц"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Тоглоомын удирдлага"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Миний төхөөрөмж"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Transfer files"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Унтрааж байна..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Асааж байна..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Боломжгүй"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Ойролцоох бүх Bluetooth төхөөрөмжид харагдана."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Миний төхөөрөмжийн нэр"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Төхөөрөмжийн нэр өөрчлөх"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Төхөөрөмжийн нэрийг оруул"
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Камер"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Group index"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Сонгоогүй"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Асаах/унтраах товч"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Радио товч"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Сонгосон"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Одоо эхлүүл"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Энэ нь таны %s-тай холбогдсон холболтыг тасална"
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Жагсаалт нээхийн тулд хоёр товш."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Жагсаалт хаахын тулд хоёр товш."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Холбох"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Зөвшөөрөх"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Төхөөрөмжтэй холбогдох"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Цуцлах"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Дууслаа"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Тийм"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Үгүй"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Хаах"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Зааварлагч дууссан."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Хүчингүй үйлдэл. Ахин оролд."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Үргэлжлүүлэх"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth идэвхжисэн."
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "Search options"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "Бүх төхөөрөмж"
+
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "PIN харуулах"
+
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Ахин орлд"
+
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
+
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Цэнэг бага байна"
+
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Нэмэлт мэдээлэл"
+
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
+
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Хандах хүсэлт"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s таны захиануудад холбогдох зөвшөөрөл хүсэж байна"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s нь таны Харилцагчдад холбогдох зөвшөөрлийг хүсэж байна"
+
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Хайх"
+
+msgid "IDS_BT_SK4_STOP"
+msgstr "Зогсоох"
+
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Нэрийг өөрчил"
+
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "Идэвхгүй"
+
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Утас"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "Тусламж"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Илүү"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Минут"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Секунд"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 минут"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 секунд"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Мэдээлэл"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Өчигдөр"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Bluetooth асааж байна..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Тэмдэгтийн (%d) тооны дээд хязгаарт хүрсэн."
+
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "PIN харуулах"
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Хослуулах"
+
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Файл хүлээн авахын тулд баталгаажуул"
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Энэ нэр аль хэдийн ашиглагдаж байна. Өөр нэр оруул"
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Холбогдож байна..."
+
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "%1$d:%2$d үлдсэн"
+
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Холбогдсон"
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s үлдсэн."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Файл хүлээн авах боломжгүй"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d файл хуулв, %2$d амжгүй"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Файл илгээх боломжгүй"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 файл хуулсан, %d амжилтгүй"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s-тай хослуулах PIN-г оруул. (0000 эсвэл 1234-ийг оруулж үз.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s танд файл илгээхийг хүсэж байна."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Буруу PIN оруулсан. Ахин оролд."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Таны хослуулахыг оролдож буй Bluetooth төхөөрөмж одоогоор завгүй байна."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Таны хослуулахыг оролдож буй Bluetooth төхөөрөмж одоогоор завгүй байна. Ахин оролд."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Энэ Bluetooth хослуулалтын хугацаа дууссан."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Энэ Bluetooth хослуулалтын хугацаа дууссан. Ахин оролд."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Bluetooth-ийн алдаа гарлаа."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "Bluetooth-ийн алдаа гарлаа. Дахин оролдохын тулд OK-г товш."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Хүлээн авах"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Файлууд хүлээн авах"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Хослуулах боломжтой эсвэл аль хэдийн хослуулсан төхөөрөмжүүдийн жагсаалтыг харахын тулд Bluetooth-ийг асаа."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Бусад төхөөрөмжид харагдах"
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Ойролцоох төхөөрөмжүүдийн жагсаалтад байгаа бөгөөд Bluetooth болон бусад аргаар дамжуулан ашиглах боломжтой төхөөрөмж тус бүрийг ялгахын тулд төхөөрөмжийн нэрсийг харуулна."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Зөвхөн хослуулсан Bluetooth төхөөрөмжүүдэд харагдана."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Төхөөрөмж салгах"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Төхөөрөмжүүд хайж уншиж байна..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "%s-тэй хослуулах боломжгүй."
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Файл хүл авахад бэлдэж бна..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Аппын зөвшөөрлийг зөвшөөрөх"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Аппын зөвшөөрлийг зөвшөөрөх"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth-р файл хүл.н авсан"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth-р файл илгээсэн"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth-р илгээх"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Bluetooth-р хүлээн авах"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Файл илгээхэд бэлдэж бна..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s таны зурвасуудад хандах зөвшөөрөл хүсэж байна."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s таны зурвасуудад хандах зөвшөөрөл хүсэж байна. Зөвшөөрөх үү?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s таны харилцагчдад хандах зөвшөөрөл хүсэж байна."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s таны харилцагчид болон дуудлагын түүхэнд хандах зөвшөөрөл хүсэж байна. Зөвшөөрөх үү?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Энэ үйлдлийг гүйцэтгэх апп олох боломжгүй."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Харагдах хугацаа дуусах"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Төхөөрөмжийн нэр"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Файл илгээх"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "%s-тэй холбогдох боломжгүй."
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Wi-Fi сүлжээнд холбогдсон үед Bluetooth холболтыг ашиглах боломжгүй."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "%2$s дээр %1$s хослуулахаар оруулаад Enter-ийг дар."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "%s-тай цуваагаар холбогдох уу?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "%s дээр нэвтрэх түлхүүрийг тохируулах уу?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Хоосон нэр"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Stereo headset"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Connect stereo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Хэвлэх"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Файлыг хадгалах боломжгүй."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Зураг, бичвэр зурвас, нэрийн хуудас болон уулзалтын тов зэрэг хувийн мэдээллийг зайн Bluetooth хэвлэгчээр дамжуулан хэвлэхэд ашигласан"
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Идэвхгүй болгож байна..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Allow %s to put a file in?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "%s-д өөрийн файлыг авахыг зөвшөөрөх үү?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Allow %s to delete your file?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Activating Bluetooth..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "ФАЙЛУУД ДАМЖУУЛАХ"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT ХОСЛУУЛАХ ХҮСЭЛТ"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s илгээгдсэн"
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Receiving from"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "%2$s-тай хослуулахын тулд PIN (%1$s)-г баталгаажуул."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Файлууд илгээж чадсангүй"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Файлууд хүлээн авсан"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Файл илгээж чадсангүй"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s илгээгдсэн"
+
+msgid "IDS_BT_POP_SENT"
+msgstr "Илгээсэн"
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Sent contact file %s."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "Sent image file %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Sent media file %s."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "Sent memo file %s."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Sent music file %s."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "Sent video file %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Хүлээн авч чадсангүй"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Файл хүлээн авсан"
+

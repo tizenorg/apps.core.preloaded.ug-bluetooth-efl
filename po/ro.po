@@ -1,71 +1,116 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Dezactivare..."
-
-msgid "IDS_BT_BODY_ALWAYS_ON"
-msgstr "Activat întotdeauna"
-
-msgid "IDS_BT_BODY_PAIRED_DEVICES"
-msgstr "Dispozitive împerecheate"
-
-msgid "IDS_BT_BODY_PRINTER"
-msgstr "Imprimantă"
-
-msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
-msgstr "Dimensiune hârtie"
-
-msgid "IDS_BT_BODY_DEVICENAME"
-msgstr "Nume dispozitiv"
-
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Activare Bluetooth..."
-
-msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
-msgstr "Calitate imprimare"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Vizibil"
-
-msgid "IDS_BT_BODY_CALL_AUDIO"
-msgstr "Apelare audio"
-
-msgid "IDS_BT_BODY_MEDIA_AUDIO"
-msgstr "Conţinut media audio"
+msgid "IDS_BT_SK_OPEN"
+msgstr "Deschidere"
 
 msgid "IDS_BT_BODY_1_HOUR"
 msgstr "1 oră"
 
-msgid "IDS_BT_BODY_PD_MINUTES"
-msgstr "%d minute"
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 minute"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 minute"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Permiteţi accesul pentru %s la agenda telefonică"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "Activat întotdeauna"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Dispozitive disponibile"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "Imprimare"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "Conexiune Bluetooth disponibilă"
 
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Dispozitive Bluetooth"
 
-msgid "IDS_BT_BODY_NORMAL"
-msgstr "Normal"
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "Partajare prin Bluetooth"
 
-msgid "IDS_BT_BUTTON_UNPAIR"
-msgstr "Anul. asociere"
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Apelare audio"
 
-msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Operaţie nereuşită"
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "Golire listă"
 
-msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "S-a anulat căutarea"
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "Conectat la sunete telefon şi media"
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Permit %s să şteargă fişierul meu?"
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Conectare"
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Permit %s să primească fişierul meu?"
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "Conexiune nereuşită"
 
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Permit %s introducă un fişier?"
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "Connection options"
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
 msgstr "Contact deja existent"
 
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "Detalii"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "Nume dispozitiv"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "Acces reţea prin dial-up"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Deconectare"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Deconectaţi %2$s de la conexiunea %1$s?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Nu se întreabă din nou"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Introduceţi %1$s la %2$s pentru asociere, apoi apăsaţi pe tasta Return sau Enter."
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "Handsfree"
+
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Cască"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (tastatură, mouse etc.)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "Utilizat pentru apelare sau redare muzică prin cască stereo Bluetooth"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "Utilizat pentru acces internet dispozitivelor Bluetooth, via modemul telefonului"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "Utilizat pentru transferul fişierelor între dispozitive Bluetooth"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "Utilizat pentru efectuarea si primirea de apeluri prin kit de maşină Bluetooth"
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "Utilizat pentru efectuarea si primirea de apeluri prin cască Bluetooth"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "Utilizat pentru schimb de date personale (cărţi de vizită, contacte etc.) cu dispozitive Bluetooth"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "Dispozitiv de intrare"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Acces la internet"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "Conţinut media audio"
 
 msgid "IDS_BT_BODY_MY_PHONES_NAME"
 msgstr "Numele telefonului meu"
@@ -73,14 +118,110 @@ msgstr "Numele telefonului meu"
 msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
 msgstr "Vizibilitatea telefonului meu"
 
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "Nu există dispozitive"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nu au fost găsite dispozitive"
+
 msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Nu există istoric de transfer"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "Transfer obiecte"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "Oprit"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "Operaţie nereuşită"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Asociat"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Dispozitive împerecheate"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d minute"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d reuşite, %d nereuşite"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d reuşite, %d nereuşite"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "Imprimantă"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "Dimensiune hârtie"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "Calitate imprimare"
 
 msgid "IDS_BT_BODY_RECEIVED"
 msgstr "Primit"
 
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Scanare..."
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "Căutare..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "Se caută... au fost găsite %d dispozitive."
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "S-a anulat căutarea."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "Politica de securitate restricţionează utilizarea conexiunii Bluetooth."
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "Politica de securitate restricţionează utilizarea conexiunii Bluetooth numai pentru caracteristicile hands-free."
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "Trimiterea către %s a eşuat."
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "Trimise"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "Port serial"
+
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Servicii Bluetooth"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "Afişaţi parola."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Atingeţi %s, apoi atingeţi Scanare pentru a porni Bluetooth şi pentru a căuta dispozitive."
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "Apăsaţi pentru conectare."
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "Apăsaţi pentru deconectare."
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "Acesta se utilizează pentru conectarea la alte dispozitive Bluetooth prin intermediul unui port serial virtual."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Pentru a face vizibil dispozitivul pentru alte dispozitive, bifaţi caseta de selectare din dreptul numelui dispozitivului."
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "Istoricul de transfer este gol."
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Activaţi Bluetooth pentru a vedea lista dispozitivelor disponibile."
 
 msgid "IDS_BT_BODY_TYPE"
 msgstr "Tip"
@@ -88,26 +229,62 @@ msgstr "Tip"
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
 msgstr "Imposibil de şters fişierul sau directorul"
 
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Eroare salvare fişier"
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "Imposibil de primit"
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Dispozitiv necunoscut"
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Actualizare..."
 
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "Anul. asociere"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Adresă Bluetooth"
+
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
 msgstr "Dispozitive Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "Selector de dispozitive Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Eroare Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Solicitare de asociere Bluetooth"
 
 msgid "IDS_BT_HEADER_ENTERPIN"
 msgstr "Introduceţi PIN"
 
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "De la: %s"
+
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "Dispozitiv nou"
 
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Imprimare"
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "Selectare dispozitiv"
 
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Conectare stereo"
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Fişiere trimise"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Computer"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "Potrivire la dimensiunea hârtiei"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Tastatură"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "PA mobil"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "PC"
@@ -115,8 +292,17 @@ msgstr "PC"
 msgid "IDS_BT_OPT_PRINT"
 msgstr "Imprimare"
 
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Fişiere primite"
+
 msgid "IDS_BT_OPT_SEARCH_OPTIONS"
 msgstr "Opţiuni căutare"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Anulare asociere"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Permiteţi %s să acceseze mesajele?"
 
 msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
 msgstr "Permiteţi ca %s să se conecteze?"
@@ -124,11 +310,17 @@ msgstr "Permiteţi ca %s să se conecteze?"
 msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
 msgstr "Permiteţi ca %s să creeze folderul %s?"
 
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "Bluetooth momentan oprit. Porniţi?"
+
 msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
 msgstr "Eroare Bluetooth. Încercaţi din nou?"
 
 msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Conexiunea Bluetooth a expirat. Încercaţi din nou?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Confirmaţi cheia %2$s pentru asocierea cu %1$s."
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
 msgstr "Confirmare %s drept cheie de acces pentru asocierea cu %s"
@@ -136,11 +328,47 @@ msgstr "Confirmare %s drept cheie de acces pentru asocierea cu %s"
 msgid "IDS_BT_POP_CONNECTAGAIN"
 msgstr "Imposibil de conectat.\nReîncercaţi?"
 
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Conectat"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "Conectat la dispozitivul HID"
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Confirm."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Deconectaţi?"
+
 msgid "IDS_BT_POP_DOWNLOADING_FAILED"
 msgstr "Descărcare nereuşită"
 
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Nume lipsă"
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Introduceţi codul PIN pentru asociere cu %s."
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Introduceţi codul PIN pentru asocierea cu %s (încercaţi 0000 sau 1234)."
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "Conectarea la cască nu a reuşit. Celălalt dispozitiv a refuzat conexiunea."
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "Motiv eşuare: %s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "Fişier: %s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "Fişierul nu există."
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "Fişierul nu a fost primit."
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "Dimensiune fişier: %s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "Tip de fişier: %s"
 
 msgid "IDS_BT_POP_FTP_CONNECTED"
 msgstr "FTP conectat"
@@ -148,11 +376,35 @@ msgstr "FTP conectat"
 msgid "IDS_BT_POP_FTP_DISCONNECTED"
 msgstr "FTP deconectat"
 
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "Regăsire listă servicii..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "Dispoz. HID"
+
 msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
 msgstr "PIN incorect. Încercaţi din nou"
 
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "Memorie plină"
+
 msgid "IDS_BT_POP_PD_FILES_RECEIVED"
 msgstr "%d fişiere primite"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s există deja. Suprascrieţi?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Primiţi fişierul de la %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Primiţi %s de la %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "Se primeşte..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "Căutare servicii..."
 
 msgid "IDS_BT_POP_SENDINGCANCEL"
 msgstr "Trimitere revocată"
@@ -160,191 +412,206 @@ msgstr "Trimitere revocată"
 msgid "IDS_BT_POP_SENDINGFAIL"
 msgstr "Imposibil de trimis"
 
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Conexiune serială cu %s?"
-
-msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Fişier primit"
-
-msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Imposibil de obţinut lista de servicii"
-
-msgid "IDS_BT_SK_CONNECT"
-msgstr "Conectare"
-
-msgid "IDS_BT_SK_DISCONNECT"
-msgstr "Deconectare"
-
-msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth activat"
-
-msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
-msgstr "Bluetooth momentan oprit. Porniţi?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Activare bluetooth"
-
-msgid "IDS_BT_BODY_SEARCHINGDEVICE"
-msgstr "Căutare..."
-
-msgid "IDS_BT_POP_CONNECTED"
-msgstr "Conectat"
-
-msgid "IDS_BT_BODY_NO_DEVICES"
-msgstr "Nu există dispozitive"
-
-msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Se caută... au fost găsite %d dispozitive"
-
-msgid "IDS_BT_POP_GETTINGSERVICELIST"
-msgstr "Regăsire listă servicii..."
-
-msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
-msgstr "Primiţi %s de la %s?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Selectat"
-
-msgid "IDS_BT_HEADER_SELECT_DEVICE"
-msgstr "Selectare dispozitiv"
-
-msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
-msgstr "%s există deja. Suprascrieţi?"
-
-msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Imposibil de activat conexiunea Bluetooth în timp ce este activat modul Avion"
-
-msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Fişierul nu există"
-
-msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Conectat la sunete telefon şi media"
-
-msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "Conectat la dispozitivul HID"
-
-msgid "IDS_BT_BODY_SCANNING_ING"
-msgstr "Scanare..."
-
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Se dezactivează Bluetooth..."
-
-msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Utilizat pentru efectuarea si primirea de apeluri prin cască Bluetooth"
-
-msgid "IDS_BT_BODY_HANDSFREE"
-msgstr "Handsfree"
-
-msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Utilizat pentru efectuarea si primirea de apeluri prin kit de maşină Bluetooth"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Cască stereo"
-
-msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Utilizat pentru apelare sau redare muzică prin cască stereo Bluetooth"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Transfer fişier"
-
-msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Utilizat pentru transferul fişierelor între dispozitive Bluetooth"
-
-msgid "IDS_BT_BODY_OBJECT_PUSH"
-msgstr "Transfer obiecte"
-
-msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Utilizat pentru schimb de date personale (cărţi de vizită, contacte etc.) cu dispozitive Bluetooth"
-
-msgid "IDS_BT_BODY_BASIC_PRINTING"
-msgstr "Imprimare"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Utilizat pentru printare imagini, mesaje text, date personale precum cărţi de vizită şi întâlniri pe o imprimantă compatibilă Bluetooth"
-
-msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
-msgstr "Acces reţea prin dial-up"
-
-msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Utilizat pentru acces internet dispozitivelor Bluetooth, via modemul telefonului"
-
-msgid "IDS_BT_BODY_SERIAL_PORT"
-msgstr "Port serial"
-
-msgid "IDS_BT_POP_HID_DEVICE"
-msgstr "Dispoz. HID"
-
-msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
-msgstr "HID (tastatură, mouse etc.)"
-
-msgid "IDS_BT_POP_RECEIVING_ING"
-msgstr "Se primeşte..."
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Se trimite..."
 
 msgid "IDS_BT_POP_SHARING_ING"
 msgstr "Se partajează..."
 
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "Fişier primit"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "Către: %s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "Transferul a fost anulat."
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "Imposibil de activat conexiunea Bluetooth în timp ce este activat modul Avion"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "Imposibil de obţinut lista de servicii"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "Înapoi"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "Deconectare"
+
 msgid "IDS_BT_SK_SCAN"
 msgstr "Căutare"
 
-msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Acesta se utilizează pentru conectarea la alte dispozitive Bluetooth prin intermediul unui port serial virtual"
+msgid "IDS_BT_SK_STOP"
+msgstr "Oprire"
 
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Potriviţi chei de acces pentru %s?"
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
 
-msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Conectarea la cască nu a reuşit. Celălalt dispozitiv a refuzat conexiunea"
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth îi permite dispozitivului să facă schimb de date wireless."
 
-msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Conexiune nereuşită"
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Activaţi vizibilitatea dispozitivului la care vă conectaţi."
 
-msgid "IDS_BT_BODY_2_MINUTES"
-msgstr "2 minute"
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Activaţi vizibilitatea dispozitivului la care vă conectaţi, apoi atingeţi Scanare."
 
-msgid "IDS_BT_OPT_UNPAIR"
-msgstr "Anulare asociere"
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Deschideţi Galerie %s."
 
-msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
-msgstr "Connection Options"
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Deschideţi Setări %s."
 
-msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
-msgstr "Conexiune Bluetooth disponibilă"
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Selectaţi Bluetooth %s."
 
-msgid "IDS_BT_POP_DISCONNECT"
-msgstr "Deconectaţi?"
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Selectaţi dispozitivul căruia doriţi să-i trimiteţi imaginea."
 
-msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
-msgstr "Dispozitive disponibile"
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Selectaţi din listă dispozitivul la care doriţi să vă conectaţi."
 
-msgid "IDS_BT_BODY_5_MINUTES"
-msgstr "5 minute"
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Selectaţi imaginea sau albumul pe care doriţi să îl trimiteţi."
 
-msgid "IDS_BT_BODY_DISCONNECTING"
-msgstr "Deconectare"
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Trimiteţi imaginea. Îi puteţi urmări progresul din panoul de notificare."
 
-msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s rămasă"
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Trimiteţi fotografia. Îi puteţi urmări progresul din panoul de notificare."
 
-msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Apăsaţi pentru conectare"
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Atingeţi dispozitivul la care doriţi să vă asociaţi sau la care doriţi să vă conectaţi. Dacă dispozitivul nu se află pe listă, asiguraţi-vă că este vizibil, apoi atingeţi Scanare."
 
-msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Apăsaţi pentru deconectare"
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Atingeţi butonul de partajare şi selectaţi Bluetooth %s."
 
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Astfel se va termina conexiunea cu"
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Comutaţi butonul şi atingeţi Scanare pentru a porni Bluetooth şi pentru a căuta dispozitive."
 
-msgid "IDS_BT_BODY_INPUT_DEVICE"
-msgstr "Dispozitiv de intrare"
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Trimitere imagini prin Bluetooth"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Politica de securitate restricţionează utilizarea conexiunii Bluetooth"
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Configurare Bluetooth"
 
-msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Politica de securitate restricţionează utilizarea conexiunii Bluetooth numai pentru caracteristicile hands-free"
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Asocierea sau conectarea cu dispozitivul selectat s-a realizat cu succes. Atingeţi pictograma de configurare pentru a configura profilul dispozitivului."
 
-msgid "IDS_BT_BODY_DETAILS"
-msgstr "Detalii"
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Aţi terminat ghidul pas cu pas. Reveniţi la Ajutor."
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Asocierea cu %s nu a reuşit."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Se caută dispozitive..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Adăugare la marcaje"
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Primiţi fişierul"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Partaj. fişiere"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Gamepad"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Dispoz. meu"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Transfer fişiere"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Se închide..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Se activează..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Indisponibil"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Vizibil pentru toate dispozitivele Bluetooth din apropiere."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Numele dispozitivului meu"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Redenumire dispozitiv"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Introduceţi numele dispozitivului."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Aparat foto"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Group index"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Neselectat"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Buton pornit/oprit"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Buton radio"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Selectat"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Începeţi acum"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Aceasta va încheia conexiunea cu %s."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Atingeţi de două ori pentru a deschide lista."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Atingeţi de două ori pentru a închide lista."
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "Conectare"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Se permite"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Conectare la dispozitiv"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Anulare"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "Gata"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Da"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nu"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "Închidere"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Tutorial finalizat."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Acţiune nevalidă. Încercaţi din nou."
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "Reluare"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "Bluetooth activat"
 
 msgid "IDS_BT_BODY_SEARCH_OPTIONS"
 msgstr "Opţiuni căutare"
@@ -352,114 +619,318 @@ msgstr "Opţiuni căutare"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Toate dispozitivele"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Schimbare obiect cu %s?"
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "Afişare PIN"
 
-msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Introduceţi %1$s la %2$s pentru asociere, apoi apăsaţi pe tasta Return sau Enter"
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "Reîncerc."
 
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Nici un dipozitiv Bluetooth găsit"
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
 
-msgid "IDS_BT_BODY_PAIRED"
-msgstr "Asociat"
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "Baterie descărcată"
 
-msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
-msgstr "Căutare servicii..."
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Mai multe informaţii"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
-msgstr "Solicitare de asociere Bluetooth"
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
 
-msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Introduceţi codul PIN pentru asocierea cu %s (încercaţi 0000 sau 1234)"
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "Solicitare de acces"
 
-msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Confirmaţi cheia %2$s pentru asocierea cu %1$s"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_MESSAGES"
+msgstr "%s solicită permisiunea de a se conecta la mesajele dvs."
 
-msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Afişare parolă"
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_CONNECT_TO_YOUR_CONTACTS"
+msgstr "%s solicită permisiunea de a se conecta la agenda dvs."
 
-msgid "IDS_BT_HEADER_BLUETOOTH"
-msgstr "Bluetooth"
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "Căutare"
 
-msgid "IDS_BT_BODY_BLUETOOTH"
-msgstr "Bluetooth"
-
-msgid "IDS_BT_BODY_OFF"
-msgstr "Oprit"
-
-msgid "IDS_BT_BODY_CONNECTING"
-msgstr "Conectare"
-
-msgid "IDS_BT_SK_STOP"
+msgid "IDS_BT_SK4_STOP"
 msgstr "Oprire"
 
-msgid "IDS_BT_SK_BACK"
-msgstr "Înapoi"
+msgid "IDS_BT_BUTTON_OK"
+msgstr "OK"
 
-msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Memorie plină"
+msgid "IDS_BT_OPT_RENAME"
+msgstr "Redenumire"
 
-msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
-msgstr "Selector de dispozitive Bluetooth"
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "Oprit"
 
-msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "Trimiterea către %s a eşuat"
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "Telefon"
 
-msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Istoricul de transfer este gol"
+msgid "IDS_BT_OPT_HELP"
+msgstr "Ajutor"
 
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Transferuri de intrare"
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "Mai multe"
 
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Transferuri de ieşire"
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "Minute"
 
-msgid "IDS_BT_BODY_CLEAR_LIST"
-msgstr "Golire listă"
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "Secunde"
 
-msgid "IDS_BT_OPT_FIT_TO_PAPER"
-msgstr "Potrivire la dimensiunea hârtiei"
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 minut"
 
-msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
-msgstr "Permiteţi accesul pentru %s la agenda telefonică"
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1 secundă"
 
-msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
-msgstr "Permiteţi %s să acceseze mesajele?"
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "Informaţii"
 
-msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Fişierul nu a fost primit"
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "Ieri"
 
-msgid "IDS_BT_POP_FILE_C_PS"
-msgstr "Fişier: %s"
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "Activare Bluetooth..."
 
-msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
-msgstr "Motiv eşuare: %s"
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "Numărul maxim de caractere (%d) a fost atins."
 
-msgid "IDS_BT_POP_TO_C_PS"
-msgstr "Către: %s"
+msgid "IDS_BT_OPT_SHOW_PIN"
+msgstr "Afişare PIN"
 
-msgid "IDS_BT_POP_FILE_TYPE_C_PS"
-msgstr "Tip de fişier: %s"
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "Asociere"
 
-msgid "IDS_BT_POP_FILE_SIZE_C_PS"
-msgstr "Dimensiune fişier: %s"
+msgid "IDS_BT_BODY_CONFIRM_TO_RECEIVE_FILE"
+msgstr "Confirmaţi pentru a primi fişierul."
 
-msgid "IDS_BT_HEADER_FROM_C_PS"
-msgstr "De la: %s"
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "Numele este deja utilizat. Introduceţi alt nume."
 
-msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Transferul a fost anulat"
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "Se conectează..."
 
-msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Imposibil de primit"
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "Timp rămas: %1$d:%2$d"
 
-msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
-msgstr "%d reuşite, %d nereuşite"
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "Conectat"
 
-msgid "IDS_BT_BODY_SENT"
-msgstr "Trimis"
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s rămasă"
 
-msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
-msgstr "Partajare prin Bluetooth"
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "Fişierele nu pot fi prim."
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "%1$d fiş. cop., %2$d nereuş."
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "Fişierele nu pot fi trimise"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "1 fiş. copiat, %d nereuş."
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Introduceţi codul PIN pentru asocierea cu %s. (Încercaţi cu 0000 sau 1234.)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s doreşte să vă trimită un fişier."
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "Aţi introdus un PIN greşit. Încercaţi din nou."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "Dispozitivul Bluetooth cu care încercaţi să vă asociaţi este ocupat momentan."
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY_TRY_AGAIN"
+msgstr "Dispozitivul Bluetooth cu care încercaţi să vă asociaţi este ocupat momentan. Încercaţi din nou."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "Această asociere prin Bluetooth a expirat."
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT_TRY_AGAIN"
+msgstr "Această asociere prin Bluetooth a expirat. Încercaţi din nou."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "A apărut o eroare de Bluetooth."
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED_TAP_OK_TO_TRY_AGAIN"
+msgstr "A apărut o eroare de Bluetooth. Atingeţi OK pentru a încerca din nou."
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "Acceptare"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "Primire fişiere"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "Activaţi Bluetooth pentru a vedea lista dispozitivelor cu care vă puteţi asocia sau cu care v-aţi asociat deja."
+
+msgid "IDS_BT_HEADER_VISIBILITY_TO_OTHER_DEVICES_ABB"
+msgstr "Vizibilitate pe alte dispoz."
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "Numele dispozitivelor sunt afişate pentru a diferenţia dispozitivele disponibile pe lista de dispozitive din apropiere, dar şi prin Bluetooth şi alte metode."
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "Vizibil numai pentru dispozitivele Bluetooth asociate."
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "Deconectaţi dispozitivul"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "Se caută dispozitive..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "Imposibil de asociat cu %s"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "Se preg. prim. fişierelor..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "Acordare permisiune aplicaţie"
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION_ABB"
+msgstr "Acordare permisiune aplicaţie"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "Fişiere prim. prin Bluetooth"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "Fişiere trim. prin Bluetooth"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "Trimitere prin Bluetooth"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "Primire prin Bluetooth"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "Se preg. trim. fişierelor..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s solicită permisiunea de a vă accesa mesajele."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES_ALLOW_Q"
+msgstr "%s solicită permisiunea de a accesa mesajele dvs. Permiteţi?"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s solicită permisiunea de a vă accesa contactele."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS_AND_CALL_HISTORY_ALLOW_Q"
+msgstr "%s solicită permisiunea de a accesa contactele şi istoricul apelurilor dvs. Permiteţi?"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "Nu se poate găsi aplicaţia pentru efectuarea acestei acţiuni."
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "Expirare vizibilitate"
+
+msgid "IDS_BT_BODY_DEVICE_NAME"
+msgstr "Nume dispozitiv"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "Trimiteţi fişiere"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "Imposibil de conectat la %s"
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "Nu se poate utiliza furnizarea accesului la Internet prin Bluetooth în timp ce sunteţi conectat la reţeaua Wi-Fi."
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "Introduceţi %1$s pe %2$s pentru asociere, apoi apăsaţi Enter."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Conexiune serială cu %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Potriviţi chei de acces pentru %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Nume lipsă"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Cască stereo"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Conectare stereo"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Imprimare"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Eroare salvare fişier"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Utilizat pentru printare imagini, mesaje text, date personale precum cărţi de vizită şi întâlniri pe o imprimantă compatibilă Bluetooth"
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Dezactivare..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Permit %s introducă un fişier?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Permit %s să primească fişierul meu?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Permit %s să şteargă fişierul meu?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Activare bluetooth"
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "TRANSFER DE FIŞIERE"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "SOLICITARE ASOCIERE BT"
+
+msgid "IDS_BT_BODY_PS_SENT"
+msgstr "%s trimis"
+
+msgid "IDS_BT_BODY_RECEIVING_FROM"
+msgstr "Se primeşte de la"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "Confirmaţi PIN-ul (%1$s) pentru asocierea cu %2$s."
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILES"
+msgstr "Fiş. nu au fost trimise"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED"
+msgstr "Fişiere primite"
+
+msgid "IDS_BT_MBODY_FAILED_TO_SEND_FILE"
+msgstr "Fiş. nu a putut fi trimis"
+
+msgid "IDS_BT_POP_PS_SENT"
+msgstr "%s trimis"
+
+msgid "IDS_BT_POP_SENT"
+msgstr "Trimise"
+
+msgid "IDS_BT_POP_SENT_CONTACT_FILE_PS"
+msgstr "Fişierul de contact %s a fost trimis."
+
+msgid "IDS_BT_POP_SENT_IMAGE_FILE_PS"
+msgstr "S-a trimis fişierul imagine %s."
+
+msgid "IDS_BT_POP_SENT_MEDIA_FILE_PS"
+msgstr "Fişierul media %s a fost trimis."
+
+msgid "IDS_BT_POP_SENT_MEMO_FILE_PS"
+msgstr "Fişierul notă %s a fost trimis."
+
+msgid "IDS_BT_POP_SENT_MUSIC_FILE_PS"
+msgstr "Fişierul muzical %s a fost trimis."
+
+msgid "IDS_BT_POP_SENT_VIDEO_FILE_PS"
+msgstr "S-a trimis fişierul video %s."
+
+msgid "IDS_BT_MBODY_RECEIVING_FAILED"
+msgstr "Primirea nu a reuşit"
+
+msgid "IDS_BT_MBODY_FILE_RECEIVED"
+msgstr "Fişier primit"
 

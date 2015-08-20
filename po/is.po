@@ -1,6 +1,3 @@
-msgid "IDS_BT_BODY_DEACTIVATING_ING"
-msgstr "Slekk..."
-
 msgid "IDS_BT_BODY_ALWAYS_ON"
 msgstr "Alltaf kveikt"
 
@@ -13,17 +10,14 @@ msgstr "Prentari"
 msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
 msgstr "Pappírsstærð"
 
+msgid "IDS_COM_BODY_HELP"
+msgstr "Hjálp"
+
 msgid "IDS_BT_BODY_DEVICENAME"
 msgstr "Heiti tækis"
 
-msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
-msgstr "Kveiki á Bluetooth..."
-
 msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
 msgstr "Prentgæði"
-
-msgid "IDS_BT_BODY_VISIBLE"
-msgstr "Sýnilegt"
 
 msgid "IDS_BT_BODY_CALL_AUDIO"
 msgstr "Hljóð símtals"
@@ -40,6 +34,9 @@ msgstr "%d mínútur"
 msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
 msgstr "Bluetooth-tæki"
 
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Pikkaðu til að færa inn."
+
 msgid "IDS_BT_BODY_NORMAL"
 msgstr "Venjulegt"
 
@@ -47,22 +44,13 @@ msgid "IDS_BT_BUTTON_UNPAIR"
 msgstr "Eyða pörun"
 
 msgid "IDS_BT_BODY_OPERATION_FAILED"
-msgstr "Aðgerð mistókst"
+msgstr "Aðgerð mistókst."
 
 msgid "IDS_BT_BODY_SEARCHING_STOPPED"
-msgstr "Leitin stöðvaðist"
-
-msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
-msgstr "Á að leyfa %s að eyða skrá notandans?"
-
-msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
-msgstr "Á að leyfa %s at sækja skrána þína?"
-
-msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
-msgstr "Á að leyfa %s að setja skrá í?"
+msgstr "Leitin stöðvaðist."
 
 msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
-msgstr "Tengiliðurinn er til fyrir"
+msgstr "Tengiliðurinn er til fyrir."
 
 msgid "IDS_BT_BODY_HEADSET"
 msgstr "Höfuðtól"
@@ -77,7 +65,7 @@ msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
 msgstr "No more connections possible"
 
 msgid "IDS_BT_BODY_RECEIVED"
-msgstr "Móttekið"
+msgstr "Móttekið."
 
 msgid "IDS_BT_BODY_SERVICES"
 msgstr "Bluetooth þjónusta"
@@ -86,10 +74,7 @@ msgid "IDS_BT_BODY_TYPE"
 msgstr "Gerð"
 
 msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
-msgstr "Mistókst að eyða skrá eða skráasafni"
-
-msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
-msgstr "Ekki tókst að vista skrá"
+msgstr "Mistókst að eyða skrá eða skráasafni."
 
 msgid "IDS_BT_BODY_UPDATING_ING"
 msgstr "Verið er að uppfæra..."
@@ -102,12 +87,6 @@ msgstr "Sláðu inn PIN-númeri"
 
 msgid "IDS_BT_HEADER_NEW_DEVICE"
 msgstr "Nýtt tæki"
-
-msgid "IDS_BT_HEADER_PRINTING"
-msgstr "Prenta"
-
-msgid "IDS_BT_OPT_CONNECT_STEREO"
-msgstr "Tengja steríó"
 
 msgid "IDS_BT_OPT_PC"
 msgstr "Tölva"
@@ -131,43 +110,37 @@ msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
 msgstr "Bluetooth-tengingin rann út. Reyna aftur?"
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
-msgstr "Staðfesta að aðgangslykill sé %s til að para við %s"
+msgstr "Staðfesta að aðgangslykill sé %s til að para við %s."
 
 msgid "IDS_BT_POP_CONNECTAGAIN"
-msgstr "Unable to connect.\nTry again?"
+msgstr "Ekki tókst að tengjast.\nÁ að reyna aftur?"
 
 msgid "IDS_BT_POP_DOWNLOADING_FAILED"
-msgstr "Niðurhalið mistókst"
-
-msgid "IDS_BT_POP_EMPTY_NAME"
-msgstr "Tómt nafn"
+msgstr "Niðurhalið mistókst."
 
 msgid "IDS_BT_POP_FTP_CONNECTED"
-msgstr "FTP er tengt"
+msgstr "FTP er tengt."
 
 msgid "IDS_BT_POP_FTP_DISCONNECTED"
-msgstr "FTP-tenging rofin"
+msgstr "FTP-tenging rofin."
 
 msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
 msgstr "Rangt PIN-númer. Reynið aftur"
 
 msgid "IDS_BT_POP_PD_FILES_RECEIVED"
-msgstr "%d skrár mótteknar"
+msgstr "%d skrár mótteknar."
 
 msgid "IDS_BT_POP_SENDINGCANCEL"
-msgstr "Hætt við að senda"
+msgstr "Hætt við að senda."
 
 msgid "IDS_BT_POP_SENDINGFAIL"
-msgstr "Ekki tókst að senda"
-
-msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
-msgstr "Raðtengja við %s?"
+msgstr "Ekki tókst að senda."
 
 msgid "IDS_BT_POP_SUBFILERECEIVED"
-msgstr "Skrá móttekin"
+msgstr "Skrá móttekin."
 
 msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
-msgstr "Mistókst að sækja þjónustulista"
+msgstr "Mistókst að sækja þjónustulista."
 
 msgid "IDS_BT_SK_CONNECT"
 msgstr "Tengja"
@@ -176,34 +149,28 @@ msgid "IDS_BT_SK_DISCONNECT"
 msgstr "Aftengja"
 
 msgid "IDS_BT_POP_ACTIVATED"
-msgstr "Bluetooth virkjuð"
+msgstr "Bluetooth virkjuð."
 
 msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
 msgstr "Slökkt er á Bluetooth núna.\nÁ að kveikja?"
-
-msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
-msgstr "Kveiki á Bluetooth..."
 
 msgid "IDS_BT_BODY_SEARCHINGDEVICE"
 msgstr "Verið er að leita..."
 
 msgid "IDS_BT_POP_CONNECTED"
-msgstr "Tengt"
+msgstr "Tengt."
 
 msgid "IDS_BT_BODY_NO_DEVICES"
 msgstr "Engin tæki"
 
 msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
-msgstr "Leita... %d tæki fundust"
+msgstr "Leita... %d tæki fundust."
 
 msgid "IDS_BT_POP_GETTINGSERVICELIST"
 msgstr "Sæki þjónustulista..."
 
 msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
 msgstr "Taka við %s frá %s?"
-
-msgid "IDS_BT_POP_SELECTED"
-msgstr "Valið"
 
 msgid "IDS_BT_HEADER_SELECT_DEVICE"
 msgstr "Veldu tæki"
@@ -212,61 +179,49 @@ msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
 msgstr "%s er þegar til. Skrifa yfir?"
 
 msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
-msgstr "Það er ekki hægt að kveikja á Bluetooth þegar kveikt er á flugstillingu"
+msgstr "Það er ekki hægt að kveikja á Bluetooth þegar kveikt er á flugstillingu."
 
 msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
-msgstr "Skráin er ekki til"
+msgstr "Skráin er ekki til."
 
 msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
-msgstr "Tengt við síma og hljóð"
+msgstr "Tengt við síma og hljóð."
 
 msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
-msgstr "HID-tæki tengt"
+msgstr "HID-tæki tengt."
 
 msgid "IDS_BT_BODY_SCANNING_ING"
 msgstr "Verið er að skrá..."
 
-msgid "IDS_BT_BODY_TURNING_OFF_BLUETOOTH_ING"
-msgstr "Slekk á Bluetooth..."
-
 msgid "IDS_BT_BODY_INFOHEADSET"
-msgstr "Notað fyrir hringingar inn og út með Bluetooth höfuðtólum"
+msgstr "Notað fyrir hringingar inn og út með Bluetooth höfuðtólum."
 
 msgid "IDS_BT_BODY_HANDSFREE"
 msgstr "Handfrjáls búnaður"
 
 msgid "IDS_BT_BODY_INFOHANDSFREE"
-msgstr "Notað fyrir hringingar inn og út með Bluetooth bílabúnaði"
-
-msgid "IDS_BT_OPT_STEREO_HEADSET"
-msgstr "Steríóhöfuðtól"
+msgstr "Notað fyrir hringingar inn og út með Bluetooth bílabúnaði."
 
 msgid "IDS_BT_BODY_INFOAVHEADSET"
-msgstr "Notað fyrir hringingar og til að hlusta á tónlist í Bluetooth sterío höfuðtólum"
-
-msgid "IDS_BT_BODY_FILE_TRANSFER"
-msgstr "Skráaflutningur"
+msgstr "Notað fyrir hringingar og til að hlusta á tónlist í Bluetooth sterío höfuðtólum."
 
 msgid "IDS_BT_BODY_INFOFILETRANSFER"
-msgstr "Notað til að flytja skrár til og frá Bluetooth-tækjum"
+msgstr "Notað til að flytja skrár til og frá Bluetooth-tækjum."
 
 msgid "IDS_BT_BODY_OBJECT_PUSH"
 msgstr "Viðfangi ýtt"
 
 msgid "IDS_BT_BODY_INFOOBJECTPUSH"
-msgstr "Notað til að skiptast á einkagögnum (nafnspjöldum, símaskrártengiliðum o.s.frv.) með Bluetooth tækjum"
+msgstr "Notað til að skiptast á einkagögnum (nafnspjöldum, símaskrártengiliðum o.s.frv.) með Bluetooth tækjum."
 
 msgid "IDS_BT_BODY_BASIC_PRINTING"
 msgstr "Grunnprentun"
-
-msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
-msgstr "Notað til að prenta myndir, textaboð, einkagöng eins og nafnspjöld og fundi o.s.frv. með fjartengdum Bluetooth prenturum"
 
 msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
 msgstr "Upphringinet"
 
 msgid "IDS_BT_BODY_INFODIALUP"
-msgstr "Notað til að veita internetaðgang fyrir Bluetooth tæki um mótald símans"
+msgstr "Notað til að veita internetaðgang fyrir Bluetooth tæki um mótald símans."
 
 msgid "IDS_BT_BODY_SERIAL_PORT"
 msgstr "Raðtengi"
@@ -287,16 +242,16 @@ msgid "IDS_BT_SK_SCAN"
 msgstr "Leita"
 
 msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
-msgstr "Þetta er notað til að tengjast öðrum Bluetooth-tækjum um sýndarraðtengi"
+msgstr "Þetta er notað til að tengjast öðrum Bluetooth-tækjum um sýndarraðtengi."
 
-msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
-msgstr "Finna eins aðgangslykil á %s?"
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "Staðfesta"
 
 msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
-msgstr "Tókst ekki að tengja höfuðtól. Annað tæki hafnaði tengingunni"
+msgstr "Tókst ekki að tengja höfuðtól. Annað tæki hafnaði tengingunni."
 
 msgid "IDS_BT_BODY_CONNECTION_FAILED"
-msgstr "Tenging brást"
+msgstr "Tenging brást."
 
 msgid "IDS_BT_BODY_2_MINUTES"
 msgstr "2 mínútur"
@@ -323,25 +278,22 @@ msgid "IDS_BT_BODY_DISCONNECTING"
 msgstr "Verið er að aftengja..."
 
 msgid "IDS_BT_BODY_PS_REMAINING"
-msgstr "%s eftir"
+msgstr "%s eftir."
 
 msgid "IDS_BT_BODY_TAP_TO_CONNECT"
-msgstr "Pikkaðu til að tengja"
+msgstr "Pikkaðu til að tengja."
 
 msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
-msgstr "Pikkaðu til að aftengja"
-
-msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
-msgstr "Þetta rýfur tenginguna við"
+msgstr "Pikkaðu til að aftengja."
 
 msgid "IDS_BT_BODY_INPUT_DEVICE"
 msgstr "Innsláttartæki"
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
-msgstr "Öryggisreglur takmarka notkun Bluetooth-tengingar"
+msgstr "Öryggisreglur takmarka notkun Bluetooth-tengingar."
 
 msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
-msgstr "Öryggisreglur takmarka notkun Bluetooth-tengingar við handfrjálsa eiginleika"
+msgstr "Öryggisreglur takmarka notkun Bluetooth-tengingar við handfrjálsa eiginleika."
 
 msgid "IDS_BT_BODY_DETAILS"
 msgstr "Upplýsingar"
@@ -352,14 +304,8 @@ msgstr "Leitarvalkostir"
 msgid "IDS_BT_BODY_ALL_DEVICES"
 msgstr "Öll tæki"
 
-msgid "IDS_BT_POP_EXCHANGEOBJECT"
-msgstr "Á að skiptast á viðfangi við %s?"
-
 msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
-msgstr "Sláðu inn %1$s á %2$s og ýttu síðan á færsluhnapp til að para"
-
-msgid "IDS_BT_BODY_NO_BLUETOOTH_DEVICE_FOUND"
-msgstr "Ekkert Bluetooth-tæki fannst"
+msgstr "Sláðu inn %1$s á %2$s og ýttu síðan á færsluhnapp til að para."
 
 msgid "IDS_BT_BODY_PAIRED"
 msgstr "Parað"
@@ -371,13 +317,13 @@ msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
 msgstr "Beiðni um Bluetooth-pörun"
 
 msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
-msgstr "Sláðu inn PIN-númer til að para við %s (prófaðu 0000 eða 1234)"
+msgstr "Sláðu inn PIN-númer til að para við %s (prófaðu 0000 eða 1234)."
 
 msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
-msgstr "Staðfesta að aðgangslykill sé %2$s til að para við %1$s"
+msgstr "Staðfesta að aðgangslykill sé %2$s til að para við %1$s."
 
 msgid "IDS_BT_BODY_SHOW_PASSWORD"
-msgstr "Sýna lykilorð"
+msgstr "Sýna lykilorð."
 
 msgid "IDS_BT_HEADER_BLUETOOTH"
 msgstr "Bluetooth"
@@ -398,28 +344,28 @@ msgid "IDS_BT_SK_BACK"
 msgstr "Bakka"
 
 msgid "IDS_BT_POP_MEMORYFULL"
-msgstr "Minni er fullt"
+msgstr "Minni er fullt."
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "Deila skrám"
 
 msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
 msgstr "Val á Bluetooth-tæki"
 
 msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
-msgstr "Sending til %s mistókst"
+msgstr "Sending til %s mistókst."
 
 msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
-msgstr "Flutningsferill tómur"
-
-msgid "IDS_BT_BODY_INBOUND_TRANSFERS"
-msgstr "Flutningur á innleið"
-
-msgid "IDS_BT_BODY_OUTBOUND_TRANSFERS"
-msgstr "Flutningur á útleið"
+msgstr "Flutningsferill tómur."
 
 msgid "IDS_BT_BODY_CLEAR_LIST"
 msgstr "Hreinsa lista"
 
 msgid "IDS_BT_OPT_FIT_TO_PAPER"
 msgstr "Passa á pappír"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "Byrja núna"
 
 msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
 msgstr "Veita %s aðgang að símaskrá"
@@ -428,7 +374,7 @@ msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
 msgstr "Veita %s aðgang að skeytum?"
 
 msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
-msgstr "Skrá ekki móttekin"
+msgstr "Skrá ekki móttekin."
 
 msgid "IDS_BT_POP_FILE_C_PS"
 msgstr "Skrá: %s"
@@ -449,17 +395,266 @@ msgid "IDS_BT_HEADER_FROM_C_PS"
 msgstr "Frá: %s"
 
 msgid "IDS_BT_POP_TRANSFER_CANCELLED"
-msgstr "Hætt við flutning"
+msgstr "Hætt við flutning."
 
 msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
-msgstr "Ekki tókst að taka við"
+msgstr "Ekki tókst að taka við."
 
 msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
 msgstr "%d tókst, %d mistókst"
 
 msgid "IDS_BT_BODY_SENT"
-msgstr "Sent"
+msgstr "Sent."
 
 msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
 msgstr "Bluetooth-samnýting"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "Tækið mitt"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Ekki spyrja aftur"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "Sláðu inn heiti tækis."
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "Sláðu inn PIN-númer til að para %s."
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "Verið er að senda..."
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "Sýnilegt öllum nálægum Bluetooth-tækjum."
+
+msgid "IDS_ST_BODY_ONLY_VISIBLE_TO_PAIRED_DEVICES_ABB"
+msgstr "Aðeins sýnilegt pöruðum tækjum."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "Tvípikkaðu til að opna listann."
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Á að taka við skrá frá %s?"
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "Ræsi..."
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "Slekk..."
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Valhringur"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "Internettenging"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "Flytja skrár"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "Mótteknar skrár"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "Sendar skrár"
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "Taka á móti skrá"
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "Opnaðu %s Stillingar."
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "Setja upp Bluetooth"
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "Senda myndir með Bluetooth"
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "Opna %s gallerí."
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "Veldu myndina eða albúmið sem þú vilt senda."
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "Pikkaðu á deilingarhnappinn og veldu %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "Veldu tækið sem þú vilt senda myndina til."
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Sendu myndina. Þú getur fylgst með framvindunni í tilkynningaglugganum."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "Gera tækið sem þú ert að tengjast sýnilegt."
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "Gerðu tækið sem þú ert að tengjast sýnilegt og pikkaðu svo á Leita."
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Notaðu hnappinn og pikkaðu á Leita til að kveikja á Bluetooth og leita að tækjum."
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "Veldu %s Bluetooth."
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "Veldu tækið sem þú vilt tengja úr listanum."
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "Pikkaðu á tækið sem þú vilt parast við eða tengjast. Ef tækið er ekki á listanum skaltu ganga úr skugga um að það sé sýnilegt og pikka svo á Leita."
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "Pörun eða tenging við valið tæki tókst. Pikkaðu á stillingartáknið til að stilla snið tækis."
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "Þú hefur lokið við leiðarvísinn. Fara aftur í Hjálp."
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "Leita að tækjum..."
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "Kennslu lokið."
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth gerir tækinu kleift að skiptast á gögnum þráðlaust."
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "Ógild aðgerð. Reyndu aftur."
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Engin tæki fundust"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d tókst, %d mistókst"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Slíta %1$s-tengingu við %2$s?"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Hnappur til að kveikja og slökkva"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES"
+msgstr "Kveiktu á Bluetooth til að sjá lista yfir tæki í boði."
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "Ekki valið"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Valið"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "Lyklaborð"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "Leikjafjarstýring"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "Tölva"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Farsímaaðgangsstaður"
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "Óþekkt tæki."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "Tvípikkaðu til að loka listanum."
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Myndavél"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "Hópvísir"
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "Ekki til staðar"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Þetta slítur tengingunni við %s."
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "Raðtengja við %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "Finna eins aðgangslykil á %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "Tómt nafn."
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "Steríóhöfuðtól"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "Tengja steríó"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "Prenta"
+
+msgid "IDS_BT_BODY_VISIBLE"
+msgstr "Sýnilegt"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "Ekki tókst að vista skrá."
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "Notað til að prenta myndir, textaboð, einkagöng eins og nafnspjöld og fundi o.s.frv. með fjartengdum Bluetooth prenturum."
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "Slekk..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "Á að leyfa %s að setja skrá í?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "Á að leyfa %s at sækja skrána þína?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "Á að leyfa %s að eyða skrá notandans?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "Kveiki á Bluetooth..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "FLYTJA SKRÁR"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "BT-PÖRUNARBEIÐNI"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth-vistfang"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "Endurnefna tæki"
+
+msgid "IDS_ST_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_MSG"
+msgstr "Heiti tækja eru birt til að greina tiltæk tæki í sundur á listanum yfir nálæg tæki, með Bluetooth, Wi-Fi Direct og öðrum aðferðum."
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "Heiti tækisins"
+
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "Meiri upplýsingar"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth-villa"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "Enginn flutningsferill"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "Mistókst að para við %s."
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "Sendu myndina. Þú getur fylgst með framvindunni í tilkynningaglugganum."
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "Pikkaðu á %s og síðan á „Leita“ til að kveikja á Bluetooth og leita að tækjum."
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "Til að gera tækið þitt sýnilegt öðrum tækjum skaltu haka í gátreitinn hjá heiti tækisins."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "Hámarksfjölda stafa hefur verið náð."
 

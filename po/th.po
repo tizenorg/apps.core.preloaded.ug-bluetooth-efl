@@ -1,0 +1,837 @@
+msgid "IDS_BT_BODY_1_HOUR"
+msgstr "1 ชั่วโมง"
+
+msgid "IDS_BT_BODY_2_MINUTES"
+msgstr "2 ​นาที"
+
+msgid "IDS_BT_BODY_5_MINUTES"
+msgstr "5 ​นาที"
+
+msgid "IDS_BT_BODY_ALWAYS_ON"
+msgstr "เปิด​ตลอด​"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "อุปกรณ์​ที่​ใช้​งาน​ได้"
+
+msgid "IDS_BT_BODY_BASIC_PRINTING"
+msgstr "การ​พิมพ์​พื้น​ฐาน"
+
+msgid "IDS_BT_BODY_BLUETOOTH"
+msgstr "บลูทูธ"
+
+msgid "IDS_BT_BODY_BLUETOOTH_AVAILABLE"
+msgstr "บลูทูธ​ใช้​งาน​ได้"
+
+msgid "IDS_BT_BODY_BLUETOOTH_DEVICES"
+msgstr "อุปกรณ์บลูทูธ"
+
+msgid "IDS_BT_BODY_BLUETOOTH_SHARE"
+msgstr "การแชร์บลูทูธ"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "เสียง​การ​โทร"
+
+msgid "IDS_BT_BODY_CLEAR_LIST"
+msgstr "ลบ​รายการ"
+
+msgid "IDS_BT_BODY_CONNECTED_TO_PHONE_AND_MEDIA_AUDIO"
+msgstr "เชื่อม​ต่อ​กับ​โทรศัพท์​และ​มี​เดี​ยอ​อดิ​โอ"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "กำลัง​เชื่อม​ต่อ..."
+
+msgid "IDS_BT_BODY_CONNECTION_FAILED"
+msgstr "การเชื่อมต่อผิดพลาด"
+
+msgid "IDS_BT_BODY_CONNECTION_OPTIONS"
+msgstr "ทางเลือก​​การ​เชื่อม​ต่อ"
+
+msgid "IDS_BT_BODY_CONTACT_ALREADY_EXISTS"
+msgstr "ราย​ชื่อ​มี​อยู่​แล้ว"
+
+msgid "IDS_BT_BODY_DETAILS"
+msgstr "ข้อมูล"
+
+msgid "IDS_BT_BODY_DEVICENAME"
+msgstr "ชื่อ​อุปกรณ์"
+
+msgid "IDS_BT_BODY_DIAL_UP_NETWORKING"
+msgstr "เครือ​ข่าย​แบบ​โทรออก"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "เลิก​กำลัง​เชื่อม​ต่อ..."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "ยกเลิก %2$s จากการเชื่อมต่อ %1$s?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "ห้ามถาม​อีก"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ป้อน %1$s ​ใน %2$s ​เพื่อ​จับ​คู่ แล้ว​สัมผัส​รี​เทิร์น​หรือ​ใส่"
+
+msgid "IDS_BT_BODY_HANDSFREE"
+msgstr "แฮนด์​ฟรี"
+
+msgid "IDS_BT_BODY_HEADSET"
+msgstr "เฮ​ดเซ็ท"
+
+msgid "IDS_BT_BODY_HID_HKEYBOARD_MOUSE_ETC"
+msgstr "HID (​แป้น​พิมพ์, ​เมาส์ และ​อื่นๆ)"
+
+msgid "IDS_BT_BODY_INFOAVHEADSET"
+msgstr "ใช้ทำการโทร และฟังเพลง โดยผ่านหูฟัง บลูทูธสเตอริโอ"
+
+msgid "IDS_BT_BODY_INFODIALUP"
+msgstr "ใช้เชื่อมต่ออิน\nเตอร์เน็ตสำ\nหรับอุปกรณ์\nบลูทูธผ่านโม\nเด็มโทรศัพท์ได้"
+
+msgid "IDS_BT_BODY_INFOFILETRANSFER"
+msgstr "ใช้ถ่ายโอนข้อมูล ไฟล์ออกและรับ จากอุปกรณ์บลูทูธ"
+
+msgid "IDS_BT_BODY_INFOHANDSFREE"
+msgstr "ใช้ทำรับสายและ โทรออก ผ่านบลทูธ คาร์คิตได้"
+
+msgid "IDS_BT_BODY_INFOHEADSET"
+msgstr "ใช้ทำรับสายและ โทรออก ผ่านบลูทูธ เฮดเซ็ทได้"
+
+msgid "IDS_BT_BODY_INFOOBJECTPUSH"
+msgstr "ใช้แลกเปลี่ยน ข้อมูลส่วนตัว (นามบัตร, สมุดโทรศัพท์, อื่นๆ) ​กับอุปกรณ์ บลูทูธ"
+
+msgid "IDS_BT_BODY_INPUT_DEVICE"
+msgstr "อุปกรณ์​อินพุต"
+
+msgid "IDS_BT_BODY_INTERNET_ACCESS_ABB2"
+msgstr "การเข้าใช้อินเตอร์เน็ต"
+
+msgid "IDS_BT_BODY_MEDIA_AUDIO"
+msgstr "เสียง​มี​เดีย"
+
+msgid "IDS_BT_BODY_MY_PHONES_NAME"
+msgstr "ชื่อ​ของ​เครื่อง​ส่วน​ตัว"
+
+msgid "IDS_BT_BODY_MY_PHONES_VISIBILITY"
+msgstr "การเข้าถึงเครื่องส่วนตัว"
+
+msgid "IDS_BT_BODY_NORMAL"
+msgstr "ปกติ"
+
+msgid "IDS_BT_BODY_NO_DEVICES"
+msgstr "ไม่​มี​อุปกรณ์"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "ไม่พบอุปกรณ์ใดๆ"
+
+msgid "IDS_BT_BODY_NO_MORE_CONNECTIONS_POSSIBLE_VODA"
+msgstr "No more connections possible"
+
+msgid "IDS_BT_BODY_NO_TRANSFER_HISTORY"
+msgstr "ไม่มีประวัติการถ่ายโอน"
+
+msgid "IDS_BT_BODY_OBJECT_PUSH"
+msgstr "การ​ส่ง​ข้อมูล"
+
+msgid "IDS_BT_BODY_OFF"
+msgstr "ปิด"
+
+msgid "IDS_BT_BODY_OPERATION_FAILED"
+msgstr "การ​ทำ​งาน​ล้ม​เหลว"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "จับ​คู่แล้ว"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "อุปกรณ์​ที่​จับ​คู่"
+
+msgid "IDS_BT_BODY_PD_MINUTES"
+msgstr "%d ​นาที"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED"
+msgstr "%d ​เรียบ​ร้อย %d ​ล้ม​เหลว"
+
+msgid "IDS_BT_BODY_PD_SUCCESSFUL_PD_FAILED_ABB"
+msgstr "%d ​สำเร็จ, %d ​ผิดพลาด"
+
+msgid "IDS_BT_BODY_PRINTER"
+msgstr "เครื่อง​พิมพ์"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSPAPERSIZE"
+msgstr "ขนาด​กระดาษ"
+
+msgid "IDS_BT_BODY_PRINTSETTINGSQUALITY"
+msgstr "คุณภาพ​การ​พิมพ์"
+
+msgid "IDS_BT_BODY_RECEIVED"
+msgstr "ได้​รับ​แล้ว"
+
+msgid "IDS_BT_BODY_SEARCHINGDEVICE"
+msgstr "กำลังค้นหา..."
+
+msgid "IDS_BT_BODY_SEARCHING_ING_PD_DEVICES_FOUND"
+msgstr "กำลัง​ค้น​หา... ​พบ %d ​อุปกรณ์"
+
+msgid "IDS_BT_BODY_SEARCHING_STOPPED"
+msgstr "การ​ค้น​หา​หยุด​ลง​แล้ว"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION"
+msgstr "นโยบาย​ความ​ปลอดภัย​จำกัด​การ​ใช้​การ​เชื่อม​ต่อบลูทูธ​"
+
+msgid "IDS_BT_BODY_SECURITY_POLICY_RESTRICTS_USE_OF_BLUETOOTH_CONNECTION_TO_HANDS_FREE_FEATURES_ONLY"
+msgstr "นโยบาย​ด้าน​ความ​ปลอดภัย​กำหนด​ให้​ใช้​บลู​ทู​ธกับฟังก์​ชั่น​การ​ทำ​งาน​แบบ​แฮนด์​ฟรี​เท่า​นั้น"
+
+msgid "IDS_BT_BODY_SENDING_FAILED_TO_PS"
+msgstr "ไม่​สามารถ​ส่ง​ไป​ที่ %s"
+
+msgid "IDS_BT_BODY_SENT"
+msgstr "ส่งแล้ว"
+
+msgid "IDS_BT_BODY_SERIAL_PORT"
+msgstr "ซีเรีย​ลพอร์ต"
+
+msgid "IDS_BT_BODY_SERVICES"
+msgstr "บริการบลูทูธ"
+
+msgid "IDS_BT_BODY_SHOW_PASSWORD"
+msgstr "แสดง​รหัส​ผ่าน"
+
+msgid "IDS_BT_BODY_TAP_PS_THEN_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "สัมผัส %s แล้วสัมผัส สแกน เพื่อเปิด Bluetooth และสแกนหาอุปกรณ์"
+
+msgid "IDS_BT_BODY_TAP_TO_CONNECT"
+msgstr "สัมผัส​เพื่อ​เชื่อม​ต่อ"
+
+msgid "IDS_BT_BODY_TAP_TO_DISCONNECT"
+msgstr "สัมผัส​เพื่อ​หยุด​เชื่อม​ต่อ"
+
+msgid "IDS_BT_BODY_THIS_IS_USED_TO_CONNECT_TO_OTHER_BLUETOOTH_DEVICES_VIA_A_VIRTUAL_SERIAL_PORT"
+msgstr "ใช้เชื่อมต่อกับ อุปกรณ์บลูทูธผ่าน เวอร์ชวล ซีเรียพอร์ต"
+
+msgid "IDS_BT_BODY_TO_MAKE_YOUR_DEVICE_VISIBLE_TO_OTHER_DEVICES_SELECT_THE_TICKBOX_NEXT_TO_THE_NAME_OF_YOUR_DEVICE"
+msgstr "ทำเครื่องหมายในกล่องทำเครื่องหมาย ถัดจากชื่ออุปกรณ์ของคุณ เพื่อให้อุปกรณ์อื่นๆ มองเห็นอุปกรณ์ของคุณ"
+
+msgid "IDS_BT_BODY_TRANSFER_HISTORY_EMPTY"
+msgstr "ไม่​มี​ประวัติการ​ถ่าย​โอน"
+
+msgid "IDS_BT_BODY_TYPE"
+msgstr "ชนิด"
+
+msgid "IDS_BT_BODY_UNABLE_TO_DELETE_FILE_OR_DIRECTORY"
+msgstr "ไม่​สามารถ​ลบ​ไฟล์​หรือ​ได​เรก​ทอ​รี"
+
+msgid "IDS_BT_BODY_UNABLE_TO_RECEIVE"
+msgstr "รับ​ไม่​ได้"
+
+msgid "IDS_BT_BODY_UNKNOWNDEVICE"
+msgstr "ไม่​รู้จัก​อุปกรณ์"
+
+msgid "IDS_BT_BODY_UPDATING_ING"
+msgstr "อัพ​เด​ท..."
+
+msgid "IDS_BT_BUTTON_UNPAIR"
+msgstr "เลิก​จับ​คู่"
+
+msgid "IDS_BT_HEADER_BLUETOOTH"
+msgstr "บลูทูธ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ที่อยู่ Bluetooth"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICES"
+msgstr "อุปกรณ์บลูทูธ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_DEVICE_PICKER"
+msgstr "ตัว​เลือก​อุปกรณ์บลูทูธ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetoothผิดพลาด"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "การ​ขอ​จับ​คู่บลูทูธ​"
+
+msgid "IDS_BT_HEADER_ENTERPIN"
+msgstr "ใส่ PIN"
+
+msgid "IDS_BT_HEADER_FROM_C_PS"
+msgstr "จาก: ​%s"
+
+msgid "IDS_BT_HEADER_NEW_DEVICE"
+msgstr "อุปกรณ์​ใหม่"
+
+msgid "IDS_BT_HEADER_SELECT_DEVICE"
+msgstr "เลือก​อุปกรณ์"
+
+msgid "IDS_BT_HEADER_SENT_FILES"
+msgstr "ไฟล์ที่ส่ง"
+
+msgid "IDS_BT_OPT_COMPUTER"
+msgstr "คอมพิวเตอร์"
+
+msgid "IDS_BT_OPT_FIT_TO_PAPER"
+msgstr "จัด​ให้​พอ​ดี​กับ​กระดาษ"
+
+msgid "IDS_BT_OPT_KEYBOARD"
+msgstr "แป้นพิมพ์"
+
+msgid "IDS_BT_OPT_MOBILE_AP"
+msgstr "Mobile ​AP"
+
+msgid "IDS_BT_OPT_PC"
+msgstr "PC"
+
+msgid "IDS_BT_OPT_PRINT"
+msgstr "พิมพ์"
+
+msgid "IDS_BT_OPT_RECEIVED_FILES"
+msgstr "ไฟล์ที่ได้รับ"
+
+msgid "IDS_BT_OPT_SEARCH_OPTIONS"
+msgstr "ทางเลือก​ค้น​หา"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "เลิก​จับ​คู่"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "อนุญาต %s ​ให้​เชื่อม​ต่อ?"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CREATE_FOLDER_PS_Q"
+msgstr "อนุญาต​ให้ %s ​สร้าง​แฟ้ม %s ​หรือ​ไม่?"
+
+msgid "IDS_BT_POP_BLUETOOTHSWITCHQUERY"
+msgstr "ขณะ​นี้​ปิด\n​บลู​ทู​ธ​อยู่\n​เปิด?"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "บลูทูธ ​ผิด​พลาด ลอง​อีก​ครั้ง?"
+
+msgid "IDS_BT_POP_BLUETOOTH_TIMEOUT_TRY_AGAIN_Q"
+msgstr "หมด​เวลา บลูทูธ ​ลอง​อีก​ครั้ง?"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_PS_TO_PAIR_WITH_PS"
+msgstr "ยืน​ยัน​รหัส​ผ่าน %s ​เพื่อ​จับ​คู่​กับ %s"
+
+msgid "IDS_BT_POP_CONNECTAGAIN"
+msgstr "เชื่อม​ต่อ​ไม่​ได้\n​ลอง​อีก​ครั้ง?"
+
+msgid "IDS_BT_POP_CONNECTED_TO_HID_DEVICE"
+msgstr "เชื่อม​ต่อ​กับ​อุปกรณ์ HID"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "หยุด​เชื่อม​ต่อ?"
+
+msgid "IDS_BT_POP_DOWNLOADING_FAILED"
+msgstr "ดาวน์​โหลด\n​ผิด​พลาด"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS"
+msgstr "ใส่ PIN ​เพื่อ​จับ​คู่​กับ %s"
+
+msgid "IDS_BT_POP_FAILED_TO_CONNECT_HEADSET_OTHER_DEVICE_REFUSED_CONNECTION"
+msgstr "เชื่อมต่อหูฟังไม่ได้ อุปกรณ์อื่นปฏิเสธการเชื่อมต่อ"
+
+msgid "IDS_BT_POP_FAILURE_REASON_C_PS"
+msgstr "เหตุผล​ที่​ล้ม​เหลว: ​%s"
+
+msgid "IDS_BT_POP_FILE_C_PS"
+msgstr "ไฟล์: ​%s"
+
+msgid "IDS_BT_POP_FILE_DOES_NOT_EXIST"
+msgstr "ไม่​มี​ไฟล์​นี้​อยู่"
+
+msgid "IDS_BT_POP_FILE_NOT_RECEIVED"
+msgstr "ไม่​ได้​รับ​ไฟล์"
+
+msgid "IDS_BT_POP_FILE_SIZE_C_PS"
+msgstr "ขนาด​ไฟล์: ​%s"
+
+msgid "IDS_BT_POP_FILE_TYPE_C_PS"
+msgstr "ชนิด​ไฟล์: ​%s"
+
+msgid "IDS_BT_POP_FTP_CONNECTED"
+msgstr "เชื่อม​ต่อ FTP ​แล้ว"
+
+msgid "IDS_BT_POP_FTP_DISCONNECTED"
+msgstr "หยุด​เชื่อม​ต่อ FTP ​แล้ว"
+
+msgid "IDS_BT_POP_GETTINGSERVICELIST"
+msgstr "รับ​รายการ\n​บริการ..."
+
+msgid "IDS_BT_POP_HID_DEVICE"
+msgstr "อุปกรณ์ HID"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN ​ผิด ลอง​อีก​ครั้ง?"
+
+msgid "IDS_BT_POP_MEMORYFULL"
+msgstr "ความ​จำ​เต็ม"
+
+msgid "IDS_BT_POP_PD_FILES_RECEIVED"
+msgstr "ได้​รับ %d ​ไฟล์"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s ​มี​อยู่​แล้ว เขียน​ทับ?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "ได้​รับ​ไฟล์​จาก %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "รับ %s ​จาก %s?"
+
+msgid "IDS_BT_POP_RECEIVING_ING"
+msgstr "กำลัง​รับ..."
+
+msgid "IDS_BT_POP_SEARCHING_SERVICES_ING"
+msgstr "กำลัง​ค้น​หาบ​ริ​การ..."
+
+msgid "IDS_BT_POP_SENDINGCANCEL"
+msgstr "การ​ส่ง​ยก​เลิก"
+
+msgid "IDS_BT_POP_SENDINGFAIL"
+msgstr "ไม่​สามารถ​ส่ง"
+
+msgid "IDS_BT_POP_SENDING_ING"
+msgstr "กำลังส่ง..."
+
+msgid "IDS_BT_POP_SHARING_ING"
+msgstr "กำลัง​แชร์..."
+
+msgid "IDS_BT_POP_SUBFILERECEIVED"
+msgstr "ได้​รับ​ไฟล์​แล้ว"
+
+msgid "IDS_BT_POP_TO_C_PS"
+msgstr "ถึง: ​%s"
+
+msgid "IDS_BT_POP_TRANSFER_CANCELLED"
+msgstr "การ​โอน​สาย​ถูก​ยก​เลิก"
+
+msgid "IDS_BT_POP_UNABLE_TO_ACTIVATE_BLUETOOTH_WHEN_FLIGHT_MODE_IS_ON"
+msgstr "เปิด​ใช้​งานบลูทูธ ​ไม่​ได้​เมื่อ​ใช้​โหมด​การ​บิน"
+
+msgid "IDS_BT_POP_UNABLE_TO_GET_SERVICE_LIST"
+msgstr "ไม่​สามารถ​รับ​รายการ​ให้​บริการ​ได้"
+
+msgid "IDS_BT_SK_BACK"
+msgstr "กลับ"
+
+msgid "IDS_BT_SK_DISCONNECT"
+msgstr "หยุด​ต่อ"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "ค้น​หา"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "หยุด"
+
+msgid "IDS_COM_BODY_HELP"
+msgstr "วิธี​ใช้"
+
+msgid "IDS_HELP_BODY_BLUETOOTH"
+msgstr "บลูทูธ"
+
+msgid "IDS_HELP_BODY_BLUETOOTH_ENABLES_YOUR_DEVICE_TO_EXCHANGE_DATA_WIRELESSLY"
+msgstr "Bluetooth ทำให้อุปกรณ์ของคุณ แลกเปลี่ยนข้อความแบบไร้สายได้"
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE"
+msgstr "ให้มองเห็นอุปกรณ์ ที่คุณกำลังเชื่อมต่อ"
+
+msgid "IDS_HELP_BODY_MAKE_THE_DEVICE_YOU_ARE_CONNECTING_TO_VISIBLE_THEN_TAP_SCAN"
+msgstr "ให้มองเห็นอุปกรณ์ที่คุณกำลังเชื่อมต่อ แล้วแตะ สแกน"
+
+msgid "IDS_HELP_BODY_OPEN_PS_GALLERY"
+msgstr "เปิดแกลเลอรี่ %s"
+
+msgid "IDS_HELP_BODY_OPEN_PS_SETTINGS"
+msgstr "เปิดการตั้งค่า %s"
+
+msgid "IDS_HELP_BODY_SELECT_PS_BLUETOOTH"
+msgstr "เลือก Bluetooth %s"
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_THAT_YOU_WANT_TO_SEND_THE_IMAGE_TO"
+msgstr "เลือกอุปกรณ์ที่คุณต้องการ ส่งรูปภาพไปให้"
+
+msgid "IDS_HELP_BODY_SELECT_THE_DEVICE_YOU_WANT_TO_CONNECT_TO_FROM_LIST"
+msgstr "เลือกอุปกรณ์ที่คุณต้องการเชื่อมต่อ จากรายการ"
+
+msgid "IDS_HELP_BODY_SELECT_THE_PICTURE_OR_ALBUM_YOU_WANT_TO_SEND"
+msgstr "เลือกรูปภาพหรืออัลบั้ม ที่คุณต้องการส่ง"
+
+msgid "IDS_HELP_BODY_SEND_THE_IMAGE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "ส่งรูปภาพ คุณสามารถติดตามความคืบหน้าได้ในแผงการแจ้งเตือน"
+
+msgid "IDS_HELP_BODY_SEND_THE_PICTURE_YOU_CAN_TRACK_ITS_PROGRESS_IN_THE_NOTIFICATION_PANEL"
+msgstr "ส่งรูปภาพ คุณสามารถติดตาม ความคืบหน้าได้ ในแผงการแจ้งเตือน"
+
+msgid "IDS_HELP_BODY_TAP_THE_DEVICE_YOU_WANT_TO_PAIR_WITH_OR_CONNECT_TO_IF_THE_DEVICE_IS_NOT_IN_THE_LIST_MAKE_SURE_IT_IS_VISIBLE_THEN_TAP_SCAN"
+msgstr "แตะอุปกรณ์ที่คุณต้องการจับคู่หรือเชื่อมต่อด้วย ถ้าไม่มีอุปกรณ์ในรายการ ตรวจสอบว่าได้ทำให้เป็นแบบแสดงให้เห็น แล้วแตะสแกน"
+
+msgid "IDS_HELP_BODY_TAP_THE_SHARE_BUTTON_AND_SELECT_PS_BLUETOOTH"
+msgstr "แตะปุ่ม แชร์ แล้วเลือก Bluetooth %s"
+
+msgid "IDS_HELP_BODY_TOGGLE_THE_BUTTON_AND_TAP_SCAN_TO_TURN_ON_BLUETOOTH_AND_SCAN_FOR_DEVICES"
+msgstr "กดปุ่มสลับแล้วแตะ สแกน เพื่อเปิด Bluetooth และสแกนหาอุปกรณ์"
+
+msgid "IDS_HELP_HEADER_SEND_PICTURES_VIA_BLUETOOTH"
+msgstr "ส่งรูปภาพผ่านทาง Bluetooth"
+
+msgid "IDS_HELP_MBODY_SET_UP_BLUETOOTH"
+msgstr "ตั้งค่า Bluetooth"
+
+msgid "IDS_HELP_POP_PAIRED_WITH_OR_CONNECTED_TO_SELECTED_DEVICE_SUCCESSFULLY_TAP_THE_CONFIGURATION_ICON_TO_CONFIGURE_THE_DEVICE_PROFILE"
+msgstr "จับคู่ หรือเชื่อมต่อกับอุปกรณ์ที่เลือกสำเร็จแล้ว แตะที่ไอคอนการกำหนดค่าเพื่อกำหนดโปรไฟล์อุปกรณ์"
+
+msgid "IDS_HELP_POP_YOUVE_COMPLETED_THE_STEP_BY_STEP_GUIDE_RETURN_TO_HELP"
+msgstr "คุณอ่านคำแนะนำทีละขั้นเสร็จแล้ว กลับไปที่ วิธีใช้"
+
+msgid "IDS_NFC_TPOP_FAILED_TO_PAIR_WITH_PS"
+msgstr "ไม่สามารถจับคู่กับ %s"
+
+msgid "IDS_PB_MBODY_SCANNING_DEVICES_ING"
+msgstr "กำลัง​ค้น​หา​อุปกรณ์..."
+
+msgid "IDS_PB_POP_MAXIMUM_NUMBER_OF_CHARACTERS_REACHED"
+msgstr "มีจำนวนตัวอักษร มากที่สุดแล้ว"
+
+msgid "IDS_RCS_HEADER_RECEIVE_FILE"
+msgstr "รับไฟล์"
+
+msgid "IDS_RCS_SK_SHARE_FILES"
+msgstr "แชร์ไฟล์"
+
+msgid "IDS_ST_BODY_GAME_CONTROLLER"
+msgstr "ตัวควบคุมเกม"
+
+msgid "IDS_ST_BODY_MY_DEVICE_ABB2"
+msgstr "อุปกรณ์ส่วนตัว"
+
+msgid "IDS_ST_BODY_TRANSFER_FILES"
+msgstr "ถ่าย​โอน​ไฟล์"
+
+msgid "IDS_ST_BODY_TURNING_OFF_ING"
+msgstr "กำลัง​ปิด..."
+
+msgid "IDS_ST_BODY_TURNING_ON_ING"
+msgstr "กำลัง​เปิด..."
+
+msgid "IDS_ST_BODY_UNAVAILABLE"
+msgstr "ใช้​ไม่​ได้"
+
+msgid "IDS_ST_BODY_VISIBLE_TO_ALL_NEARBY_BLUETOOTH_DEVICES"
+msgstr "แสดงให้อุปกรณ์ Bluetooth ใกล้เคียงทั้งหมดเห็น"
+
+msgid "IDS_ST_HEADER_MY_DEVICE_NAME"
+msgstr "ชื่ออุปกรณ์ของฉัน"
+
+msgid "IDS_ST_HEADER_RENAME_DEVICE"
+msgstr "เปลี่ยน​ชื่อ​อุปกรณ์"
+
+msgid "IDS_ST_POP_ENTER_DEVICE_NAME"
+msgstr "ใส่​ชื่อ​อุปกรณ์"
+
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "กล้องถ่ายรูป"
+
+msgid "IDS_TPLATFORM_BODY_GROUP_INDEX"
+msgstr "อิน​เด็ก​ซ์​กลุ่ม"
+
+msgid "IDS_TPLATFORM_BODY_NOT_SELECTED_T_TTS"
+msgstr "ไม่ได้เลือก"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "ปุ่มเปิด/ปิด"
+
+msgid "IDS_TPLATFORM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "ปุ่ม​เลือก​แบ​บก​ลม"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "เลือก​ไว้"
+
+msgid "IDS_TR_BUTTON_START_NOW"
+msgstr "เริ่มต้นตอนนี้"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ทำให้การเชื่อมต่อระหว่างคุณกับ %s สิ้นสุดลง"
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_OPEN_THE_LIST_T_TTS"
+msgstr "สัมผัสสองครั้ง เพื่อเปิดรายการ"
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_LIST_T_TTS"
+msgstr "สัมผัสสองครั้ง เพื่อปิดรายการ"
+
+msgid "IDS_BT_SK_CONNECT"
+msgstr "เชื่อม​ต่อ"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "อนุญาต"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "ยกเลิก"
+
+msgid "IDS_BR_SK_DONE"
+msgstr "เรียบร้อย"
+
+msgid "IDS_BR_SK_YES"
+msgstr "ใช่"
+
+msgid "IDS_BR_SK_NO"
+msgstr "ไม่"
+
+msgid "IDS_CAM_SK_CLOSE"
+msgstr "ปิด"
+
+msgid "IDS_HELP_POP_TUTORIAL_COMPLETE"
+msgstr "การฝึกใช้งานเสร็จสิ้น"
+
+msgid "IDS_HELP_POP_INVALID_ACTION_TRY_AGAIN"
+msgstr "การทำงานไม่ถูกต้อง ลองใหม่"
+
+msgid "IDS_MAPS_POP_RESUME"
+msgstr "กลับ"
+
+msgid "IDS_CST_OPT_HIDE"
+msgstr "ซ่อน"
+
+msgid "IDS_BT_POP_ACTIVATED"
+msgstr "บลูทูธทำงาน"
+
+msgid "IDS_BT_BODY_SEARCH_OPTIONS"
+msgstr "ทางเลือก​ค้น​หา"
+
+msgid "IDS_BT_BODY_ALL_DEVICES"
+msgstr "อุปกรณ์​ทั้ง​หมด"
+
+msgid "IDS_ST_MBODY_SHOW_PIN"
+msgstr "แสดง PIN"
+
+msgid "IDS_ST_BUTTON_RETRY"
+msgstr "ลอง​ใหม่"
+
+msgid "IDS_ST_BODY_PIN"
+msgstr "PIN"
+
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "แบตเตอรี่​ต่ำ"
+
+msgid "IDS_HELP_BODY_MORE_INFO"
+msgstr "ข้อมูลเพิ่ม"
+
+msgid "IDS_EMAIL_BODY_DO_NOT_SHOW_AGAIN_VZW"
+msgstr "Do not show again"
+
+msgid "IDS_BT_HEADER_ACCESS_REQUEST"
+msgstr "การ​ร้อง​การ​ขอ​เข้า​ใช้"
+
+msgid "IDS_BT_OPT_SEARCH"
+msgstr "ค้น​หา"
+
+msgid "IDS_BT_SK4_STOP"
+msgstr "หยุด"
+
+msgid "IDS_BT_BUTTON_OK"
+msgstr "ตกลง"
+
+msgid "IDS_BT_OPT_RENAME"
+msgstr "เปลี่ยน​ชื่อ"
+
+msgid "IDS_BT_BUTTON_OFF"
+msgstr "ปิด"
+
+msgid "IDS_BT_OPT_PLAYVIAPHONE"
+msgstr "โทรศัพท์"
+
+msgid "IDS_BT_OPT_HELP"
+msgstr "วิธี​ใช้"
+
+msgid "IDS_BR_BUTTON_MORE"
+msgstr "เพิ่ม​เติม"
+
+msgid "IDS_BT_BODY_MINUTES"
+msgstr "นาที"
+
+msgid "IDS_ST_BODY_SECONDS"
+msgstr "วินาที"
+
+msgid "IDS_BT_POP_1_MINUTE"
+msgstr "1 ​นาที"
+
+msgid "IDS_ST_BODY_1_SECOND"
+msgstr "1  ​วินาที"
+
+msgid "IDS_ST_BODY_INFORMATION"
+msgstr "ข้อมูล"
+
+msgid "IDS_ST_BODY_YESTERDAY"
+msgstr "เมื่อ​วาน"
+
+msgid "IDS_BT_BODY_TURNING_ON_BLUETOOTH_ING"
+msgstr "กำลังเปิดบลูทูธ..."
+
+msgid "IDS_CLOG_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED"
+msgstr "ถึง​จำนวน​ตัว​อักษร​สูง​สุด (%d)"
+
+msgid "IDS_BT_BUTTON_PAIR"
+msgstr "จับ​คู่"
+
+msgid "IDS_COM_BODY_RECEIVE"
+msgstr "รับ"
+
+msgid "IDS_COM_SK_CONFIRM"
+msgstr "ยืน​ยัน"
+
+msgid "IDS_YSM_POP_THIS_NAME_IS_ALREADY_IN_USE_NENTER_ANOTHER_NAME"
+msgstr "ชื่อนี้ถูกใช้แล้ว ใส่ชื่ออื่น"
+
+msgid "IDS_BT_SBODY_CONNECTING_ING"
+msgstr "กำลังต่อ..."
+
+msgid "IDS_BT_MBODY_P1SD_CP2SD_REMAINING"
+msgstr "เหลืออีก %1$d:%2$d"
+
+msgid "IDS_BT_SBODY_CONNECTED_M_STATUS"
+msgstr "เชื่อมต่อแล้ว"
+
+msgid "IDS_BT_BODY_PS_REMAINING"
+msgstr "%s ​ที่​เหลือ"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_RECEIVE_FILES_ABB"
+msgstr "ไม่สามารถรับไฟล์ได้"
+
+msgid "IDS_BT_MBODY_P1SD_FILES_COPIED_P2SD_FAILED_ABB"
+msgstr "คัดลอก %1$d ไฟล์ ไม่ได้ %2$d"
+
+msgid "IDS_BT_HEADER_UNABLE_TO_SEND_FILES_ABB"
+msgstr "ไม่สามารถส่งไฟล์ได้"
+
+msgid "IDS_BT_MBODY_1_FILE_COPIED_PD_FAILED_ABB"
+msgstr "คัดลอก1 ไฟล์, %d ไฟล์ล้มเหลว"
+
+msgid "IDS_BT_POP_ENTER_THE_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "ใส่ PIN เพื่อจับคู่กับ %s (ลอง 0000 หรือ 1234)"
+
+msgid "IDS_BT_POP_PS_WANTS_TO_SEND_YOU_A_FILE"
+msgstr "%s ต้องการส่งไฟล์ให้คุณ"
+
+msgid "IDS_BT_POP_AN_INCORRECT_PIN_HAS_BEEN_ENTERED_TRY_AGAIN"
+msgstr "PIN ที่ใส่ไม่ถูกต้อง ลองอีกครั้ง"
+
+msgid "IDS_BT_POP_THE_BLUETOOTH_DEVICE_YOU_ARE_TRYING_TO_PAIR_WITH_IS_CURRENTLY_BUSY"
+msgstr "อุปกรณ์ Bluetooth ที่คุณกำลังพยายามจับคู่ ไม่ว่างอยู่ในขณะนี้"
+
+msgid "IDS_BT_POP_THIS_BLUETOOTH_PAIRING_HAS_TIMED_OUT"
+msgstr "การจับคู่ Bluetooth นี้หมดเวลาแล้ว"
+
+msgid "IDS_BT_POP_A_BLUETOOTH_ERROR_HAS_OCCURRED"
+msgstr "Bluetooth เกิดข้อผิดพลาด"
+
+msgid "IDS_BT_BUTTON_ACCEPT"
+msgstr "ยอม​รับ"
+
+msgid "IDS_BT_HEADER_RECEIVE_FILES_ABB"
+msgstr "รับไฟล์"
+
+msgid "IDS_BT_BODY_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_DEVICES_YOU_CAN_PAIR_WITH_OR_HAVE_ALREADY_PAIRED_WITH"
+msgstr "เปิด Bluetooth เพื่อดูรายการอุปกรณ์ที่คุณสามารถจับคู่หรือจับคู่ไปแล้ว"
+
+msgid "IDS_BT_POP_DEVICE_NAMES_ARE_DISPLAYED_TO_DISTINGUISH_EACH_OF_THE_DEVICES_AVAILABLE_IN_THE_NEARBY_DEVICES_LIST_AND_VIA_BLUETOOTH_AND_OTHER_METHODS"
+msgstr "แสดงชื่ออุปกรณ์ เพื่อแยกแยะอุปกรณ์แต่ละตัวที่มีในรายชื่ออุปกรณ์ใกล้เคียงและผ่าน Bluetooth, Wi-Fi Direct และวิธีการอื่นๆ"
+
+msgid "IDS_BT_SBODY_ONLY_VISIBLE_TO_PAIRED_BLUETOOTH_DEVICES_ABB"
+msgstr "ให้เฉพาะอุปกรณ์ Bluetooth ที่จับคู่มองเห็นได้เท่านั้น"
+
+msgid "IDS_BT_HEADER_DISCONNECT_DEVICE_ABB"
+msgstr "หยุดเชื่อมต่ออุปกรณ์"
+
+msgid "IDS_BT_BODY_SCANNING_FOR_DEVICES_ING"
+msgstr "กำลังค้นหาอุปกรณ์..."
+
+msgid "IDS_BT_POP_UNABLE_TO_PAIR_WITH_PS"
+msgstr "ไม่​สามารถ​จับ​คู่​กับ %s"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_RECEIVE_FILES_ING_ABB"
+msgstr "กำลังเตรียมรับไฟล์..."
+
+msgid "IDS_BT_HEADER_ALLOW_APPLICATION_PERMISSION"
+msgstr "ให้สิทธิ์แอพพลิเคชั่น"
+
+msgid "IDS_BT_MBODY_FILES_RECEIVED_VIA_BLUETOOTH_ABB"
+msgstr "ไฟล์ที่รับผ่าน Bluetooth"
+
+msgid "IDS_BT_MBODY_FILES_SENT_VIA_BLUETOOTH_ABB"
+msgstr "ไฟล์ที่ส่งผ่าน Bluetooth"
+
+msgid "IDS_BT_MBODY_SEND_VIA_BLUETOOTH_ABB"
+msgstr "ส่งผ่าน Bluetooth"
+
+msgid "IDS_BT_MBODY_RECEIVE_VIA_BLUETOOTH_ABB"
+msgstr "รับผ่าน Bluetooth"
+
+msgid "IDS_BT_SBODY_PREPARING_TO_SEND_FILES_ING_ABB"
+msgstr "กำลังเตรียมส่งไฟล์..."
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_MESSAGES"
+msgstr "%s กำลังขออนุญาตเพื่อเข้าถึงข้อความของคุณ"
+
+msgid "IDS_BT_POP_PS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_CONTACTS"
+msgstr "%s กำลังขออนุญาตเพื่อเข้าถึงรายชื่อของคุณ"
+
+msgid "IDS_MF_TPOP_UNABLE_TO_FIND_APPLICATION_TO_PERFORM_THIS_ACTION"
+msgstr "ไม่สามารถหาแอพพลิเคชั่นเพื่อดำเนินการนี้ได้"
+
+msgid "IDS_BT_POP_VISIBILITY_TIMEOUT"
+msgstr "หมด​เวลา​การ​แสดง​ให้​เห็น"
+
+msgid "IDS_SMT_POP_SEND_FILES"
+msgstr "ส่งไฟล์"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_PS"
+msgstr "ไม่​สามารถ​เชื่อม​ต่อ​กับ %s"
+
+msgid "IDS_MOBILEAP_POP_UNABLE_TO_USE_BLUETOOTH_TETHERING_WHILE_CONNECTED_TO_WI_FI_NETWORK"
+msgstr "ไม่สามารถใช้การแชร์อินเตอร์เน็ตผ่าน Bluetooth ขณะเชื่อมต่อกับเครือข่าย Wi-Fi"
+
+msgid "IDS_BT_POP_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_PRESS_ENTER"
+msgstr "ใส่ %1$s บน %2$s เพื่อจับคู่ แล้วกด Enter"
+
+msgid "IDS_BT_POP_SERIAL_CONNECT_WITH_PS_Q"
+msgstr "เชื่อม​ต่อ​แบบ\n​ซีเรีย​ล​กับ %s?"
+
+msgid "IDS_BT_POP_MATCH_PASSKEYS_ON_PS_Q"
+msgstr "ตรงกับรหัส ผ่านบน %s?"
+
+msgid "IDS_BT_POP_EMPTY_NAME"
+msgstr "ว่าง"
+
+msgid "IDS_BT_OPT_STEREO_HEADSET"
+msgstr "หู​ฟัง​สเตอริโอ"
+
+msgid "IDS_BT_OPT_CONNECT_STEREO"
+msgstr "เสียบ​สเตอริโอ"
+
+msgid "IDS_BT_HEADER_PRINTING"
+msgstr "พิมพ์"
+
+msgid "IDS_BT_BODY_UNABLE_TO_SAVE_FILE"
+msgstr "ไม่​สามารถ​บันทึก​ไฟล์"
+
+msgid "IDS_BT_BODY_PRINTER_SERVICEINFO"
+msgstr "ใช้​สำหรับ​พิมพ์​รูป​ภาพ\nข้อ​ความ​ปกติ, ข้อมูล\n​ส่วน​ตัวเช่น นาม​บัตร\n​และ​การ​นัด​หมายเป็น​ต้น\nโดย​ผ่าน​เครื่อง​พิมพ์บลูทูธ\n​ระยะไกล"
+
+msgid "IDS_BT_BODY_DEACTIVATING_ING"
+msgstr "เลิกทำงาน..."
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_PUT_A_FILE_IN_Q"
+msgstr "อนุญาต %s ​ให้​เก็บ​ไฟล์?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_GET_YOUR_FILE_Q"
+msgstr "อนุญาต %s ​ให้​รับ​ไฟล์​ของ​คุณ?"
+
+msgid "IDS_BT_BODY_ALLOW_PS_TO_DELETE_YOUR_FILE_Q"
+msgstr "อนุญาต %s ​ให้​ลบ​ไฟล์​ของ​คุณ?"
+
+msgid "IDS_BT_BODY_ACTIVATING_BLUETOOTH"
+msgstr "กำลังเปิดใช้บลูทูธ..."
+
+msgid "IDS_BT_ACHEADER2_TRANSFER_FILES"
+msgstr "ถ่ายโอนไฟล์"
+
+msgid "IDS_BT_ACHEADER2_BT_PAIRING_REQUEST"
+msgstr "คำขอการจับคู่ BT"
+
+msgid "IDS_BT_POP_CONFIRM_THE_PIN_HP1SS_TO_PAIR_WITH_P2SS"
+msgstr "ยืนยัน PIN (%1$s) เพื่อจับคู่กับ %2$s"
+
