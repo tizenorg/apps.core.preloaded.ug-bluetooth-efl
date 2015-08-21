@@ -4,7 +4,7 @@
 
 Name:       ug-bluetooth-efl
 Summary:    UI gadget about the bluetooth
-Version:    0.3.1
+Version:    0.3.2
 Release:    1
 Group:      TO_BE/FILLED_IN
 License:    Flora-1.1
@@ -64,6 +64,7 @@ make %{?jobs:-j%jobs}
 %post
 mkdir -p /usr/ug/bin/
 ln -sf /usr/bin/ug-client /usr/ug/bin/setting-bluetooth-efl
+ln -sf /usr/bin/ug-client /usr/ug/bin/setting-bluetooth-efl-single
 
 %install
 rm -rf %{buildroot}

@@ -3,7 +3,7 @@
 	<label>Bluetooth</label>
 	<author email="in.sung.cho@samsung.com" href="www.samsung.com">Insung Cho</author>
 	<description>Bluetooth Setting</description>
-	<ui-application appid="ug-bluetooth-efl" exec="/usr/apps/ug-bluetooth-efl/bin/ug-bluetooth-efl" ui-gadget="true" nodisplay="true" multiple="true" type="capp" taskmanage="false" process-pool="true" effectimage-type="edj-default">
+	<ui-application appid="ug-bluetooth-efl" exec="/usr/ug/bin/setting-bluetooth-efl" nodisplay="true" multiple="true" type="capp" taskmanage="false">
 		<label>Bluetooth</label>
 		<label xml:lang="as-in">ব্লুটুথ</label>
 		<label xml:lang="bn-in">ব্লুটুথ</label>
@@ -71,7 +71,7 @@
 			<operation name="http://tizen.org/appcontrol/operation/setting/bt_enable"/>
 		</application-service>
 	</ui-application>
-	<ui-application appid="ug-bluetooth-efl-single" exec="/usr/apps/ug-bluetooth-efl/bin/ug-bluetooth-efl-single" ui-gadget="true" nodisplay="true" multiple="false" type="capp" taskmanage="false" process-pool="true" hw-acceleration="use-GL" effectimage-type="edj-default">
+	<ui-application appid="ug-bluetooth-efl-single" exec="/usr/ug/bin/setting-bluetooth-efl-single" nodisplay="true" multiple="true" type="capp" taskmanage="false">
             <label>Bluetooth-single</label>
 			<label xml:lang="as-in">ব্লুটুথ</label>
 			<label xml:lang="bn-in">ব্লুটুথ</label>
