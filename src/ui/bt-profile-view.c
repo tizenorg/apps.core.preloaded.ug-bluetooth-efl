@@ -25,7 +25,7 @@
 #include <bluetooth.h>
 #include <Elementary.h>
 #include <Ecore_IMF.h>
-#include <efl_assist.h>
+#include <efl_extension.h>
 #include <notification.h>
 
 #include "bt-main-ug.h"
@@ -206,7 +206,7 @@ static void __bt_profile_rename_device_ok_cb(void *data, Evas_Object *obj,
 		popup = elm_popup_add(ugd->win_main);
 		elm_object_style_set(popup, "toast");
 		evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-		ea_object_event_callback_add(popup, EA_CALLBACK_BACK, ea_popup_back_cb, NULL);
+		eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
 		elm_object_text_set(popup, msg);
 		elm_popup_timeout_set(popup, 2.0);
 		evas_object_smart_callback_add(popup, "timeout",
@@ -312,7 +312,7 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 	name_value = elm_entry_utf8_to_markup(dev->name);
 
 	popup = elm_popup_add(ugd->base);
-	ea_object_event_callback_add(popup, EA_CALLBACK_BACK, ea_popup_back_cb, NULL);
+	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
 
@@ -325,8 +325,11 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 						PKGNAME,
 						"IDS_ST_HEADER_RENAME_DEVICE");
 
-	entry = ea_editfield_add(layout, EA_EDITFIELD_SCROLL_SINGLELINE);
-	ea_entry_selection_back_event_allow_set(entry, EINA_TRUE);
+	entry = elm_entry_add(obj);
+	elm_entry_single_line_set(entry, EINA_TRUE);
+	elm_entry_scrollable_set(entry, EINA_TRUE);
+
+	eext_entry_selection_back_event_allow_set(entry, EINA_TRUE);
 	elm_entry_scrollable_set(entry, EINA_TRUE);
 	elm_object_signal_emit(entry, "elm,action,hide,search_icon", "");
 	elm_object_part_text_set(entry, "elm.guide", BT_STR_DEVICE_NAME);
@@ -1833,8 +1836,8 @@ void _bt_profile_create_view(bt_dev_t *dev_info)
 
 	elm_naviframe_prev_btn_auto_pushed_set(vd->navi_bar, EINA_FALSE);
 
-	ea_object_event_callback_add(vd->navi_bar, EA_CALLBACK_BACK,
-								ea_naviframe_back_cb, NULL);
+	eext_object_event_callback_add(vd->navi_bar, EEXT_CALLBACK_BACK,
+								eext_naviframe_back_cb, NULL);
 	elm_naviframe_item_pop_cb_set(navi_it, __bt_profile_back_clicked_cb,
 								ugd);
 

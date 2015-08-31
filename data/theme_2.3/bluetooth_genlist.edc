@@ -236,17 +236,17 @@ collections {
 					rel1.to: "bg";
 					rel2.to: "bg";
 					image.normal: "bluetooth_btn_bg.png";
-					color_class: "AO004";
+					color: 66 162 206 255;
 				}
 				description {
 					state: "pressed" 0.0;
 					inherit: "default" 0.0;
-					color_class: "AO004P";
+					color: 53 132 168 255;
 				}
 				description {
 					state: "disabled" 0.0;
 					inherit: "default" 0.0;
-					color_class: "AO004D";
+					color: 107 175 206 255;
 				}
 			}
 			part { name: "button";
@@ -263,12 +263,12 @@ collections {
 				description {
 					state: "visible" 0.0;
 					inherit: "default" 0.0;
-					color_class: "AO003P";
+					color: 255 255 255 255;
 				}
 				description {
 					state: "disabled" 0.0;
 					inherit: "default" 0.0;
-					color_class: "AO003D";
+					color: 255 255 255 127;
 				}
 			}
 			part {

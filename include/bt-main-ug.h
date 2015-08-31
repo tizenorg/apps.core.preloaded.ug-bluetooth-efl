@@ -32,7 +32,7 @@ extern "C" {
 #include <libintl.h>
 #include <appcore-efl.h>
 #include <Elementary.h>
-#include <efl_assist.h>
+#include <efl_extension.h>
 #include <ui-gadget-module.h>
 #include <dlog.h>
 #include <E_DBus.h>

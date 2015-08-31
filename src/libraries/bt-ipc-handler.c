@@ -226,8 +226,8 @@ void _bt_ipc_update_connected_status(void *data, int connected_type,
 						"clicked", _bt_retry_connection_cb, item);
 
 				evas_object_data_set(ugd->popup, "bd_addr", (void *)item->addr_str);
-				ea_object_event_callback_add(ugd->popup,
-					EA_CALLBACK_BACK, _bt_retry_connection_cb, item);
+				eext_object_event_callback_add(ugd->popup,
+					EEXT_CALLBACK_BACK, _bt_retry_connection_cb, item);
 				evas_object_show(ugd->popup);
 			}
 		}

@@ -30,8 +30,8 @@
 #include <dbus/dbus.h>
 #include <vconf.h>
 #include <app_control.h>
-#include <efl_assist.h>
 #include <notification.h>
+#include <efl_extension.h>
 #include <bundle_internal.h>
 
 #include "bt-main-ug.h"
@@ -308,22 +308,15 @@ static char *__bt_main_visible_label_get(void *data, Evas_Object *obj,
 	if (!strcmp(part, "elm.text.main")) {
 		buf = g_strdup(BT_STR_VISIBLE);
 	} else if (strcmp(part, "elm.text.sub") == 0) {
+		char *color_code = NULL;
 		if (ugd->visibility_timeout <= 0) {
 			temp = _bt_util_get_timeout_string(ugd->visibility_timeout);
 
-#if 0
-			char *color_code = NULL;
-
-			ea_theme_color_get("ATO001",&r, &g, &b, &a,
-						NULL, NULL, NULL, NULL,
-						NULL, NULL, NULL, NULL);
+			r = 20, g = 107, b = 147, a = 255;
 			color_code = __bt_convert_rgba_to_hex(r, g, b, a);
 
 			buf = g_strdup_printf("<color=#%s>%s</color>",
 					color_code, temp);
-#endif
-			buf = g_strdup(temp);
-
 
 #ifdef KIRAN_ACCESSIBILITY
 			text_visibility = g_strdup(buf);
@@ -359,26 +352,19 @@ static char *__bt_main_visible_label_get(void *data, Evas_Object *obj,
 
 			remaining = g_strdup_printf("%d:%02d", minute, second);
 
-#if 0
-			ea_theme_color_get("ATO001",&r, &g, &b, &a,
-						NULL, NULL, NULL, NULL,
-						NULL, NULL, NULL, NULL);
+			r = 20, g = 107, b = 147, a = 255;
 			color_code = __bt_convert_rgba_to_hex(r, g, b, a);
 			buf = g_strdup_printf("<color=#%s>%s</color>",
 					color_code, remaining);
 
 			BT_DBG("buf : %s, rgba:%d,%d,%d,%d", buf,r,g,b,a);
 
-			g_free(color_code);
-#endif
-			buf = g_strdup(remaining);
-			BT_DBG("buf : %s", buf);
-
 #ifdef KIRAN_ACCESSIBILITY
 			text_visibility = g_strdup_printf(BT_STR_PS_REMAINING,
 							formatted_time);
 #endif
 		}
+		g_free(color_code);
 
 #ifdef KIRAN_ACCESSIBILITY
 		item = ugd->visible_item;
@@ -744,23 +730,20 @@ static char *__bt_main_paired_device_label_get(void *data, Evas_Object *obj,
 
 		if (ugd->bt_launch_mode != BT_LAUNCH_PICK &&
 			dev->is_connected > 0 && dev->highlighted == FALSE) {
-			if (ea_theme_color_get("ATO001",&r, &g, &b, &a,
-				NULL, NULL, NULL, NULL,
-				NULL, NULL, NULL, NULL)) {
-				char *color_code = __bt_convert_rgba_to_hex(r, g, b, a);;
-				if (name) {
-					buf = g_strdup_printf("<color=#%s>%s</color>",
-						color_code,
-						name);
-					free(name);
-				} else {
-					buf = g_strdup_printf("<color=#%s>%s</color>",
-						color_code,
-						dev->name);
-				}
-				g_free(color_code);
-				return buf;
+			r = 20, g = 107, b = 147, a = 255;
+			char *color_code = __bt_convert_rgba_to_hex(r, g, b, a);;
+			if (name) {
+				buf = g_strdup_printf("<color=#%s>%s</color>",
+					color_code,
+					name);
+				free(name);
+			} else {
+				buf = g_strdup_printf("<color=#%s>%s</color>",
+					color_code,
+					dev->name);
 			}
+			g_free(color_code);
+			return buf;
 		}
 
 		if (name) {
@@ -1032,8 +1015,11 @@ static Evas_Object *__bt_main_rename_entry_icon_get(
 
 		name_value = elm_entry_utf8_to_markup(name_value_utf);
 
-		entry = ea_editfield_add(obj, EA_EDITFIELD_SCROLL_SINGLELINE);
-		ea_entry_selection_back_event_allow_set(entry, EINA_TRUE);
+		entry = elm_entry_add(obj);
+		elm_entry_single_line_set(entry, EINA_TRUE);
+		elm_entry_scrollable_set(entry, EINA_TRUE);
+
+		eext_entry_selection_back_event_allow_set(entry, EINA_TRUE);
 		elm_entry_scrollable_set(entry, EINA_TRUE);
 		elm_object_signal_emit(entry, "elm,action,hide,search_icon", "");
 		elm_object_part_text_set(entry, "elm.guide", BT_STR_DEVICE_NAME);
@@ -1084,7 +1070,6 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 	Evas_Object *icon = NULL;
 	char *dev_icon_file = NULL;
 	bt_dev_t *dev = NULL;
-
 	retv_if(data == NULL, NULL);
 
 	dev = (bt_dev_t *)data;
@@ -1107,12 +1092,11 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 		elm_layout_content_set(ly, "elm.swallow.content", icon);
 		evas_object_show(icon);
 		dev->icon = icon;
-#if 0
 		if (dev->highlighted || dev->is_connected)
-			ea_theme_object_color_set(dev->icon, "AO002");
+			evas_object_color_set(dev->icon, 20, 107, 147, 255);
 		else
-			ea_theme_object_color_set(dev->icon, "AO001");
-#endif
+			evas_object_color_set(dev->icon, 76, 76, 76, 255);
+
 	} else if (!strcmp(part, "elm.icon.2")) {
 		BT_INFO("status : %d", dev->status);
 		ly = elm_layout_add(obj);
@@ -1198,12 +1182,10 @@ static Evas_Object *__bt_main_searched_icon_get(void *data,
 					     dev->is_connected,
 					     dev->highlighted);
 		icon = _bt_create_icon(obj, dev_icon_file);
-#if 0
 		if (dev->highlighted || dev->is_connected)
-			ea_theme_object_color_set(icon, "AO002");
+			evas_object_color_set(icon, 20, 107, 147, 255);
 		else
-			ea_theme_object_color_set(icon, "AO001");
-#endif
+			evas_object_color_set(icon, 76, 76, 76, 255);
 		evas_object_propagate_events_set(icon, EINA_FALSE);
 
 		elm_layout_content_set(ly, "elm.swallow.content", icon);
@@ -1213,9 +1195,7 @@ static Evas_Object *__bt_main_searched_icon_get(void *data,
 		if (dev->status != BT_IDLE) {
 
 			icon = _bt_create_progressbar(obj, "process_medium");
-#if 0
-			ea_theme_object_color_set(icon, "AO001");
-#endif
+			evas_object_color_set(icon, 76, 76, 76, 255);
 			ly = elm_layout_add(obj);
 			elm_layout_theme_set(ly, "layout", "list/C/type.2", "default");
 			elm_layout_content_set(ly, "elm.swallow.content", icon);
@@ -1387,7 +1367,7 @@ static void __bt_main_visible_item_sel(void *data, Evas_Object *obj,
 	int i = 0;
 
 	popup = elm_popup_add(ugd->base);
-	ea_object_event_callback_add(popup, EA_CALLBACK_BACK, __bt_popup_visibility_delete_cb, ugd);
+	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, __bt_popup_visibility_delete_cb, ugd);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_smart_callback_add(popup, "block,clicked", __bt_popup_visibility_delete_cb, ugd);
 
@@ -2064,7 +2044,7 @@ static void __bt_main_paired_item_sel_cb(void *data, Evas_Object *obj,
 		evas_object_smart_callback_add(btn, "clicked", (Evas_Smart_Cb)
 					       _bt_main_popup_del_cb, ugd);
 
-		ea_object_event_callback_add(ugd->popup, EA_CALLBACK_BACK,
+		eext_object_event_callback_add(ugd->popup, EEXT_CALLBACK_BACK,
 				_bt_main_popup_del_cb, ugd);
 
 		evas_object_show(ugd->popup);
@@ -2134,8 +2114,8 @@ static void __bt_main_paired_item_sel_cb(void *data, Evas_Object *obj,
 				evas_object_smart_callback_add(popup_btn, "clicked",
 							       __bt_main_disconnect_cb,
 							       dev);
-				ea_object_event_callback_add(ugd->popup, EA_CALLBACK_BACK,
-						ea_popup_back_cb, NULL);
+				eext_object_event_callback_add(ugd->popup, EEXT_CALLBACK_BACK,
+						eext_popup_back_cb, NULL);
 			}
 			evas_object_show(ugd->popup);
 
@@ -2276,14 +2256,6 @@ static void __bt_main_gl_highlighted(void *data, Evas_Object *obj,
 	/* Update text */
 	elm_genlist_item_fields_update(item, "*", ELM_GENLIST_ITEM_FIELD_TEXT);
 
-#if 0
- 	/* Update icon color_class*/
-	if (dev->highlighted || dev->is_connected)
-		ea_theme_object_color_set(dev->icon, "AO002");
-	else
-		ea_theme_object_color_set(dev->icon, "AO001");
-#endif
-
 	FN_END;
 }
 
@@ -2311,14 +2283,6 @@ static void __bt_main_gl_unhighlighted(void *data, Evas_Object *obj,
 
 	/* Update text */
 	elm_genlist_item_fields_update(item, "*", ELM_GENLIST_ITEM_FIELD_TEXT);
-
-#if 0
- 	/* Update icon color_class*/
-	if (dev->highlighted || dev->is_connected)
-		ea_theme_object_color_set(dev->icon, "AO002");
-	else
-		ea_theme_object_color_set(dev->icon, "AO001");
-#endif
 
 	FN_END;
 }
@@ -3490,7 +3454,6 @@ static void __bt_ug_destroy_cb(ui_gadget_h ug, void *data)
 	FN_START;
 	ret_if(NULL == ug);
 	ug_destroy(ug);
-	ea_theme_style_set(EA_THEME_STYLE_DARK);
 
 	FN_END;
 }
@@ -3519,7 +3482,7 @@ static void __bt_more_popup_rename_device_item_sel_cb(void *data,
 
 
 	popup = elm_popup_add(ugd->base);
-	ea_object_event_callback_add(popup, EA_CALLBACK_BACK,
+	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK,
 			__bt_rename_device_cancel_cb, ugd);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(genlist, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -3657,10 +3620,10 @@ static void __bt_more_menu_cb(void *data,
 
 	more_ctxpopup = elm_ctxpopup_add(ugd->win_main);
 	ugd->help_more_popup = more_ctxpopup;
-	ea_object_event_callback_add(more_ctxpopup,
-			EA_CALLBACK_BACK, __bt_more_popup_back_cb, ugd);
-	ea_object_event_callback_add(more_ctxpopup,
-			EA_CALLBACK_MORE, __bt_more_popup_more_cb, ugd);
+	eext_object_event_callback_add(more_ctxpopup,
+			EEXT_CALLBACK_BACK, __bt_more_popup_back_cb, ugd);
+	eext_object_event_callback_add(more_ctxpopup,
+			EEXT_CALLBACK_MORE, __bt_more_popup_more_cb, ugd);
 	elm_object_style_set(more_ctxpopup, "more/default");
 	elm_ctxpopup_auto_hide_disabled_set(more_ctxpopup, EINA_TRUE);
 
@@ -3725,11 +3688,11 @@ int _bt_main_draw_list_view(bt_ug_data *ugd)
 	elm_naviframe_prev_btn_auto_pushed_set(navi, EINA_FALSE);
 	ugd->navi_bar = navi;
 
-	ea_object_event_callback_add(navi, EA_CALLBACK_BACK,
-				     ea_naviframe_back_cb, NULL);
+	eext_object_event_callback_add(navi, EEXT_CALLBACK_BACK,
+				     eext_naviframe_back_cb, NULL);
 
 	if (ugd->bt_launch_mode != BT_LAUNCH_HELP)
-		ea_object_event_callback_add(navi, EA_CALLBACK_MORE,
+		eext_object_event_callback_add(navi, EEXT_CALLBACK_BACK,
 						__bt_more_menu_cb, ugd);
 	genlist = __bt_main_add_genlist_dialogue(navi, ugd);
 	ugd->main_genlist = genlist;
@@ -3773,8 +3736,8 @@ int _bt_main_draw_visibility_view(bt_ug_data *ugd)
 
 	elm_naviframe_prev_btn_auto_pushed_set(navi, EINA_FALSE);
 
-	ea_object_event_callback_add(navi, EA_CALLBACK_BACK,
-				     ea_naviframe_back_cb, NULL);
+	eext_object_event_callback_add(navi, EEXT_CALLBACK_BACK,
+				     eext_naviframe_back_cb, NULL);
 
 	genlist = __bt_main_add_visibility_dialogue(navi, ugd);
 
@@ -3808,8 +3771,8 @@ int _bt_main_draw_onoff_view(bt_ug_data *ugd)
 
 	elm_naviframe_prev_btn_auto_pushed_set(navi, EINA_FALSE);
 
-	ea_object_event_callback_add(navi, EA_CALLBACK_BACK,
-				     ea_naviframe_back_cb, NULL);
+	eext_object_event_callback_add(navi, EEXT_CALLBACK_BACK,
+				     eext_naviframe_back_cb, NULL);
 
 	genlist = __bt_main_add_onoff_dialogue(navi, ugd);
 
@@ -4992,7 +4955,7 @@ void _bt_main_create_information_popup(void *data, char *msg)
 		_bt_main_popup_del_cb, ugd, 2);
 	retm_if(!ugd->popup , "fail to create popup!");
 
-	ea_object_event_callback_add(ugd->popup, EA_CALLBACK_BACK,
+	eext_object_event_callback_add(ugd->popup, EEXT_CALLBACK_BACK,
 			_bt_main_popup_del_cb, ugd);
 
 	evas_object_show(ugd->popup);

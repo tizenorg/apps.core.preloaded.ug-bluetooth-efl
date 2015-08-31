@@ -29,7 +29,7 @@ extern "C" {
 #endif
 
 #include "Elementary.h"
-#include <efl_assist.h>
+#include <efl_extension.h>
 
 Evas_Object *_bt_create_naviframe(Evas_Object *parent);
 
@@ -46,7 +46,6 @@ void _bt_set_popup_text(void *data, Evas_Object *popup);
 
 Evas_Object *_bt_create_popup(void *data, void *cb, void *cb_data,
 					int timer_val);
-
 #ifdef __cplusplus
 }
 #endif

@@ -24,7 +24,7 @@
 #include <vconf.h>
 #include <vconf-keys.h>
 #include <bluetooth.h>
-#include <efl_assist.h>
+#include <efl_extension.h>
 #include <bundle_internal.h>
 
 #include "bt-debug.h"
@@ -752,8 +752,8 @@ void _bt_cb_bonding_created(int result, bt_device_info_s *dev_info,
 			evas_object_smart_callback_add(btn2,
 					"clicked", __bt_retry_pairing_cb, ugd);
 
-			ea_object_event_callback_add(ugd->popup,
-					EA_CALLBACK_BACK,
+			eext_object_event_callback_add(ugd->popup,
+					EEXT_CALLBACK_BACK,
 					_bt_back_btn_popup_del_cb, ugd);
 			evas_object_show(ugd->popup);
 		}
@@ -973,7 +973,7 @@ void _bt_cb_service_searched(int result, bt_device_sdp_info_s *sdp_info,
 			elm_object_part_content_set(ugd->popup, "button1", btn);
 			evas_object_smart_callback_add(btn, "clicked",
 				(Evas_Smart_Cb)_bt_main_popup_del_cb, ugd);
-			ea_object_event_callback_add(ugd->popup, EA_CALLBACK_BACK,
+			eext_object_event_callback_add(ugd->popup, EEXT_CALLBACK_BACK,
 					_bt_main_popup_del_cb, ugd);
 
 			evas_object_show(ugd->popup);

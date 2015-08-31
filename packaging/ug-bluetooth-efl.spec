@@ -16,7 +16,7 @@ BuildRequires: edje-tools
 BuildRequires: pkgconfig(edje)
 BuildRequires: gettext-tools
 BuildRequires: pkgconfig(elementary)
-BuildRequires: efl-assist-devel
+BuildRequires: pkgconfig(efl-extension)
 BuildRequires: pkgconfig(bundle)
 BuildRequires: pkgconfig(ui-gadget-1)
 BuildRequires: pkgconfig(dlog)

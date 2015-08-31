@@ -29,7 +29,7 @@
 #include <dbus/dbus.h>
 #include <dbus/dbus-glib-bindings.h>
 #include <notification.h>
-#include <efl_assist.h>
+#include <efl_extension.h>
 #include <device/power.h>
 #include <gesture_recognition.h>
 #include <bundle_internal.h>
@@ -645,15 +645,6 @@ static void *__on_create(ui_gadget_h ug, enum ug_mode mode, app_control_h servic
 		__on_destroy(ug, NULL, ugd);
 		return NULL;
 	}
-
-#if 0
-	/* Enable Changeable UI feature */
-	ea_theme_changeable_ui_enabled_set(EINA_TRUE);
-
-	_bt_color_table_set();
-
-	_bt_font_table_set();
-#endif
 
 	_bt_main_init_status(ugd, service);
 	BT_DBG("ugd->bt_launch_mode : %d", ugd->bt_launch_mode);

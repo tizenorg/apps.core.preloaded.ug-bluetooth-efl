@@ -46,7 +46,7 @@ SET(PKG_MODULES
 	capi-system-device
 	capi-appfw-application
 	notification
-	efl-assist
+	efl-extension
 	glib-2.0
 	gio-2.0
 )

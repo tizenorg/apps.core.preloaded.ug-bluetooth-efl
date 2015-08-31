@@ -27,9 +27,6 @@
 #include "bt-type-define.h"
 #include "bt-string-define.h"
 
-#define COLOR_TABLE "/usr/apps/ug-bluetooth-efl/res/tables/ug-bluetooth-efl_ChangeableColorTable.xml"
-#define FONT_TABLE "/usr/apps/ug-bluetooth-efl/res/tables/ug-bluetooth-efl_FontInfoTable.xml"
-
 Evas_Object *_bt_create_naviframe(Evas_Object *parent)
 {
 	FN_START;
@@ -265,4 +262,3 @@ Evas_Object *_bt_create_popup(void *data, void *cb,
 	FN_END;
 	return popup;
 }
-
