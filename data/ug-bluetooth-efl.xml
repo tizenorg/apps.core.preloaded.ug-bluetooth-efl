@@ -105,4 +105,8 @@
 
             <icon>/usr/share/icons/default/small/ug-bluetooth-efl.png</icon>
     </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/bluetooth</privilege>
+        <privilege>http://tizen.org/privilege/bluetooth.admin</privilege>
+    </privileges>
 </manifest>
