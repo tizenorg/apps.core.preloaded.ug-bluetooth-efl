@@ -52,7 +52,7 @@ export CFLAGS="$CFLAGS -DTIZEN_DEBUG_ENABLE"
 export CXXFLAGS="$CXXFLAGS -DTIZEN_DEBUG_ENABLE"
 export FFLAGS="$FFLAGS -DTIZEN_DEBUG_ENABLE"
 
-%if "%{?tizen_profile_name}" == "mobile"
+%if "%{?profile}" == "mobile"
 export CFLAGS="$CFLAGS -DTIZEN_HID"
 %endif
 
