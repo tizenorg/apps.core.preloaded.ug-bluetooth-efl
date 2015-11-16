@@ -49,6 +49,7 @@ struct _bt_profile_view_data {
 	Elm_Object_Item *media_item;
 	Elm_Object_Item *hid_item;
 	Elm_Object_Item *network_item;
+	Elm_Object_Item *rename_entry_item;
 	Elm_Genlist_Item_Class *name_itc;
 	Elm_Genlist_Item_Class *unpair_itc;
 	Elm_Genlist_Item_Class *title_itc;
@@ -58,6 +59,7 @@ struct _bt_profile_view_data {
 #ifndef TIZEN_BT_A2DP_SINK_ENABLE
 	Elm_Genlist_Item_Class *network_itc;
 #endif
+	Elm_Genlist_Item_Class *rename_entry_itc;
 	Ecore_IMF_Context *imf_context;
 };
 

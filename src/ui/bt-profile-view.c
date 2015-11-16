@@ -87,9 +87,10 @@ static char *__bt_profile_name_label_get(void *data, Evas_Object *obj, const cha
 
 	char *name = NULL;
 	bt_dev_t *dev = (bt_dev_t *)data;
-	if (!strcmp(part, "elm.text.sub.left.top"))
+
+	if (!strcmp("elm.text.sub", part))
 		return strdup(BT_STR_DEVICE_NAME);
-	else if (!strcmp(part, "elm.text.main.left.bottom")) {
+	else if (!strcmp("elm.text", part)) {
 		name = elm_entry_utf8_to_markup(dev->name);
 		if (name)
 			return name;
@@ -289,17 +290,91 @@ static void __bt_profile_rename_entry_keydown_cb(void *data, Evas *e, Evas_Objec
 	}
 }
 
+static Evas_Object *__bt_profile_rename_entry_icon_get(
+				void *data, Evas_Object *obj, const char *part)
+{
+	FN_START;
+	retv_if (obj == NULL || data == NULL, NULL);
+
+	bt_dev_t *dev = data;
+	Evas_Object *entry = NULL;
+	char *name_value = NULL;
+	bt_ug_data *ugd;
+	bt_profile_view_data *vd;
+	static Elm_Entry_Filter_Limit_Size limit_filter_data;
+
+	dev = (bt_dev_t *)data;
+	retv_if(dev == NULL, NULL);
+
+	ugd = (bt_ug_data *)dev->ugd;
+	retv_if(ugd == NULL, NULL);
+
+	vd = ugd->profile_vd;
+	retv_if(vd == NULL, NULL);
+
+	if (!strcmp(part, "elm.icon.entry")) {
+		name_value = elm_entry_utf8_to_markup(dev->name);
+
+		entry = elm_entry_add(obj);
+		elm_entry_single_line_set(entry, EINA_TRUE);
+		elm_entry_scrollable_set(entry, EINA_TRUE);
+
+		eext_entry_selection_back_event_allow_set(entry, EINA_TRUE);
+		elm_entry_scrollable_set(entry, EINA_TRUE);
+		elm_object_signal_emit(entry, "elm,action,hide,search_icon", "");
+		elm_object_part_text_set(entry, "elm.guide", BT_STR_DEVICE_NAME);
+		elm_entry_entry_set(entry, name_value);
+		elm_entry_cursor_end_set(entry);
+		elm_entry_input_panel_imdata_set(entry, "action=disable_emoticons", 24);
+
+		elm_entry_input_panel_return_key_type_set(entry, ECORE_IMF_INPUT_PANEL_RETURN_KEY_TYPE_DONE);
+		limit_filter_data.max_char_count = DEVICE_NAME_MAX_CHARACTER;
+		elm_entry_markup_filter_append(entry,
+			elm_entry_filter_limit_size, &limit_filter_data);
+
+		elm_entry_cnp_mode_set(entry, ELM_CNP_MODE_PLAINTEXT);
+
+		evas_object_smart_callback_add(entry, "maxlength,reached",
+				_bt_util_max_len_reached_cb, ugd);
+		evas_object_smart_callback_add(entry, "changed",
+				__bt_profile_rename_entry_changed_cb, ugd);
+		evas_object_smart_callback_add(entry, "preedit,changed",
+				__bt_profile_rename_entry_changed_cb, ugd);
+		evas_object_smart_callback_add(entry, "focused",
+				__bt_profile_rename_entry_focused_cb, NULL);
+		evas_object_event_callback_add(entry, EVAS_CALLBACK_KEY_DOWN,
+				__bt_profile_rename_entry_keydown_cb, ugd);
+
+		evas_object_show(entry);
+
+		elm_object_focus_set(entry, EINA_TRUE);
+		ugd->rename_entry = entry;
+
+		if (name_value)
+			free(name_value);
+
+		return entry;
+	}
+
+	return NULL;
+}
+
 static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 				      void *event_info)
 {
 	FN_START;
+
+	Elm_Entry_Filter_Limit_Size limit_filter;
+	bt_profile_view_data *vd;
 
 	if (event_info)
 		elm_genlist_item_selected_set((Elm_Object_Item *)event_info,
 					      EINA_FALSE);
 	bt_ug_data *ugd = (bt_ug_data *)data;
 	ret_if(ugd == NULL);
-	Elm_Entry_Filter_Limit_Size limit_filter;
+
+	vd = ugd->profile_vd;
+	ret_if(vd == NULL);
 
 	bt_dev_t *dev = elm_object_item_data_get((Elm_Object_Item *)event_info);
 	ret_if(dev == NULL);
@@ -308,6 +383,7 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 	Evas_Object *entry = NULL;
 	Evas_Object *button = NULL;
 	char *name_value = NULL;
+	Evas_Object *genlist = NULL;
 
 	name_value = elm_entry_utf8_to_markup(dev->name);
 
@@ -315,16 +391,38 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
-
+/*
 	layout = elm_layout_add(popup);
 
 	elm_layout_file_set(layout, BT_GENLIST_EDJ, "profile_rename_device_ly");
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+*/
 	elm_object_domain_translatable_part_text_set(popup,
 						"title,text",
 						PKGNAME,
 						"IDS_ST_HEADER_RENAME_DEVICE");
 
+	genlist = elm_genlist_add(popup);
+	evas_object_size_hint_weight_set(genlist,
+			EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+	evas_object_size_hint_align_set(genlist, EVAS_HINT_FILL, EVAS_HINT_FILL);
+	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
+	elm_scroller_content_min_limit(genlist, EINA_FALSE, EINA_TRUE);
+
+	/* Entry genlist item */
+	vd->rename_entry_itc = elm_genlist_item_class_new();
+	if (vd->rename_entry_itc) {
+		vd->rename_entry_itc->item_style = "entry";
+		vd->rename_entry_itc->func.text_get = NULL;
+		vd->rename_entry_itc->func.content_get = __bt_profile_rename_entry_icon_get;
+		vd->rename_entry_itc->func.state_get = NULL;
+		vd->rename_entry_itc->func.del = NULL;
+
+		vd->rename_entry_item = elm_genlist_item_append(genlist,
+				vd->rename_entry_itc, dev,
+				NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
+	}
+/*
 	entry = elm_entry_add(obj);
 	elm_entry_single_line_set(entry, EINA_TRUE);
 	elm_entry_scrollable_set(entry, EINA_TRUE);
@@ -362,7 +460,7 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 	elm_object_part_content_set(layout, "elm.swallow.layout", entry);
 
 	elm_object_content_set(popup, layout);
-
+*/
 	button = elm_button_add(popup);
 	elm_object_style_set(button, "popup");
 	elm_object_domain_translatable_text_set(button,
@@ -382,17 +480,16 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 	evas_object_smart_callback_add(button, "clicked",
 			__bt_profile_rename_device_ok_cb, dev);
 
-	elm_object_focus_set(entry, EINA_TRUE);
-	ugd->rename_entry = entry;
-	BT_DBG("entry : %p", entry);
+	elm_genlist_realization_mode_set(genlist, EINA_TRUE);
+	evas_object_show(genlist);
 
+	elm_object_content_set(popup, genlist);
 	evas_object_show(popup);
+
+	if (ugd->rename_entry)
+		elm_object_focus_set(ugd->rename_entry, EINA_TRUE);
+
 	ugd->rename_popup = popup;
-
-	elm_entry_cursor_end_set(entry);
-
-	if (name_value)
-		free(name_value);
 
 	FN_END;
 }
@@ -443,7 +540,7 @@ static char *__bt_profile_unpair_label_get(void *data, Evas_Object *obj,
 
 	char buf[BT_GLOBALIZATION_STR_LENGTH] = { 0, };
 
-	if (!strcmp(part, "elm.text.main.left")) {
+	if (!strcmp("elm.text", part)) {
 		g_strlcpy(buf, BT_STR_UNPAIR, BT_GLOBALIZATION_STR_LENGTH);
 	} else {
 		BT_ERR("empty text for label");
@@ -461,7 +558,7 @@ static char *__bt_proflie_title_label_get(void *data, Evas_Object *obj,
 
 	char buf[BT_GLOBALIZATION_STR_LENGTH] = { 0, };
 
-	if (!strcmp(part, "elm.text.main")) {
+	if (!strcmp("elm.text", part)) {
 		/*Label */
 		g_strlcpy(buf, BT_STR_CONNECTION_OPTIONS,
 			BT_GLOBALIZATION_STR_LENGTH);
@@ -494,7 +591,7 @@ static char *__bt_proflie_call_option_label_get(void *data, Evas_Object *obj,
 	ugd = (bt_ug_data *)(dev_info->ugd);
 	retv_if(NULL == ugd, NULL);
 
-	if (!strcmp(part, "elm.text.main.left")) {
+	if (!strcmp("elm.text", part)) {
 		g_strlcpy(buf, BT_STR_CALL_AUDIO,
 			BT_GLOBALIZATION_STR_LENGTH);
 	} else {
@@ -545,7 +642,7 @@ static char *__bt_proflie_media_option_label_get(void *data, Evas_Object *obj,
 	ugd = (bt_ug_data *)(dev_info->ugd);
 	retv_if(NULL == ugd, NULL);
 
-	if (!strcmp(part, "elm.text.main.left")) {
+	if (!strcmp("elm.text", part)) {
 		g_strlcpy(buf, BT_STR_MEDIA_AUDIO,
 			BT_GLOBALIZATION_STR_LENGTH);
 	} else {
@@ -595,7 +692,7 @@ static char *__bt_proflie_hid_option_label_get(void *data, Evas_Object *obj,
 	ugd = (bt_ug_data *)(dev_info->ugd);
 	retv_if(NULL == ugd, NULL);
 
-	if (!strcmp(part, "elm.text.main.left")) {
+	if (!strcmp("elm.text", part)) {
 		g_strlcpy(buf, BT_STR_INPUT_DEVICE,
 			BT_GLOBALIZATION_STR_LENGTH);
 	} else {
@@ -644,7 +741,7 @@ static char *__bt_proflie_nap_option_label_get(void *data, Evas_Object *obj,
 	ugd = (bt_ug_data *)(dev_info->ugd);
 	retv_if(NULL == ugd, NULL);
 
-	if (!strcmp(part, "elm.text.main.left")) {
+	if (!strcmp("elm.text", part)) {
 		g_strlcpy(buf, BT_STR_INTERNET_ACCESS,
 			BT_GLOBALIZATION_STR_LENGTH);
 	} else {
@@ -803,7 +900,6 @@ static Evas_Object *__bt_profile_call_option_icon_get(void *data, Evas_Object *o
 {
 	FN_START;
 
-	Evas_Object *ic = NULL;
 	Evas_Object *check = NULL;
 	bt_dev_t *dev = NULL;
 
@@ -811,29 +907,26 @@ static Evas_Object *__bt_profile_call_option_icon_get(void *data, Evas_Object *o
 
 	dev = (bt_dev_t *)data;
 
-	if (!strcmp(part, "elm.icon.2")) {
-		ic = elm_layout_add(obj);
-		elm_layout_theme_set(ic, "layout", "list/C/type.3", "default");
+	if (!strcmp("elm.swallow.end", part)) {
 		check = elm_check_add(obj);
 		elm_object_style_set(check, "on&off");
 
 		dev->call_checked = dev->connected_mask & \
 					BT_HEADSET_CONNECTED;
-                elm_check_state_set(check, dev->call_checked);
+		elm_check_state_set(check, dev->call_checked);
 
 		evas_object_size_hint_weight_set(check, EVAS_HINT_EXPAND,
 						EVAS_HINT_EXPAND);
-
 		evas_object_size_hint_align_set(check, EVAS_HINT_FILL,
 						EVAS_HINT_FILL);
+
 		evas_object_smart_callback_add(check, "changed", __bt_profile_call_option_checkbox_sel, dev);
 
 		evas_object_propagate_events_set(check, EINA_FALSE);
 		evas_object_show(check);
 	}
 	FN_END;
-	elm_layout_content_set(ic, "elm.swallow.content", check);
-	return ic;
+	return check;
 }
 #endif
 
@@ -842,7 +935,6 @@ static Evas_Object *__bt_profile_media_option_icon_get(void *data, Evas_Object *
 {
 	FN_START;
 
-	Evas_Object *ic = NULL;
 	Evas_Object *check = NULL;
 	bt_dev_t *dev = NULL;
 
@@ -850,9 +942,7 @@ static Evas_Object *__bt_profile_media_option_icon_get(void *data, Evas_Object *
 
 	dev = (bt_dev_t *)data;
 
-	if (!strcmp(part, "elm.icon.2")) {
-		ic = elm_layout_add(obj);
-		elm_layout_theme_set(ic, "layout", "list/C/type.3", "default");
+	if (!strcmp("elm.swallow.end", part)) {
 		check = elm_check_add(obj);
 		elm_object_style_set(check, "on&off");
 #ifdef TIZEN_BT_A2DP_SINK_ENABLE
@@ -862,20 +952,20 @@ static Evas_Object *__bt_profile_media_option_icon_get(void *data, Evas_Object *
 		dev->media_checked = dev->connected_mask & \
 					BT_STEREO_HEADSET_CONNECTED;
 #endif
-                elm_check_state_set(check, dev->media_checked);
+		elm_check_state_set(check, dev->media_checked);
 
 		evas_object_size_hint_weight_set(check, EVAS_HINT_EXPAND,
 						EVAS_HINT_EXPAND);
-
 		evas_object_size_hint_align_set(check, EVAS_HINT_FILL,
 						EVAS_HINT_FILL);
-		evas_object_propagate_events_set(check, EINA_FALSE);
+
 		evas_object_smart_callback_add(check, "changed", __bt_profile_media_option_checkbox_sel, dev);
+
+		evas_object_propagate_events_set(check, EINA_FALSE);
 		evas_object_show(check);
 	}
 	FN_END;
-	elm_layout_content_set(ic, "elm.swallow.content", check);
-	return ic;
+	return check;
 }
 
 static Evas_Object *__bt_profile_hid_option_icon_get(void *data, Evas_Object *obj,
@@ -883,7 +973,6 @@ static Evas_Object *__bt_profile_hid_option_icon_get(void *data, Evas_Object *ob
 {
 	FN_START;
 
-	Evas_Object *ic = NULL;
 	Evas_Object *check = NULL;
 	bt_dev_t *dev = NULL;
 
@@ -891,30 +980,26 @@ static Evas_Object *__bt_profile_hid_option_icon_get(void *data, Evas_Object *ob
 
 	dev = (bt_dev_t *)data;
 
-	if (!strcmp(part, "elm.icon.2")) {
-		ic = elm_layout_add(obj);
-		elm_layout_theme_set(ic, "layout", "list/C/type.3", "default");
+	if (!strcmp("elm.swallow.end", part)) {
 		check = elm_check_add(obj);
 		elm_object_style_set(check, "on&off");
 
 		dev->hid_checked = dev->connected_mask & \
 					BT_HID_CONNECTED;
-                elm_check_state_set(check, dev->hid_checked);
+		elm_check_state_set(check, dev->hid_checked);
 
 		evas_object_size_hint_weight_set(check, EVAS_HINT_EXPAND,
 						EVAS_HINT_EXPAND);
-
 		evas_object_size_hint_align_set(check, EVAS_HINT_FILL,
 						EVAS_HINT_FILL);
+
 		evas_object_smart_callback_add(check, "changed", __bt_profile_hid_option_checkbox_sel, dev);
 
 		evas_object_propagate_events_set(check, EINA_FALSE);
-
 		evas_object_show(check);
 	}
 	FN_END;
-	elm_layout_content_set(ic, "elm.swallow.content", check);
-	return ic;
+	return check;
 }
 
 static Evas_Object *__bt_profile_nap_option_icon_get(void *data, Evas_Object *obj,
@@ -923,36 +1008,32 @@ static Evas_Object *__bt_profile_nap_option_icon_get(void *data, Evas_Object *ob
 	FN_START;
 
 	Evas_Object *check = NULL;
-	Evas_Object *ic = NULL;
 	bt_dev_t *dev = NULL;
 
 	retv_if(NULL == data, NULL);
 
 	dev = (bt_dev_t *)data;
 
-	if (!strcmp(part, "elm.icon.2")) {
-		ic = elm_layout_add(obj);
-		elm_layout_theme_set(ic, "layout", "list/C/type.3", "default");
+	if (!strcmp("elm.swallow.end", part)) {
 		check = elm_check_add(obj);
 		elm_object_style_set(check, "on&off");
 
 		dev->network_checked = dev->connected_mask & \
 					BT_NETWORK_CONNECTED;
-                elm_check_state_set(check, dev->network_checked);
+		elm_check_state_set(check, dev->network_checked);
 
 		evas_object_size_hint_weight_set(check, EVAS_HINT_EXPAND,
 						EVAS_HINT_EXPAND);
-
 		evas_object_size_hint_align_set(check, EVAS_HINT_FILL,
 						EVAS_HINT_FILL);
-		evas_object_propagate_events_set(check, EINA_FALSE);
-		evas_object_smart_callback_add(check, "changed", __bt_profile_nap_option_checkbox_sel, dev);
-		evas_object_show(check);
 
+		evas_object_smart_callback_add(check, "changed", __bt_profile_nap_option_checkbox_sel, dev);
+
+		evas_object_propagate_events_set(check, EINA_FALSE);
+		evas_object_show(check);
 	}
 	FN_END;
-	elm_layout_content_set(ic, "elm.swallow.content", check);
-	return ic;
+	return check;
 }
 
 int __bt_profile_connect_option(bt_ug_data *ugd, bt_dev_t *dev,
@@ -1512,7 +1593,7 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	/* Set item class for dialogue normal items */
 	vd->name_itc = elm_genlist_item_class_new();
 	retv_if (vd->name_itc == NULL, NULL);
-	vd->name_itc->item_style = "2line.bottom";
+	vd->name_itc->item_style = BT_GENLIST_2LINE_BOTTOM_TEXT_STYLE;
 	vd->name_itc->func.text_get = __bt_profile_name_label_get;
 	vd->name_itc->func.content_get = NULL;
 	vd->name_itc->func.state_get = NULL;
@@ -1521,7 +1602,7 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	vd->unpair_itc = elm_genlist_item_class_new();
 	retv_if (vd->unpair_itc == NULL, NULL);
 
-	vd->unpair_itc->item_style = "1line";
+	vd->unpair_itc->item_style = BT_GENLIST_1LINE_TEXT_STYLE;
 	vd->unpair_itc->func.text_get = __bt_profile_unpair_label_get;
 	vd->unpair_itc->func.content_get = NULL;
 	vd->unpair_itc->func.state_get = NULL;
@@ -1561,7 +1642,7 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	vd->title_itc = elm_genlist_item_class_new();
 	retv_if (vd->title_itc == NULL, NULL);
 
-	vd->title_itc->item_style = "groupindex.sub";
+	vd->title_itc->item_style = BT_GENLIST_GROUP_INDEX_STYLE;
 	vd->title_itc->func.text_get = __bt_proflie_title_label_get;
 	vd->title_itc->func.content_get = NULL;
 	vd->title_itc->func.state_get = NULL;
@@ -1571,7 +1652,7 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	vd->call_itc = elm_genlist_item_class_new();
 	retv_if (vd->call_itc == NULL, NULL);
 
-	vd->call_itc->item_style = "1line";
+	vd->call_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	vd->call_itc->func.text_get = __bt_proflie_call_option_label_get;
 	vd->call_itc->func.content_get = __bt_profile_call_option_icon_get;
 	vd->call_itc->func.state_get = NULL;
@@ -1580,7 +1661,7 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	vd->media_itc = elm_genlist_item_class_new();
 	retv_if (vd->media_itc == NULL, NULL);
 
-	vd->media_itc->item_style = "1line";
+	vd->media_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	vd->media_itc->func.text_get = __bt_proflie_media_option_label_get;
 	vd->media_itc->func.content_get = __bt_profile_media_option_icon_get;
 	vd->media_itc->func.state_get = NULL;
@@ -1589,7 +1670,7 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	vd->hid_itc = elm_genlist_item_class_new();
 	retv_if (vd->hid_itc == NULL, NULL);
 
-	vd->hid_itc->item_style = "1line";
+	vd->hid_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	vd->hid_itc->func.text_get = __bt_proflie_hid_option_label_get;
 	vd->hid_itc->func.content_get = __bt_profile_hid_option_icon_get;
 	vd->hid_itc->func.state_get = NULL;
@@ -1599,7 +1680,7 @@ static Evas_Object *__bt_profile_draw_genlist(bt_ug_data *ugd, bt_dev_t *dev_inf
 	vd->network_itc = elm_genlist_item_class_new();
 	retv_if (vd->network_itc == NULL, NULL);
 
-	vd->network_itc->item_style = "1line";
+	vd->network_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	vd->network_itc->func.text_get = __bt_proflie_nap_option_label_get;
 	vd->network_itc->func.content_get = __bt_profile_nap_option_icon_get;
 	vd->network_itc->func.state_get = NULL;

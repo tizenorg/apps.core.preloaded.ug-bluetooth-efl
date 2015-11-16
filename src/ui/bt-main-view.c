@@ -85,22 +85,25 @@ static char *__bt_main_onoff_label_get(void *data, Evas_Object *obj,
 {
 	FN_START;
 	bt_ug_data *ugd = NULL;
+
 	retv_if(data == NULL, NULL);
 	ugd = (bt_ug_data *)data;
 
-	if (!g_strcmp0(part, "elm.text.main.left") ||
-		!g_strcmp0(part, "elm.text.main")) {
+	if (!strcmp("elm.text", part)) {
 		return g_strdup(BT_STR_BLUETOOTH);
-	} else if (!g_strcmp0(part, "elm.text.multiline")) {
+	} else if (!strcmp("elm.text.multiline", part)) {
+		char buf[1024] = {0,};
 		if (ugd->op_status == BT_ACTIVATING) {
-			return g_strdup(BT_STR_TURNING_ON_BLUETOOTH);
+			snprintf(buf, sizeof(buf), "<font_size=30>%s</font_size>", BT_STR_TURNING_ON_BLUETOOTH);
+			return g_strdup(buf);
 		} else if (ugd->op_status == BT_DEACTIVATED) {
-			return g_strdup(BT_STR_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES);
+			snprintf(buf, sizeof(buf), "<font_size=30>%s</font_size>", BT_STR_TURN_ON_BLUETOOTH_TO_SEE_A_LIST_OF_AVAILABLE_DEVICES);
+			return g_strdup(buf);
 		}
 	}
+
 	FN_END;
 	return NULL;
-
 }
 
 static Evas_Object *__bt_main_onoff_icon_get(void *data, Evas_Object *obj,
@@ -111,44 +114,14 @@ static Evas_Object *__bt_main_onoff_icon_get(void *data, Evas_Object *obj,
 	bt_ug_data *ugd = NULL;
 	Evas_Object *btn = NULL;
 	bool activated = false;
-	Evas_Object *ly = NULL;
 
 	retv_if(data == NULL, NULL);
+
 	ugd = (bt_ug_data *)data;
 
-	if (!strcmp(part, "elm.icon")) {
-		if (ugd->op_status == BT_ACTIVATING) {
-			btn = elm_progressbar_add(obj);
-			elm_object_style_set(btn, "process_medium");
-			evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, 0.5);
-			evas_object_size_hint_weight_set(btn, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-			elm_progressbar_pulse(btn, TRUE);
-		} else {
-		activated = ((ugd->op_status == BT_DEACTIVATED) ||
-			(ugd->op_status == BT_ACTIVATING))? false : true;
-			btn = elm_check_add(obj);
-			elm_object_style_set(btn, "on&off");
-			evas_object_pass_events_set(btn, EINA_TRUE);
-			evas_object_propagate_events_set(btn, EINA_FALSE);
-			elm_check_state_set(btn, activated);
-
-#ifdef KIRAN_ACCESSIBILITY
-			elm_access_object_unregister(btn);
-#endif
-
-			/* add smart callback */
-			evas_object_smart_callback_add(btn, "changed",
-				__bt_main_onoff_btn_cb, ugd);
-
-			ugd->onoff_btn = btn;
-		}
-		evas_object_show(btn);
-		return btn;
-	}else if (!strcmp(part, "elm.icon.2")) {
-		ly = elm_layout_add(obj);
-		elm_layout_theme_set(ly, "layout", "list/C/type.3", "default");
-
-		if (ugd->op_status == BT_DEACTIVATING) {
+	if (!strcmp("elm.swallow.end", part)) {
+		if (ugd->op_status == BT_ACTIVATING
+			|| ugd->op_status == BT_DEACTIVATING) {
 			btn = elm_progressbar_add(obj);
 			elm_object_style_set(btn, "process_medium");
 			evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, 0.5);
@@ -156,7 +129,7 @@ static Evas_Object *__bt_main_onoff_icon_get(void *data, Evas_Object *obj,
 			elm_progressbar_pulse(btn, TRUE);
 		} else {
 			activated = ((ugd->op_status == BT_DEACTIVATED) ||
-				(ugd->op_status == BT_ACTIVATING))? false : true;
+				(ugd->op_status == BT_ACTIVATING)) ? false : true;
 			btn = elm_check_add(obj);
 			elm_object_style_set(btn, "on&off");
 			evas_object_pass_events_set(btn, EINA_TRUE);
@@ -170,17 +143,14 @@ static Evas_Object *__bt_main_onoff_icon_get(void *data, Evas_Object *obj,
 			/* add smart callback */
 			evas_object_smart_callback_add(btn, "changed",
 				__bt_main_onoff_btn_cb, ugd);
-			evas_object_show(btn);
 
 			ugd->onoff_btn = btn;
 		}
 		evas_object_show(btn);
-		elm_layout_content_set(ly, "elm.swallow.content", btn);
-		return ly;
 	}
 
 	FN_END;
-	return ly;
+	return btn;
 }
 
 static char *__bt_main_rename_desc_label_get(void *data, Evas_Object *obj,
@@ -188,11 +158,17 @@ static char *__bt_main_rename_desc_label_get(void *data, Evas_Object *obj,
 {
 	FN_START;
 
-	if (!strcmp(part, "elm.text.multiline"))
-		return g_strdup(BT_STR_RENAME_DEVICE_LABEL);
-        FN_END;
+	if (!strcmp("elm.text.multiline", part)) {
+		char buf[1024] = {0,};
+		snprintf(buf, sizeof(buf),"<font_size=30>%s</font_size>",
+				BT_STR_RENAME_DEVICE_LABEL);
+		return g_strdup(buf);
+	}
+
+	FN_END;
 	return NULL;
 }
+
 static char *__bt_main_device_label_get(void *data, Evas_Object *obj,
 					      const char *part)
 {
@@ -211,8 +187,7 @@ static char *__bt_main_device_label_get(void *data, Evas_Object *obj,
 	ugd = (bt_ug_data *)data;
 	BT_DBG("part : %s", part);
 
-	if (strcmp(part, "elm.text.main.left.bottom") == 0) {
-
+	if (!strcmp("elm.text", part)) {
 		memset(ugd->phone_name, 0x00, BT_GLOBALIZATION_STR_LENGTH);
 
 		_bt_util_get_phone_name(ugd->phone_name, sizeof(ugd->phone_name));
@@ -246,7 +221,7 @@ static char *__bt_main_device_label_get(void *data, Evas_Object *obj,
 		FN_END;
 		BT_DBG("buf : %s[%d]", buf, strlen(buf));
 		return strdup(buf);
-	} else if (strcmp(part, "elm.text.sub.left.top") == 0) {
+	} else if (!strcmp("elm.text.sub", part)) {
 		g_strlcpy(buf, BT_STR_MY_DEVICE,
 			  BT_GLOBALIZATION_STR_LENGTH);
 #ifdef KIRAN_ACCESSIBILITY
@@ -285,8 +260,8 @@ static char *__bt_main_visible_label_get(void *data, Evas_Object *obj,
 	FN_START;
 
 	char *buf = NULL;
-	char *remaining = NULL;
-	char *temp = NULL;
+	char *text1 = NULL;
+	char *text2 = NULL;
 	char remain_time[BT_EXTRA_STR_LEN] = { 0 };
 	bt_ug_data *ugd = NULL;
 #ifdef KIRAN_ACCESSIBILITY
@@ -305,21 +280,30 @@ static char *__bt_main_visible_label_get(void *data, Evas_Object *obj,
 
 	ugd = (bt_ug_data *)data;
 
-	if (!strcmp(part, "elm.text.main")) {
+	BT_DBG("%s", part);
+
+	if (!strcmp("elm.text", part)) {
 		buf = g_strdup(BT_STR_VISIBLE);
-	} else if (strcmp(part, "elm.text.sub") == 0) {
+	} else if (!strcmp("elm.text.multiline", part)) {
 		char *color_code = NULL;
 		if (ugd->visibility_timeout <= 0) {
-			temp = _bt_util_get_timeout_string(ugd->visibility_timeout);
+			text1 = _bt_util_get_timeout_string(ugd->visibility_timeout);
 
 			r = 20, g = 107, b = 147, a = 255;
 			color_code = __bt_convert_rgba_to_hex(r, g, b, a);
 
-			buf = g_strdup_printf("<color=#%s>%s</color>",
-					color_code, temp);
+			if (ugd->visibility_timeout == 0) {
+				text2 = strdup(BT_STR_ONLY_VISIBLE_TO_PAIRED_DEVICES);
+			} else {
+				text2 = strdup(BT_STR_VISIBLE_TO_ALL_NEARBY);
+			}
+
+			buf = g_strdup_printf("<font_size=30><color=#%s>%s</color><br>%s</font_size>",
+					color_code, text1, text2);
 
 #ifdef KIRAN_ACCESSIBILITY
-			text_visibility = g_strdup(buf);
+			text_visibility = g_strdup_printf("<color=#%s>%s</color>",
+					color_code, text1);
 #endif
 		} else {
 			time_t current_time;
@@ -350,12 +334,15 @@ static char *__bt_main_visible_label_get(void *data, Evas_Object *obj,
 			/* Get minutes */
 			minute = (ugd->remain_time - time_diff) / 60;
 
-			remaining = g_strdup_printf("%d:%02d", minute, second);
+			text1 = g_strdup_printf("%d:%02d", minute, second);
 
 			r = 20, g = 107, b = 147, a = 255;
 			color_code = __bt_convert_rgba_to_hex(r, g, b, a);
-			buf = g_strdup_printf("<color=#%s>%s</color>",
-					color_code, remaining);
+
+			text2 = strdup(BT_STR_VISIBLE_TO_ALL_NEARBY);
+
+			buf = g_strdup_printf("<font_size=30><color=#%s>%s</color><br>%s</font_size>",
+					color_code, text1, text2);
 
 			BT_DBG("buf : %s, rgba:%d,%d,%d,%d", buf,r,g,b,a);
 
@@ -388,18 +375,13 @@ static char *__bt_main_visible_label_get(void *data, Evas_Object *obj,
 			elm_access_info_set(ao, ELM_ACCESS_INFO, acc_str);
 		}
 #endif
-	} else if (!strcmp(part, "elm.text.multiline")) {
-		if (ugd->visibility_timeout == 0)
-			return strdup(BT_STR_ONLY_VISIBLE_TO_PAIRED_DEVICES);
-		else
-			return strdup(BT_STR_VISIBLE_TO_ALL_NEARBY);
-	}else {
+	} else {
 		BT_ERR("empty text for label");
 		return NULL;
 	}
 
-	g_free(temp);
-	g_free(remaining);
+	g_free(text1);
+	g_free(text2);
 #ifdef KIRAN_ACCESSIBILITY
 	g_free(text_visibility);
 #endif
@@ -421,7 +403,7 @@ static char *__bt_main_timeout_value_label_get(void *data, Evas_Object *obj,
 	item = (bt_radio_item *)data;
 	retv_if(item->ugd == NULL, NULL);
 
-	if (!strcmp(part, "elm.text.main.left")) {
+	if (!strcmp("elm.text", part)) {
 		timeout = _bt_util_get_timeout_value(item->index);
 		buf = _bt_util_get_timeout_string(timeout);
 	} else {
@@ -518,7 +500,7 @@ static gboolean __bt_main_visible_timeout_cb(gpointer user_data)
 		return FALSE;
 	}
 
-	elm_genlist_item_fields_update(ugd->visible_item, "elm.text.sub",
+	elm_genlist_item_fields_update(ugd->visible_item, "elm.text.multiline",
 				       ELM_GENLIST_ITEM_FIELD_TEXT);
 
 	FN_END;
@@ -633,7 +615,7 @@ static Evas_Object *__bt_main_timeout_value_icon_get(void *data,
 
 	ugd = (bt_ug_data *)item->ugd;
 
-	if (!strcmp(part, "elm.icon.2")) {
+	if (!strcmp("elm.swallow.end", part)) {
 		ly_radio = elm_layout_add(obj);
 		elm_layout_theme_set(ly_radio, "layout", "list/C/type.2", "default");
 		btn = elm_radio_add(ly_radio);
@@ -724,8 +706,7 @@ static char *__bt_main_paired_device_label_get(void *data, Evas_Object *obj,
 	ugd = (bt_ug_data *)dev->ugd;
 	retv_if(ugd == NULL, NULL);
 
-	if (!strcmp(part, "elm.text.main.left.top") ||
-			!strcmp(part, "elm.text.main.left")) {
+	if (!strcmp("elm.text", part)) {
 		char *name = elm_entry_utf8_to_markup(dev->name);
 
 		if (ugd->bt_launch_mode != BT_LAUNCH_PICK &&
@@ -754,8 +735,7 @@ static char *__bt_main_paired_device_label_get(void *data, Evas_Object *obj,
 			buf = g_strdup_printf("%s",
 				dev->name);
 		}
-
-	} else if (strcmp(part, "elm.text.sub.left.bottom") == 0) {
+	} else if (!strcmp("elm.text.sub", part) && ugd->bt_launch_mode != BT_LAUNCH_PICK) {
 #ifdef KIRAN_ACCESSIBILITY
 		char *double_tap_string = NULL;
 		char *device_type = NULL;
@@ -1065,18 +1045,16 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 {
 	FN_START;
 
-	Evas_Object *ly = NULL;
 	Evas_Object *btn = NULL;
 	Evas_Object *icon = NULL;
 	char *dev_icon_file = NULL;
 	bt_dev_t *dev = NULL;
+
 	retv_if(data == NULL, NULL);
 
 	dev = (bt_dev_t *)data;
 
-	if (!strcmp(part, "elm.icon.1")) {
-		ly = elm_layout_add(obj);
-		elm_layout_theme_set(ly, "layout", "list/B/type.3", "default");
+	if (!strcmp("elm.swallow.icon", part)) {
 		if ((dev->major_class == BT_MAJOR_DEV_CLS_MISC)
 				&& (dev->service_list != 0))
 			_bt_util_update_class_of_device_by_service_list(dev->service_list,
@@ -1087,22 +1065,17 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 					     dev->minor_class,
 					     dev->is_connected,
 					     dev->highlighted);
-		icon = _bt_create_icon(ly, dev_icon_file);
+		icon = _bt_create_icon(obj, dev_icon_file);
 		evas_object_propagate_events_set(icon, EINA_FALSE);
-		elm_layout_content_set(ly, "elm.swallow.content", icon);
 		evas_object_show(icon);
 		dev->icon = icon;
 		if (dev->highlighted || dev->is_connected)
 			evas_object_color_set(dev->icon, 20, 107, 147, 255);
 		else
 			evas_object_color_set(dev->icon, 76, 76, 76, 255);
-
-	} else if (!strcmp(part, "elm.icon.2")) {
+	} else if (!strcmp("elm.swallow.end", part)) {
 		BT_INFO("status : %d", dev->status);
-		ly = elm_layout_add(obj);
-		elm_layout_theme_set(ly, "layout", "list/C/type.2", "default");
 		if (dev->status == BT_IDLE) {
-			btn = elm_button_add(ly);
 			elm_object_style_set(btn, "info_button");
 
 			evas_object_propagate_events_set(btn, EINA_FALSE);
@@ -1110,16 +1083,12 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 						       __bt_paired_device_profile_cb,
 						       (void *)dev);
 			evas_object_show(btn);
-			elm_layout_content_set(ly, "elm.swallow.content", btn);
-		} else {
-			icon = _bt_create_progressbar(ly, "process_medium");
-			elm_layout_content_set(ly, "elm.swallow.content", icon);
 		}
 	}
-	if (ly)
-		evas_object_show(ly);
+	if (icon)
+		evas_object_show(icon);
 	FN_END;
-	return ly;
+	return icon;
 }
 
 static char *__bt_main_searched_label_get(void *data, Evas_Object *obj,
@@ -1132,7 +1101,7 @@ static char *__bt_main_searched_label_get(void *data, Evas_Object *obj,
 		return NULL;
 
 	dev = (bt_dev_t *)data;
-	if (!strcmp(part, "elm.text.main.left") || !strcmp(part, "elm.text")) {
+	if (!strcmp("elm.text", part)) {
 #ifdef KIRAN_ACCESSIBILITY
 		char str[BT_STR_ACCES_INFO_MAX_LEN] = { 0, };
 		Evas_Object *ao = NULL;
@@ -1155,6 +1124,9 @@ static char *__bt_main_searched_label_get(void *data, Evas_Object *obj,
 		ao = elm_object_item_access_object_get(dev->genlist_item);
 		elm_access_info_set(ao, ELM_ACCESS_INFO, str);
 #endif
+	} else {
+		BT_ERR("empty text for label");
+		return NULL;
 	}
 
 	return strdup(buf);
@@ -1164,7 +1136,6 @@ static Evas_Object *__bt_main_searched_icon_get(void *data,
 						Evas_Object *obj,
 						const char *part)
 {
-	Evas_Object *ly = NULL;
 	Evas_Object *icon = NULL;
 	char *dev_icon_file = NULL;
 	bt_dev_t *dev = NULL;
@@ -1173,9 +1144,7 @@ static Evas_Object *__bt_main_searched_icon_get(void *data,
 
 	dev = (bt_dev_t *)data;
 
-	if (!strcmp(part, "elm.icon.1") || !strcmp(part, "elm.icon")) {
-		ly = elm_layout_add(obj);
-		elm_layout_theme_set(ly, "layout", "list/B/type.3", "default");
+	if (!strcmp("elm.swallow.icon", part)) {
 		dev_icon_file =
 		    _bt_main_get_device_icon(dev->major_class,
 					     dev->minor_class,
@@ -1188,22 +1157,16 @@ static Evas_Object *__bt_main_searched_icon_get(void *data,
 			evas_object_color_set(icon, 76, 76, 76, 255);
 		evas_object_propagate_events_set(icon, EINA_FALSE);
 
-		elm_layout_content_set(ly, "elm.swallow.content", icon);
 
-
-	} else if (!strcmp(part, "elm.icon.2")) {
+	} else if (!strcmp("elm.swallow.end", part)) {
 		if (dev->status != BT_IDLE) {
-
 			icon = _bt_create_progressbar(obj, "process_medium");
 			evas_object_color_set(icon, 76, 76, 76, 255);
-			ly = elm_layout_add(obj);
-			elm_layout_theme_set(ly, "layout", "list/C/type.2", "default");
-			elm_layout_content_set(ly, "elm.swallow.content", icon);
 		}
 
 	}
 
-	return ly;
+	return icon;
 }
 
 static char *__bt_main_no_device_label_get(void *data, Evas_Object *obj,
@@ -1217,7 +1180,7 @@ static char *__bt_main_no_device_label_get(void *data, Evas_Object *obj,
 	char str[BT_STR_ACCES_INFO_MAX_LEN] = { 0, };
 	Evas_Object *ao = NULL;
 #endif
-	if (!strcmp(part, "elm.text.main.left")) {
+	if (!strcmp("elm.text", part)) {
 		g_strlcpy(buf, BT_STR_NO_DEVICE_FOUND,
 			  BT_GLOBALIZATION_STR_LENGTH);
 		snprintf(buf, sizeof(buf), "<align=center>%s</align>", BT_STR_NO_DEVICE_FOUND);
@@ -1231,6 +1194,9 @@ static char *__bt_main_no_device_label_get(void *data, Evas_Object *obj,
 		ao = elm_object_item_access_object_get(ugd->no_device_item);
 		elm_access_info_set(ao, ELM_ACCESS_INFO, str);
 #endif
+	} else {
+		BT_ERR("empty text for label");
+		return NULL;
 	}
 
 	FN_END;
@@ -1248,7 +1214,7 @@ static char *__bt_main_paired_title_label_get(void *data, Evas_Object *obj,
 	char str[BT_STR_ACCES_INFO_MAX_LEN] = { 0, };
 	Evas_Object *ao = NULL;
 #endif
-	if (strcmp(part, "elm.text.main") == 0) {
+	if (!strcmp("elm.text", part)) {
 		/*Label */
 		g_strlcpy(buf, BT_STR_PAIRED_DEVICES,
 			  BT_GLOBALIZATION_STR_LENGTH);
@@ -1282,7 +1248,7 @@ static char *__bt_main_searched_title_label_get(void *data, Evas_Object *obj,
 	retv_if(data == NULL, NULL);
 
 	ugd = (bt_ug_data *)data;
-	if (strcmp(part, "elm.text.main") == 0) {
+	if (!strcmp("elm.text", part)) {
 		/* Label */
 		if (ugd->searched_device == NULL ||
 		    eina_list_count(ugd->searched_device) == 0) {
@@ -1326,7 +1292,7 @@ static Evas_Object *__bt_main_searched_title_icon_get(void *data, Evas_Object *o
 
 	ugd = (bt_ug_data *)data;
 
-	if (!strcmp(part, "elm.icon") && ugd->op_status == BT_SEARCHING) {
+	if (!strcmp("elm.swallow.end", part) && ugd->op_status == BT_SEARCHING) {
 		progressbar = _bt_create_progressbar(obj, "process_small");
 	}
 
@@ -1388,7 +1354,7 @@ static void __bt_main_visible_item_sel(void *data, Evas_Object *obj,
 	/* Set item class for timeout value */
 	ugd->timeout_value_itc = elm_genlist_item_class_new();
 	ret_if(ugd->timeout_value_itc == NULL);
-	ugd->timeout_value_itc->item_style = "1line";
+	ugd->timeout_value_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	ugd->timeout_value_itc->func.text_get =
 	    __bt_main_timeout_value_label_get;
 	ugd->timeout_value_itc->func.content_get =
@@ -2356,7 +2322,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->on_itc = elm_genlist_item_class_new();
 	retv_if(ugd->on_itc == NULL, NULL);
 
-	ugd->on_itc->item_style = "1line";
+	ugd->on_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	ugd->on_itc->func.text_get = __bt_main_onoff_label_get;
 	ugd->on_itc->func.content_get = __bt_main_onoff_icon_get;
 	ugd->on_itc->func.state_get = NULL;
@@ -2366,7 +2332,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->off_itc = elm_genlist_item_class_new();
 	retv_if(ugd->off_itc == NULL, NULL);
 
-	ugd->off_itc->item_style = "multiline_sub.main.1icon";
+	ugd->off_itc->item_style = BT_GENLIST_MULTILINE_TEXT_STYLE;
 	ugd->off_itc->func.text_get = __bt_main_onoff_label_get;
 	ugd->off_itc->func.content_get = __bt_main_onoff_icon_get;
 	ugd->off_itc->func.state_get = NULL;
@@ -2376,7 +2342,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->device_name_itc = elm_genlist_item_class_new();
 	retv_if(ugd->device_name_itc == NULL, NULL);
 
-	ugd->device_name_itc->item_style = "2line.bottom";
+	ugd->device_name_itc->item_style = BT_GENLIST_2LINE_BOTTOM_TEXT_STYLE;
 	ugd->device_name_itc->func.text_get = __bt_main_device_label_get;
 	ugd->device_name_itc->func.content_get = NULL;
 	ugd->device_name_itc->func.state_get = NULL;
@@ -2388,7 +2354,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 		ugd->visible_itc = elm_genlist_item_class_new();
 		retv_if(ugd->visible_itc == NULL, NULL);
 
-		ugd->visible_itc->item_style = "multiline_sub.main.sub";
+		ugd->visible_itc->item_style = BT_GENLIST_MULTILINE_TEXT_STYLE;
 		ugd->visible_itc->func.text_get = __bt_main_visible_label_get;
 		ugd->visible_itc->func.content_get = NULL;
 		ugd->visible_itc->func.state_get = NULL;
@@ -2399,7 +2365,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->paired_title_itc = elm_genlist_item_class_new();
 	retv_if(ugd->paired_title_itc == NULL, NULL);
 
-	ugd->paired_title_itc->item_style = "groupindex.sub";
+	ugd->paired_title_itc->item_style = BT_GENLIST_GROUP_INDEX_STYLE;
 	ugd->paired_title_itc->func.text_get = __bt_main_paired_title_label_get;
 	ugd->paired_title_itc->func.content_get = NULL;
 	ugd->paired_title_itc->func.state_get = NULL;
@@ -2409,9 +2375,8 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->searched_title_itc = elm_genlist_item_class_new();
 	retv_if(ugd->searched_title_itc == NULL, NULL);
 
-	ugd->searched_title_itc->item_style = "groupindex.sub";
-	ugd->searched_title_itc->func.text_get =
-	    __bt_main_searched_title_label_get;
+	ugd->searched_title_itc->item_style = BT_GENLIST_GROUP_INDEX_STYLE;
+	ugd->searched_title_itc->func.text_get = __bt_main_searched_title_label_get;
 	ugd->searched_title_itc->func.content_get = __bt_main_searched_title_icon_get;
 	ugd->searched_title_itc->func.state_get = NULL;
 	ugd->searched_title_itc->func.del = NULL;
@@ -2420,10 +2385,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->paired_device_itc = elm_genlist_item_class_new();
 	retv_if(ugd->paired_device_itc == NULL, NULL);
 
-	if (ugd->bt_launch_mode == BT_LAUNCH_PICK)
-		ugd->paired_device_itc->item_style = "1line";
-	else
-		ugd->paired_device_itc->item_style = "2line.top";
+	ugd->paired_device_itc->item_style = BT_GENLIST_2LINE_TOP_TEXT_ICON_STYLE;
 	ugd->paired_device_itc->func.text_get = __bt_main_paired_device_label_get;
 	ugd->paired_device_itc->func.content_get = __bt_main_paired_device_icon_get;
 	ugd->paired_device_itc->func.state_get = NULL;
@@ -2433,7 +2395,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->searched_device_itc = elm_genlist_item_class_new();
 	retv_if(ugd->searched_device_itc == NULL, NULL);
 
-	ugd->searched_device_itc->item_style = "1line";
+	ugd->searched_device_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	ugd->searched_device_itc->func.text_get = __bt_main_searched_label_get;
 	ugd->searched_device_itc->func.content_get = __bt_main_searched_icon_get;
 	ugd->searched_device_itc->func.state_get = NULL;
@@ -2443,7 +2405,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->no_device_itc = elm_genlist_item_class_new();
 	retv_if(ugd->no_device_itc == NULL, NULL);
 
-	ugd->no_device_itc->item_style = "1line";
+	ugd->no_device_itc->item_style = BT_GENLIST_1LINE_TEXT_STYLE;
 	ugd->no_device_itc->func.text_get = __bt_main_no_device_label_get;
 	ugd->no_device_itc->func.content_get = NULL;
 	ugd->no_device_itc->func.state_get = NULL;
@@ -2453,7 +2415,7 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 	ugd->timeout_value_itc = elm_genlist_item_class_new();
 	retv_if(ugd->timeout_value_itc == NULL, NULL);
 
-	ugd->timeout_value_itc->item_style = "1line";
+	ugd->timeout_value_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	ugd->timeout_value_itc->func.text_get =
 	    __bt_main_timeout_value_label_get;
 	ugd->timeout_value_itc->func.content_get =
@@ -2514,7 +2476,7 @@ static Evas_Object *__bt_main_add_visibility_dialogue(Evas_Object * parent,
 	ugd->on_itc = elm_genlist_item_class_new();
 	retv_if(ugd->on_itc == NULL, NULL);
 
-	ugd->on_itc->item_style = "1line";
+	ugd->on_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	ugd->on_itc->func.text_get = __bt_main_onoff_label_get;
 	ugd->on_itc->func.content_get = __bt_main_onoff_icon_get;
 	ugd->on_itc->func.state_get = NULL;
@@ -2524,8 +2486,7 @@ static Evas_Object *__bt_main_add_visibility_dialogue(Evas_Object * parent,
 	ugd->off_itc = elm_genlist_item_class_new();
 	retv_if(ugd->off_itc == NULL, NULL);
 
-	ugd->off_itc->item_style = "multiline_sub.main.1icon";
-
+	ugd->off_itc->item_style = BT_GENLIST_MULTILINE_TEXT_STYLE;
 	ugd->off_itc->func.text_get = __bt_main_onoff_label_get;
 	ugd->off_itc->func.content_get = __bt_main_onoff_icon_get;
 	ugd->off_itc->func.state_get = NULL;
@@ -2535,7 +2496,7 @@ static Evas_Object *__bt_main_add_visibility_dialogue(Evas_Object * parent,
 	ugd->device_name_itc = elm_genlist_item_class_new();
 	retv_if(ugd->device_name_itc == NULL, NULL);
 
-	ugd->device_name_itc->item_style = "2line.bottom";
+	ugd->device_name_itc->item_style = BT_GENLIST_2LINE_BOTTOM_TEXT_STYLE;
 	ugd->device_name_itc->func.text_get = __bt_main_device_label_get;
 	ugd->device_name_itc->func.content_get = NULL;
 	ugd->device_name_itc->func.state_get = NULL;
@@ -2545,7 +2506,7 @@ static Evas_Object *__bt_main_add_visibility_dialogue(Evas_Object * parent,
 	ugd->visible_itc = elm_genlist_item_class_new();
 	retv_if(ugd->visible_itc == NULL, NULL);
 
-	ugd->visible_itc->item_style = "multiline_sub.main.sub";
+	ugd->visible_itc->item_style = BT_GENLIST_MULTILINE_TEXT_STYLE;
 	ugd->visible_itc->func.text_get = __bt_main_visible_label_get;
 	ugd->visible_itc->func.content_get = NULL;
 	ugd->visible_itc->func.state_get = NULL;
@@ -2555,7 +2516,7 @@ static Evas_Object *__bt_main_add_visibility_dialogue(Evas_Object * parent,
 	ugd->timeout_value_itc = elm_genlist_item_class_new();
 	retv_if(ugd->timeout_value_itc == NULL, NULL);
 
-	ugd->timeout_value_itc->item_style = "1line";
+	ugd->timeout_value_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	ugd->timeout_value_itc->func.text_get =
 	    __bt_main_timeout_value_label_get;
 	ugd->timeout_value_itc->func.content_get =
@@ -2608,7 +2569,7 @@ static Evas_Object *__bt_main_add_onoff_dialogue(Evas_Object * parent,
 	ugd->on_itc = elm_genlist_item_class_new();
 	retv_if(ugd->on_itc == NULL, NULL);
 
-	ugd->on_itc->item_style = "1line";
+	ugd->on_itc->item_style = BT_GENLIST_1LINE_TEXT_ICON_STYLE;
 	ugd->on_itc->func.text_get = __bt_main_onoff_label_get;
 	ugd->on_itc->func.content_get = __bt_main_onoff_icon_get;
 	ugd->on_itc->func.state_get = NULL;
@@ -2618,8 +2579,7 @@ static Evas_Object *__bt_main_add_onoff_dialogue(Evas_Object * parent,
 	ugd->off_itc = elm_genlist_item_class_new();
 	retv_if(ugd->off_itc == NULL, NULL);
 
-	ugd->off_itc->item_style = "multiline_sub.main.1icon";
-
+	ugd->off_itc->item_style = BT_GENLIST_MULTILINE_TEXT_STYLE;
 	ugd->off_itc->func.text_get = __bt_main_onoff_label_get;
 	ugd->off_itc->func.content_get = __bt_main_onoff_icon_get;
 	ugd->off_itc->func.state_get = NULL;
@@ -2629,7 +2589,7 @@ static Evas_Object *__bt_main_add_onoff_dialogue(Evas_Object * parent,
 	ugd->device_name_itc = elm_genlist_item_class_new();
 	retv_if(ugd->device_name_itc == NULL, NULL);
 
-	ugd->device_name_itc->item_style = "2line.bottom";
+	ugd->device_name_itc->item_style = BT_GENLIST_2LINE_BOTTOM_TEXT_STYLE;
 	ugd->device_name_itc->func.text_get = __bt_main_device_label_get;
 	ugd->device_name_itc->func.content_get = NULL;
 	ugd->device_name_itc->func.state_get = NULL;
@@ -3517,7 +3477,7 @@ static void __bt_more_popup_rename_device_item_sel_cb(void *data,
 	ugd->rename_desc_itc = elm_genlist_item_class_new();
 	/* Fix : NULL_RETURNS */
 	if (ugd->rename_desc_itc) {
-		ugd->rename_desc_itc->item_style = "multiline_sub";
+		ugd->rename_desc_itc->item_style = BT_GENLIST_MULTILINE_TEXT_STYLE;
 		ugd->rename_desc_itc->func.text_get = __bt_main_rename_desc_label_get;
 		ugd->rename_desc_itc->func.content_get = NULL;
 		ugd->rename_desc_itc->func.state_get = NULL;
@@ -3692,7 +3652,7 @@ int _bt_main_draw_list_view(bt_ug_data *ugd)
 				     eext_naviframe_back_cb, NULL);
 
 	if (ugd->bt_launch_mode != BT_LAUNCH_HELP)
-		eext_object_event_callback_add(navi, EEXT_CALLBACK_BACK,
+		eext_object_event_callback_add(navi, EEXT_CALLBACK_MORE,
 						__bt_more_menu_cb, ugd);
 	genlist = __bt_main_add_genlist_dialogue(navi, ugd);
 	ugd->main_genlist = genlist;

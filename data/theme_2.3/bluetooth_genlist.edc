@@ -405,4 +405,142 @@ collections {
 			}
 		}
 	}
+
+	group {
+		name: "gl_custom_item";
+		styles {
+			style {
+				name: "text_style";
+				base: "color=#000000FF font=Tizen:style=Regular font_size=30 ellipsis=1.0";
+				tag: "br" "\n";
+				tag: "ps" "ps";
+				tag: "tab" "\t";
+				tag: "b" "+ font_weight=Bold";
+			}
+		}
+		parts {
+			part {
+				name: "base";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+				}
+			}
+			part {
+				name: "left_padding";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: 32 0;
+					align: 0.0 0.0;
+					rel1 {
+						to: "base"; relative: 0.0 0.0;
+					}
+					rel2 {
+						to: "base"; relative: 0.0 1.0;
+					}
+				}
+			}
+			part {
+				name: "right_padding";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: 32 0;
+					align: 1.0 0.0;
+					rel1 {
+						to: "base"; relative: 1.0 0.0;
+					}
+					rel2 {
+						to: "base"; relative: 1.0 1.0;
+					}
+				}
+			}
+			part {
+				name: "top_padding";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: 0 24;
+					align: 0.0 0.0;
+					rel1 {
+						to_x: "left_padding"; to_y: "base"; relative: 1.0 0.0;
+					}
+					rel2 {
+						to_x: "right_padding"; to_y: "base"; relative: 0.0 0.0;
+					}
+				}
+			}
+			part {
+				name: "elm.text";
+				type: TEXTBLOCK;
+				scale: 1;
+				mouse_events: 0;
+				description {
+					state: "default" 0.0;
+					min: 0 41;
+					align: 0.0 0.0;
+					rel1 {
+						to: "top_padding"; relative: 0.0 1.0;
+					}
+					rel2 {
+						to: "top_padding"; relative: 1.0 1.0;
+					}
+					text.style: "text_style";
+					text.min: 0 1;
+				}
+			}
+			part {
+				name: "text_content_padding";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: 0 10;
+					align: 0.0 0.0;
+					rel1 {
+						to: "elm.text"; relative: 0.0 1.0;
+					}
+					rel2 {
+						to: "elm.text"; relative: 1.0 1.0;
+					}
+				}
+			}
+			part {
+				name: "elm.swallow.content";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					align: 0.5 0.0;
+					rel1 {
+						to: "text_content_padding"; relative: 0.0 1.0;
+					}
+					rel2 {
+						to: "bottom_padding"; relative: 1.0 0.0;
+					}
+				}
+			}
+			part {
+				name: "bottom_padding";
+				type: SPACER;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: 0 24;
+					align: 0.5 1.0;
+					rel1 {
+						to: "base"; relative: 0.0 1.0;
+					}
+					rel2 {
+						to: "base"; relative: 1.0 1.0;
+					}
+				}
+			}
+		}
+	}
 }

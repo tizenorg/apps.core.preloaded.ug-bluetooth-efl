@@ -31,6 +31,15 @@ extern "C" {
 #include "Elementary.h"
 #include <efl_extension.h>
 
+#define BT_GENLIST_1LINE_TEXT_STYLE "type1"
+#define BT_GENLIST_1LINE_TEXT_ICON_STYLE "type1"
+#define BT_GENLIST_2LINE_TOP_TEXT_STYLE "type1"
+#define BT_GENLIST_2LINE_TOP_TEXT_ICON_STYLE "type1"
+#define BT_GENLIST_2LINE_BOTTOM_TEXT_STYLE "type2"
+#define BT_GENLIST_2LINE_BOTTOM_TEXT_ICON_STYLE "type2"
+#define BT_GENLIST_MULTILINE_TEXT_STYLE "multiline"
+#define BT_GENLIST_GROUP_INDEX_STYLE "group_index"
+
 Evas_Object *_bt_create_naviframe(Evas_Object *parent);
 
 Evas_Object *_bt_create_icon(Evas_Object *parent, char *img);

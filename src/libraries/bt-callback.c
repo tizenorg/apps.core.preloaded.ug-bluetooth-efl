@@ -511,7 +511,7 @@ static gboolean __bt_cb_visible_timeout_cb(gpointer user_data)
 		return FALSE;
 	}
 
-	elm_genlist_item_fields_update(ugd->visible_item, "elm.text.sub",
+	elm_genlist_item_fields_update(ugd->visible_item, "elm.text.multiline",
 				       ELM_GENLIST_ITEM_FIELD_TEXT);
 
 	FN_END;
@@ -664,7 +664,7 @@ BT_DBG("");
 
 	if(ugd->visible_item) {
 		elm_genlist_item_fields_update(ugd->visible_item,
-						"elm.text.sub",
+						"elm.text",
 						ELM_GENLIST_ITEM_FIELD_TEXT);
 		elm_genlist_item_fields_update(ugd->visible_item,
 						"elm.text.multiline",
