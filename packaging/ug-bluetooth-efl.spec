@@ -1,6 +1,8 @@
 %define _optdir	/opt
 %define _usrdir	/usr
-%define _ugdir	%{_usrdir}/ug
+%define _appdir	%{_usrdir}/apps/ug-bluetooth-efl/
+%define _helpfile help_settings_bluetooth.xml
+%define _bindir %{_appdir}/bin/
 
 Name:       ug-bluetooth-efl
 Summary:    UI gadget about the bluetooth
@@ -57,14 +59,17 @@ export CFLAGS="$CFLAGS -DTIZEN_HID"
 %endif
 
 export LDFLAGS
-cmake . -DCMAKE_INSTALL_PREFIX=%{_ugdir}
+cmake . -DCMAKE_INSTALL_PREFIX=%{_appdir}
 
 make %{?jobs:-j%jobs}
 
 %post
-mkdir -p /usr/ug/bin/
-ln -sf /usr/bin/ug-client /usr/ug/bin/setting-bluetooth-efl
-ln -sf /usr/bin/ug-client /usr/ug/bin/setting-bluetooth-efl-single
+mkdir -p %{_bindir}
+
+ln -sf /usr/apps/ug-bluetooth-efl/bin/ug-bluetooth-efl /usr/apps/ug-bluetooth-efl/bin/ug-bluetooth-efl-single
+ln -sf /usr/apps/ug-bluetooth-efl/lib/ug/libug-bluetooth-efl.so.0.1.0 /usr/apps/ug-bluetooth-efl/lib/ug/libug-bluetooth-efl-single.so
+#ln -sf /usr/bin/ug-client /usr/ug/bin/setting-bluetooth-efl
+#ln -sf /usr/bin/ug-client /usr/ug/bin/setting-bluetooth-efl-single
 
 %install
 rm -rf %{buildroot}
@@ -74,12 +79,12 @@ install -D -m 0644 LICENSE %{buildroot}%{_datadir}/license/ug-bluetooth-efl
 %files
 %manifest ug-bluetooth-efl.manifest
 %defattr(-,root,root,-)
-%{_ugdir}/res/help/*
-%{_ugdir}/res/edje/ug-setting-bluetooth-efl/*.edj
-%{_ugdir}/res/locale/*/LC_MESSAGES/*
-%{_ugdir}/res/images/ug-setting-bluetooth-efl/*
-%{_ugdir}/lib/libug-setting-bluetooth-efl.so.0.1.0
-%{_ugdir}/lib/libug-setting-bluetooth-efl.so
+%{_appdir}/res/edje/*.edj
+%{_appdir}/shared/res/locale/*/LC_MESSAGES/ug-bluetooth-efl.mo
+%{_appdir}/res/images/*
+%{_appdir}/res/help/*
+%{_appdir}/lib/ug/libug-bluetooth-efl.so.0.1.0
+%{_appdir}/lib/ug/libug-bluetooth-efl.so
 %ifarch i586
 %exclude %{_usrdir}/share/packages/ug-bluetooth-efl.xml
 %else
@@ -87,6 +92,6 @@ install -D -m 0644 LICENSE %{buildroot}%{_datadir}/license/ug-bluetooth-efl
 %endif
 %{_usrdir}/share/icons/default/small/ug-bluetooth-efl.png
 %{_datadir}/license/ug-bluetooth-efl
-%{_ugdir}/res/tables/ug-setting-bluetooth-efl/ug-bluetooth-efl_ChangeableColorTable.xml
-%{_ugdir}/res/tables/ug-setting-bluetooth-efl/ug-bluetooth-efl_FontInfoTable.xml
+%{_appdir}/res/tables/ug-bluetooth-efl_ChangeableColorTable.xml
+%{_appdir}/res/tables/ug-bluetooth-efl_FontInfoTable.xml
 
