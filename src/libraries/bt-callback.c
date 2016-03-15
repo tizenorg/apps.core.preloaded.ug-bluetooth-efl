@@ -25,7 +25,7 @@
 #include <vconf-keys.h>
 #include <bluetooth.h>
 #include <efl_extension.h>
-#include <bundle_internal.h>
+#include <bundle.h>
 
 #include "bt-debug.h"
 #include "bt-main-ug.h"
@@ -1040,7 +1040,7 @@ void _bt_cb_audio_state_changed(int result, bool connected,
 		b = bundle_create();
 		retm_if (!b, "Unable to create bundle");
 
-		bundle_add(b, "event-type", "terminate");
+		bundle_add_str(b, "event-type", "terminate");
 
 		ret = syspopup_launch("bt-syspopup", b);
 		if (0 > ret)

@@ -32,7 +32,7 @@
 #include <app_control.h>
 #include <notification.h>
 #include <efl_extension.h>
-#include <bundle_internal.h>
+#include <bundle.h>
 
 #include "bt-main-ug.h"
 #include "bt-string-define.h"
@@ -4882,11 +4882,11 @@ void _bt_main_launch_syspopup(void *data, char *event_type, char *title,
 	ret_if(b == NULL);
 
 	if (event_type)
-		bundle_add(b, "event-type", event_type);
+		bundle_add_str(b, "event-type", event_type);
 	if (title)
-		bundle_add(b, "title", title);
+		bundle_add_str(b, "title", title);
 	if (type)
-		bundle_add(b, "type", type);
+		bundle_add_str(b, "type", type);
 
 	ret = syspopup_launch("bt-syspopup", b);
 	if (0 > ret) {

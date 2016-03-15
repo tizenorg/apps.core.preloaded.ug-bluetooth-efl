@@ -32,7 +32,7 @@
 #include <efl_extension.h>
 #include <device/power.h>
 #include <gesture_recognition.h>
-#include <bundle_internal.h>
+#include <bundle.h>
 
 #ifdef TIZEN_REDWOOD
 #include <setting-cfg.h>
@@ -418,7 +418,7 @@ static void __bt_create_autoconnect_popup(bt_dev_t *dev)
 	b = bundle_create();
 	retm_if (!b, "Unable to create bundle");
 
-	bundle_add(b, "event-type", "music-auto-connect-request");
+	bundle_add_str(b, "event-type", "music-auto-connect-request");
 
 	ret = syspopup_launch("bt-syspopup", b);
 	if (0 > ret)
