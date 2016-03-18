@@ -48,6 +48,7 @@
 #include "bt-callback.h"
 #include "bt-string-define.h"
 #include "bt-net-connection.h"
+#include "bluetooth_internal.h"
 
 #define TOGGLE_OFF	"0"
 #define TOGGLE_ON	"1"
@@ -281,6 +282,7 @@ static int __bt_initialize_view(bt_ug_data *ugd)
 	return 0;
 }
 
+#ifdef TIZEN_BT_A2DP_SINK_ENABLE
 static void __bt_free_device_info(bt_dev_t *dev)
 {
 	ret_if(!dev);
@@ -428,7 +430,6 @@ static void __bt_create_autoconnect_popup(bt_dev_t *dev)
 	FN_END;
 }
 
-#ifdef TIZEN_BT_A2DP_SINK_ENABLE
 static void __bt_auto_connect(bt_ug_data *ugd)
 {
 	FN_START;

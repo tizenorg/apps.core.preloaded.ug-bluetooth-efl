@@ -155,23 +155,23 @@ void _bt_set_popup_text(void *data, Evas_Object *popup)
 	switch(ugd->popup_data.type) {
 		case BT_POPUP_PAIRING_ERROR :
 			if (ugd->popup_data.data) {
-				temp = g_strdup_printf(
+				temp = g_strdup_printf("%s %s",
 					BT_STR_UNABLE_TO_PAIR_WITH_PS,
-					ugd->popup_data.data);
+					(char *)ugd->popup_data.data);
 			}
 			break;
 		case BT_POPUP_CONNECTION_ERROR :
 			if (ugd->popup_data.data) {
-				temp = g_strdup_printf(
+				temp = g_strdup_printf("%s %s",
 					BT_STR_UNABLE_TO_CONNECT_TO_PS,
-					ugd->popup_data.data);
+					(char *)ugd->popup_data.data);
 			}
 			break;
 		case BT_POPUP_DISCONNECT :
 			if (ugd->popup_data.data) {
-				temp = g_strdup_printf(
+				temp = g_strdup_printf("%s %s",
 					BT_STR_END_CONNECTION,
-					ugd->popup_data.data);
+					(char *)ugd->popup_data.data);
 			}
 			break;
 		case BT_POPUP_GET_SERVICE_LIST_ERROR :

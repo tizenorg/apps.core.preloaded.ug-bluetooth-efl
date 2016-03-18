@@ -45,6 +45,8 @@
 #include "bt-widget.h"
 #include "bt-resource.h"
 #include "bt-net-connection.h"
+#include "bluetooth_internal.h"
+#include "syspopup_caller.h"
 
 #define MULTI_SHARE_SERVICE_DATA_PATH "http://tizen.org/appcontrol/data/path"
 #define APP_CONTROL_OPERATION_SHARE_CONTACT "http://tizen.org/appcontrol/operation/share_contact"
@@ -440,37 +442,6 @@ int _bt_idle_destroy_ug(void *data)
 	return BT_UG_ERROR_NONE;
 }
 
-static bool __bt_main_create_vcard_cb(const char *file_name,
-					int progress_count,
-					void *user_data)
-{
-	BT_INFO("progress [%d]", progress_count);
-
-	if (file_name && *(char **)user_data == NULL)
-		BT_INFO("file_name [%s]", file_name);
-		*(char **)user_data =
-		    g_strdup_printf("%s/%s", SHARE_CONTACT_DATA_PATH,
-				    file_name);
-
-	return true;
-}
-
-static bool __bt_main_create_vcard_idv_cb(const char *file_name,
-					int progress_count,
-					void *user_data)
-{
-	BT_INFO("progress [%d]", progress_count);
-	char **file_array = *(char ***)user_data;
-	if (file_array && file_name) {
-		BT_INFO("file_name [%s]", file_name);
-		file_array[progress_count-1] =
-			    g_strdup_printf("%s/%s", SHARE_CONTACT_DATA_PATH,
-					    file_name);
-	}
-
-	return true;
-}
-
 static gboolean __bt_main_visible_timeout_cb(gpointer user_data)
 {
 	FN_START;
@@ -693,7 +664,9 @@ static char *__bt_main_paired_device_label_get(void *data, Evas_Object *obj,
 	FN_START;
 
 	char *buf = NULL;
+#ifdef KIRAN_ACCESSIBILITY
 	char str[BT_STR_ACCES_INFO_MAX_LEN] = { 0, };
+#endif
 	bt_dev_t *dev = NULL;
 	bt_ug_data *ugd = NULL;
 	int r = 0, g = 0, b = 0, a = 0;
@@ -1614,31 +1587,6 @@ static app_control_h __bt_main_get_pick_result(bt_ug_data *ugd, gboolean result)
 	if (app_control_add_extra_data_array(service, BT_APPCONTROL_UUID_LIST,
 					 (const char **)dev->uuids,
 					 dev->uuid_count) < 0) {
-		BT_ERR("Fail to add extra data");
-	}
-
-	return service;
-}
-
-static app_control_h __bt_main_get_connection_result(bt_ug_data *ugd,
-							gboolean result)
-{
-	app_control_h service = NULL;
-	const char *result_str;
-	bt_adapter_state_e bt_state = BT_ADAPTER_DISABLED;
-
-	retv_if(ugd == NULL, NULL);
-
-	app_control_create(&service);
-
-	retv_if(service == NULL, NULL);
-
-	if (result == TRUE)
-		result_str = BT_RESULT_SUCCESS;
-	else
-		result_str = BT_RESULT_FAIL;
-
-	if (app_control_add_extra_data(service, "result", result_str) < 0) {
 		BT_ERR("Fail to add extra data");
 	}
 

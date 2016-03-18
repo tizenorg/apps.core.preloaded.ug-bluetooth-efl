@@ -570,7 +570,7 @@ void _bt_util_max_len_reached_cb(void *data, Evas_Object *obj,
 {
 	FN_START;
 	char str[BT_STR_ACCES_INFO_MAX_LEN] = {0, };
-	snprintf(str, sizeof(str), BT_STR_MAX_CHARACTER_REACHED,
+	snprintf(str, sizeof(str), "%s %d", BT_STR_MAX_CHARACTER_REACHED,
 		 DEVICE_NAME_MAX_CHARACTER);
 
 	int ret = notification_status_message_post(str);

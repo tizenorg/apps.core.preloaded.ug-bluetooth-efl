@@ -38,6 +38,7 @@
 #include "bt-ipc-handler.h"
 #include "bt-util.h"
 #include "bt-net-connection.h"
+#include "bluetooth_internal.h"
 
 /**********************************************************************
 *                                      Static Functions declaration
@@ -364,7 +365,6 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 {
 	FN_START;
 
-	Elm_Entry_Filter_Limit_Size limit_filter;
 	bt_profile_view_data *vd;
 
 	if (event_info)
@@ -379,14 +379,14 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 	bt_dev_t *dev = elm_object_item_data_get((Elm_Object_Item *)event_info);
 	ret_if(dev == NULL);
 	Evas_Object *popup = NULL;
-	Evas_Object *layout = NULL;
-	Evas_Object *entry = NULL;
 	Evas_Object *button = NULL;
-	char *name_value = NULL;
 	Evas_Object *genlist = NULL;
 
-	name_value = elm_entry_utf8_to_markup(dev->name);
+/*
+	char *name_value = NULL;
 
+	name_value = elm_entry_utf8_to_markup(dev->name);
+*/
 	popup = elm_popup_add(ugd->base);
 	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, eext_popup_back_cb, NULL);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);

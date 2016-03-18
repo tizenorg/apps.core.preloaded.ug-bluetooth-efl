@@ -157,7 +157,7 @@ static void *__bt_get_net_profile_list(void *connection,
 			continue;
 		}
 
-		split_string = g_strsplit(profile_name, "_", 3);
+		split_string = (gchar **)g_strsplit(profile_name, "_", 3);
 
 		g_free(profile_name);
 
@@ -171,7 +171,7 @@ static void *__bt_get_net_profile_list(void *connection,
 			continue;
 
 		profile_data->profile_h = profile_h;
-		profile_data->address = g_strdup(split_string[2]);
+		profile_data->address = (unsigned char *)g_strdup(split_string[2]);
 		ret_list = eina_list_append(ret_list, profile_data);
 		g_strfreev(split_string);
 	}
@@ -397,7 +397,7 @@ int _bt_connect_net_profile(void *connection, void *profile, void *user_data)
 			BT_ERR("notification_status_message_post() ERROR [%d]", result);
 
 		/* Set PAN Connection as Disconnected to Update the Checkbox*/
-		_bt_util_addr_string_to_addr_type(address.bd_addr, &dev->addr_str);
+		_bt_util_addr_string_to_addr_type(address.bd_addr, (const char *)&dev->addr_str);
 		BT_DBG("Updating Checkbox as not connected");
 		dev->network_checked = dev->connected_mask & BT_NETWORK_CONNECTED;
 		bt_ug_data * ugd = dev->ugd;

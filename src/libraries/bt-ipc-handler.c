@@ -66,8 +66,6 @@ int _bt_ipc_register_popup_event_signal(bt_ug_data *ugd)
 
 	retvm_if(ugd == NULL, BT_UG_FAIL, "Invalid argument: data is NULL");
 
-	g_type_init();
-
 	ugd->gdbus_owner_id = g_bus_own_name(G_BUS_TYPE_SYSTEM,
 				BT_UG_IPC_INTERFACE,
 				G_BUS_NAME_OWNER_FLAGS_NONE,

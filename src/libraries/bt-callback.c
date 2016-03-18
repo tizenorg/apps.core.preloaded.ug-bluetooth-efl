@@ -36,6 +36,7 @@
 #include "bt-ipc-handler.h"
 #include "bt-resource.h"
 #include "bt-net-connection.h"
+#include "syspopup_caller.h"
 
 /**********************************************************************
 *                                                 Static Functions
@@ -1047,7 +1048,7 @@ void _bt_cb_audio_state_changed(int result, bool connected,
 			BT_ERR("Popup launch failed...retry %d", ret);
 		bundle_free(b);
 		if (connected && result == BT_ERROR_NONE) {
-			_bt_ug_destroy(ugd, result);
+			_bt_ug_destroy(ugd, (void *)&result);
 			return;
 		}
 	}
