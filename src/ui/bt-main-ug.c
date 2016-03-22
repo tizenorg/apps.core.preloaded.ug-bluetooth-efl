@@ -60,6 +60,8 @@
 
 static void __on_destroy(ui_gadget_h ug, app_control_h service, void *priv);
 
+extern int power_wakeup(bool dim);
+
 
 /**********************************************************************
 *                                               Static Functions

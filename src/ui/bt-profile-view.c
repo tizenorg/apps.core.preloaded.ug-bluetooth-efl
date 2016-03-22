@@ -480,7 +480,6 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 	evas_object_smart_callback_add(button, "clicked",
 			__bt_profile_rename_device_ok_cb, dev);
 
-	elm_genlist_realization_mode_set(genlist, EINA_TRUE);
 	evas_object_show(genlist);
 
 	elm_object_content_set(popup, genlist);

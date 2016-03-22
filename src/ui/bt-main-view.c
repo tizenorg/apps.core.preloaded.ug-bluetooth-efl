@@ -3456,7 +3456,6 @@ static void __bt_more_popup_rename_device_item_sel_cb(void *data,
 	evas_object_smart_callback_add(button, "clicked",
 			__bt_rename_device_ok_cb, ugd);
 
-	elm_genlist_realization_mode_set(genlist, EINA_TRUE);
 	evas_object_show(genlist);
 
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
