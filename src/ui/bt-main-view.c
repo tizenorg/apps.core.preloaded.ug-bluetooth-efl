@@ -1038,6 +1038,7 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 					     dev->minor_class,
 					     dev->is_connected,
 					     dev->highlighted);
+
 		icon = _bt_create_icon(obj, dev_icon_file);
 		evas_object_propagate_events_set(icon, EINA_FALSE);
 		evas_object_show(icon);
@@ -1046,9 +1047,12 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 			evas_object_color_set(dev->icon, 20, 107, 147, 255);
 		else
 			evas_object_color_set(dev->icon, 76, 76, 76, 255);
+
+		evas_object_size_hint_min_set(icon, ELM_SCALE_SIZE(40), ELM_SCALE_SIZE(40));
 	} else if (!strcmp("elm.swallow.end", part)) {
 		BT_INFO("status : %d", dev->status);
 		if (dev->status == BT_IDLE) {
+			btn = elm_button_add(obj);
 			elm_object_style_set(btn, "info_button");
 
 			evas_object_propagate_events_set(btn, EINA_FALSE);
@@ -1056,10 +1060,10 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 						       __bt_paired_device_profile_cb,
 						       (void *)dev);
 			evas_object_show(btn);
+			return btn;
 		}
 	}
-	if (icon)
-		evas_object_show(icon);
+
 	FN_END;
 	return icon;
 }
@@ -1129,14 +1133,16 @@ static Evas_Object *__bt_main_searched_icon_get(void *data,
 		else
 			evas_object_color_set(icon, 76, 76, 76, 255);
 		evas_object_propagate_events_set(icon, EINA_FALSE);
-
-
 	} else if (!strcmp("elm.swallow.end", part)) {
 		if (dev->status != BT_IDLE) {
 			icon = _bt_create_progressbar(obj, "process_medium");
 			evas_object_color_set(icon, 76, 76, 76, 255);
 		}
+	}
 
+	if (icon) {
+		evas_object_show(icon);
+		evas_object_size_hint_min_set(icon, ELM_SCALE_SIZE(40), ELM_SCALE_SIZE(40));
 	}
 
 	return icon;
