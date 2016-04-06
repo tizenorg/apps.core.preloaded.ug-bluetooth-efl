@@ -1062,6 +1062,10 @@ static Evas_Object *__bt_main_paired_device_icon_get(void *data, Evas_Object *ob
 			evas_object_show(btn);
 			return btn;
 		}
+		else {
+			icon = _bt_create_progressbar(obj, "process_medium");
+		}
+
 	}
 
 	FN_END;
