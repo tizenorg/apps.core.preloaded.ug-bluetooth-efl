@@ -578,7 +578,6 @@ static Evas_Object *__bt_main_timeout_value_icon_get(void *data,
 	bt_ug_data *ugd = NULL;
 	bt_radio_item *item = NULL;
 	Evas_Object *btn = NULL;
-	Evas_Object *ly_radio = NULL;
 	retv_if(data == NULL, NULL);
 
 	item = (bt_radio_item *)data;
@@ -587,21 +586,18 @@ static Evas_Object *__bt_main_timeout_value_icon_get(void *data,
 	ugd = (bt_ug_data *)item->ugd;
 
 	if (!strcmp("elm.swallow.end", part)) {
-		ly_radio = elm_layout_add(obj);
-		elm_layout_theme_set(ly_radio, "layout", "list/C/type.2", "default");
-		btn = elm_radio_add(ly_radio);
+		btn = elm_radio_add(obj);
 		elm_radio_state_value_set(btn, item->index);
 		elm_radio_group_add(btn, ugd->radio_main);
-		elm_radio_value_set(btn, ugd->selected_radio);
-		elm_object_style_set(btn, "list");
+		elm_radio_value_set(ugd->radio_main, ugd->selected_radio);
 #ifdef KIRAN_ACCESSIBILITY
 		elm_access_object_unregister(btn);
 #endif
+		evas_object_size_hint_min_set(btn, ELM_SCALE_SIZE(30), ELM_SCALE_SIZE(30));
 		evas_object_show(btn);
-		elm_layout_content_set(ly_radio, "elm.swallow.content", btn);
 	}
 	FN_END;
-	return ly_radio;
+	return btn;
 }
 static void __bt_main_timeout_value_del(void *data, Evas_Object *obj)
 {
@@ -1367,7 +1363,7 @@ static void __bt_main_visible_item_sel(void *data, Evas_Object *obj,
 
 	elm_box_pack_end(box, genlist);
 
-	evas_object_size_hint_min_set(box, -1, ELM_SCALE_SIZE(480));
+	evas_object_size_hint_min_set(box, ELM_SCALE_SIZE(100), ELM_SCALE_SIZE(240));
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
 	elm_object_content_set(popup, box);
 	evas_object_show(popup);
