@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" package="ug-bluetooth-efl" api-version="3.0" version="2.0.25" install-location="internal-only">
+<manifest xmlns="http://tizen.org/ns/packages" package="ug-bluetooth-efl" api-version="3.0" version="2.0.25" install-location="internal-only" type="rpm" preload="true">
 	<label>Bluetooth</label>
 	<author email="in.sung.cho@samsung.com" href="www.samsung.com">Insung Cho</author>
 	<description>Bluetooth Setting</description>
-	<ui-application appid="ug-bluetooth-efl" exec="/usr/ug/bin/setting-bluetooth-efl" nodisplay="true" multiple="true" type="capp" taskmanage="false">
+	<ui-application appid="ug-bluetooth-efl" exec="/usr/ug/bin/setting-bluetooth-efl" ui-gadget="true" nodisplay="true" multiple="true" type="capp" taskmanage="false" process-pool="true" launch_mode="caller">
 		<label>Bluetooth</label>
 		<label xml:lang="as-in">ব্লুটুথ</label>
 		<label xml:lang="bn-in">ব্লুটুথ</label>
@@ -36,42 +36,42 @@
 		<label xml:lang="zh-cn">蓝牙</label>
 
 		<icon>/usr/share/icons/default/small/ug-bluetooth-efl.png</icon>
-		<application-service>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/share"/>
 			<mime name="*/*"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/share_contact"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/multi_share"/>
 			<mime name="*/*"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/share_text"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/bluetooth/pick"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/configure/bluetooth/visibility"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/edit"/>
 			<mime name="application/x-bluetooth-on-off"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/edit"/>
 			<mime name="application/x-bluetooth-visibility"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/setting/bt_visibility"/>
-		</application-service>
-		<application-service>
+		</app-control>
+		<app-control>
 			<operation name="http://tizen.org/appcontrol/operation/setting/bt_enable"/>
-		</application-service>
+		</app-control>
 	</ui-application>
-	<ui-application appid="ug-bluetooth-efl-single" exec="/usr/ug/bin/setting-bluetooth-efl-single" nodisplay="true" multiple="true" type="capp" taskmanage="false">
+	<ui-application appid="ug-bluetooth-efl-single" exec="/usr/ug/bin/setting-bluetooth-efl-single" ui-gadget="true" nodisplay="true" multiple="true" type="capp" taskmanage="false" process-pool="true" launch_mode="caller">
             <label>Bluetooth-single</label>
 			<label xml:lang="as-in">ব্লুটুথ</label>
 			<label xml:lang="bn-in">ব্লুটুথ</label>
