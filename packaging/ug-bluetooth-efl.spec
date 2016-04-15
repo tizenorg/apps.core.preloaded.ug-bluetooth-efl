@@ -56,6 +56,10 @@ export FFLAGS="$FFLAGS -DTIZEN_DEBUG_ENABLE"
 export CFLAGS="$CFLAGS -DTIZEN_HID"
 %endif
 
+%if "%{?profile}" == "common"
+export CFLAGS="$CFLAGS -DTIZEN_HID -DTIZEN_COMMON"
+%endif
+
 export LDFLAGS
 cmake . -DCMAKE_INSTALL_PREFIX=%{_ugdir}
 

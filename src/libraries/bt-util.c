@@ -306,6 +306,10 @@ gboolean _bt_util_is_battery_low(void)
 {
 	FN_START;
 
+#ifdef TIZEN_COMMON
+	return FALSE;
+#endif
+
 	int value = 0;
 	int charging = 0;
 
