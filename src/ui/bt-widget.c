@@ -150,28 +150,26 @@ void _bt_set_popup_text(void *data, Evas_Object *popup)
 	ret_if(!popup);
 	bt_ug_data *ugd = (bt_ug_data *)data;
 
-	char *temp = NULL;
+	char temp[BT_POPUP_STR_MAX_LEN] = { 0 };
 	char *markup_text = NULL;
+	char *popup_text = NULL;
 	switch(ugd->popup_data.type) {
 		case BT_POPUP_PAIRING_ERROR :
 			if (ugd->popup_data.data) {
-				temp = g_strdup_printf("%s %s",
-					BT_STR_UNABLE_TO_PAIR_WITH_PS,
-					(char *)ugd->popup_data.data);
+				popup_text = BT_STR_UNABLE_TO_PAIR_WITH_PS;
+				snprintf(temp, BT_POPUP_STR_MAX_LEN, popup_text, (char *)ugd->popup_data.data);
 			}
 			break;
 		case BT_POPUP_CONNECTION_ERROR :
 			if (ugd->popup_data.data) {
-				temp = g_strdup_printf("%s %s",
-					BT_STR_UNABLE_TO_CONNECT_TO_PS,
-					(char *)ugd->popup_data.data);
+				popup_text = BT_STR_UNABLE_TO_CONNECT_TO_PS;
+				snprintf(temp, BT_POPUP_STR_MAX_LEN, popup_text, (char *)ugd->popup_data.data);
 			}
 			break;
 		case BT_POPUP_DISCONNECT :
 			if (ugd->popup_data.data) {
-				temp = g_strdup_printf("%s %s",
-					BT_STR_END_CONNECTION,
-					(char *)ugd->popup_data.data);
+				popup_text = BT_STR_END_CONNECTION;
+				snprintf(temp, BT_POPUP_STR_MAX_LEN, popup_text, (char *)ugd->popup_data.data);
 			}
 			break;
 		case BT_POPUP_GET_SERVICE_LIST_ERROR :
@@ -182,12 +180,9 @@ void _bt_set_popup_text(void *data, Evas_Object *popup)
 			break;
 	}
 
-	if (temp) {
-		markup_text = elm_entry_utf8_to_markup(temp);
-		elm_object_text_set(popup, markup_text);
-		free(markup_text);
-		g_free(temp);
-	}
+	markup_text = elm_entry_utf8_to_markup(temp);
+	elm_object_text_set(popup, markup_text);
+	free(markup_text);
 }
 
 Evas_Object *_bt_create_popup(void *data, void *cb,

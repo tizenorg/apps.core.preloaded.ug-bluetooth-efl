@@ -40,6 +40,8 @@ extern "C" {
 #define BT_GENLIST_MULTILINE_TEXT_STYLE "multiline"
 #define BT_GENLIST_GROUP_INDEX_STYLE "group_index"
 
+#define BT_POPUP_STR_MAX_LEN 512
+
 Evas_Object *_bt_create_naviframe(Evas_Object *parent);
 
 Evas_Object *_bt_create_icon(Evas_Object *parent, char *img);
