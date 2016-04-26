@@ -1916,8 +1916,6 @@ void _bt_profile_create_view(bt_dev_t *dev_info)
 
 	elm_naviframe_prev_btn_auto_pushed_set(vd->navi_bar, EINA_FALSE);
 
-	eext_object_event_callback_add(vd->navi_bar, EEXT_CALLBACK_BACK,
-								eext_naviframe_back_cb, NULL);
 	elm_naviframe_item_pop_cb_set(navi_it, __bt_profile_back_clicked_cb,
 								ugd);
 
