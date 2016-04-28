@@ -110,5 +110,6 @@
         <privilege>http://tizen.org/privilege/bluetooth.admin</privilege>
         <privilege>http://tizen.org/privilege/network.get</privilege>
         <privilege>http://tizen.org/privilege/network.set</privilege>
+	<privilege>http://tizen.org/privilege/systemsettings.admin</privilege>
     </privileges>
 </manifest>

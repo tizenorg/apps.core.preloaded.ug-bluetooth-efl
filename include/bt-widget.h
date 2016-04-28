@@ -39,6 +39,7 @@ extern "C" {
 #define BT_GENLIST_2LINE_BOTTOM_TEXT_ICON_STYLE "type2"
 #define BT_GENLIST_MULTILINE_TEXT_STYLE "multiline"
 #define BT_GENLIST_GROUP_INDEX_STYLE "group_index"
+#define BT_GENLIST_FULL_CONTENT_STYLE "full"
 
 #define BT_POPUP_STR_MAX_LEN 512
 

@@ -843,6 +843,11 @@ static void __bt_rename_device_cancel_cb(void *data, Evas_Object *obj,
 	ret_if(data == NULL);
 	ugd = (bt_ug_data *)data;
 
+	if (ugd->rename_entry) {
+		elm_entry_input_panel_hide(ugd->rename_entry);
+		elm_object_focus_set(ugd->rename_entry, EINA_FALSE);
+	}
+
 	if (ugd->rename_popup != NULL) {
 		evas_object_del(ugd->rename_popup);
 		ugd->rename_popup = NULL;
@@ -870,11 +875,18 @@ static void __bt_rename_device_ok_cb(void *data, Evas_Object *obj,
 	}
 
 	_bt_update_genlist_item(ugd->device_name_item);
+
+	if (ugd->rename_entry) {
+		elm_entry_input_panel_hide(ugd->rename_entry);
+		elm_object_focus_set(ugd->rename_entry, EINA_FALSE);
+	}
+
 	evas_object_del(ugd->rename_popup);
 	ugd->rename_popup = NULL;
 	ugd->rename_entry_item = NULL;
 	ugd->rename_entry = NULL;
 	g_free(device_name_str);
+
 	FN_END;
 }
 
@@ -902,47 +914,22 @@ static void __bt_rename_entry_changed_cb(void *data, Evas_Object *obj,
 	FN_END;
 }
 
-static void __bt_rename_entry_focused_cb(void *data, Evas_Object *obj,
-				void *event_info)
+static void __bt_main_entry_edit_mode_show_cb(void *data, Evas *e, Evas_Object *obj,
+                void *event_info)
 {
-	FN_START;
-	if (elm_object_part_content_get(obj, "elm.swallow.clear")) {
-		if (!elm_entry_is_empty(obj))
-			elm_object_signal_emit(obj, "elm,state,clear,visible", "");
-		else
-			elm_object_signal_emit(obj, "elm,state,clear,hidden", "");
-	}
-	elm_object_signal_emit(obj, "elm,state,focus,on", "");
-	FN_END;
+        evas_object_event_callback_del(obj, EVAS_CALLBACK_SHOW,
+                        __bt_main_entry_edit_mode_show_cb);
+
+        elm_object_focus_set(obj, EINA_TRUE);
+		elm_entry_cursor_end_set(obj);
 }
 
-static void __bt_rename_entry_keydown_cb(void *data, Evas *e, Evas_Object *obj,
-							void *event_info)
+static void __bt_main_popup_entry_activated_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	FN_START;
-	Evas_Event_Key_Down *ev;
-	Evas_Object *entry = obj;
+        if (!obj)
+                return;
 
-	ret_if(data == NULL);
-	ret_if(event_info == NULL);
-	ret_if(entry == NULL);
-
-	ev = (Evas_Event_Key_Down *)event_info;
-	BT_INFO("ENTER ev->key:%s", ev->key);
-
-	if (g_strcmp0(ev->key, "KP_Enter") == 0 ||
-			g_strcmp0(ev->key, "Return") == 0) {
-
-		Ecore_IMF_Context *imf_context;
-
-		imf_context =
-			(Ecore_IMF_Context*)elm_entry_imf_context_get(entry);
-		if (imf_context)
-			ecore_imf_context_input_panel_hide(imf_context);
-
-		elm_object_focus_set(entry, EINA_FALSE);
-	}
-	FN_END;
+        elm_object_focus_set(obj, EINA_FALSE);
 }
 
 static Evas_Object *__bt_main_rename_entry_icon_get(
@@ -958,22 +945,30 @@ static Evas_Object *__bt_main_rename_entry_icon_get(
 	static Elm_Entry_Filter_Limit_Size limit_filter_data;
 	bt_ug_data *ugd = (bt_ug_data *)data;
 
-	if (!strcmp(part, "elm.icon.entry")) {
+	if (!strcmp(part, "elm.swallow.content")) {
+		Evas_Object *layout = NULL;
+
+		layout = elm_layout_add(obj);
+		elm_layout_theme_set(layout, "layout", "editfield", "singleline");
+		evas_object_size_hint_align_set(layout, EVAS_HINT_FILL, 0.0);
+		evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, 0.0);
+
 		name_value_utf = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
 		retvm_if (!name_value_utf, NULL, "Get string is failed");
 
 		name_value = elm_entry_utf8_to_markup(name_value_utf);
 
-		entry = elm_entry_add(obj);
+		entry = elm_entry_add(layout);
 		elm_entry_single_line_set(entry, EINA_TRUE);
 		elm_entry_scrollable_set(entry, EINA_TRUE);
 
+		evas_object_size_hint_weight_set(entry, EVAS_HINT_EXPAND, 0.0);
+		evas_object_size_hint_align_set(entry, EVAS_HINT_FILL, 0.0);
+
 		eext_entry_selection_back_event_allow_set(entry, EINA_TRUE);
-		elm_entry_scrollable_set(entry, EINA_TRUE);
 		elm_object_signal_emit(entry, "elm,action,hide,search_icon", "");
-		elm_object_part_text_set(entry, "elm.guide", BT_STR_DEVICE_NAME);
-		elm_entry_entry_set(entry, name_value);
-		elm_entry_cursor_end_set(entry);
+		elm_object_part_text_set(entry, "guide", BT_STR_DEVICE_NAME);
+		elm_object_text_set(entry, name_value);
 		elm_entry_input_panel_imdata_set(entry, "action=disable_emoticons", 24);
 
 		elm_entry_input_panel_return_key_type_set(entry, ECORE_IMF_INPUT_PANEL_RETURN_KEY_TYPE_DONE);
@@ -989,13 +984,14 @@ static Evas_Object *__bt_main_rename_entry_icon_get(
 				__bt_rename_entry_changed_cb, ugd);
 		evas_object_smart_callback_add(entry, "preedit,changed",
 				__bt_rename_entry_changed_cb, ugd);
-		evas_object_smart_callback_add(entry, "focused",
-				__bt_rename_entry_focused_cb, NULL);
-		evas_object_event_callback_add(entry, EVAS_CALLBACK_KEY_DOWN,
-				__bt_rename_entry_keydown_cb, ugd);
-		evas_object_show(entry);
+		evas_object_smart_callback_add(entry, "activated",
+						__bt_main_popup_entry_activated_cb, NULL);
+		evas_object_event_callback_add(entry, EVAS_CALLBACK_SHOW,
+				__bt_main_entry_edit_mode_show_cb, ugd);
 
-		elm_object_focus_set(entry, EINA_TRUE);
+		elm_entry_input_panel_show(entry);
+		elm_object_part_content_set(layout, "elm.swallow.content", entry);
+
 		ugd->rename_entry = entry;
 
 		if (name_value_utf)
@@ -1003,7 +999,7 @@ static Evas_Object *__bt_main_rename_entry_icon_get(
 		if (name_value)
 			free(name_value);
 
-		return entry;
+		return layout;
 	}
 
 	return NULL;
@@ -3417,7 +3413,7 @@ static void __bt_more_popup_rename_device_item_sel_cb(void *data,
 	ugd->rename_entry_itc = elm_genlist_item_class_new();
 	/* Fix : NULL_RETURNS */
 	if (ugd->rename_entry_itc) {
-		ugd->rename_entry_itc->item_style = "entry";
+		ugd->rename_entry_itc->item_style = BT_GENLIST_FULL_CONTENT_STYLE;
 		ugd->rename_entry_itc->func.text_get = NULL;
 		ugd->rename_entry_itc->func.content_get = __bt_main_rename_entry_icon_get;
 		ugd->rename_entry_itc->func.state_get = NULL;
@@ -3467,9 +3463,6 @@ static void __bt_more_popup_rename_device_item_sel_cb(void *data,
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
 	elm_object_content_set(popup, genlist);
 	evas_object_show(popup);
-
-	if (ugd->rename_entry)
-		elm_object_focus_set(ugd->rename_entry, EINA_TRUE);
 
 	ugd->rename_popup = popup;
 

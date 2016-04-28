@@ -153,6 +153,11 @@ static void __bt_profile_rename_device_cancel_cb(void *data, Evas_Object *obj,
 	ret_if(data == NULL);
 	ugd = (bt_ug_data *)data;
 
+	if (ugd->rename_entry) {
+		elm_entry_input_panel_hide(ugd->rename_entry);
+		elm_object_focus_set(ugd->rename_entry, EINA_FALSE);
+	}
+
 	if (ugd->rename_popup != NULL) {
 		evas_object_del(ugd->rename_popup);
 		ugd->rename_popup = NULL;
@@ -179,6 +184,12 @@ static void __bt_profile_rename_device_ok_cb(void *data, Evas_Object *obj,
 
 	const char *entry_str = elm_entry_entry_get(ugd->rename_entry);
 	char *device_name_str = NULL;
+
+	if (ugd->rename_entry) {
+		elm_entry_input_panel_hide(ugd->rename_entry);
+		elm_object_focus_set(ugd->rename_entry, EINA_FALSE);
+	}
+
 	device_name_str = elm_entry_markup_to_utf8(entry_str);
 	ret_if(!device_name_str);
 
@@ -252,43 +263,22 @@ static void __bt_profile_rename_entry_changed_cb(void *data, Evas_Object *obj,
 	__bt_profile_rename_device_entry_changed_cb(data, obj, event_info);
 }
 
-static void __bt_profile_rename_entry_focused_cb(void *data, Evas_Object *obj,
-				void *event_info)
+static void __bt_profile_entry_edit_mode_show_cb(void *data, Evas *e, Evas_Object *obj,
+                void *event_info)
 {
-	if (elm_object_part_content_get(obj, "elm.swallow.clear")) {
-		if (!elm_entry_is_empty(obj))
-			elm_object_signal_emit(obj, "elm,state,clear,visible", "");
-		else
-			elm_object_signal_emit(obj, "elm,state,clear,hidden", "");
-	}
-	elm_object_signal_emit(obj, "elm,state,focus,on", "");
+	evas_object_event_callback_del(obj, EVAS_CALLBACK_SHOW,
+							__bt_profile_entry_edit_mode_show_cb);
+
+	elm_object_focus_set(obj, EINA_TRUE);
+	elm_entry_cursor_end_set(obj);
 }
 
-static void __bt_profile_rename_entry_keydown_cb(void *data, Evas *e, Evas_Object *obj,
-							void *event_info)
+static void __bt_profile_popup_entry_activated_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	Evas_Event_Key_Down *ev;
-	Evas_Object *entry = obj;
+	if (!obj)
+		return;
 
-	ret_if(data == NULL);
-	ret_if(event_info == NULL);
-	ret_if(entry == NULL);
-
-	ev = (Evas_Event_Key_Down *)event_info;
-	BT_INFO("ENTER ev->key:%s", ev->key);
-
-	if (g_strcmp0(ev->key, "KP_Enter") == 0 ||
-			g_strcmp0(ev->key, "Return") == 0) {
-
-		Ecore_IMF_Context *imf_context = NULL;
-
-		imf_context =
-			(Ecore_IMF_Context*)elm_entry_imf_context_get(entry);
-		if (imf_context)
-			ecore_imf_context_input_panel_hide(imf_context);
-
-		elm_object_focus_set(entry, EINA_FALSE);
-	}
+	elm_object_focus_set(obj, EINA_FALSE);
 }
 
 static Evas_Object *__bt_profile_rename_entry_icon_get(
@@ -313,19 +303,27 @@ static Evas_Object *__bt_profile_rename_entry_icon_get(
 	vd = ugd->profile_vd;
 	retv_if(vd == NULL, NULL);
 
-	if (!strcmp(part, "elm.icon.entry")) {
+	if (!strcmp(part, "elm.swallow.content")) {
+		Evas_Object *layout = NULL;
+
+		layout = elm_layout_add(obj);
+		elm_layout_theme_set(layout, "layout", "editfield", "singleline");
+		evas_object_size_hint_align_set(layout, EVAS_HINT_FILL, 0.0);
+		evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, 0.0);
+
 		name_value = elm_entry_utf8_to_markup(dev->name);
 
-		entry = elm_entry_add(obj);
+		entry = elm_entry_add(layout);
 		elm_entry_single_line_set(entry, EINA_TRUE);
 		elm_entry_scrollable_set(entry, EINA_TRUE);
 
+		evas_object_size_hint_weight_set(entry, EVAS_HINT_EXPAND, 0.0);
+		evas_object_size_hint_align_set(entry, EVAS_HINT_FILL, 0.0);
+
 		eext_entry_selection_back_event_allow_set(entry, EINA_TRUE);
-		elm_entry_scrollable_set(entry, EINA_TRUE);
 		elm_object_signal_emit(entry, "elm,action,hide,search_icon", "");
-		elm_object_part_text_set(entry, "elm.guide", BT_STR_DEVICE_NAME);
-		elm_entry_entry_set(entry, name_value);
-		elm_entry_cursor_end_set(entry);
+		elm_object_part_text_set(entry, "guide", BT_STR_DEVICE_NAME);
+		elm_object_text_set(entry, name_value);
 		elm_entry_input_panel_imdata_set(entry, "action=disable_emoticons", 24);
 
 		elm_entry_input_panel_return_key_type_set(entry, ECORE_IMF_INPUT_PANEL_RETURN_KEY_TYPE_DONE);
@@ -341,20 +339,21 @@ static Evas_Object *__bt_profile_rename_entry_icon_get(
 				__bt_profile_rename_entry_changed_cb, ugd);
 		evas_object_smart_callback_add(entry, "preedit,changed",
 				__bt_profile_rename_entry_changed_cb, ugd);
-		evas_object_smart_callback_add(entry, "focused",
-				__bt_profile_rename_entry_focused_cb, NULL);
-		evas_object_event_callback_add(entry, EVAS_CALLBACK_KEY_DOWN,
-				__bt_profile_rename_entry_keydown_cb, ugd);
+		evas_object_smart_callback_add(entry, "activated",
+				__bt_profile_popup_entry_activated_cb, NULL);
 
-		evas_object_show(entry);
+		evas_object_event_callback_add(entry, EVAS_CALLBACK_SHOW,
+				__bt_profile_entry_edit_mode_show_cb, ugd);
 
-		elm_object_focus_set(entry, EINA_TRUE);
+		elm_entry_input_panel_show(entry);
+		elm_object_part_content_set(layout, "elm.swallow.content", entry);
+
 		ugd->rename_entry = entry;
 
 		if (name_value)
 			free(name_value);
 
-		return entry;
+		return layout;
 	}
 
 	return NULL;
@@ -412,7 +411,7 @@ static void __bt_profile_name_item_sel(void *data, Evas_Object *obj,
 	/* Entry genlist item */
 	vd->rename_entry_itc = elm_genlist_item_class_new();
 	if (vd->rename_entry_itc) {
-		vd->rename_entry_itc->item_style = "entry";
+		vd->rename_entry_itc->item_style = BT_GENLIST_FULL_CONTENT_STYLE;
 		vd->rename_entry_itc->func.text_get = NULL;
 		vd->rename_entry_itc->func.content_get = __bt_profile_rename_entry_icon_get;
 		vd->rename_entry_itc->func.state_get = NULL;
@@ -1846,6 +1845,11 @@ static Eina_Bool __bt_profile_back_clicked_cb(void *data, Elm_Object_Item *it)
 	return EINA_TRUE;
 }
 
+static void __bt_profile_back_cb(void *data, Evas_Object *obj, void *event_info)
+{
+	_bt_profile_delete_view(data);
+}
+
 /**********************************************************************
 *                                              Common Functions
 ***********************************************************************/
@@ -1858,6 +1862,7 @@ void _bt_profile_create_view(bt_dev_t *dev_info)
 	bt_ug_data *ugd;
 	Evas_Object *genlist;
 	Elm_Object_Item *navi_it;
+	Evas_Object *back_button = NULL;
 	int connected;
 
 	ret_if(dev_info == NULL);
@@ -1911,8 +1916,14 @@ void _bt_profile_create_view(bt_dev_t *dev_info)
 	/* We can get this data from genlist object anytime. */
 	evas_object_data_set(genlist, "view_data", vd);
 
+	back_button = elm_button_add(vd->navi_bar);
+	elm_object_style_set(back_button, "naviframe/end_btn/default");
+
 	navi_it = elm_naviframe_item_push(vd->navi_bar, BT_STR_DETAILS,
-					NULL, NULL, genlist, NULL);
+					back_button, NULL, genlist, NULL);
+
+	ugd->navi_it = navi_it;
+	evas_object_smart_callback_add(back_button, "clicked", __bt_profile_back_cb, ugd);
 
 	elm_naviframe_prev_btn_auto_pushed_set(vd->navi_bar, EINA_FALSE);
 
