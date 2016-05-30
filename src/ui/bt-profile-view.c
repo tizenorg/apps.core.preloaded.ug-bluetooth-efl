@@ -1922,7 +1922,8 @@ void _bt_profile_create_view(bt_dev_t *dev_info)
 	navi_it = elm_naviframe_item_push(vd->navi_bar, BT_STR_DETAILS,
 					back_button, NULL, genlist, NULL);
 
-	ugd->navi_it = navi_it;
+	vd->navi_it = navi_it;
+
 	evas_object_smart_callback_add(back_button, "clicked", __bt_profile_back_cb, ugd);
 
 	elm_naviframe_prev_btn_auto_pushed_set(vd->navi_bar, EINA_FALSE);
@@ -1930,7 +1931,6 @@ void _bt_profile_create_view(bt_dev_t *dev_info)
 	elm_naviframe_item_pop_cb_set(navi_it, __bt_profile_back_clicked_cb,
 								ugd);
 
-	vd->navi_it = navi_it;
 
 	FN_END;
 
