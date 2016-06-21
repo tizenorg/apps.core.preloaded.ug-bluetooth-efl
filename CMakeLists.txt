@@ -49,6 +49,7 @@ SET(PKG_MODULES
 	efl-extension
 	glib-2.0
 	gio-2.0
+	dpm
 )
 
 INCLUDE(FindPkgConfig)

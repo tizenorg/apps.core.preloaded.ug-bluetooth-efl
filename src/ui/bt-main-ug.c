@@ -879,6 +879,8 @@ static void __on_destroy(ui_gadget_h ug, app_control_h service, void *priv)
 	if (err != BT_UG_ERROR_NONE)
 		BT_ERR("_bt_ipc_unregister_popup_event_signal failed: %d", err);
 
+	_bt_util_destroy_dpm_context(ugd);
+
 	__bt_ug_release_memory(ugd);
 
 #ifndef __TIZEN_OPEN__

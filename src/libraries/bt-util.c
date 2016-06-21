@@ -25,6 +25,7 @@
 #include <vconf.h>
 #include <aul.h>
 #include <notification.h>
+#include <dpm/restriction.h>
 
 #include "bt-main-ug.h"
 #include "bt-util.h"
@@ -637,3 +638,137 @@ int _bt_util_check_any_profile_connected(bt_dev_t *dev)
 done:
 	return connected;
 }
+
+static void __bt_util_dpm_policy_changed_cb(const char *name, const char *value, void *user_data)
+{
+	FN_START;
+
+	bt_ug_data *ugd = NULL;
+
+	ret_if(user_data == NULL);
+	ret_if(name == NULL);
+	ret_if(value == NULL);
+
+	ugd = (bt_ug_data *)user_data;
+
+	BT_DBG("policy name: %s", name);
+	BT_DBG("policy value: %s", value);
+
+	if (strcmp(name, "bluetooth") != 0) {
+		BT_ERR("Not bluetooth policy");
+		return;
+	}
+
+	if (!strcmp(value, "disallowed")) {
+		BT_DBG("BT policy is restricted");
+
+		if (ugd->onoff_item)
+			elm_object_item_disabled_set(ugd->onoff_item, EINA_TRUE);
+
+		if (ugd->onoff_btn)
+			elm_object_disabled_set(ugd->onoff_btn, EINA_TRUE);
+	} else if (!strcmp(value, "allowed")) {
+		BT_DBG("BT policy is allowed");
+
+		if (ugd->onoff_item)
+			elm_object_item_disabled_set(ugd->onoff_item, EINA_FALSE);
+
+		if (ugd->onoff_btn)
+			elm_object_disabled_set(ugd->onoff_btn, EINA_FALSE);
+	} else {
+		BT_ERR("Unknown string value");
+	}
+
+	FN_END;
+}
+
+int _bt_util_create_dpm_context(void *ug_data)
+{
+	FN_START;
+
+	int ret;
+	dpm_context_h handle = NULL;
+	dpm_restriction_policy_h policy_handle = NULL;
+	bt_ug_data *ugd = NULL;
+
+	retv_if(ug_data == NULL, BT_UG_FAIL);
+
+	ugd = (bt_ug_data *)ug_data;
+
+	handle = dpm_context_create();
+
+	if (handle == NULL) {
+		BT_ERR("Fail to create dpm context");
+		return BT_UG_FAIL;
+	}
+
+	ret = dpm_context_add_policy_changed_cb(handle, "bluetooth",
+							__bt_util_dpm_policy_changed_cb,
+							(void *)ugd, &ugd->dpm_callback_id);
+	if (ret != DPM_ERROR_NONE)
+		BT_ERR("Fail to destroy dpm context [%d]", ret);
+
+	ugd->dpm_handle = (void *)handle;
+
+	policy_handle = dpm_context_acquire_restriction_policy(handle);
+	if (policy_handle == NULL)
+		BT_ERR("Fail to acquire restriction policy handle");
+
+	ugd->dpm_policy_handle = policy_handle;
+
+	FN_END;
+	return BT_UG_ERROR_NONE;
+}
+
+void _bt_util_destroy_dpm_context(void *ug_data)
+{
+	FN_START;
+
+	int ret;
+	bt_ug_data *ugd = NULL;
+
+	ret_if(ug_data == NULL);
+
+	ugd = (bt_ug_data *)ug_data;
+
+	ret = dpm_context_release_restriction_policy(ugd->dpm_handle, ugd->dpm_policy_handle);
+	if (ret != DPM_ERROR_NONE)
+		BT_ERR("Fail to release policy handle [%d]", ret);
+
+	ret = dpm_context_remove_policy_changed_cb(ugd->dpm_handle, ugd->dpm_callback_id);
+	if (ret != DPM_ERROR_NONE)
+		BT_ERR("Fail to remove callback [%d]", ret);
+
+	ret = dpm_context_destroy(ugd->dpm_handle);
+	if (ret != DPM_ERROR_NONE)
+		BT_ERR("Fail to destroy dpm context [%d]", ret);
+
+	ugd->dpm_handle = NULL;
+	ugd->dpm_policy_handle = NULL;
+	ugd->dpm_callback_id = 0;
+
+	FN_END;
+}
+
+gboolean _bt_util_is_dpm_restricted(void *handle)
+{
+	FN_START;
+
+	int ret;
+	int dpm_state = 1;
+
+	retv_if(handle == NULL, FALSE);
+
+	ret = dpm_restriction_get_bluetooth_mode_change_state((dpm_restriction_policy_h)handle,
+										&dpm_state);
+	if (ret != DPM_ERROR_NONE) {
+		BT_ERR("Fail to destroy dpm context [%d]", ret);
+		return FALSE;
+	}
+
+	BT_DBG("BT dpm state: %d", dpm_state);
+
+	FN_END;
+	return (dpm_state == 0) ? TRUE : FALSE;
+}
+

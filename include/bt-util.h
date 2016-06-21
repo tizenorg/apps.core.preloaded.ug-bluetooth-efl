@@ -103,6 +103,13 @@ gboolean _bt_util_is_space_str(const char *name_str);
 void _bt_util_max_len_reached_cb(void *data, Evas_Object *obj,
 					void *event_info);
 
+int _bt_util_create_dpm_context(void *ug_data);
+
+void _bt_util_destroy_dpm_context(void *ug_data);
+
+gboolean _bt_util_is_dpm_restricted(void *handle);
+
+
 #ifdef __cplusplus
 }
 #endif

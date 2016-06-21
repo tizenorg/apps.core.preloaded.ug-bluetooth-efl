@@ -148,6 +148,10 @@ static Evas_Object *__bt_main_onoff_icon_get(void *data, Evas_Object *obj,
 
 			ugd->onoff_btn = btn;
 		}
+
+		if (_bt_util_is_dpm_restricted(ugd->dpm_policy_handle) == TRUE)
+			elm_object_disabled_set(btn, EINA_TRUE);
+
 		evas_object_show(btn);
 	}
 
@@ -2385,6 +2389,9 @@ static Evas_Object *__bt_main_add_genlist_dialogue(Evas_Object *parent,
 
 	ugd->onoff_item = git;
 
+	if (_bt_util_is_dpm_restricted(ugd->dpm_policy_handle) == TRUE)
+		elm_object_item_disabled_set(ugd->onoff_item, EINA_TRUE);
+
 	_bt_main_add_device_name_item(ugd, genlist);
 	_bt_main_add_visible_item(ugd, genlist);
 
@@ -4442,6 +4449,7 @@ void _bt_main_init_status(bt_ug_data *ugd, void *data)
 	FN_START;
 
 	app_control_h service = NULL;
+	int ret;
 	int remain_time = 0;
 	bool status = false;
 	bt_adapter_state_e bt_state = BT_ADAPTER_DISABLED;
@@ -4465,6 +4473,10 @@ void _bt_main_init_status(bt_ug_data *ugd, void *data)
 
 	if (bt_initialize() != BT_ERROR_NONE)
 		BT_ERR("bt_initialize() failed");
+
+	ret = _bt_util_create_dpm_context(ugd);
+	if (ret != BT_UG_ERROR_NONE)
+		BT_ERR("_bt_util_create_dpm_context failed: %d", ret);
 
 	if (bt_adapter_get_state(&bt_state) != BT_ERROR_NONE)
 		BT_ERR("bt_adapter_get_state() failed");

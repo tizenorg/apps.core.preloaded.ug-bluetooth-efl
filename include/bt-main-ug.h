@@ -207,6 +207,10 @@ typedef struct {
 	************************ */
 	bt_profile_view_data *profile_vd;
 	bt_confirm_req_t confirm_req;
+
+	void *dpm_handle;
+	void *dpm_policy_handle;
+	int dpm_callback_id;
 } bt_ug_data;
 
 
