@@ -84,11 +84,7 @@ install -D -m 0644 LICENSE %{buildroot}%{_datadir}/license/ug-bluetooth-efl
 %{_ugdir}/res/images/ug-setting-bluetooth-efl/*
 %{_ugdir}/lib/libug-setting-bluetooth-efl.so.0.1.0
 %{_ugdir}/lib/libug-setting-bluetooth-efl.so
-%ifarch i586
-%exclude %{_usrdir}/share/packages/ug-bluetooth-efl.xml
-%else
 %{_usrdir}/share/packages/ug-bluetooth-efl.xml
-%endif
 %{_usrdir}/share/icons/default/small/ug-bluetooth-efl.png
 %{_datadir}/license/ug-bluetooth-efl
 %{_ugdir}/res/tables/ug-setting-bluetooth-efl/ug-bluetooth-efl_ChangeableColorTable.xml
