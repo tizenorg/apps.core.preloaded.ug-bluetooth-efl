@@ -870,6 +870,7 @@ static void __bt_profile_nap_option_checkbox_sel(void *data, Evas_Object *obj,
 	FN_START;
 	bt_dev_t *dev = NULL;
 	int ret;
+	gboolean connected = FALSE;
 
 	dev = (bt_dev_t *)data;
 	ret_if(dev->ugd == NULL);
@@ -877,7 +878,9 @@ static void __bt_profile_nap_option_checkbox_sel(void *data, Evas_Object *obj,
 	if (dev->status == BT_DEV_UNPAIRING)
 		return;
 
-	if (dev->connected_mask & BT_NETWORK_CONNECTED) {
+	connected = _bt_util_is_profile_connected(BT_NETWORK_CONNECTED, dev->bd_addr);
+
+	if (connected) {
 		ret = __bt_profile_disconnect_option((bt_ug_data *)dev->ugd,
 					dev, BT_NETWORK_DEVICE);
 	} else {
@@ -1016,8 +1019,8 @@ static Evas_Object *__bt_profile_nap_option_icon_get(void *data, Evas_Object *ob
 		check = elm_check_add(obj);
 		elm_object_style_set(check, "on&off");
 
-		dev->network_checked = dev->connected_mask & \
-					BT_NETWORK_CONNECTED;
+		dev->network_checked = _bt_util_is_profile_connected(BT_NETWORK_CONNECTED, dev->bd_addr);
+
 		elm_check_state_set(check, dev->network_checked);
 
 		evas_object_size_hint_weight_set(check, EVAS_HINT_EXPAND,
@@ -1366,6 +1369,7 @@ static void __bt_profile_nap_option_item_sel(void *data, Evas_Object *obj,
 
 	bt_dev_t *dev = NULL;
 	Elm_Object_Item *item = NULL;
+	gboolean connected = FALSE;
 
 	ret_if(event_info == NULL);
 
@@ -1382,7 +1386,9 @@ static void __bt_profile_nap_option_item_sel(void *data, Evas_Object *obj,
 	if (dev->status == BT_DEV_UNPAIRING)
 		return;
 
-	if (dev->connected_mask & BT_NETWORK_CONNECTED) {
+	connected = _bt_util_is_profile_connected(BT_NETWORK_CONNECTED, dev->bd_addr);
+
+	if (connected) {
 		__bt_profile_disconnect_option((bt_ug_data *)dev->ugd,
 					dev, BT_NETWORK_DEVICE);
 	} else {
