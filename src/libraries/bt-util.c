@@ -293,7 +293,7 @@ int _bt_util_get_timeout_index(int timeout)
 		index = 5;
 		break;
 	default:
-		index = 0;
+		index = 1;
 		break;
 	}
 

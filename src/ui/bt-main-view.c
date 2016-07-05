@@ -468,7 +468,7 @@ static gboolean __bt_main_visible_timeout_cb(gpointer user_data)
 		ugd->timeout_id = 0;
 		ugd->visibility_timeout = 0;
 		ugd->remain_time = 0;
-		ugd->selected_radio = 0;
+		ugd->selected_radio = 1;
 
 		elm_genlist_realized_items_update(ugd->main_genlist);
 
@@ -593,6 +593,7 @@ static Evas_Object *__bt_main_timeout_value_icon_get(void *data,
 		btn = elm_radio_add(obj);
 		elm_radio_state_value_set(btn, item->index);
 		elm_radio_group_add(btn, ugd->radio_main);
+
 		elm_radio_value_set(ugd->radio_main, ugd->selected_radio);
 #ifdef KIRAN_ACCESSIBILITY
 		elm_access_object_unregister(btn);

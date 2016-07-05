@@ -205,7 +205,7 @@ static void __bt_cb_disable(int result, void *data)
 
 		if (ugd->visibility_timeout != BT_ALWAYS_ON) {
 			ugd->visibility_timeout = 0;
-			ugd->selected_radio = 0;
+			ugd->selected_radio = 1;
 		}
 
 		evas_object_del(ugd->scan_btn);
@@ -505,7 +505,7 @@ static gboolean __bt_cb_visible_timeout_cb(gpointer user_data)
 		ugd->timeout_id = 0;
 		ugd->visibility_timeout = 0;
 		ugd->remain_time = 0;
-		ugd->selected_radio = 0;
+		ugd->selected_radio = 1;
 
 		elm_genlist_realized_items_update(ugd->main_genlist);
 
@@ -629,11 +629,11 @@ BT_DBG("");
 	if (visibility_mode == BT_ADAPTER_VISIBILITY_MODE_NON_DISCOVERABLE) {
 		ugd->visible = FALSE;
 		ugd->visibility_timeout = 0;
-		ugd->selected_radio = 0;
+		ugd->selected_radio = 1;
 	} else if (visibility_mode == BT_ADAPTER_VISIBILITY_MODE_GENERAL_DISCOVERABLE) {
 		ugd->visible = TRUE;
 		ugd->visibility_timeout = -1;
-		ugd->selected_radio = 4;
+		ugd->selected_radio = 5;
 	} else {
 		/* BT_ADAPTER_VISIBILITY_MODE_LIMITED_DISCOVERABLE */
 		/* Need to add the code for getting timeout */
