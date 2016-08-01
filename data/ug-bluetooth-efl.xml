@@ -111,5 +111,6 @@
         <privilege>http://tizen.org/privilege/network.get</privilege>
         <privilege>http://tizen.org/privilege/network.set</privilege>
 	<privilege>http://tizen.org/privilege/systemsettings.admin</privilege>
+	<privilege>http://tizen.org/privilege/contact.read</privilege>
     </privileges>
 </manifest>

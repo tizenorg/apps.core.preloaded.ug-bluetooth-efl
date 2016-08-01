@@ -130,6 +130,8 @@ extern "C" {
 
 #define BT_APPCONTROL_VISIBILITY_MIME "application/x-bluetooth-visibility"
 
+#define BT_VCF_FOLDER_PATH "/tmp/"
+
 /* AppControl Output */
 #define BT_APPCONTROL_ADDRESS "http://tizen.org/appcontrol/data/bluetooth/address"
 #define BT_APPCONTROL_NAME "http://tizen.org/appcontrol/data/bluetooth/name"

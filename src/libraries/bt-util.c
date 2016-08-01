@@ -26,6 +26,9 @@
 #include <aul.h>
 #include <notification.h>
 #include <dpm/restriction.h>
+#include <contacts.h>
+#include <dirent.h>
+#include <fcntl.h>
 
 #include "bt-main-ug.h"
 #include "bt-util.h"
@@ -772,3 +775,253 @@ gboolean _bt_util_is_dpm_restricted(void *handle)
 	return (dpm_state == 0) ? TRUE : FALSE;
 }
 
+static bool __bt_util_file_exists(const char *file)
+{
+	bool res = false;
+	if (file) {
+		struct stat st;
+		res = stat(file, &st) == 0 || strcmp(file, "/") == 0;
+	}
+
+	return res;
+}
+
+static bool __bt_util_file_remove(const char *file)
+{
+	bool res = false;
+	if (file) {
+		res = remove(file) == 0;
+	}
+
+	return res;
+}
+
+static char *__bt_util_make_vcard_file_path(const char *working_dir, const char *display_name)
+{
+	char file_path[PATH_MAX] = { 0 };
+	int id = 0;
+
+	if (!working_dir) {
+		return NULL;
+	}
+
+	if (!display_name) {
+		display_name = "Unknown";
+	}
+
+	do {
+		snprintf(file_path, sizeof(file_path), "%s%s-%u.vcf", working_dir, display_name, id);
+		++id;
+	} while (__bt_util_file_exists(file_path));
+
+	BT_DBG("file_path = %s", file_path);
+
+	return strdup(file_path);
+}
+
+static bool __bt_util_write_vcard_to_file(int fd, contacts_record_h record, bool my_profile)
+{
+	char *vcard_buff = NULL;
+	bool ok = false;
+
+	do {
+		int size_left = 0;
+
+		if (my_profile) {
+			contacts_vcard_make_from_my_profile(record, &vcard_buff);
+		} else {
+			contacts_vcard_make_from_person(record, &vcard_buff);
+		}
+
+		if (!vcard_buff) {
+			BT_ERR("vcard_buff is NULL");
+			break;
+		}
+
+		size_left = strlen(vcard_buff);
+		while (size_left) {
+			int written = write(fd, vcard_buff, size_left);
+			if (written == -1) {
+				BT_ERR("write() failed: %d", errno);
+				break;
+			}
+			size_left -= written;
+		}
+
+		ok = (size_left == 0);
+	} while (false);
+
+	free(vcard_buff);
+
+	return ok;
+}
+
+static bool __bt_util_write_vcard_to_file_from_id(int fd, int person_id)
+{
+	contacts_record_h record = NULL;
+	bool ok = false;
+
+	do {
+		int ret = contacts_db_get_record(_contacts_person._uri, person_id, &record);
+		if (ret != CONTACTS_ERROR_NONE) {
+			BT_ERR("contacts_db_get_record() failed: %d", ret);
+			record = NULL;
+			break;
+		}
+
+		if (!__bt_util_write_vcard_to_file(fd, record, false)) {
+			BT_ERR("_write_vcard_to_file() failed");
+			break;
+		}
+
+		ok = true;
+	} while (false);
+
+	if (record) {
+		contacts_record_destroy(record, true);
+	}
+
+	return ok;
+}
+
+char *_bt_util_vcard_create_from_id(int id, bool my_profile, const char *working_dir)
+{
+	FN_START;
+
+	contacts_record_h record = NULL;
+	char *vcard_path = NULL;
+	int fd = -1;
+	bool ok = false;
+	int ret;
+
+	BT_DBG("id = %i my_profile = %d", id, my_profile);
+
+	ret = contacts_connect();
+	if (ret != CONTACTS_ERROR_NONE)
+		BT_ERR("contacts_connect failed : ct_err = [%d]", ret);
+
+	do {
+		char *display_name = NULL;
+
+		int ret = contacts_db_get_record((my_profile ?
+				_contacts_my_profile._uri :
+				_contacts_person._uri), id, &record);
+		if (ret != CONTACTS_ERROR_NONE) {
+			BT_ERR("contacts_db_get_record() failed: %d", ret);
+			record = NULL;
+			break;
+		}
+
+		if (my_profile) {
+			contacts_record_get_str_p(record, _contacts_my_profile.display_name, &display_name);
+		} else {
+			contacts_record_get_str_p(record, _contacts_person.display_name, &display_name);
+		}
+
+		vcard_path = __bt_util_make_vcard_file_path(working_dir, "Contact");
+		if (!vcard_path) {
+			BT_ERR("_make_vcard_file_path() failed");
+			break;
+		}
+
+		fd = open(vcard_path, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+		if (fd == -1) {
+			BT_ERR("open(%s) Failed(%d)", vcard_path, errno);
+			break;
+		}
+
+		if (!__bt_util_write_vcard_to_file(fd, record, my_profile)) {
+			BT_ERR("_write_vcard_to_file() failed");
+			break;
+		}
+
+		ok = true;
+	} while (false);
+
+	ret = contacts_disconnect();
+	if (ret != CONTACTS_ERROR_NONE)
+		BT_ERR("contacts_disconnect failed : ct_err = [%d]", ret);
+
+	if (record) {
+		contacts_record_destroy(record, true);
+	}
+
+	if (fd != -1) {
+		close(fd);
+		if (!ok) {
+			__bt_util_file_remove(vcard_path);
+		}
+	}
+
+	if (!ok) {
+		free(vcard_path);
+		vcard_path = NULL;
+	}
+
+	FN_END;
+
+	return vcard_path;
+}
+
+char *_bt_util_vcard_create_from_id_list(const int *id_list, int count, const char *working_dir, volatile bool *cancel)
+{
+	FN_START;
+
+	char *vcard_path = NULL;
+	int fd = -1;
+	bool ok = false;
+	int ret;
+
+	if (!id_list || count <= 0) {
+		return NULL;
+	}
+
+	ret = contacts_connect();
+	if (ret != CONTACTS_ERROR_NONE)
+		BT_ERR("contacts_connect failed : ct_err = [%d]", ret);
+
+	do {
+		int i = 0;
+
+		vcard_path = __bt_util_make_vcard_file_path(working_dir, "Contacts");
+		if (!vcard_path) {
+			BT_ERR("_make_vcard_file_path() failed");
+			break;
+		}
+
+		fd = open(vcard_path, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+		if (fd == -1) {
+			BT_ERR("open(%s) Failed(%d)", vcard_path, errno);
+			break;
+		}
+
+		for (i = 0; !(*cancel) && (i < count); ++i) {
+			if (!__bt_util_write_vcard_to_file_from_id(fd, id_list[i])) {
+				BT_ERR("_composer_write_vcard_to_file() failed");
+				break;
+			}
+		}
+
+		ok = (i == count);
+	} while (false);
+
+	ret = contacts_disconnect();
+	if (ret != CONTACTS_ERROR_NONE)
+		BT_ERR("contacts_disconnect failed : ct_err = [%d]", ret);
+
+	if (fd != -1) {
+		close(fd);
+		if (!ok) {
+			__bt_util_file_remove(vcard_path);
+		}
+	}
+
+	if (!ok) {
+		free(vcard_path);
+		vcard_path = NULL;
+	}
+
+	FN_END;
+
+	return vcard_path;
+}

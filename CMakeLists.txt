@@ -50,6 +50,7 @@ SET(PKG_MODULES
 	glib-2.0
 	gio-2.0
 	dpm
+	contacts-service2
 )
 
 INCLUDE(FindPkgConfig)

@@ -103,6 +103,10 @@ gboolean _bt_util_is_space_str(const char *name_str);
 void _bt_util_max_len_reached_cb(void *data, Evas_Object *obj,
 					void *event_info);
 
+char *_bt_util_vcard_create_from_id(int id, bool my_profile, const char *working_dir);
+
+char *_bt_util_vcard_create_from_id_list(const int *id_list, int count, const char *working_dir, volatile bool *cancel);
+
 int _bt_util_create_dpm_context(void *ug_data);
 
 void _bt_util_destroy_dpm_context(void *ug_data);

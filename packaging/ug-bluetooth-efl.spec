@@ -38,6 +38,7 @@ BuildRequires: pkgconfig(capi-appfw-application)
 BuildRequires: pkgconfig(notification)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gio-2.0)
+BuildRequires: pkgconfig(contacts-service2)
 BuildRequires: pkgconfig(dpm)
 
 %description

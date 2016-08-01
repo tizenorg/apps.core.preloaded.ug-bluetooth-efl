@@ -50,6 +50,8 @@
 
 #define MULTI_SHARE_SERVICE_DATA_PATH "http://tizen.org/appcontrol/data/path"
 #define APP_CONTROL_OPERATION_SHARE_CONTACT "http://tizen.org/appcontrol/operation/share_contact"
+#define APP_CONTROL_MIME_CONTACT "application/vnd.tizen.contact"
+#define APP_CONTROL_MY_PROFILE_DATA_TYPE "my_profile"
 #define SERVICE_SHARE_CONTACT_MODE "http://tizen.org/appcontrol/data/social/namecard_share_mode"
 #define SERVICE_SHARE_CONTACT_ITEM "http://tizen.org/appcontrol/data/social/item_type"
 #define SHARE_CONTACT_DATA_PATH "/opt/usr/media/Downloads/.bluetooth"
@@ -4247,65 +4249,101 @@ void __bt_main_parse_service(bt_ug_data *ugd, app_control_h service)
 	BT_INFO("operation: %s", operation);
 
 	if (g_strcmp0(operation, APP_CONTROL_OPERATION_SHARE) == 0) {
+		char *mime = NULL;
+
 		launch_type = strdup("send");
 
-		if (app_control_get_uri(service, (char **)&uri) < 0)
-			BT_ERR("Get uri error");
+		app_control_get_mime(service, &mime);
 
-		if (uri) {
-			uri_scheme = g_uri_parse_scheme(uri);
-			DBG_SECURE("uri_scheme: %s", uri_scheme);
+		if (mime && strcmp(mime, APP_CONTROL_MIME_CONTACT) == 0) {
+			char *id_str = NULL;
+			app_control_get_extra_data(service, APP_CONTROL_DATA_ID, &id_str);
 
-			if (uri_scheme == NULL) {
-				/* File transfer */
-				file_path = g_filename_from_uri(uri, NULL, NULL);
-				if (app_control_add_extra_data(service, "type", "file") < 0)
-					BT_ERR("Fail to add extra data");
-			} else if (g_strcmp0(uri_scheme, "file") == 0) {
-				/* File transfer */
-				file_path = g_filename_from_uri(uri, NULL, NULL);
-				if (file_path == NULL) {
-					file_path = strdup(uri + 7);	/* file:// */
+			if (id_str) {
+				bool my_profile = false;
+				char *data_type = NULL;
+				int id = atoi(id_str);
+
+				app_control_get_extra_data(service, APP_CONTROL_DATA_TYPE, &data_type);
+				my_profile = data_type && strcmp(data_type, APP_CONTROL_MY_PROFILE_DATA_TYPE) == 0;
+				file_path = _bt_util_vcard_create_from_id(id, my_profile,
+													BT_VCF_FOLDER_PATH);
+
+				if (file_path) {
+					DBG_SECURE("file path: %s", file_path);
+
+					if (app_control_add_extra_data(service, "type", "file") < 0)
+						BT_ERR("Fail to add extra data");
+
+					if (app_control_add_extra_data_array
+						(service, "files", &file_path, 1) < 0)
+						BT_ERR("Fail to add extra data");
 				}
-				if (app_control_add_extra_data(service, "type", "file") < 0)
-					BT_ERR("Fail to add extra data");
-			} else {
-				if (app_control_add_extra_data(service, "type", "text") < 0)
-					BT_ERR("Fail to add extra data");
-			}
 
-			if (file_path == NULL) {
-				BT_ERR("Not include URI info");
-				file_path = strdup(uri);
+				free(data_type);
+				free(id_str);
 			}
-
-			g_free(uri_scheme);
 		} else {
-			char *value = NULL;
+			if (app_control_get_uri(service, (char **)&uri) < 0)
+				BT_ERR("Get uri error");
 
-			BT_INFO("url is not set");
-			if (app_control_get_extra_data(service,
-					MULTI_SHARE_SERVICE_DATA_PATH, &value) < 0)
-					BT_ERR("Fail to get extra data");
+			if (uri) {
+				uri_scheme = g_uri_parse_scheme(uri);
+				DBG_SECURE("uri_scheme: %s", uri_scheme);
 
-			if (value) {
-				file_path = g_strdup(value);
-				free(value);
+				if (uri_scheme == NULL) {
+					/* File transfer */
+					file_path = g_filename_from_uri(uri, NULL, NULL);
+					if (app_control_add_extra_data(service, "type", "file") < 0)
+						BT_ERR("Fail to add extra data");
+				} else if (g_strcmp0(uri_scheme, "file") == 0) {
+					/* File transfer */
+					file_path = g_filename_from_uri(uri, NULL, NULL);
+					if (file_path == NULL) {
+						file_path = strdup(uri + 7);	/* file:// */
+					}
+					if (app_control_add_extra_data(service, "type", "file") < 0)
+						BT_ERR("Fail to add extra data");
+				} else {
+					if (app_control_add_extra_data(service, "type", "text") < 0)
+						BT_ERR("Fail to add extra data");
+				}
 
-				DBG_SECURE("file_path: %s", file_path);
+				if (file_path == NULL) {
+					BT_ERR("Not include URI info");
+					file_path = strdup(uri);
+				}
 
-				if (app_control_add_extra_data(service, "type", "file") < 0)
-					BT_ERR("Fail to add extra data");
-
+				g_free(uri_scheme);
 			} else {
-				BT_ERR("Not include path info");
-				goto done;
+				char *value = NULL;
+
+				BT_INFO("url is not set");
+				if (app_control_get_extra_data(service,
+						MULTI_SHARE_SERVICE_DATA_PATH, &value) < 0)
+						BT_ERR("Fail to get extra data");
+
+				if (value) {
+					file_path = g_strdup(value);
+					free(value);
+
+					DBG_SECURE("file_path: %s", file_path);
+
+					if (app_control_add_extra_data(service, "type", "file") < 0)
+						BT_ERR("Fail to add extra data");
+
+				} else {
+					BT_ERR("Not include path info");
+					goto done;
+				}
 			}
+
+			if (app_control_add_extra_data_array
+			    (service, "files", &file_path, 1) < 0)
+				BT_ERR("Fail to add extra data");
 		}
 
-		if (app_control_add_extra_data_array
-		    (service, "files", &file_path, 1) < 0)
-			BT_ERR("Fail to add extra data");
+		g_free(mime);
 	} else if (g_strcmp0(operation, APP_CONTROL_OPERATION_SHARE_TEXT) == 0) {
 		BT_DBG("APP_CONTROL_OPERATION_SHARE_TEXT");
 
@@ -4345,17 +4383,69 @@ void __bt_main_parse_service(bt_ug_data *ugd, app_control_h service)
 			BT_ERR("Fail to add extra data");
 
 	} else if (g_strcmp0(operation, APP_CONTROL_OPERATION_MULTI_SHARE) == 0) {
-		launch_type = strdup("send");
-
 		char **array_value = NULL;
 		int array_length;
 		int ret, i;
+		char *mime = NULL;
 
-		ret = app_control_get_extra_data_array(service,
-						   MULTI_SHARE_SERVICE_DATA_PATH,
-						   &array_value, &array_length);
-		if (ret != APP_CONTROL_ERROR_NONE) {
-			BT_ERR("Get data error");
+		launch_type = strdup("send");
+
+		int *id_list = NULL;
+		char **person_id = NULL;
+		int person_id_size = 0;
+		bool cancel = false;
+
+		app_control_get_mime(service, &mime);
+
+		if (mime && !strcmp(mime, APP_CONTROL_MIME_CONTACT)) {
+			if (app_control_get_extra_data_array(service, APP_CONTROL_DATA_ID,
+					&person_id, &person_id_size) == APP_CONTROL_ERROR_NONE && person_id) {
+				int i = 0;
+				id_list = calloc(person_id_size, sizeof(int));
+				if (id_list) {
+					for (i = 0; i < person_id_size; i++) {
+						id_list[i] = atoi(person_id[i]);
+					}
+					file_path = _bt_util_vcard_create_from_id_list(id_list,
+								person_id_size, BT_VCF_FOLDER_PATH, &cancel);
+					if (file_path) {
+						DBG_SECURE("file path: %s", file_path);
+
+						if (app_control_add_extra_data(service, "type", "file") < 0)
+							BT_ERR("Fail to add extra data");
+
+						if (app_control_add_extra_data_array
+							(service, "files", &file_path, 1) < 0)
+							BT_ERR("Fail to add extra data");
+					}
+				free(id_list);
+				}
+			}
+			g_free(person_id);
+		} else {
+			ret = app_control_get_extra_data_array(service,
+							   MULTI_SHARE_SERVICE_DATA_PATH,
+							   &array_value, &array_length);
+			if (ret != APP_CONTROL_ERROR_NONE) {
+				BT_ERR("Get data error");
+				if (array_value) {
+					for (i = 0; i < array_length; i++) {
+						if (array_value[i]) {
+							free(array_value[i]);
+						}
+					}
+					free(array_value);
+				}
+				goto done;
+			}
+
+			if (app_control_add_extra_data_array
+			    (service, "files", (const char **)array_value,
+			     array_length) < 0)
+				BT_ERR("Fail to add extra data");
+
+			if (app_control_add_extra_data(service, "type", "file") < 0)
+				BT_ERR("Fail to add extra data");
 			if (array_value) {
 				for (i = 0; i < array_length; i++) {
 					if (array_value[i]) {
@@ -4364,24 +4454,9 @@ void __bt_main_parse_service(bt_ug_data *ugd, app_control_h service)
 				}
 				free(array_value);
 			}
-			goto done;
 		}
 
-		if (app_control_add_extra_data_array
-		    (service, "files", (const char **)array_value,
-		     array_length) < 0)
-			BT_ERR("Fail to add extra data");
-
-		if (app_control_add_extra_data(service, "type", "file") < 0)
-			BT_ERR("Fail to add extra data");
-		if (array_value) {
-			for (i = 0; i < array_length; i++) {
-				if (array_value[i]) {
-					free(array_value[i]);
-				}
-			}
-			free(array_value);
-		}
+		g_free(mime);
 	} else if (g_strcmp0(operation, BT_APPCONTROL_PICK_OPERATION) == 0) {
 		BT_DBG("Pick Operation");
 		launch_type = strdup("pick");
